@@ -1,0 +1,470 @@
+[
+    {
+        "id": "300001",
+        "lang": "es",
+        "tweet": "@Fichinescu La comunidad gamer es un antro de misóginos y supremacistas blancos hace años pero hoy día pocos se acuerdan de gamergate y todo lo que causó, y en cierto sentido sigue causando.",
+        "number_annotators": 6,
+        "annotators": [
+            "Annotator_726",
+            "Annotator_727",
+            "Annotator_357",
+            "Annotator_728",
+            "Annotator_729",
+            "Annotator_730"
+        ],
+        "gender_annotators": [
+            "F",
+            "F",
+            "F",
+            "M",
+            "M",
+            "M"
+        ],
+        "age_annotators": [
+            "18-22",
+            "23-45",
+            "46+",
+            "18-22",
+            "23-45",
+            "46+"
+        ],
+        "value": [
+            "-",
+            "JUDGEMENTAL",
+            "JUDGEMENTAL",
+            "-",
+            "REPORTED",
+            "-"
+        ],
+        "test_case": "EXIST2023"
+    },
+    {
+        "id": "300002",
+        "lang": "es",
+        "tweet": "@anacaotica88 @MordorLivin No me acuerdo de los detalles de GamerGate, pero ella estuvo en el ojo del huracán recibiendo acoso de hombres indignados (y sus medios frikis) y creo que también acosaron a Brianna Wu, q es transfemenino. Seguramente tuvo eso que ver y quiso \"cerrar filas\".",
+        "number_annotators": 6,
+        "annotators": [
+            "Annotator_731",
+            "Annotator_732",
+            "Annotator_315",
+            "Annotator_6",
+            "Annotator_733",
+            "Annotator_734"
+        ],
+        "gender_annotators": [
+            "F",
+            "F",
+            "F",
+            "M",
+            "M",
+            "M"
+        ],
+        "age_annotators": [
+            "18-22",
+            "23-45",
+            "46+",
+            "18-22",
+            "23-45",
+            "46+"
+        ],
+        "value": [
+            "JUDGEMENTAL",
+            "REPORTED",
+            "-",
+            "JUDGEMENTAL",
+            "JUDGEMENTAL",
+            "REPORTED"
+        ],
+        "test_case": "EXIST2023"
+    },
+    {
+        "id": "300003",
+        "lang": "es",
+        "tweet": "@cosmicJunkBot lo digo cada pocos dias y lo repito: TODO esto se pudo evitar si se hubiera parado el gamergate a tiempo",
+        "number_annotators": 6,
+        "annotators": [
+            "Annotator_735",
+            "Annotator_736",
+            "Annotator_345",
+            "Annotator_737",
+            "Annotator_738",
+            "Annotator_148"
+        ],
+        "gender_annotators": [
+            "F",
+            "F",
+            "F",
+            "M",
+            "M",
+            "M"
+        ],
+        "age_annotators": [
+            "18-22",
+            "23-45",
+            "46+",
+            "18-22",
+            "23-45",
+            "46+"
+        ],
+        "value": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-"
+        ],
+        "test_case": "EXIST2023"
+    },
+    {
+        "id": "300004",
+        "lang": "es",
+        "tweet": "Also mientras les decia eso la señalaba y decia que como el era del staff, la iban a ban de ese evento. Intel behavior much? Este cabron has sexually harassed women and girls en el community y cuando es confrontado, lo negative y mienta. Ahora salio con esta, HE should be banned.",
+        "number_annotators": 6,
+        "annotators": [
+            "Annotator_259",
+            "Annotator_739",
+            "Annotator_291",
+            "Annotator_210",
+            "Annotator_740",
+            "Annotator_741"
+        ],
+        "gender_annotators": [
+            "F",
+            "F",
+            "F",
+            "M",
+            "M",
+            "M"
+        ],
+        "age_annotators": [
+            "18-22",
+            "23-45",
+            "46+",
+            "18-22",
+            "23-45",
+            "46+"
+        ],
+        "value": [
+            "-",
+            "REPORTED",
+            "REPORTED",
+            "REPORTED",
+            "JUDGEMENTAL",
+            "REPORTED"
+        ],
+        "test_case": "EXIST2023"
+    },
+    {
+        "id": "300005",
+        "lang": "es",
+        "tweet": "And all people killed,  attacked, harassed by CAM, Mapuche Resistance? Siches is a real,piece of work.  Ministra del Interior y muerte de trabajador mapuche: \"No habíamos visto un atentado directo hacia civiles\" https://t.co/xuRGKbW0yi via @emol",
+        "number_annotators": 6,
+        "annotators": [
+            "Annotator_731",
+            "Annotator_732",
+            "Annotator_315",
+            "Annotator_6",
+            "Annotator_733",
+            "Annotator_734"
+        ],
+        "gender_annotators": [
+            "F",
+            "F",
+            "F",
+            "M",
+            "M",
+            "M"
+        ],
+        "age_annotators": [
+            "18-22",
+            "23-45",
+            "46+",
+            "18-22",
+            "23-45",
+            "46+"
+        ],
+        "value": [
+            "-",
+            "DIRECT",
+            "-",
+            "-",
+            "-",
+            "-"
+        ],
+        "test_case": "EXIST2023"
+    },
+    {
+        "id": "300006",
+        "lang": "es",
+        "tweet": "On this #WorldPressFreedomDay I’m thinking of journalists &amp; media workers in Mexico killed, imprisoned or harassed for their work / Pensando en todxs lxs periodistxs assasinadxs, incarceradxs o hostigadxs por su oficio#JournalismIsNotACrime#DiaMundialDeLaLibertadDePrensa https://t.co/ZrjLJ4GLLx",
+        "number_annotators": 6,
+        "annotators": [
+            "Annotator_735",
+            "Annotator_736",
+            "Annotator_345",
+            "Annotator_737",
+            "Annotator_738",
+            "Annotator_148"
+        ],
+        "gender_annotators": [
+            "F",
+            "F",
+            "F",
+            "M",
+            "M",
+            "M"
+        ],
+        "age_annotators": [
+            "18-22",
+            "23-45",
+            "46+",
+            "18-22",
+            "23-45",
+            "46+"
+        ],
+        "value": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "JUDGEMENTAL"
+        ],
+        "test_case": "EXIST2023"
+    },
+    {
+        "id": "300007",
+        "lang": "es",
+        "tweet": "@DavidGR18 @pppbernat @abc_es @agarzon @IreneMontero La izquierda tiene culpa en sus silencios cuando les interesa...De valorar mujeres violadas de 1ª y de 2ª, dependiendo de nacionalidad de #LaManada...y como en el asunto inmigración su discurso es el único de riqueza cultural, pues callan como putas. https://t.co/tf9HEgBLqN",
+        "number_annotators": 6,
+        "annotators": [
+            "Annotator_731",
+            "Annotator_732",
+            "Annotator_315",
+            "Annotator_6",
+            "Annotator_733",
+            "Annotator_734"
+        ],
+        "gender_annotators": [
+            "F",
+            "F",
+            "F",
+            "M",
+            "M",
+            "M"
+        ],
+        "age_annotators": [
+            "18-22",
+            "23-45",
+            "46+",
+            "18-22",
+            "23-45",
+            "46+"
+        ],
+        "value": [
+            "DIRECT",
+            "DIRECT",
+            "-",
+            "DIRECT",
+            "JUDGEMENTAL",
+            "REPORTED"
+        ],
+        "test_case": "EXIST2023"
+    },
+    {
+        "id": "300008",
+        "lang": "es",
+        "tweet": "@DavidArranzVox @AnabelAlonso_of Uyyy a q huele? Apesta a xenofobia. Quién no da una es la derecha y los #ppatriotas como tú negando una realidad como la #violenciamachista y la blanquean con otro nombre.Precisamente #lamanada de San Fermín eran de los cuerpos de seguridad del Estado.¿Qué me estás contando?",
+        "number_annotators": 6,
+        "annotators": [
+            "Annotator_742",
+            "Annotator_743",
+            "Annotator_195",
+            "Annotator_114",
+            "Annotator_149",
+            "Annotator_340"
+        ],
+        "gender_annotators": [
+            "F",
+            "F",
+            "F",
+            "M",
+            "M",
+            "M"
+        ],
+        "age_annotators": [
+            "18-22",
+            "23-45",
+            "46+",
+            "18-22",
+            "23-45",
+            "46+"
+        ],
+        "value": [
+            "JUDGEMENTAL",
+            "JUDGEMENTAL",
+            "-",
+            "REPORTED",
+            "JUDGEMENTAL",
+            "REPORTED"
+        ],
+        "test_case": "EXIST2023"
+    },
+    {
+        "id": "300009",
+        "lang": "es",
+        "tweet": "Con 25 Leones🦁 y 500 más en las gradas🗣!!#EkoFuego🔥#LaManada https://t.co/jkhENb0jae",
+        "number_annotators": 6,
+        "annotators": [
+            "Annotator_742",
+            "Annotator_743",
+            "Annotator_195",
+            "Annotator_114",
+            "Annotator_149",
+            "Annotator_340"
+        ],
+        "gender_annotators": [
+            "F",
+            "F",
+            "F",
+            "M",
+            "M",
+            "M"
+        ],
+        "age_annotators": [
+            "18-22",
+            "23-45",
+            "46+",
+            "18-22",
+            "23-45",
+            "46+"
+        ],
+        "value": [
+            "-",
+            "-",
+            "-",
+            "DIRECT",
+            "-",
+            "-"
+        ],
+        "test_case": "EXIST2023"
+    },
+    {
+        "id": "300010",
+        "lang": "es",
+        "tweet": "@kokreto84 @Play87834898 @venusoncrack Me gustaría saber que futbolista condenados por abuso siguen en nómina. Y la verdad el caso de Amber no se puede comparar con nada porque es una mujer que utilizó el metoo para destruir la carrera de su ex un actor muy querido.",
+        "number_annotators": 6,
+        "annotators": [
+            "Annotator_744",
+            "Annotator_745",
+            "Annotator_746",
+            "Annotator_747",
+            "Annotator_748",
+            "Annotator_749"
+        ],
+        "gender_annotators": [
+            "F",
+            "F",
+            "F",
+            "M",
+            "M",
+            "M"
+        ],
+        "age_annotators": [
+            "18-22",
+            "23-45",
+            "46+",
+            "18-22",
+            "23-45",
+            "46+"
+        ],
+        "value": [
+            "DIRECT",
+            "REPORTED",
+            "DIRECT",
+            "JUDGEMENTAL",
+            "DIRECT",
+            "JUDGEMENTAL"
+        ],
+        "test_case": "EXIST2023"
+    },
+    {
+        "id": "300011",
+        "lang": "es",
+        "tweet": "@Kormavov No le has dicho nada de usar el MeToo, defendiendo a Amber Heard en el juicio contra Johnny Depp. Si con eso siguen votando a Vox, es que el fascismo es incontenible.",
+        "number_annotators": 6,
+        "annotators": [
+            "Annotator_750",
+            "Annotator_751",
+            "Annotator_189",
+            "Annotator_752",
+            "Annotator_753",
+            "Annotator_4"
+        ],
+        "gender_annotators": [
+            "F",
+            "F",
+            "F",
+            "M",
+            "M",
+            "M"
+        ],
+        "age_annotators": [
+            "18-22",
+            "23-45",
+            "46+",
+            "18-22",
+            "23-45",
+            "46+"
+        ],
+        "value": [
+            "-",
+            "-",
+            "DIRECT",
+            "JUDGEMENTAL",
+            "-",
+            "DIRECT"
+        ],
+        "test_case": "EXIST2023"
+    },
+    {
+        "id": "300012",
+        "lang": "es",
+        "tweet": "@Puyas10 Realmente no se trata solo de JD, se trata de mostrar que la violencia no tiene género, como lo han planteado con el famoso #Metoo, no es puro pedo como leí, es mostrar que también los hombres han soportado por años el abuso doméstico.",
+        "number_annotators": 6,
+        "annotators": [
+            "Annotator_735",
+            "Annotator_736",
+            "Annotator_345",
+            "Annotator_737",
+            "Annotator_738",
+            "Annotator_148"
+        ],
+        "gender_annotators": [
+            "F",
+            "F",
+            "F",
+            "M",
+            "M",
+            "M"
+        ],
+        "age_annotators": [
+            "18-22",
+            "23-45",
+            "46+",
+            "18-22",
+            "23-45",
+            "46+"
+        ],
+        "value": [
+            "-",
+            "-",
+            "-",
+            "REPORTED",
+            "DIRECT",
+            "DIRECT"
+        ],
+        "test_case": "EXIST2023"
+    }
+]
