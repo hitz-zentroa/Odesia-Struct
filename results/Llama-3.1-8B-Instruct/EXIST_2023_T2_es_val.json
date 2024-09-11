@@ -10,10 +10,10 @@
         "test_case": "EXIST2023",
         "id": "300001",
         "prediction": {
-            "NO": 0.0,
-            "DIRECT": 0.5,
-            "REPORTED": 0.0,
-            "JUDGEMENTAL": 0.5
+            "NO": 0.22685284912586212,
+            "DIRECT": 0.31554508209228516,
+            "REPORTED": 0.2662142813205719,
+            "JUDGEMENTAL": 0.19138777256011963
         }
     },
     {
@@ -27,10 +27,10 @@
         "test_case": "EXIST2023",
         "id": "300002",
         "prediction": {
-            "NO": 0.0,
-            "DIRECT": 0.33,
-            "REPORTED": 0.33,
-            "JUDGEMENTAL": 0.33
+            "NO": 0.22309298813343048,
+            "DIRECT": 0.1882156878709793,
+            "REPORTED": 0.367818146944046,
+            "JUDGEMENTAL": 0.2208731770515442
         }
     },
     {
@@ -44,10 +44,10 @@
         "test_case": "EXIST2023",
         "id": "300003",
         "prediction": {
-            "NO": 0.83,
-            "DIRECT": 0.17,
-            "REPORTED": 0.0,
-            "JUDGEMENTAL": 0.0
+            "NO": 0.41859397292137146,
+            "DIRECT": 0.1825276017189026,
+            "REPORTED": 0.1825276017189026,
+            "JUDGEMENTAL": 0.21635086834430695
         }
     },
     {
@@ -61,10 +61,10 @@
         "test_case": "EXIST2023",
         "id": "300004",
         "prediction": {
-            "NO": 0.0,
-            "DIRECT": 0.67,
-            "REPORTED": 0.0,
-            "JUDGEMENTAL": 0.33
+            "NO": 0.18708355724811554,
+            "DIRECT": 0.3656056821346283,
+            "REPORTED": 0.2602272629737854,
+            "JUDGEMENTAL": 0.18708355724811554
         }
     },
     {
@@ -78,10 +78,10 @@
         "test_case": "EXIST2023",
         "id": "300005",
         "prediction": {
-            "NO": 0.66,
-            "DIRECT": 0.17,
-            "REPORTED": 0.5,
-            "JUDGEMENTAL": 0.17
+            "NO": 0.41859397292137146,
+            "DIRECT": 0.1825276017189026,
+            "REPORTED": 0.21635086834430695,
+            "JUDGEMENTAL": 0.1825276017189026
         }
     },
     {
@@ -95,10 +95,10 @@
         "test_case": "EXIST2023",
         "id": "300006",
         "prediction": {
-            "NO": 1.0,
-            "DIRECT": 0.0,
-            "REPORTED": 0.33,
-            "JUDGEMENTAL": 0.67
+            "NO": 0.41859397292137146,
+            "DIRECT": 0.1825276017189026,
+            "REPORTED": 0.21635086834430695,
+            "JUDGEMENTAL": 0.1825276017189026
         }
     },
     {
@@ -112,10 +112,10 @@
         "test_case": "EXIST2023",
         "id": "300007",
         "prediction": {
-            "NO": 0.17,
-            "DIRECT": 0.83,
-            "REPORTED": 0.0,
-            "JUDGEMENTAL": 0.0
+            "NO": 0.18097126483917236,
+            "DIRECT": 0.4319622814655304,
+            "REPORTED": 0.20609520375728607,
+            "JUDGEMENTAL": 0.18097126483917236
         }
     },
     {
@@ -129,10 +129,10 @@
         "test_case": "EXIST2023",
         "id": "300008",
         "prediction": {
-            "NO": 0.0,
-            "DIRECT": 0.83,
-            "REPORTED": 0.17,
-            "JUDGEMENTAL": 0.0
+            "NO": 0.22685284912586212,
+            "DIRECT": 0.19138777256011963,
+            "REPORTED": 0.2662142813205719,
+            "JUDGEMENTAL": 0.31554508209228516
         }
     },
     {
@@ -146,10 +146,10 @@
         "test_case": "EXIST2023",
         "id": "300009",
         "prediction": {
-            "NO": 0.0,
-            "DIRECT": 1.0,
-            "REPORTED": 0.0,
-            "JUDGEMENTAL": 0.0
+            "NO": 0.46871837973594666,
+            "DIRECT": 0.17768318951129913,
+            "REPORTED": 0.17768318951129913,
+            "JUDGEMENTAL": 0.1759151965379715
         }
     },
     {
@@ -163,10 +163,10 @@
         "test_case": "EXIST2023",
         "id": "300010",
         "prediction": {
-            "NO": 0.17,
-            "DIRECT": 0.33,
-            "REPORTED": 0.25,
-            "JUDGEMENTAL": 0.25
+            "NO": 0.31554508209228516,
+            "DIRECT": 0.2662142813205719,
+            "REPORTED": 0.22685284912586212,
+            "JUDGEMENTAL": 0.19138777256011963
         }
     },
     {
@@ -180,10 +180,10 @@
         "test_case": "EXIST2023",
         "id": "300011",
         "prediction": {
-            "NO": 0.0,
-            "DIRECT": 0.33,
-            "REPORTED": 0.58,
-            "JUDGEMENTAL": 0.09
+            "NO": 0.26995745301246643,
+            "DIRECT": 0.23004256188869476,
+            "REPORTED": 0.26995745301246643,
+            "JUDGEMENTAL": 0.23004256188869476
         }
     },
     {
@@ -197,10 +197,10 @@
         "test_case": "EXIST2023",
         "id": "300012",
         "prediction": {
-            "NO": 0.0,
-            "DIRECT": 0.0,
-            "REPORTED": 0.66,
-            "JUDGEMENTAL": 0.33
+            "NO": 0.367003470659256,
+            "DIRECT": 0.18779881298542023,
+            "REPORTED": 0.2225988656282425,
+            "JUDGEMENTAL": 0.2225988656282425
         }
     }
 ]

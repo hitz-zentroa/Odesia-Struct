@@ -1,4 +1,5 @@
 import json
+import os
 import random
 from enum import Enum
 from typing import Dict, List
@@ -13,47 +14,17 @@ random.seed(33)
 class Dipromats2023T1(Task):
     def __init__(
         self,
-        train_dataset: str,
-        dev_dataset: str,
-        test_dataset: str,
-        output_path: str,
         num_examples_few_shot: int = 20,
+        **kwargs,
     ):
         super().__init__(
-            train_dataset=train_dataset,
-            dev_dataset=dev_dataset,
-            test_dataset=test_dataset,
-            output_path=output_path,
             num_examples_few_shot=num_examples_few_shot,
+            **kwargs,
         )
         self._precompute_examples()
 
-    def prompt(self):
-        return """<|begin_of_text|><|start_header_id|>system<|end_header_id|>
-
-You are an AI assistant trained to identify propaganda content in text. Your task is to analyze the given tweet and determine whether it contains propaganda techniques.
-
-Cutting Knowledge Date: December 2023
-Today Date: 26 Jul 2024
-
-<|eot_id|><|start_header_id|>user<|end_header_id|>
-
-{{ instruction }}
-
-Examples
---------
-
-{% for example in examples %}
-Input: {{ example.question }}
-Output: {{ example.answer.model_dump_json() }}
-
-{% endfor %}
-
---------
-
-Now, analyze the following input:
-
-Input: {{ question }}<|eot_id|><|start_header_id|>assistant<|end_header_id|>{{ "\n\n" }}"""
+    def get_system_prompt(self):
+        return "You are an AI assistant trained to identify propaganda content in text. Your task is to analyze the given tweet and determine whether it contains propaganda techniques."
 
     def get_instruction(self):
         return """
@@ -142,7 +113,7 @@ Output: Provide your answer as a JSON object with the key 'label' and the value 
 
         return {"accuracy": acc}
 
-    def build_test_file(self, predictions: List[BaseModel]):
+    def build_test_file(self, predictions: List[BaseModel], output_dir: str):
         """
         Builds a test file with the predictions
 
@@ -164,9 +135,9 @@ Output: Provide your answer as a JSON object with the key 'label' and the value 
             }
             for i, prediction in enumerate(predictions)
         ]
-        self._write_json(self.output_path, test_data)
+        self._write_json(os.path.join(output_dir, self.output_path), test_data)
 
-    def build_validation_file(self, predictions: List[BaseModel]):
+    def build_validation_file(self, predictions: List[BaseModel], output_dir: str):
         """
         Builds a validation file with the predictions
 
@@ -183,7 +154,10 @@ Output: Provide your answer as a JSON object with the key 'label' and the value 
             data[i]["prediction"] = prediction.label.value
             data[i]["answer"] = data[i]["answer"].label.value
 
-        output_path = self.dev_dataset.replace(".json", "_pred.json")
+        output_path = os.path.join(
+            output_dir,
+            self.output_path.replace(".json", "_val.json"),
+        )
         self._write_json(output_path, data)
 
     @staticmethod

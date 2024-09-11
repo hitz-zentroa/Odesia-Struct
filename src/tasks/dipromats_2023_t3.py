@@ -1,4 +1,5 @@
 import json
+import os
 import random
 from enum import Enum
 from typing import Dict, List
@@ -12,14 +13,11 @@ from src.tasks.task import Task
 random.seed(33)
 
 
-class Dipromats2023T2(Task):
+class Dipromats2023T3(Task):
     def __init__(
         self,
-        train_dataset: str,
-        dev_dataset: str,
-        test_dataset: str,
-        output_path: str,
         num_examples_few_shot: int = 20,
+        **kwargs,
     ):
         self.number2simple = {
             "1 appeal to commonality - ad populum": "ad-populum",
@@ -31,67 +29,53 @@ class Dipromats2023T2(Task):
             "2 discrediting the opponent - name calling": "name-calling",
             "2 discrediting the opponent - propaganda slinging": "propaganda-slinging",
             "2 discrediting the opponent - scapegoating": "scapegoating",
-            "2 discrediting the opponent - undiplomatic assertiveness/whataboutism:": "undiplomatic-assertiveness-whataboutism",
+            "2 discrediting the opponent - undiplomatic assertiveness/whataboutism": "undiplomatic-assertiveness-whataboutism",
             "3 loaded language": "loaded-language",
             "4 appeal to authority - appeal to false authority": "appeal-to-false-authority",
-            "false",
+            "4 appeal to authority - bandwagoning": "bandwagoning",
+            "false": "non-propaganda",
         }
 
-        self.simple2number = {
-            "appeal-to-commonality": "1 appeal to commonality",
-            "discrediting-the-opponent": "2 discrediting the opponent",
-            "loaded-language": "3 loaded language",
-            "appeal-to-authority": "4 appeal to authority",
-            "non-propaganda": "false",
-        }
+        self.simple2number = {v: k for k, v in self.number2simple.items()}
 
         super().__init__(
-            train_dataset=train_dataset,
-            dev_dataset=dev_dataset,
-            test_dataset=test_dataset,
-            output_path=output_path,
             num_examples_few_shot=num_examples_few_shot,
+            **kwargs,
         )
         self._precompute_examples()
 
-    def prompt(self):
-        return """<|begin_of_text|><|start_header_id|>system<|end_header_id|>
-
-You are an AI assistant trained to identify propaganda content in text. Your task is to analyze the given tweet and determine whether it contains propaganda techniques.
-
-Cutting Knowledge Date: December 2023
-Today Date: 26 Jul 2024
-
-<|eot_id|><|start_header_id|>user<|end_header_id|>
-
-{{ instruction }}
-
-Examples
---------
-
-{% for example in examples %}
-Input: {{ example.question }}
-Output: {{ example.answer.model_dump_json() }}
-
-{% endfor %}
-
---------
-
-Now, analyze the following input:
-
-Input: {{ question }}<|eot_id|><|start_header_id|>assistant<|end_header_id|>{{ "\n\n" }}"""
+    def get_system_prompt(self):
+        return "You are an AI assistant trained to identify propaganda content in text. Your task is to analyze the given tweet and determine whether it contains propaganda techniques."
 
     def get_instruction(self):
         return """
-Analyze the given text to determine if it contains propaganda techniques. If it does, classify them into at least one of the following categories: 'appeal-to-commonality', 'discrediting-the-opponent', 'loaded-language', 'appeal-to-authority'. If it doesn't cointain any propaganda technique classify them as 'non-propaganda'
+Analyze the given text to determine if it contains propaganda techniques. Classify them into at least one of the following categories: 'ad-populum', 'flag-waving', 'absurdity-appeal', 'demonization', 'doubt', 'fear-appeals-destructive', 'name-calling', 'propaganda-slinging', 'scapegoating', 'undiplomatic-assertiveness-whataboutism', 'loaded-language', 'appeal-to-false-authority', 'bandwagoning'. If the text does not contain any propaganda techniques, classify it as 'non-propaganda'.
 
 Definition of propaganda: The deliberate, systematic attempt to shape perceptions, manipulate cognitions, and direct behavior to achieve a response that furthers the desired intent of the propagandist
 
-- 'appeal-to-commonality': The tweet uses appeals to a community's will, tradition, or history to support its argument. It may include exaggerated praise of a nation, reverence for patriotic symbols, self-praise, or depiction of someone as a hero.
-- 'discrediting-the-opponent': Include discrediting them through negative labels, attacking their behavior or morality, scapegoating specific individuals or groups, accusing others of spreading propaganda, and making personal attacks on their private lives. These techniques also involve instilling fear, portraying the opponent's ideas as absurd, generating hatred by presenting them as existential threats, casting doubt on their credibility, and associating their actions with universally disliked figures or concepts to undermine their position.
-- 'loaded-language': Includes hyperbolic language, evocative metaphors and words with strong emotional connotations.
-- 'appeal-to-authority': Persuasive techniques that involve citing an inappropriate or irrelevant authority to support a message, or encouraging others to adopt a position or action by implying that it is widely endorsed or practiced.
-- 'non-propaganda': The text does not contain propaganda content.
+1. Appeal to commonality:
+   - 'ad-populum': Appeals to the will, tradition, or history of a community to support an argument.
+   - 'flag-waving': Includes hyperbolic praise of a nation, worships a patriotic symbol, exhibits self-praise, or portrays someone as a hero.
+
+2. Discrediting the opponent:
+   - 'absurdity-appeal': Characterizes the opponent's behavior or ideas as absurd, ridiculous, or pathetic.
+   - 'demonization': Invokes civic hatred towards an opponent, presenting them as an existential threat.
+   - 'doubt': Casts doubt on the credibility or honesty of an opponent, depicting their behavior as hostile, hypocritical, or immoral.
+   - 'fear-appeals-destructive': Instills fear about hypothetical situations an opponent may provoke or intimidates an opponent with warnings.
+   - 'name-calling': Refers to someone or something with pejorative labels.
+   - 'propaganda-slinging': Accuses others of spreading propaganda, disinformation, or lies.
+   - 'scapegoating': Transfers blame to one person, group, or institution.
+   - 'undiplomatic-assertiveness-whataboutism': Uses aggressive rhetoric or deflects criticism by pointing out others' faults.
+
+3. Loaded language:
+   - 'loaded-language': Includes hyperbolic language, evocative metaphors, and words with strong emotional connotations.
+
+4. Appeal to authority:
+   - 'appeal-to-false-authority': Cites a person or institution to support an idea for which they are not a valid expert.
+   - 'bandwagoning': Persuades by suggesting others are already following a course of action.
+
+5. Non-propaganda:
+   - 'non-propaganda': The text does not contain any propaganda techniques.
 
 Output: Provide your answer as a JSON object with 'label' as a list of the categories that apply to the text.
 
@@ -99,11 +83,22 @@ Output: Provide your answer as a JSON object with 'label' as a list of the categ
 
     def get_pydantic_model(self):
         class LabelEnum(str, Enum):
-            non_propaganda = "non-propaganda"
-            appeal_to_commonality = "appeal-to-commonality"
-            discrediting_the_opponent = "discrediting-the-opponent"
+            ad_populum = "ad-populum"
+            flag_waving = "flag-waving"
+            absurdity_appeal = "absurdity-appeal"
+            demonization = "demonization"
+            doubt = "doubt"
+            fear_appeals_destructive = "fear-appeals-destructive"
+            name_calling = "name-calling"
+            propaganda_slinging = "propaganda-slinging"
+            scapegoating = "scapegoating"
+            undiplomatic_assertiveness_whataboutism = (
+                "undiplomatic-assertiveness-whataboutism"
+            )
             loaded_language = "loaded-language"
-            appeal_to_authority = "appeal-to-authority"
+            appeal_to_false_authority = "appeal-to-false-authority"
+            bandwagoning = "bandwagoning"
+            non_propaganda = "non-propaganda"
 
         class Identification(BaseModel):
             label: List[LabelEnum]
@@ -123,7 +118,8 @@ Output: Provide your answer as a JSON object with 'label' as a list of the categ
         LabelEnum = label_args[0]
 
         # Create the class_examples dictionary using the enum members
-        self.class_examples = {label.value: [] for label in LabelEnum}
+
+        self.class_examples = {label: [] for label in LabelEnum}
 
         for ex in train_data:
             for label in ex["answer"].label:
@@ -132,7 +128,7 @@ Output: Provide your answer as a JSON object with 'label' as a list of the categ
     def get_few_shot(self):
         model = self.get_pydantic_model()
         all_labels = [
-            label.value for label in model.model_fields["label"].annotation.__args__
+            label for label in model.model_fields["label"].annotation.__args__[0]
         ]
 
         # Ensure at least one example per label
@@ -207,7 +203,7 @@ Output: Provide your answer as a JSON object with 'label' as a list of the categ
 
         return {"micro_f1": micro_f1}
 
-    def build_test_file(self, predictions: List[BaseModel]):
+    def build_test_file(self, predictions: List[BaseModel], output_dir: str):
         """
         Builds a test file with the predictions
 
@@ -227,9 +223,9 @@ Output: Provide your answer as a JSON object with 'label' as a list of the categ
             }
             for i, prediction in enumerate(predictions)
         ]
-        self._write_json(self.output_path, test_data)
+        self._write_json(os.path.join(output_dir, self.output_path), test_data)
 
-    def build_validation_file(self, predictions: List[BaseModel]):
+    def build_validation_file(self, predictions: List[BaseModel], output_dir: str):
         """
         Builds a validation file with the predictions
 
@@ -250,7 +246,10 @@ Output: Provide your answer as a JSON object with 'label' as a list of the categ
                 self.simple2number[label] for label in data[i]["answer"].label
             ]
 
-        output_path = self.dev_dataset.replace(".json", "_pred.json")
+        output_path = os.path.join(
+            output_dir,
+            self.output_path.replace(".json", "_val.json"),
+        )
         self._write_json(output_path, data)
 
     @staticmethod

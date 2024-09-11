@@ -4,21 +4,21 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10205",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "@alattice2 @Andreayya1 +tenemos que concluir que es imposible que haya una real igualdad de oportunidadesE incluso resulta problemático sin intentamos reducir al máximo la desigualdad de oportunidadesPensemos en la diferencia entre un niño que nace en una familia de músicos y el que nace en una+",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10206",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "A lo mejor Irene Montero tendría que meditar porqué ha soliviantado a feminismo. Al de toda la vida, a ese que ha hecho posible el nivel de igualdad que disfrutamos ahora.No hay más feminismo que el que entiende a las mujeres como sujetos políticos.Y esto es en contra de nadie",
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10207",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "LA EMBARAZADA MÁS HERMOSA  DIOSA  @KimberlyLoaiza_  https://t.co/Omi142fvlQ",
@@ -60,7 +60,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10213",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "Solo que ess puta de porno judio, no puede y sobre todo no debe romper a presidente.",
@@ -81,7 +81,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10216",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "Cambiar el uso del lenguaje implica también un cambio cultural, y nos convoca a construir otro sistema de valores, otra forma de entender, de pensar y de representar al mundo.Leé la nota completa en ALTER BLOG https://t.co/ioljMetAF9#feminismo #comunicación #inclusion",
@@ -95,7 +95,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10218",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "ㅤㅤㅤㅤOh!, muchas gracias.. Un hombre tan joven como tu diciendo eso ¡es muy amable! Muy lindo, agradezco tus palabras en verdad.¿ Maledor ? , ¿lo dije bien?. Siento que lo he escuchado antes, pero no lo recuerdo con exactitud.. Estoy vieja, o por lo menos si mi memoria + https://t.co/71IAZhJarG",
@@ -144,7 +144,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10225",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "@LoliFalco Es obligatorio ser difícil de ver para ser del Soe?Chica ponte una sailor moon o algo d avatar",
@@ -165,7 +165,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10228",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "@ExpertoIgualdad El hilo y los citados es una clara demostración de que el hembrismo existe. Mucha niña mimada, el problema no es que ellas estén en esa fase es que sus lloriqueos infantiles hoy en día se toman demasiado en serio.",
@@ -242,14 +242,14 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10239",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "@ZenTao14 @Nievessebastia1 @Aurorarradical @redlgb_ @SoniaVivasRive3 Las sentencias en firme no son acoso. Lo que tiene no vivir en el mundo de la magufada sentida es que sabes que este tipo de cosas pueden suceder: ¿Merece la pena que se ponga en riesgo a mujeres solo porque hay hombres que dicen sentirse mujer?",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10240",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "Audre Lorde, la poeta crítica con el feminismo blanco https://t.co/oX4h3aQTCo",
@@ -263,7 +263,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10242",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "@Limonchelo3 Este tipo es un teviremoiLe gusta el sable Estos vienen con su agenda Sodomizar a nuestros niños",

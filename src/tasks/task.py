@@ -2,6 +2,7 @@ from typing import Dict, List
 
 import jinja2
 from pydantic import BaseModel
+from transformers import PreTrainedTokenizer
 
 
 class Task:
@@ -11,6 +12,7 @@ class Task:
         dev_dataset: str,
         test_dataset: str,
         output_path: str,
+        tokenizer: PreTrainedTokenizer,
         num_examples_few_shot: int = 20,
     ):
         self.train_dataset = train_dataset
@@ -25,13 +27,35 @@ class Task:
         self.test_data = self.read_dataset(self.test_dataset)
 
         # Pre-compile the Jinja2 template and instruction
-        self.template = jinja2.Template(self.prompt())
+        self.system_prompt = self.get_system_prompt()
+        self.template = jinja2.Template(self.get_input_template())
         self.instruction = self.get_instruction()
         self.pydantic_model = self.get_pydantic_model()
+        self.tokenizer = tokenizer
 
-    def prompt() -> jinja2.Template:
+    def get_input_template(self):
+        return """
+{{ instruction }}
+
+Examples
+--------
+
+{% for example in examples %}
+Input: {{ example.question }}
+Output: {{ example.answer.model_dump_json() }}
+
+{% endfor %}
+
+--------
+
+Now, analyze the following input:
+
+Input: {{ question }}
+""".strip()
+
+    def get_system_prompt() -> str:
         """
-        Returns the jinja template for the prompt
+        Returns the system prompt for the task
         """
         raise NotImplementedError
 
@@ -40,6 +64,42 @@ class Task:
 
     def get_pydantic_model(self):
         raise NotImplementedError
+
+    def build_prompt(self, question: str, examples: List[Dict[str, str]], answer=None):
+        user_input = self.template.render(
+            instruction=self.instruction, question=question, examples=examples
+        )
+
+        conversation = [
+            {"role": "system", "content": self.system_prompt},
+            {"role": "user", "content": user_input},
+        ]
+
+        if answer is not None:
+            conversation.append({"role": "assistant", "content": answer})
+
+        return self.tokenizer.apply_chat_template(
+            conversation=conversation,
+            add_generation_prompt=answer is None,
+            tokenize=False,
+        )
+
+    def get_conversation(
+        self, question: str, examples: List[Dict[str, str]], answer=None
+    ):
+        user_input = self.template.render(
+            instruction=self.instruction, question=question, examples=examples
+        )
+
+        conversation = [
+            {"role": "system", "content": self.system_prompt},
+            {"role": "user", "content": user_input},
+        ]
+
+        if answer is not None:
+            conversation.append({"role": "assistant", "content": answer})
+
+        return conversation
 
     def read_dataset(self, dataset: str) -> List[Dict[str, str]]:
         """
@@ -68,6 +128,14 @@ class Task:
         raise NotImplementedError
 
     def get_dataset(self, split="train") -> List[Dict[str, str]]:
+        """
+        Returns the dataset for the given split. This dataset is ready for evaluation
+        The prompt will not include the answer
+        Args:
+            split (str, optional): Split to return. Defaults to "train".
+        Returns:
+            List[Dict[str, str]]: List of dictionaries with the fields prompt, answer, test_case and id
+        """
         data = self.get_split(split)
         dataset = []
 
@@ -87,8 +155,7 @@ class Task:
             ]
 
             # Use pre-compiled instruction
-            prompt = self.template.render(
-                instruction=self.instruction,
+            prompt = self.build_prompt(
                 question=question,
                 examples=few_shot_examples,
             )
@@ -96,6 +163,41 @@ class Task:
             dataset.append(
                 {"prompt": prompt, "answer": answer, "test_case": test_case, "id": id}
             )
+
+        return dataset
+
+    def get_dataset_training(self, split="train") -> List[Dict[str, str]]:
+        """
+        Returns the dataset for the given split. This dataset is ready for training
+        The prompt will include the answer
+        Args:
+            split (str, optional): Split to return. Defaults to "train".
+        Returns:
+            List[Dict[str, str]]: List of conversations
+        """
+        data = self.get_split(split)
+        dataset = []
+
+        for i, example in enumerate(data):
+            question = example["question"]
+            answer = example["answer"]
+            if answer is not None:
+                answer = answer.model_dump_json()
+
+            few_shot_examples = self.get_few_shot()
+
+            few_shot_examples = [
+                x for x in few_shot_examples if x["question"] != question
+            ]
+
+            # Use pre-compiled instruction
+            prompt = self.get_conversation(
+                question=question,
+                examples=few_shot_examples,
+                answer=answer,
+            )
+
+            dataset.append({"messages": prompt})
 
         return dataset
 
@@ -122,7 +224,7 @@ class Task:
         """
         raise NotImplementedError
 
-    def build_validation_file(self, predictions: List[BaseModel]):
+    def build_validation_file(self, predictions: List[BaseModel], output_dir: str):
         """
         Builds a validation file with the predictions
 
