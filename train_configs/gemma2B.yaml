@@ -1,0 +1,62 @@
+#Training args
+model_name_or_path: google/gemma-2b-it
+torch_dtype: bfloat16
+use_lora: true
+quantization: null
+gradient_checkpointing: true
+force_auto_device_map: false
+use_flash_attention: true
+packing: true
+
+output_dir: models/gemma-2b-it
+overwrite_output_dir: true
+load_best_model_at_end: false
+metric_for_best_model: 
+greater_is_better: true
+save_strategy: "no"
+save_only_model: true
+save_total_limit: 1
+
+# evaluation
+do_train: true
+do_eval: true
+do_predict: false
+evaluation_strategy: "epoch"
+
+per_device_train_batch_size: 8
+per_device_eval_batch_size: 2
+gradient_accumulation_steps: 8
+
+# optimizer settings
+optim: adamw_torch_fused
+learning_rate: 0.0003
+weight_decay: 0.001
+num_train_epochs: 3
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+adam_epsilon: 0.0000001
+
+# lora settings
+lora_r: 128
+lora_alpha: 256
+lora_dropout: 0.05
+lora_target_modules:
+  - all
+
+# reporting
+logging_strategy: steps
+logging_first_step: true
+logging_steps: 5
+report_to: wandb
+run_name: "gemma-2b-it"
+disable_tqdm: false
+
+# hub settings
+push_to_hub: false
+resume_from_checkpoint: false
+
+# performance
+bf16: true
+fp16: false
+torch_compile: false
+ddp_find_unused_parameters: false

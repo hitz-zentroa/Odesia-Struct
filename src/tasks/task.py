@@ -71,18 +71,28 @@ Input: {{ question }}
         )
 
         conversation = [
-            {"role": "system", "content": self.system_prompt},
+            # {"role": "system", "content": self.system_prompt},
             {"role": "user", "content": user_input},
         ]
 
         if answer is not None:
             conversation.append({"role": "assistant", "content": answer})
 
-        return self.tokenizer.apply_chat_template(
-            conversation=conversation,
-            add_generation_prompt=answer is None,
-            tokenize=False,
-        )
+        try:
+            prompt = self.tokenizer.apply_chat_template(
+                conversation=conversation,
+                add_generation_prompt=answer is None,
+                tokenize=False,
+            )
+        except jinja2.exceptions.TemplateError:
+            conversation = conversation[1:]
+            prompt = self.tokenizer.apply_chat_template(
+                conversation=conversation,
+                add_generation_prompt=answer is None,
+                tokenize=False,
+            )
+
+        return prompt
 
     def get_conversation(
         self, question: str, examples: List[Dict[str, str]], answer=None
@@ -92,7 +102,7 @@ Input: {{ question }}
         )
 
         conversation = [
-            {"role": "system", "content": self.system_prompt},
+            # {"role": "system", "content": self.system_prompt},
             {"role": "user", "content": user_input},
         ]
 

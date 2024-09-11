@@ -73,8 +73,6 @@ Question:
         processed_data = []
         model = self.get_pydantic_model()
         for item in data:
-            if "value" in item:
-                print(item["value"])
             processed_data.append(
                 {
                     "question": self._format_input(item["context"], item["question"]),

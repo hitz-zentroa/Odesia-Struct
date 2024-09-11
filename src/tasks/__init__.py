@@ -51,7 +51,7 @@ def get_tasks(tokenizer, tasks: Union[List[str], str] = "all"):
                 dataset = "sqac_squad"
                 tasks_dict[task_name] = task_class(
                     train_dataset=f"data/{dataset}_{year}/train_{task_number}_{lang}.json",
-                    dev_dataset=f"data/{dataset}_{year}/val_{task_number}_{lang}_mini.json",
+                    dev_dataset=f"data/{dataset}_{year}/val_{task_number}_{lang}.json",
                     test_dataset=f"data/{dataset}_{year}/test_{task_number}_{lang}.json",
                     output_path=f"{dataset.upper()}_{year}_{lang}.json",
                     tokenizer=tokenizer,
@@ -59,7 +59,7 @@ def get_tasks(tokenizer, tasks: Union[List[str], str] = "all"):
             else:
                 tasks_dict[task_name] = task_class(
                     train_dataset=f"data/{dataset}_{year}/train_{task_number}_{lang}.json",
-                    dev_dataset=f"data/{dataset}_{year}/val_{task_number}_{lang}_mini.json",
+                    dev_dataset=f"data/{dataset}_{year}/val_{task_number}_{lang}.json",
                     test_dataset=f"data/{dataset}_{year}/test_{task_number}_{lang}.json",
                     output_path=f"{dataset.upper()}_{year}_{task_number.upper()}_{lang}.json",
                     tokenizer=tokenizer,

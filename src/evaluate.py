@@ -63,7 +63,12 @@ def evaluate_task(
     return metric
 
 
-def evaluate(tasks: List[str], model_name: str, output_dir: str = "results"):
+def evaluate(
+    tasks: List[str],
+    model_name: str,
+    output_dir: str = "results",
+    quantization: bool = False,
+):
     """
     Evaluates the model on the given tasks
 
@@ -74,12 +79,26 @@ def evaluate(tasks: List[str], model_name: str, output_dir: str = "results"):
     os.makedirs(output_dir, exist_ok=True)
     logging.info(f"Loading model {model_name}")
     start = time.time()
+
+    if quantization:
+        from transformers import BitsAndBytesConfig
+
+        bnb_config = BitsAndBytesConfig(
+            load_in_4bit=True,
+            bnb_4bit_use_double_quant=True,
+            bnb_4bit_quant_type="nf4",
+            bnb_4bit_compute_dtype=torch.bfloat16,
+        )
+    else:
+        bnb_config = None
+
     model = outlines.models.transformers(
         "meta-llama/Meta-Llama-3.1-8B-Instruct",
         device="cuda",  # optional device argument, default is cpu
         model_kwargs={
             "torch_dtype": torch.bfloat16,
             "attn_implementation": "flash_attention_2",
+            "quantization_config": bnb_config,
         },  # optional model kwargs
     )
 
@@ -125,6 +144,12 @@ if __name__ == "__main__":
         help="Output directory for the predictions",
     )
 
+    parser.add_argument(
+        "--quantization",
+        action="store_true",
+        help="Whether to use quantization",
+    )
+
     args = parser.parse_args()
 
-    evaluate(args.tasks, args.model_name, args.output_dir)
+    evaluate(args.tasks, args.model_name, args.output_dir, args.quantization)

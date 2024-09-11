@@ -4,6 +4,7 @@ import os
 import sys
 
 from datasets import load_dataset
+from tqdm import tqdm
 from transformers import HfArgumentParser
 from trl import SFTConfig, SFTTrainer, setup_chat_format
 
@@ -13,6 +14,8 @@ from src.tasks import get_tasks
 
 
 def train(training_args: SFTConfig, model_args: ModelArguments):
+    os.makedirs(training_args.output_dir, exist_ok=True)
+
     model, tokenizer = load_model(
         inference=False,
         model_weights_name_or_path=model_args.model_name_or_path,
@@ -23,7 +26,6 @@ def train(training_args: SFTConfig, model_args: ModelArguments):
         torch_dtype=model_args.torch_dtype,
         force_auto_device_map=model_args.force_auto_device_map,
         use_gradient_checkpointing=training_args.gradient_checkpointing,
-        use_better_transformer=model_args.use_better_transformer,
         trust_remote_code=model_args.trust_remote_code,
         use_flash_attention=model_args.use_flash_attention,
         fsdp_training=len(training_args.fsdp) > 1
@@ -36,16 +38,21 @@ def train(training_args: SFTConfig, model_args: ModelArguments):
 
     train_dataset = []
     validation_dataset = []
-    for task in tasks:
-        train_dataset.extend(task.get_dataset_training(split="train"))
-        validation_dataset.extend(task.get_dataset_training(split="dev"))
+    for task_name, task in tqdm(tasks.items(), desc="Loading datasets"):
+        print(f"Loading dataset for task {task_name}")
+        train = task.get_dataset_training(split="train")
+        train_dataset.extend(train)
+        print(f"Train dataset size: {len(train)}")
+        dev = task.get_dataset_training(split="dev")
+        validation_dataset.extend(dev)
+        print(f"Validation dataset size: {len(dev)}")
 
     with open(os.path.join(training_args.output_dir, "train_dataset.jsonl"), "w") as f:
         for example in train_dataset:
             print(json.dumps(example, ensure_ascii=False), file=f)
 
-    print(f"Training dataset size: {len(train_dataset)}")
-    print(f"Validation dataset size: {len(validation_dataset)}")
+    print(f"Full training dataset size: {len(train_dataset)}")
+    print(f"Full validation dataset size: {len(validation_dataset)}")
 
     with open(
         os.path.join(training_args.output_dir, "validation_dataset.jsonl"), "w"
