@@ -1,8 +1,13 @@
-from src.tasks import exists_2022_t1
-from src.tasks import exists_2022_t2
-from src.tasks import exists_2023_t1
-from src.tasks import exists_2023_t2
-from src.tasks import exists_2023_t3
+from src.tasks import (
+    dipromats_2023_t1,
+    dipromats_2023_t2,
+    exists_2022_t1,
+    exists_2022_t2,
+    exists_2023_t1,
+    exists_2023_t2,
+    exists_2023_t3,
+)
+
 tasks_dict = {
     "exists_2022_t1_es": exists_2022_t1.Exists2022T1(
         train_dataset="data/exist_2022/train_t1_es.json",
@@ -64,5 +69,28 @@ tasks_dict = {
         test_dataset="data/exist_2023/test_t3_en.json",
         output_path="data/exist_2023/EXIST_2023_T3_en.json",
     ),
+    "dipromats_2023_t1_es": dipromats_2023_t1.Dipromats2023T1(
+        train_dataset="data/dipromats_2023/train_t1_es.json",
+        dev_dataset="data/dipromats_2023/val_t1_es_mini.json",
+        test_dataset="data/dipromats_2023/test_t1_es.json",
+        output_path="data/dipromats_2023/DIPROMATS_2023_T1_es.json",
+    ),
+    "dipromats_2023_t1_en": dipromats_2023_t1.Dipromats2023T1(
+        train_dataset="data/dipromats_2023/train_t1_en.json",
+        dev_dataset="data/dipromats_2023/val_t1_en.json",
+        test_dataset="data/dipromats_2023/test_t1_en.json",
+        output_path="data/dipromats_2023/DIPROMATS_2023_T1_en.json",
+    ),
+    "dipromats_2023_t2_es": dipromats_2023_t2.Dipromats2023T2(
+        train_dataset="data/dipromats_2023/train_t2_es.json",
+        dev_dataset="data/dipromats_2023/val_t2_es_mini.json",
+        test_dataset="data/dipromats_2023/test_t2_es.json",
+        output_path="data/dipromats_2023/DIPROMATS_2023_T2_es.json",
+    ),
+    "dipromats_2023_t2_en": dipromats_2023_t2.Dipromats2023T2(
+        train_dataset="data/dipromats_2023/train_t2_en.json",
+        dev_dataset="data/dipromats_2023/val_t2_en.json",
+        test_dataset="data/dipromats_2023/test_t2_en.json",
+        output_path="data/dipromats_2023/DIPROMATS_2023_T2_en.json",
+    ),
 }
-

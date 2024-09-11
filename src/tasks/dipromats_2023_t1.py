@@ -10,7 +10,7 @@ from src.tasks.task import Task
 random.seed(33)
 
 
-class Exists2022T1(Task):
+class Dipromats2023T1(Task):
     def __init__(
         self,
         train_dataset: str,
@@ -31,7 +31,7 @@ class Exists2022T1(Task):
     def prompt(self):
         return """<|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
-You are an AI assistant trained to identify sexist content in text. Your task is to analyze the given input and determine whether it contains sexist language or attitudes.
+You are an AI assistant trained to identify propaganda content in text. Your task is to analyze the given tweet and determine whether it contains propaganda techniques.
 
 Cutting Knowledge Date: December 2023
 Today Date: 26 Jul 2024
@@ -57,21 +57,21 @@ Input: {{ question }}<|eot_id|><|start_header_id|>assistant<|end_header_id|>{{ "
 
     def get_instruction(self):
         return """
-Analyze the given text to determine if it contains sexist content. 
+Analyze the given text to determine if it contains propaganda content. 
 
-Definition of sexism: Sexism is prejudice, stereotyping, or discrimination, typically against women, on the basis of sex. It includes attitudes, behaviors, and practices that promote stereotyping of social roles based on gender.
+Definition of propaganda: The deliberate, systematic attempt to shape perceptions, manipulate cognitions, and direct behavior to achieve a response that furthers the desired intent of the propagandist
 
-- 'sexist': The text expresses or implies sexist attitudes, stereotypes, or discriminatory views.
-- 'non-sexist': The text does not contain any sexist language, attitudes, or implications.
+- 'propaganda': The text expresses or promotes a biased or misleading viewpoint, often with the intent to manipulate or influence the reader.
+- 'non-propaganda': The text does not contain propaganda content.
 
-Output: Provide your answer as a JSON object with the key 'label' and the value set to either 'sexist' or 'non-sexist'.
+Output: Provide your answer as a JSON object with the key 'label' and the value set to either 'propaganda' or 'non-propaganda'.
 
 """.strip()
 
     def get_pydantic_model(self):
         class LabelEnum(str, Enum):
-            sexist = "sexist"
-            non_sexist = "non-sexist"
+            propaganda = "propaganda"
+            non_propaganda = "non-propaganda"
 
         class Identification(BaseModel):
             label: LabelEnum
@@ -108,7 +108,11 @@ Output: Provide your answer as a JSON object with the key 'label' and the value 
         return [
             {
                 "question": item["text"],
-                "answer": model(label=item["value"]) if "value" in item else None,
+                "answer": model(
+                    label="propaganda" if item["value"] == "true" else "non-propaganda"
+                )
+                if "value" in item
+                else None,
                 "test_case": item["test_case"],
                 "id": item["id"],
             }
@@ -154,7 +158,9 @@ Output: Provide your answer as a JSON object with the key 'label' and the value 
             {
                 "test_case": data[i]["test_case"],
                 "id": data[i]["id"],
-                "value": prediction.label.value,
+                "value": "true"
+                if predictions[i].label.lower() == "propaganda"
+                else "false",
             }
             for i, prediction in enumerate(predictions)
         ]

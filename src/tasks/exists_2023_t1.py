@@ -1,11 +1,12 @@
 import json
-from typing import Dict, List, Literal
+import random
+from typing import Dict, List
 
-from pydantic import BaseModel
+import torch
+import torch.nn.functional as F
+from pydantic import BaseModel, Field
 
 from src.tasks.task import Task
-
-import random
 
 random.seed(33)
 
@@ -38,7 +39,7 @@ Today Date: 26 Jul 2024
 
 <|eot_id|><|start_header_id|>user<|end_header_id|>
 
-{{ instructions }}
+{{ instruction }}
 
 Examples
 --------
@@ -59,59 +60,63 @@ Input: {{ question }}<|eot_id|><|start_header_id|>assistant<|end_header_id|>{{ "
         return """
 Analyze the given text to determine if it contains sexist content. 
 
-Definition of sexism:
-Sexism is prejudice, stereotyping, or discrimination, typically against women, on the basis of sex. It includes attitudes, behaviors, and practices that promote stereotyping of social roles based on gender.
+Definition of sexism: Sexism is prejudice, stereotyping, or discrimination, typically against women, on the basis of sex. It includes attitudes, behaviors, and practices that promote stereotyping of social roles based on gender.
 
-Task:
-1. Carefully read and understand the given text.
-2. Identify any language, attitudes, or implications that could be considered sexist.
-3. Classify the text as either 'sexist' or 'non-sexist'.
-
-Guidelines:
 - 'Sexist': The text expresses or implies sexist attitudes, stereotypes, or discriminatory views.
 - 'Non-Sexist': The text does not contain any sexist language, attitudes, or implications.
 
-Note: Be aware of subtle forms of sexism, including benevolent sexism or seemingly positive stereotypes that still reinforce gender inequality.
-
-Output:
-Provide your answer as a JSON object with the key 'label' and the value set to either 'sexist' or 'non-sexist'.
+Output: Provide your answer as a JSON object with the key 'label' and the value set to either 'sexist' or 'non-sexist'.
 
 """.strip()
 
     def get_pydantic_model(self):
         class Identification(BaseModel):
-            label: Literal["sexist", "non-sexist"]
+            sexist: float = Field(
+                ...,
+                ge=0,
+                le=1,
+            )
+            non_sexist: float = Field(
+                ...,
+                ge=0,
+                le=1,
+            )
 
         return Identification
 
     def _precompute_examples(self):
         train_data = self.get_split("train")
-        model = self.get_pydantic_model()
-        self.class_examples = {
-            label: [] for label in model.model_fields["label"].annotation.__args__
-        }
-        for ex in train_data:
-            self.class_examples[ex["answer"].label].append(ex)
+        self.sexist_examples = []
+        self.non_sexist_examples = []
+        for example in train_data:
+            if example["answer"].sexist > 0.5:
+                self.sexist_examples.append(example)
+            else:
+                self.non_sexist_examples.append(example)
 
     def get_few_shot(self):
-        examples_per_class = self.num_examples_few_shot // len(self.class_examples)
-        few_shot_examples = []
-        for class_examples in self.class_examples.values():
-            few_shot_examples.extend(
-                random.sample(
-                    class_examples, min(examples_per_class, len(class_examples))
-                )
-            )
+        num_examples = self.num_examples_few_shot
+        num_sexist = num_examples // 2
+        num_non_sexist = num_examples - num_sexist
+
+        sexist_samples = random.sample(
+            self.sexist_examples, min(num_sexist, len(self.sexist_examples))
+        )
+        non_sexist_samples = random.sample(
+            self.non_sexist_examples, min(num_non_sexist, len(self.non_sexist_examples))
+        )
+
+        few_shot_examples = sexist_samples + non_sexist_samples
         random.shuffle(few_shot_examples)
+
         return few_shot_examples
 
     def _process_answer(self, answer: List[str]):
-        # count number of "YES" and "NO" answers
         yes_count = sum(1 for ans in answer if ans.lower() == "yes")
-        no_count = sum(1 for ans in answer if ans.lower() == "no")
-
-        # return the majority answer
-        return "sexist" if yes_count > no_count else "non-sexist"
+        total_count = len(answer)
+        sexist_prob = round(yes_count / total_count, 2)
+        non_sexist_prob = round(1 - sexist_prob, 2)
+        return {"sexist": sexist_prob, "non_sexist": non_sexist_prob}
 
     def read_dataset(self, dataset: str):
         with open(dataset, "r", encoding="utf-8") as file:
@@ -122,7 +127,7 @@ Provide your answer as a JSON object with the key 'label' and the value set to e
         return [
             {
                 "question": item["tweet"] if "tweet" in item else item["text"],
-                "answer": model(label=self._process_answer(item["value"]))
+                "answer": model(**self._process_answer(item["value"]))
                 if "value" in item
                 else None,
                 "test_case": item["test_case"],
@@ -130,6 +135,17 @@ Provide your answer as a JSON object with the key 'label' and the value set to e
             }
             for item in data
         ]
+
+    def _normalize_prediction(self, prediction: BaseModel) -> BaseModel:
+        """
+        Normalizes the prediction probabilities using softmax.
+        """
+        model = self.get_pydantic_model()
+        probs = torch.tensor([prediction.sexist, prediction.non_sexist])
+        normalized_probs = F.softmax(probs, dim=0)
+        return model(
+            sexist=normalized_probs[0].item(), non_sexist=normalized_probs[1].item()
+        )
 
     def evaluate(self, predictions: List[BaseModel], split="dev") -> Dict[str, float]:
         """
@@ -144,13 +160,33 @@ Provide your answer as a JSON object with the key 'label' and the value set to e
         """
 
         data = self.get_split(split)
-
         assert len(data) == len(predictions)
 
-        return sum(
-            prediction.label.lower().strip() == data[i]["answer"].label.lower().strip()
-            for i, prediction in enumerate(predictions)
-        ) / len(predictions)
+        correct = 0
+        total_loss = 0.0
+
+        for i, prediction in enumerate(predictions):
+            normalized_prediction = self._normalize_prediction(prediction)
+            true_label = data[i]["answer"].sexist > 0.5
+            pred_label = normalized_prediction.sexist > 0.5
+
+            if true_label == pred_label:
+                correct += 1
+
+            # Compute cross-entropy loss
+            true_probs = torch.tensor(
+                [data[i]["answer"].sexist, data[i]["answer"].non_sexist]
+            )
+            pred_probs = torch.tensor(
+                [normalized_prediction.sexist, normalized_prediction.non_sexist]
+            )
+            loss = F.cross_entropy(pred_probs.unsqueeze(0), true_probs.unsqueeze(0))
+            total_loss += loss.item()
+
+        accuracy = correct / len(predictions)
+        avg_loss = total_loss / len(predictions)
+
+        return {"accuracy": accuracy, "cross_entropy_loss": avg_loss}
 
     def build_test_file(self, predictions: List[BaseModel]):
         """
@@ -161,35 +197,37 @@ Provide your answer as a JSON object with the key 'label' and the value set to e
             split (str, optional): Split to evaluate on. Defaults to "dev".
         """
         data = self.get_split("test")
-
         assert len(data) == len(predictions)
 
+        predictions = [
+            self._normalize_prediction(prediction) for prediction in predictions
+        ]
         test_data = [
             {
                 "test_case": data[i]["test_case"],
                 "id": data[i]["id"],
-                "value": prediction.label,
+                "value": {
+                    "YES": prediction.sexist,
+                    "NO": prediction.non_sexist,
+                },
             }
             for i, prediction in enumerate(predictions)
         ]
         self._write_json(self.output_path, test_data)
 
     def build_validation_file(self, predictions: List[BaseModel]):
-        """
-        Builds a validation file with the predictions
-
-        Args:
-            predictions (List[str]): List of predictions
-            split (str, optional): Split to evaluate on. Defaults to "dev".
-        """
-
         data = self.get_split("dev")
-
         assert len(data) == len(predictions)
 
         for i, prediction in enumerate(predictions):
-            data[i]["prediction"] = prediction.label
-            data[i]["answer"] = data[i]["answer"].label
+            data[i]["prediction"] = {
+                "YES": prediction.sexist,
+                "NO": prediction.non_sexist,
+            }
+            data[i]["answer"] = {
+                "YES": data[i]["answer"].sexist,
+                "NO": data[i]["answer"].non_sexist,
+            }
 
         output_path = self.dev_dataset.replace(".json", "_pred.json")
         self._write_json(output_path, data)

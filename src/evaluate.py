@@ -47,7 +47,7 @@ def evaluate_task(
 
     if split == "dev":
         metric = task.evaluate(predictions, "dev")
-        logging.warning(f"Dev metric: {metric:.2f}")
+        logging.warning(f"Dev metric: {metric}")
         task.build_validation_file(predictions)
     else:
         task.build_test_file(predictions)
@@ -87,7 +87,7 @@ def evaluate(tasks: List[str], model_name: str):
         metric_dict[task_name] = metric
 
     os.makedirs("results", exist_ok=True)
-    with open(f"results/{model_name.replace("/","_")}.json", "w") as f:
+    with open(f"results/{model_name.replace('/', '_')}.json", "w") as f:
         json.dump(metric_dict, f, indent=4, ensure_ascii=False)
 
 
@@ -96,6 +96,6 @@ if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
 
     evaluate(
-        ["exists_2023_t3_es"],
+        ["dipromats_2023_t2_es"],
         "meta-llama/Meta-Llama-3.1-8B-Instruct",
     )

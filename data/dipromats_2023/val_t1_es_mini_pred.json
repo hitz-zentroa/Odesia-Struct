@@ -1,0 +1,429 @@
+[
+    {
+        "question": "@CristianRosaR @MeraCJ74 @PedroMCasals @StateDept En cuanto a la comunidad China laboriosa acá,  primero es centenaria,  o sea puede ser que llegó antes de sus ancestros y merece su respeto.  Segundo,  está muy unida con su patria y orgullosa del desarrollo de su patria.",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "634",
+        "prediction": "propaganda"
+    },
+    {
+        "question": "Alerta de Salud – Embajada de EEUU, La Paz\nHecho: Posibles opciones de viaje a EEUU\nLa Embajada de EEUU está explorando opciones adicionales de cooperación público-privada para repatriar a ciudadanos y residentes de regreso a EEUU.\nhttps://t.co/APb588pAyf\n#AmericansHome https://t.co/qvEwT6UWMI",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "1830",
+        "prediction": "non-propaganda"
+    },
+    {
+        "question": "Visitá el Museo Nacional de Historia Natural de los #EEUU desde la comodidad de tu casa. Mirá dinosaurios, mastodontes, el diamante Hope y más con las visitas virtuales disponibles en https://t.co/F2t7Wbaqg8 \n#QuedateEnCasa  #AmericanCultureatHome https://t.co/UnYEBUpazo",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "2954",
+        "prediction": "non-propaganda"
+    },
+    {
+        "question": "Estados Unidos felicita a Colombia y al gobierno de Duque por su liderazgo en la adopción de las designaciones de Estados Unidos y la Unión Europea de grupos terroristas internacionales, incluido Hezbolá.",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "212",
+        "prediction": "propaganda"
+    },
+    {
+        "question": "¿Querés conocer los frutos de la cooperación entre China y El Salvador durante estos dos años? Estamos montando una exposición online de fotografías sobre los aspectos más destacados y puntos importantes de nuestra cooperación.",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "5324",
+        "prediction": "non-propaganda"
+    },
+    {
+        "question": "(1/4) El Canciller ecuatoriano @ValenciaJoseEc indicó que con solidaridad se vencerá la #Covid_19. Este evento se celebra en el contexto del 40 aniversario de las relaciones sino-ecuatorianas; por lo tanto, #China y #Ecuador harán esfuerzos mancomunados para superar la epidemia.",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "3260",
+        "prediction": "propaganda"
+    },
+    {
+        "question": "¿Cómo Rusia proyecta su desarrollo?\nPutin firmó un decreto que establece los objetivos del desarrollo del país hasta  2030, en aras de mejorar el nivel de vida de las personas, aumentar la población y ayudar a los habitantes a desbloquear sus talentos\nhttps://t.co/OzpIFGFxZo https://t.co/Ehm93X0mTr",
+        "answer": "propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "5261",
+        "prediction": "non-propaganda"
+    },
+    {
+        "question": "En respeto a la diversidad y los derechos humanos, la UE apoya el webinar:\n📲 Viviendo el Doble Confinamiento: violencia intrafamiliar en familias diversas.🏳️‍🌈\n🗓Jueves 21 mayo   \n⏰17h00 a 18h30\n✅ Formulario de inscripción a través de este link:\nhttps://t.co/MJckVDkKm1 https://t.co/to8u2B4cEc",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "3313",
+        "prediction": "non-propaganda"
+    },
+    {
+        "question": "El #5G cambiará la manera como accedemos a la información a través de nuestros dispositivos móviles. De cara a su implementación, la UE y EEUU defienden el interés común de identificar y salvaguardar la privacidad, los derechos humanos y la seguridad de sus ciudadanos #5GSeguro https://t.co/8tyEhtLvV0",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "1042",
+        "prediction": "non-propaganda"
+    },
+    {
+        "question": "Hace ya 2 meses desde que el diputado Gilber Caro fue secuestrado por la dictadura. Le arrebatan su libertad y su derecho a gestionar en el parlamento sólo por trabajar para lograr una #Venezuela democrática. Él y todos los presos políticos deben ser liberados inmediatamente. https://t.co/XUb0D9J59i",
+        "answer": "propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "883",
+        "prediction": "propaganda"
+    },
+    {
+        "question": "La cooperación de la Franja y la Ruta a la que #Ecuador🇪🇨 pertenece tiene como principios: el respeto mutuo, la equidad, la justicia, la cooperación y el ganar-ganar. \n\nConoce más aquí▶️ https://t.co/D8ej09QTqx\n\n #ChinaEcuador #LaFranjaYLaRuta #China https://t.co/eOmBttOZ4T",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "707",
+        "prediction": "propaganda"
+    },
+    {
+        "question": "Embajador Wei Qiang: China reafirma voluntad de cooperación en Panamá al donar ventiladores contra COVID-19. #UnidosLoHacemos #PanamáSolidario 🇨🇳🇵🇦💪🏻🍀 @weiasecas\nhttps://t.co/XFWTtKHZiG",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "4208",
+        "prediction": "propaganda"
+    },
+    {
+        "question": "Ante las críticas internas sobre su inapropiada respuesta de políticos estadounidenses a la cada vez peor situación de la COVID-19, no sorprende que hayan publicado mensajes en Twitter llamando al coronavirus \"chino\". #China #Wuhan #coronavirus\nhttps://t.co/pMd3LsKJDK",
+        "answer": "propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "1438",
+        "prediction": "propaganda"
+    },
+    {
+        "question": "El d China es un sistema político caracterizado por una democracia consultiva bajo el liderazgo del #PCCh(100 años d existencia cumplidos en 2021 y 70 en el poder en 2019), liderazgo cimentado en una prolongada coalición multipartidaria. https://t.co/hCEIwrk8L7",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "133",
+        "prediction": "propaganda"
+    },
+    {
+        "question": "En China continúa el patrón de abusos a los derechos humanos\n\nhttps://t.co/JcuSvuf9t1",
+        "answer": "propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "4115",
+        "prediction": "non-propaganda"
+    },
+    {
+        "question": "Un equipo noruego de médicos y enfermeros, desplegado a través del Mecanismo de Protección Civil de la UE, está ayudando a sus colegas italianos a luchar contra el #coronavirus en el hospital Bolognini cerca de Bérgamo. \n\nUn ejemplo más de #EUSolidarity 👏👏👏\n#StrongerTogether https://t.co/oP4jkY2gvn",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "2490",
+        "prediction": "non-propaganda"
+    },
+    {
+        "question": ".@SecPompeo: Maravillosa reunión en San José con el presidente de Costa Rica, @CarlosAlvQ y con el Ministro de Relaciones Exteriores Ventura. Hablamos de nuestra relación sólida e histórica y enfaticé compromiso de EE.UU. con uno de nuestros socios más fuertes en Centroamérica. https://t.co/KcNLxRFegs",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "223",
+        "prediction": "propaganda"
+    },
+    {
+        "question": "Las únicas naciones que parecen estar violando la soberanía de Venezuela son Rusia y Cuba, que, sin la aprobación de la @AsambleaVE, envían rutinariamente militares y mercenarios al país.",
+        "answer": "propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "3287",
+        "prediction": "propaganda"
+    },
+    {
+        "question": "#Zajárova: Una persistente aversión de la clase política estadounidense hacia Irán supera la responsabilidad legal ante los socios y el desvelo por su propia reputación. Da la impresión de que Washington está poseído por el deseo de abortar el #PAIC https://t.co/a1YVGe7jCI",
+        "answer": "propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "3525",
+        "prediction": "propaganda"
+    },
+    {
+        "question": "Bienvenida calurosa a Juliette de Rivero a la cabeza de la @ONUHumanRights en Colombia. Desde la Unión Europea 🇪🇺 extendemos nuestra mano amiga para continuar avanzando los valores que compartimos por la promoción y la defensa de los derechos humanos. @UEenColombia https://t.co/pPtdj3xf3C",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "5182",
+        "prediction": "non-propaganda"
+    },
+    {
+        "question": "“La Unión Europea aplaude la contribución fundamental de las organizaciones de la sociedad civil a la promoción de los derechos humanos, la buena gobernanza, la democracia y el estado de derecho” - Josep Borrell, VP/Alto Representante de la 🇪🇺  #DIAMUNDIALONG @GGrippaUE @eu_eeas https://t.co/jtsmcoQY74",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "1035",
+        "prediction": "non-propaganda"
+    },
+    {
+        "question": "El Gobierno de los #EEUU reafirmó, ante el consejo permanente de la @OEA_oficial, el continuo apoyo a @Almagro_OEA2015 en su rol de Secretario General. \n\n@WHAAsstSecty \"Almagro ha tomado acciones significativas para proteger la #Democracia y los #DerechosHumanos en las Américas\" https://t.co/CRNNGZsBez",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "713",
+        "prediction": "propaganda"
+    },
+    {
+        "question": "Los derechos humanos son universales. EE.UU. condena la violencia y la discriminación contra la comunidad #LGBTI. Cuando la dignidad y seguridad de todos están protegidas por igual, el mundo es más seguro. #EqualProtection https://t.co/adoBxoOqNw",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "3954",
+        "prediction": "non-propaganda"
+    },
+    {
+        "question": "Aplaudo inminentemente la labor del embajador de China @weiasecas por el apoyo, colaboración y solidaridad con nuestro país. 👏🙌👏👏👏👏👏",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "1439",
+        "prediction": "propaganda"
+    },
+    {
+        "question": "\"La UE tiene una larga tradición de cooperación en el área humanitaria. Trabajamos con países e instituciones desde el multilateralismo, pues debe ser una acción colectiva. De esta pandemia sacaremos enseñanzas y la superaremos juntos\". @EUAmbPeru \n\n#HéroesSinCapa\n#TeamEurope https://t.co/7ultltsjVM",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "5637",
+        "prediction": "non-propaganda"
+    },
+    {
+        "question": "El gobierno de los #EEUU brinda asistencia humanitaria a #Nicaragua y #Venezuela en medio de las carencias que padecen estas naciones, a causa de los regímenes que socavan la #Democracia del pueblo https://t.co/Xygy4kahju",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "252",
+        "prediction": "propaganda"
+    },
+    {
+        "question": "El Museo Nacional de Historia Natural de los Estados Unidos @NMNH ofrece recorridos virtuales por sus exhibiciones. Recorre sus pasillos en el siguiente enlace: https://t.co/Hg0zPh3ed0.\n\n#Quedateencasa\n\n#InternationalMuseumDay https://t.co/RdQcv6j7rN",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "3235",
+        "prediction": "non-propaganda"
+    },
+    {
+        "question": "Presidenta del Comité de Mujeres Soviéticas, la primera mujer cosmonauta del planeta, Valentina #Tereshkova recibe a la\ndelegación de mujeres peruanas. Moscú, 1 de julio de 1971 🇷🇺 🇵🇪 \n#Rusia #Peru https://t.co/LvrDnvpSwE",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "4006",
+        "prediction": "non-propaganda"
+    },
+    {
+        "question": "🇻🇪🇨🇳 Portavoz de Cancillería China: La cooperación entre China y Venezuela se lleva a cabo siempre de acuerdo con los principios de igualdad, beneficio mutuo, cooperación de ganancia compartida y comercialización; es legítima, conforme a la ley, beneficia al país y pueblo. https://t.co/Xec1JMKDsC",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "868",
+        "prediction": "non-propaganda"
+    },
+    {
+        "question": "Bajo estrictas medidas de seguridad por la #COVID19, las empresas de #China han logrado garantizar la #construcción y operación de los proyectos de #LaFranjaYLaRuta en el 🌍, estimulando las economías locales y mejorando los medios de vida.\n\n📸: https://t.co/13v4NhbKu6 https://t.co/3GdyhrEElw",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "4825",
+        "prediction": "propaganda"
+    },
+    {
+        "question": "Hoy a las 16:00 se parte de #TalleresEnCasa y disfruta de \"En cuarentena con mi osa\", una muestra que combina acrobacias, música y circo. Iniciativa de la alianza UE y @centroGAM. #GAMenCasa. Participa gratis👉https://t.co/5p7q2UXp7V https://t.co/CULGEMOIBN",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "3591",
+        "prediction": "non-propaganda"
+    },
+    {
+        "question": "Naciones que buscan construir sus redes #5G, no deberían ceder el control de su infraestructura a gigantes tecnológicos chinos como Huawei y ZTE.\n\nLa adopción de nuevas tecnologías no debe comprometer la seguridad de las naciones. https://t.co/5MgkdGFNOG",
+        "answer": "propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "3976",
+        "prediction": "non-propaganda"
+    },
+    {
+        "question": "En EE.UU, cualquier persona puede utilizar la Ley de Libertad de Información (Freedom of Information Act, FOIA) para solicitar registros públicos del gobierno. Ver más: https://t.co/OY8QDflZAv",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "4953",
+        "prediction": "non-propaganda"
+    },
+    {
+        "question": "Ya que esta decisión se basa en las disposiciones de la Carta de la ONU 🇺🇳, el Acta de Helsinki y otros documentos internac. que afirman el respeto al principio de la libre determinación de los pueblos.\n\nMi entrevista al politólogo 🇻🇪 Vicente Quintero 🔗 https://t.co/reqtBHKdXS",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "5611",
+        "prediction": "non-propaganda"
+    },
+    {
+        "question": "El primer ministro chino, Li Keqiang, respondió preguntas de 11 reporteros, enfocándose en temas como el desarrollo económico de #China, la cooperación abierta, etc., y transmitiendo la firme confianza de China en su capacidad para lograr sus objetivos anuales. https://t.co/jc0Xq1xM6e",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "3592",
+        "prediction": "non-propaganda"
+    },
+    {
+        "question": "La Comisión Europea, en cooperación con el presidente del Consejo Europeo, ha presentado la ruta europea para levantar progresivamente las medidas de confinamiento adoptadas como consecuencia del brote de #coronavirus.\n\n👉🏻 https://t.co/QXpJwZQuYF\n\n#UnionEuropea🇪🇺 #WeStandTogether https://t.co/SUsudpfRIY",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "2396",
+        "prediction": "non-propaganda"
+    },
+    {
+        "question": "＃Boletín de la Embajada China en la República Dominicana 10/04/2020: China🇨🇳 está lista para trabajar con la comunidad internacional, incluido el Vaticano, para combatir conjuntamente la pandemia y defender la seguridad de la salud pública mundial.\nhttps://t.co/J06GR3OmTm https://t.co/0r1u1xprmb",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "2214",
+        "prediction": "propaganda"
+    },
+    {
+        "question": "20 de Mayo, el Embajador Chen Xi sostuvo una conversación con la Ministra Velázquez @elsa_ena en @CubaMined sobre las cooperaciónes educativas entre China y Cuba. Emb. Chen ratificó el apoyo y la solidaridad de China con Cuba.\n#ChinaCuba60\n@MoraimaOrozco https://t.co/e2AOiUCL28",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "3294",
+        "prediction": "non-propaganda"
+    },
+    {
+        "question": "La #UE 🇪🇺 está asegurando más de 15,000 millones de euros 💶 para ayudar a nuestros socios en todo el mundo a combatir el #coronavirus. Queremos asegurarnos de que la lucha tenga éxito en todo el mundo 🌍.\n\nManteniéndonos unidos y trabajando juntos, podemos derrotar este #virus. https://t.co/5DtlyEBgro",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "2081",
+        "prediction": "propaganda"
+    },
+    {
+        "question": "¡El paquete #TeamEurope es solidaridad en acción!\n\nLa Unión Europea 🇪🇺 y sus Estados Miembros unieron fuerzas para apoyar a países socios, como México 🇲🇽, en su lucha contra el #coronavirus. 🌎\n\nConoce más: https://t.co/ZevRsU2tw8\n\n#UnidosSomosMásFuertes 🤝 https://t.co/lSpmXVA6qZ",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "3717",
+        "prediction": "propaganda"
+    },
+    {
+        "question": "Poco a poco vamos volviendo a la normalidad, pero es importante seguir protegiéndonos a nosotros y a quien nos rodea: \n\n🔸Lavándonos las manos \n🔸Cubriendo boca y nariz al toser \n🔸Evitando tocar la cara \n🔸Respetando la distancia de seguridad. \n\n#StrongerTogether #coronavirus https://t.co/Rsx3MTZGHa",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "3379",
+        "prediction": "non-propaganda"
+    },
+    {
+        "question": "Organizaciones de Estados Unidos estan enviando equipos de proteccion personal al epicentro del brote de #coronavirus en China para aumentar la capacidad de los hospitales de Wuhan para diagnosticar y tratar a más pacientes. https://t.co/eYVYzr8kVV",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "677",
+        "prediction": "non-propaganda"
+    },
+    {
+        "question": "Nuevamente le falla la administración Trump a su pueblo. Llega el país a la cifra más alta en 24 horas de contagios desde que llegó la pandemia, el repunte ha sido fatal y se espera un incremento de las muertes. Un verdadero desastre que demuestra debilidad. #Cuba #Venezuela https://t.co/f0veH4kolO",
+        "answer": "propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "4362",
+        "prediction": "propaganda"
+    },
+    {
+        "question": "¡Típico de la piratería! \nInglaterra se roba nuestro oro.\n\nLa ‘justicia’ británica le niega el derecho a la salud y a la vida al pueblo venezolano. \n\nDespojan a Venezuela de sus reservas internacionales para dárselas a un delincuente, marioneta del criminal Gobierno de EE. UU. https://t.co/t62FDqwNxM",
+        "answer": "propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "4423",
+        "prediction": "propaganda"
+    },
+    {
+        "question": "Happy #PrideMonth! Celebramos el mes del #OrgulloLGTBI reafirmando nuestro compromiso de proteger y defender los derechos humanos. EEUU condena la violencia y la discriminación contra la comunidad #LGTBI. Los #derechoshumanos son universales. #Orgullo2020 #Pride2020 🏳️‍🌈 https://t.co/pfhZXZgaJ8",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "3621",
+        "prediction": "non-propaganda"
+    },
+    {
+        "question": "@Tesla vio dobladas sus ganancias en el mercado chino.  El futuro está en la cooperación mutuamente beneficiosa. \nhttps://t.co/feY6LCqOXx",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "5058",
+        "prediction": "non-propaganda"
+    },
+    {
+        "question": "#DíaMundialDelMedioAmbiente  En Chile, la UE apoya el proyecto del @gorebiobio y WWF que busca establecer alianza para implementar un modelo público-privado de restauración del bosque nativo en la Cordillera de Nahuelbuta. Más https://t.co/aImp0RBmVx https://t.co/QC14b8kpwv",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "3776",
+        "prediction": "non-propaganda"
+    },
+    {
+        "question": "Arreaza rechaza las amenazas de EE.UU. contra navieras, puertos y aseguradoras que faciliten envíos de gasolina a Venezuela https://t.co/2a8lNDwLPQ",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "3583",
+        "prediction": "propaganda"
+    },
+    {
+        "question": "El coronavirus afecta a todos y cada uno de nosotros a nivel mundial. La Unión Europea 🇪🇺 y sus Estados miembros están asegurando €15,6 mil millones para apoyar a los países socios de todo el mundo 🌎 en la lucha contra el #coronavirus ➡️ https://t.co/uo40pYcHt6 https://t.co/VUHh4qF8YO",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "2105",
+        "prediction": "non-propaganda"
+    },
+    {
+        "question": "Cierrenlo ya, no hay que estar aguantandole vainas a esos yanquis.   \"China estaría considerando cerrar el Consulado de EE.UU. en Wuhan en respuesta al cierre del suyo en Houston\" https://t.co/wmJMo5sT5R #UniónFuerzaYConciencia @VencedorMRT 🇻🇪 @Li_Baorong",
+        "answer": "propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "4931",
+        "prediction": "propaganda"
+    },
+    {
+        "question": "Ante las mentiras y teorías falsas, y particularmente afectada por la desinformación, es necesario conocer los argumentos y respuestas científicas que refutan los 12 rumores más comunes sobre el #Covid y nuestra nación 🇨🇳. La información: https://t.co/qMwuVvg1gx",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "2759",
+        "prediction": "non-propaganda"
+    },
+    {
+        "question": "Poner a uno de los más buscados por ICE Tareck El Aisami a cargo de reestructurar la industria petrolera de #Venezuela es como poner a un pirata a cargo de la fuerza naval. Se necesita más presión internacional para liberar al pueblo venezolano del narcoestado de Maduro. 🏴‍☠️",
+        "answer": "propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "900",
+        "prediction": "propaganda"
+    },
+    {
+        "question": "Los científicos de Estados Unidos trabajan sin descanso para producir una vacuna contra la #COVID19. https://t.co/O1LdpPWTdn",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "2473",
+        "prediction": "non-propaganda"
+    },
+    {
+        "question": "Militares y civiles de Europa trabajando juntos contra el #coronavirus, por @JosepBorrellF \n\n-Fortalecer coordinación global frente a pandemia\n-Salud como problema de seguridad\n-Experiencia militar UE al servicio de apoyo\n-Compromiso con la paz y seguridad\nhttps://t.co/ZrjkR8fBGA https://t.co/B6MqKgojaS",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "2088",
+        "prediction": "non-propaganda"
+    },
+    {
+        "question": "En China las autoridades a todos los niveles,las docentes especialmente,están encima d todos los detalles para garantizar la seguridad y salud d los estudiantes int’les:“líneas calientes”,orden y despacho d compras,alimentación,provisión de materiales higiénicos,entrenamiento... https://t.co/S9HHhX4bgN",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "935",
+        "prediction": "propaganda"
+    },
+    {
+        "question": "El #MesEuropaVZLA llega a su fin, y lo culminaremos con una actividad muy especial!!\n\nEste sábado #30May charlamos con @JosePeseiro, director técnico de @SeleVinotinto ⚽️, y uno de los miles de europeos en Venezuela 🇪🇺🇻🇪\n\n➡️Síguelo a las 3pm por IG Live de #UEenVenezuela https://t.co/3l91KCiTzu",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "3566",
+        "prediction": "non-propaganda"
+    },
+    {
+        "question": "💬#Putin: 🇷🇺 #Rusia está dispuesta a trabajar de manera constructiva con cualquier socio interesado en alejar la situación del límite peligroso.\n\n☝️ Nos damos nota del aumento de la tensión y un creciente potencial del conflicto. Debemos evitarlo. #PAIC #VideoSummit https://t.co/hXUzqHB4ob",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "5528",
+        "prediction": "non-propaganda"
+    },
+    {
+        "question": "Les invitamos a leer la hermosa crónica de María Fernanda Chaves sobre Okba Aziza, beneficierio del Programa Siria  en #Argentina➡️\nhttps://t.co/Q3aV26K6u8\nEn 🇦🇷, la @UEenARG 🇪🇺apoya financieramente esta iniciativa que es implementada por @OIM_Argentina y @ACNURSuramerica #UE",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "5045",
+        "prediction": "non-propaganda"
+    },
+    {
+        "question": "#Zajárova: \nEn estos tiempos tan turbulentos, #Rusia está con #China con toda su alma. Rusia expresa su más pleno apoyo al pueblo de China, deseándole eliminar plenamente la epidemia.\n@MFA_China https://t.co/qBge0IvUcq",
+        "answer": "propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "712",
+        "prediction": "propaganda"
+    },
+    {
+        "question": "En estos tiempos difíciles, la única respuesta para la Unión Europea 🇪🇺 y sus Estados Miembros es la solidaridad, no solo al interior de nuestro bloque sino también con nuestros socios y amigos como México 🇲🇽.\n\n#TeamEurope #UnidosSomosMásFuertes 🤝 \nhttps://t.co/SkSHZP2aed",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "3767",
+        "prediction": "non-propaganda"
+    },
+    {
+        "question": "#ComunicadoDePrensa: Estados Unidos entrega 158 ventiladores más a El Salvador en respuesta al #COVID19 https://t.co/cYwrpGSazr",
+        "answer": "non-propaganda",
+        "test_case": "DIPROMATS2023",
+        "id": "5779",
+        "prediction": "non-propaganda"
+    }
+]

@@ -1,11 +1,12 @@
 import json
-from typing import Dict, List, Literal
+import random
+from enum import Enum
+from typing import Dict, List
 
 from pydantic import BaseModel
+from sklearn.metrics import f1_score
 
 from src.tasks.task import Task
-from sklearn.metrics import f1_score
-import random
 
 random.seed(33)
 
@@ -38,7 +39,7 @@ Today Date: 26 Jul 2024
 
 <|eot_id|><|start_header_id|>user<|end_header_id|>
 
-{{ instructions }}
+{{ instruction }}
 
 Examples
 --------
@@ -59,13 +60,7 @@ Input: {{ question }}<|eot_id|><|start_header_id|>assistant<|end_header_id|>{{ "
         return """
 Analyze the given text to determine if it contains sexist content. If it does, classify it into one of the following categories: 'ideological-inequality', 'misogyny-non-sexual-violence', 'objectification', 'sexual-violence', 'stereotyping-dominance'. If it doesn't contain sexist content, classify it as 'non-sexist'.
 
-Definition of sexism:
-Sexism is prejudice, stereotyping, or discrimination, typically against women, on the basis of sex. It includes attitudes, behaviors, and practices that promote stereotyping of social roles based on gender.
-
-Task:
-1. Carefully read and understand the given text.
-2. Identify any language, attitudes, or implications that could be considered sexist.
-3. Classify the text into one of the following categories:
+Definition of sexism: Sexism is prejudice, stereotyping, or discrimination, typically against women, on the basis of sex. It includes attitudes, behaviors, and practices that promote stereotyping of social roles based on gender.
 
 - 'non-sexist': The text does not contain any sexist language, attitudes, or implications.
 - 'ideological-inequality': The text discredits feminism, denies gender inequality, or portrays men as victims of gender-based oppression.
@@ -74,29 +69,30 @@ Task:
 - 'sexual-violence': The text contains sexual harassment, assault, or rape-related content.
 - 'misogyny-non-sexual-violence': The text expresses hatred, contempt, or non-sexual violence towards women.
 
-Output:
-Provide your answer as a JSON object with the key 'label' and the value set to one of the categories listed above.
+Output: Provide your answer as a JSON object with the key 'label' and the value set to one of the categories listed above.
 
 """.strip()
 
     def get_pydantic_model(self):
+        class LabelEnum(str, Enum):
+            non_sexist = "non-sexist"
+            ideological_inequality = "ideological-inequality"
+            misogyny_non_sexual_violence = "misogyny-non-sexual-violence"
+            objectification = "objectification"
+            sexual_violence = "sexual-violence"
+            stereotyping_dominance = "stereotyping-dominance"
+
         class Identification(BaseModel):
-            label: Literal[
-                "non-sexist",
-                "ideological-inequality",
-                "misogyny-non-sexual-violence",
-                "objectification",
-                "sexual-violence",
-                "stereotyping-dominance",
-            ]
+            label: LabelEnum
 
         return Identification
 
     def _precompute_examples(self):
         train_data = self.get_split("train")
         model = self.get_pydantic_model()
+        # Change this line
         self.class_examples = {
-            label: [] for label in model.model_fields["label"].annotation.__args__
+            label.value: [] for label in model.model_fields["label"].annotation
         }
         for ex in train_data:
             self.class_examples[ex["answer"].label].append(ex)
@@ -144,15 +140,12 @@ Provide your answer as a JSON object with the key 'label' and the value set to o
 
         assert len(data) == len(predictions)
 
-        for prediction in predictions:
-            print(prediction)
-        
         true_labels = [item["answer"].label for item in data]
         pred_labels = [prediction.label for prediction in predictions]
 
         macro_f1 = f1_score(true_labels, pred_labels, average="macro")
 
-        return macro_f1
+        return {"macro_f1": macro_f1}
 
     def build_test_file(self, predictions: List[BaseModel]):
         """

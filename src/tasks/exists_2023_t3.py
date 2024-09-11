@@ -1,10 +1,11 @@
 import json
 import random
-from typing import Dict, List, Literal
+from typing import Dict, List
 
-from pydantic import BaseModel
-from sklearn.metrics import f1_score
-from sklearn.preprocessing import MultiLabelBinarizer
+import torch
+import torch.nn.functional as F
+from pydantic import BaseModel, Field
+
 from src.tasks.task import Task
 
 random.seed(33)
@@ -59,13 +60,7 @@ Input: {{ question }}<|eot_id|><|start_header_id|>assistant<|end_header_id|>{{ "
         return """
 Analyze the given text to determine if it contains sexist content. If it does, classify it into one of the following categories: 'ideological-inequality', 'misogyny-non-sexual-violence', 'objectification', 'sexual-violence', 'stereotyping-dominance'. If it doesn't contain sexist content, classify it as 'non-sexist'.
 
-Definition of sexism:
-Sexism is prejudice, stereotyping, or discrimination, typically against women, on the basis of sex. It includes attitudes, behaviors, and practices that promote stereotyping of social roles based on gender.
-
-Task:
-1. Carefully read and understand the given text.
-2. Identify any language, attitudes, or implications that could be considered sexist.
-3. Classify the text into one of the following categories:
+Definition of sexism: Sexism is prejudice, stereotyping, or discrimination, typically against women, on the basis of sex. It includes attitudes, behaviors, and practices that promote stereotyping of social roles based on gender.
 
 - 'non-sexist': The text does not contain any sexist language, attitudes, or implications.
 - 'ideological-inequality': The text discredits feminism, denies gender inequality, or portrays men as victims of gender-based oppression.
@@ -74,85 +69,135 @@ Task:
 - 'sexual-violence': The text contains sexual harassment, assault, or rape-related content.
 - 'misogyny-non-sexual-violence': The text expresses hatred, contempt, or non-sexual violence towards women.
 
-Output:
-Provide your answer as a JSON object with the key 'label' and the value set to one of the categories listed above.
+Output: Provide your answer as a JSON object with the key 'label' and the value set to one of the categories listed above.
 
 """.strip()
 
     def get_pydantic_model(self):
         class Identification(BaseModel):
-            label: List[Literal[
-                "non-sexist",
-                "ideological-inequality",
-                "misogyny-non-sexual-violence",
-                "objectification",
-                "sexual-violence",
-                "stereotyping-dominance",
-            ]]
+            non_sexist: float = Field(
+                ...,
+                ge=0,
+                le=1,
+            )
+            ideological_inequality: float = Field(
+                ...,
+                ge=0,
+                le=1,
+            )
+            stereotyping_dominance: float = Field(
+                ...,
+                ge=0,
+                le=1,
+            )
+            objectification: float = Field(
+                ...,
+                ge=0,
+                le=1,
+            )
+            sexual_violence: float = Field(
+                ...,
+                ge=0,
+                le=1,
+            )
+            misogyny_non_sexual_violence: float = Field(
+                ...,
+                ge=0,
+                le=1,
+            )
 
         return Identification
 
     def _precompute_examples(self):
         train_data = self.get_split("train")
-        model = self.get_pydantic_model()
-        self.class_examples = {
-            label: [] for label in model.model_fields["label"].annotation.__args__[0].__args__
+        self.examples = {
+            "non_sexist": [],
+            "ideological_inequality": [],
+            "stereotyping_dominance": [],
+            "objectification": [],
+            "sexual_violence": [],
+            "misogyny_non_sexual_violence": [],
+        }
+        for example in train_data:
+            # Use a threshold to determine the label
+            threshold = 0.5
+            for label, value in example["answer"].__dict__.items():
+                if value >= threshold:
+                    self.examples[label].append(example)
+                    break
+            else:
+                # If no label meets the threshold, use the max value
+                label = max(example["answer"].__dict__.items(), key=lambda x: x[1])[0]
+                self.examples[label].append(example)
+
+    def get_few_shot(self):
+        num_examples = self.num_examples_few_shot
+        examples_per_class = num_examples // 4
+        remaining = num_examples % 4
+
+        few_shot_examples = []
+        for label in self.examples:
+            samples = random.sample(
+                self.examples[label],
+                min(examples_per_class, len(self.examples[label])),
+            )
+            few_shot_examples.extend(samples)
+
+        # Add remaining examples randomly
+        all_examples = [ex for examples in self.examples.values() for ex in examples]
+        few_shot_examples.extend(random.sample(all_examples, remaining))
+
+        random.shuffle(few_shot_examples)
+        return few_shot_examples
+
+    def _process_answer(self, answer: List[List[str]]):
+        answer: List[str] = [item for sublist in answer for item in sublist]
+        total_count = len(answer)
+        counts = {
+            "-": 0,
+            "ideological_inequality": 0,
+            "stereotyping_dominance": 0,
+            "objectification": 0,
+            "sexual_violence": 0,
+            "misogyny_non_sexual_violence": 0,
+        }
+        for item in answer:
+            item = item.lower()
+            if item in counts:
+                counts[item] += 1
+
+        probs = {
+            "non_sexist": counts["-"] / total_count,
+            "ideological_inequality": counts["ideological_inequality"] / total_count,
+            "stereotyping_dominance": counts["stereotyping_dominance"] / total_count,
+            "objectification": counts["objectification"] / total_count,
+            "sexual_violence": counts["sexual_violence"] / total_count,
+            "misogyny_non_sexual_violence": counts["misogyny_non_sexual_violence"]
+            / total_count,
         }
 
-        for ex in train_data:
-            for label in ex["answer"].label:
-                if label in self.class_examples:
-                    self.class_examples[label].append(ex)
-                else:
-                    raise ValueError(f"Invalid label: {label}")
-                
-    def get_few_shot(self):
-        examples_per_class = self.num_examples_few_shot // len(self.class_examples)
-        few_shot_examples = []
-        for class_examples in self.class_examples.values():
-            # Filter examples with 3 or fewer labels
-            filtered_examples = [ex for ex in class_examples if len(ex['answer'].label) <= 3]
-            few_shot_examples.extend(
-                random.sample(
-                    filtered_examples, min(examples_per_class, len(filtered_examples))
-                )
-            )
-        # Remove duplicates while preserving order
-        seen = set()
-        few_shot_examples = [x for x in few_shot_examples if not (x['id'] in seen or seen.add(x['id']))]
-        random.shuffle(few_shot_examples)
-        return few_shot_examples[:self.num_examples_few_shot]
+        # Round to 2 decimal places
+        rounded_probs = {k: round(v, 2) for k, v in probs.items()}
 
-    def _process_answer(self, answer: List[str]):
-        # count the number of times each label appears and return the most common one
-        answer = [label for sublist in answer for label in sublist]
-        answer = list(set(answer))
-        answer = [x.lower() for x in answer]
-        answer = [
-            x
-            for x in answer
-            if x
-            in [
-                "ideological-inequality",
-                "misogyny-non-sexual-violence",
-                "objectification",
-                "sexual-violence",
-                "stereotyping-dominance",
-            ]
-        ]
-        if len(answer) == 0:
-            answer = ["non-sexist"]
-        return answer
+        # Ensure probabilities sum to 1
+        total = sum(rounded_probs.values())
+        if total != 1:
+            diff = 1 - total
+            max_key = max(rounded_probs, key=rounded_probs.get)
+            rounded_probs[max_key] = round(rounded_probs[max_key] + diff, 2)
+
+        return rounded_probs
 
     def read_dataset(self, dataset: str):
         with open(dataset, "r", encoding="utf-8") as file:
             data = json.load(file)
 
         model = self.get_pydantic_model()
+
         return [
             {
                 "question": item["tweet"] if "tweet" in item else item["text"],
-                "answer": model(label=self._process_answer(item["value"]))
+                "answer": model(**self._process_answer(item["value"]))
                 if "value" in item
                 else None,
                 "test_case": item["test_case"],
@@ -160,6 +205,31 @@ Provide your answer as a JSON object with the key 'label' and the value set to o
             }
             for item in data
         ]
+
+    def _normalize_prediction(self, prediction: BaseModel) -> BaseModel:
+        """
+        Normalizes the prediction probabilities using softmax.
+        """
+        model = self.get_pydantic_model()
+        probs = torch.tensor(
+            [
+                prediction.non_sexist,
+                prediction.ideological_inequality,
+                prediction.stereotyping_dominance,
+                prediction.objectification,
+                prediction.sexual_violence,
+                prediction.misogyny_non_sexual_violence,
+            ]
+        )
+        normalized_probs = F.softmax(probs, dim=0)
+        return model(
+            non_sexist=normalized_probs[0].item(),
+            ideological_inequality=normalized_probs[1].item(),
+            stereotyping_dominance=normalized_probs[2].item(),
+            objectification=normalized_probs[3].item(),
+            sexual_violence=normalized_probs[4].item(),
+            misogyny_non_sexual_violence=normalized_probs[5].item(),
+        )
 
     def evaluate(self, predictions: List[BaseModel], split="dev") -> Dict[str, float]:
         """
@@ -172,23 +242,57 @@ Provide your answer as a JSON object with the key 'label' and the value set to o
         Returns:
             Dict[str, float]: Dictionary with the evaluation metric
         """
-
         data = self.get_split(split)
         assert len(data) == len(predictions)
 
-        true_labels = [item["answer"].label for item in data]
-        pred_labels = [prediction.label for prediction in predictions]
+        correct = 0
+        total_loss = 0.0
 
-        # Convert labels to binary format
-        mlb = MultiLabelBinarizer()
-        true_labels_bin = mlb.fit_transform(true_labels)
-        pred_labels_bin = mlb.transform(pred_labels)
+        for i, prediction in enumerate(predictions):
+            normalized_prediction = self._normalize_prediction(prediction)
+            true_label = max(data[i]["answer"].__dict__.items(), key=lambda x: x[1])[0]
+            pred_label = max(
+                normalized_prediction.__dict__.items(), key=lambda x: x[1]
+            )[0]
 
-        # Calculate micro-averaged F1 score
-        micro_f1 = f1_score(true_labels_bin, pred_labels_bin, average='micro')
+            if true_label == pred_label:
+                correct += 1
 
-        return micro_f1
-    
+            # Calculate cross-entropy loss
+            true_probs = torch.tensor(
+                [
+                    getattr(data[i]["answer"], k)
+                    for k in [
+                        "non_sexist",
+                        "ideological_inequality",
+                        "misogyny_non_sexual_violence",
+                        "objectification",
+                        "stereotyping_dominance",
+                        "sexual_violence",
+                    ]
+                ]
+            )
+            pred_probs = torch.tensor(
+                [
+                    getattr(normalized_prediction, k)
+                    for k in [
+                        "non_sexist",
+                        "ideological_inequality",
+                        "misogyny_non_sexual_violence",
+                        "objectification",
+                        "stereotyping_dominance",
+                        "sexual_violence",
+                    ]
+                ]
+            )
+            loss = F.cross_entropy(pred_probs.unsqueeze(0), true_probs.unsqueeze(0))
+            total_loss += loss.item()
+
+        accuracy = correct / len(predictions)
+        avg_loss = total_loss / len(predictions)
+
+        return {"accuracy": accuracy, "cross_entropy_loss": avg_loss}
+
     def build_test_file(self, predictions: List[BaseModel]):
         """
         Builds a test file with the predictions
@@ -198,35 +302,54 @@ Provide your answer as a JSON object with the key 'label' and the value set to o
             split (str, optional): Split to evaluate on. Defaults to "dev".
         """
         data = self.get_split("test")
-
         assert len(data) == len(predictions)
 
+        predictions = [
+            self._normalize_prediction(prediction) for prediction in predictions
+        ]
         test_data = [
             {
                 "test_case": data[i]["test_case"],
                 "id": data[i]["id"],
-                "value": prediction.label,
+                "value": {
+                    "NO": predictions[i].non_sexist,
+                    "MISOGYNY-NON-SEXUAL-VIOLENCE": predictions[
+                        i
+                    ].misogyny_non_sexual_violence,
+                    "IDEOLOGICAL-INEQUALITY": predictions[i].ideological_inequality,
+                    "STEREOTYPING-DOMINANCE": predictions[i].stereotyping_dominance,
+                    "SEXUAL-VIOLENCE": predictions[i].sexual_violence,
+                    "OBJECTIFICATION": predictions[i].objectification,
+                },
             }
             for i, prediction in enumerate(predictions)
         ]
         self._write_json(self.output_path, test_data)
 
     def build_validation_file(self, predictions: List[BaseModel]):
-        """
-        Builds a validation file with the predictions
-
-        Args:
-            predictions (List[str]): List of predictions
-            split (str, optional): Split to evaluate on. Defaults to "dev".
-        """
-
         data = self.get_split("dev")
-
         assert len(data) == len(predictions)
 
         for i, prediction in enumerate(predictions):
-            data[i]["prediction"] = prediction.label
-            data[i]["answer"] = data[i]["answer"].label
+            prediction = self._normalize_prediction(prediction)
+            data[i]["prediction"] = {
+                "NO": prediction.non_sexist,
+                "IDEOLOGICAL-INEQUALITY": prediction.ideological_inequality,
+                "STEREOTYPING-DOMINANCE": prediction.stereotyping_dominance,
+                "OBJECTIFICATION": prediction.objectification,
+                "SEXUAL-VIOLENCE": prediction.sexual_violence,
+                "MISOGYNY-NON-SEXUAL-VIOLENCE": prediction.misogyny_non_sexual_violence,
+            }
+            data[i]["answer"] = {
+                "NO": data[i]["answer"].non_sexist,
+                "IDEOLOGICAL-INEQUALITY": data[i]["answer"].ideological_inequality,
+                "STEREOTYPING-DOMINANCE": data[i]["answer"].stereotyping_dominance,
+                "OBJECTIFICATION": data[i]["answer"].objectification,
+                "SEXUAL-VIOLENCE": data[i]["answer"].sexual_violence,
+                "MISOGYNY-NON-SEXUAL-VIOLENCE": data[i][
+                    "answer"
+                ].misogyny_non_sexual_violence,
+            }
 
         output_path = self.dev_dataset.replace(".json", "_pred.json")
         self._write_json(output_path, data)

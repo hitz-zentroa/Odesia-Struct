@@ -4,14 +4,14 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10205",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "@alattice2 @Andreayya1 +tenemos que concluir que es imposible que haya una real igualdad de oportunidadesE incluso resulta problemático sin intentamos reducir al máximo la desigualdad de oportunidadesPensemos en la diferencia entre un niño que nace en una familia de músicos y el que nace en una+",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10206",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "A lo mejor Irene Montero tendría que meditar porqué ha soliviantado a feminismo. Al de toda la vida, a ese que ha hecho posible el nivel de igualdad que disfrutamos ahora.No hay más feminismo que el que entiende a las mujeres como sujetos políticos.Y esto es en contra de nadie",
@@ -53,7 +53,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10212",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "Hay muchos hombres de cultura antes de la era de AMLO que aún deben caer #metoo",
@@ -81,7 +81,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10216",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "Cambiar el uso del lenguaje implica también un cambio cultural, y nos convoca a construir otro sistema de valores, otra forma de entender, de pensar y de representar al mundo.Leé la nota completa en ALTER BLOG https://t.co/ioljMetAF9#feminismo #comunicación #inclusion",
@@ -179,7 +179,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10230",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "@anitaee73 @rocioglzm  yo jamas lo lleve jajajajaja pero me encanta fregar a la amiga...jajajaja",
@@ -207,7 +207,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10234",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "@29nov2003 zorra de mierda te voy a cortar ña yugular y a darsela de comer a mi perro para que cuando la cague le meta mi dura y excitada polla a el descomunal zurullo compuesto por tus músculos  respiratorios",
@@ -242,7 +242,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10239",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "@ZenTao14 @Nievessebastia1 @Aurorarradical @redlgb_ @SoniaVivasRive3 Las sentencias en firme no son acoso. Lo que tiene no vivir en el mundo de la magufada sentida es que sabes que este tipo de cosas pueden suceder: ¿Merece la pena que se ponga en riesgo a mujeres solo porque hay hombres que dicen sentirse mujer?",
