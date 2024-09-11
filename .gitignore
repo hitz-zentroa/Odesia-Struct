@@ -126,3 +126,7 @@ dmypy.json
 *.ipynb
 
 models/
+
+.slurm/
+
+wandb/

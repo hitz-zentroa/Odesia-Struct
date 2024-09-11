@@ -1,46 +1,48 @@
-import json
 import logging
 import os
 import sys
 
 from datasets import load_dataset
-from tqdm import tqdm
-from transformers import HfArgumentParser
+from transformers import AutoTokenizer, HfArgumentParser
 from trl import SFTConfig, SFTTrainer
+from unsloth import FastLanguageModel  # Also reqires pip install xformers
 
 from src.config.config import ModelArguments
-from src.model.load_model import load_model
-from src.tasks import get_tasks
+from src.model.model_utils import find_all_linear_names
 
 
 def train(training_args: SFTConfig, model_args: ModelArguments):
     os.makedirs(training_args.output_dir, exist_ok=True)
 
-    model, tokenizer = load_model(
-        inference=False,
-        model_weights_name_or_path=model_args.model_name_or_path,
-        quantization=model_args.quantization,
-        use_lora=model_args.use_lora,
-        lora_r=model_args.lora_r,
-        lora_target_modules=model_args.lora_target_modules,
-        torch_dtype=model_args.torch_dtype,
-        force_auto_device_map=model_args.force_auto_device_map,
-        use_gradient_checkpointing=training_args.gradient_checkpointing,
-        trust_remote_code=model_args.trust_remote_code,
-        use_flash_attention=model_args.use_flash_attention,
-        fsdp_training=len(training_args.fsdp) > 1
-        or training_args.fsdp_config is not None,
-        max_memory_MB=model_args.max_memory_MB,
-        rope_scaling_factor=model_args.rope_scaling_factor,
+    model, tokenizer = FastLanguageModel.from_pretrained(
+        model_name=model_args.model_name_or_path,
+        dtype=None,  # None for auto detection. Float16 for Tesla T4, V100, Bfloat16 for Ampere+
+        load_in_4bit=True,  # Use 4bit quantization to reduce memory usage. Can be False
     )
 
-    tasks = get_tasks(tokenizer=tokenizer, tasks=["exist_2022_t1_es"])
+    tokenizer = AutoTokenizer.from_pretrained(
+        model_args.model_name_or_path
+    )  # FastLanguageModel doesn't load the chat template
+
+    model = FastLanguageModel.get_peft_model(
+        model,
+        r=model_args.lora_r,
+        target_modules=find_all_linear_names(model),
+        lora_alpha=model_args.lora_alpha,
+        lora_dropout=model_args.lora_dropout,  # Dropout = 0 is currently optimized
+        bias="none",  # Bias = "none" is currently optimized
+        use_gradient_checkpointing=True,
+        random_state=3407,
+    )
+
+    """
+    tasks = get_tasks(tokenizer=tokenizer, tasks="all")
 
     train_dataset = []
     validation_dataset = []
     for task_name, task in tqdm(tasks.items(), desc="Loading datasets"):
         print(f"Loading dataset for task {task_name}")
-        train = task.get_dataset_training(split="train")[:100]
+        train = task.get_dataset_training(split="train")
         train_dataset.extend(train)
         print(f"Train dataset size: {len(train)}")
         dev = task.get_dataset_training(split="dev")
@@ -54,12 +56,14 @@ def train(training_args: SFTConfig, model_args: ModelArguments):
     print(f"Full training dataset size: {len(train_dataset)}")
     print(f"Full validation dataset size: {len(validation_dataset)}")
 
+
     with open(
         os.path.join(training_args.output_dir, "validation_dataset.jsonl"), "w"
     ) as f:
         for example in validation_dataset:
             print(json.dumps(example, ensure_ascii=False), file=f)
-
+    """
+    print("Loading datasets")
     dataset = load_dataset(
         "json",
         data_files={
