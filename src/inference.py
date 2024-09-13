@@ -42,7 +42,7 @@ def inference(
         bnb_config = None
 
     model = outlines.models.transformers(
-        "meta-llama/Meta-Llama-3.1-8B-Instruct",
+        model_name,
         device="cuda",  # optional device argument, default is cpu
         model_kwargs={
             "torch_dtype": torch.bfloat16,

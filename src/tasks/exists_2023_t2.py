@@ -5,7 +5,7 @@ from typing import Dict, List
 
 import torch
 import torch.nn.functional as F
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator
 
 from src.tasks.task import Task
 
@@ -38,7 +38,7 @@ Definition of sexism: Sexism is prejudice, stereotyping, or discrimination, typi
 - 'reported': The intention is to report and share a sexist situation suffered by a woman or women in first or third person.
 - 'judgemental': The intention was to judge, since the tweet describes sexist situations or behaviours with the aim of condemning them.
 
-Output: Provide your answer as a JSON object with the key 'label' and the value set to one of the categories listed above.
+Output: Provide your answer as a JSON object with the probabilities for each category lised above between 0 and 1.
 
 """.strip()
 
@@ -64,6 +64,13 @@ Output: Provide your answer as a JSON object with the key 'label' and the value 
                 ge=0,
                 le=1,
             )
+
+            @field_validator(
+                "non_sexist", "direct", "reported", "judgemental", mode="before"
+            )
+            @classmethod
+            def clamp_values(cls, v):
+                return max(0, min(v, 1))
 
         return Identification
 

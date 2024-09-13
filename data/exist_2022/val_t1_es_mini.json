@@ -1,0 +1,82 @@
+[
+    {
+        "test_case": "EXIST2021",
+        "id": "10205",
+        "source": "twitter",
+        "language": "es",
+        "text": "@NataliaToldMe En ningún momento te insulte, solo mencioné que por qué algunos fans seguían teniendo ají en el culo? Es que amiga, para que le haces caso a las noticias? Además insultando a Miley para validar a tu favorito, una inmadurez tremenda",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2021",
+        "id": "10206",
+        "source": "twitter",
+        "language": "es",
+        "text": "@alattice2 @Andreayya1 +tenemos que concluir que es imposible que haya una real igualdad de oportunidadesE incluso resulta problemático sin intentamos reducir al máximo la desigualdad de oportunidadesPensemos en la diferencia entre un niño que nace en una familia de músicos y el que nace en una+",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2021",
+        "id": "10207",
+        "source": "twitter",
+        "language": "es",
+        "text": "A lo mejor Irene Montero tendría que meditar porqué ha soliviantado a feminismo. Al de toda la vida, a ese que ha hecho posible el nivel de igualdad que disfrutamos ahora.No hay más feminismo que el que entiende a las mujeres como sujetos políticos.Y esto es en contra de nadie",
+        "value": "sexist"
+    },
+    {
+        "test_case": "EXIST2021",
+        "id": "10208",
+        "source": "twitter",
+        "language": "es",
+        "text": "LA EMBARAZADA MÁS HERMOSA  DIOSA  @KimberlyLoaiza_  https://t.co/Omi142fvlQ",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2021",
+        "id": "10209",
+        "source": "gab",
+        "language": "es",
+        "text": "Como la escoria independentista está arruinando Cataluña a pasos agigantadoshttps://cronicaglobal.elespanol.com/business/anc-omnium-incordian-delegados-mobile-mwc_123767_102_amp.html?__twitter_impression=true",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2021",
+        "id": "10210",
+        "source": "twitter",
+        "language": "es",
+        "text": "@AlfredoJalife2 @HistoriaPedro Esto es puro argüende, que vayan todas a la fiscalía a denunciar penalmente, basta de #MeToo , impartición de justicia, cero impunidad,",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2021",
+        "id": "10211",
+        "source": "twitter",
+        "language": "es",
+        "text": "@LilxSkunK @322_305 @Dragonfap @WomanInWorld_ @Pontifex_es Por otro lado, tú eres libre de ser, SÍ, todo lo ridículo que gustes y puedes hablar como te salga de la punta de la polla ¿o tengo que decir del pollo para que tu polla no se sienta discriminada? Es que me pierdo en lo inclusivo. Y disculpa si soy bruta, soy chica de pueblo",
+        "value": "sexist"
+    },
+    {
+        "test_case": "EXIST2021",
+        "id": "10212",
+        "source": "twitter",
+        "language": "es",
+        "text": "Ayer me dijeron “Es que vos no sos una mujer sumisa” “Siempre haces lo que queres” Y eso yo lo tomaré como un cumplido, porque algunos hombres siempre buscan una mujer con la que pueden hacer y deshacer, y yo no entro en ese grupo.",
+        "value": "sexist"
+    },
+    {
+        "test_case": "EXIST2021",
+        "id": "10213",
+        "source": "twitter",
+        "language": "es",
+        "text": "Hay muchos hombres de cultura antes de la era de AMLO que aún deben caer #metoo",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2021",
+        "id": "10214",
+        "source": "gab",
+        "language": "es",
+        "text": "Solo que ess puta de porno judio, no puede y sobre todo no debe romper a presidente.",
+        "value": "sexist"
+    }
+]

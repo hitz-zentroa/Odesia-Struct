@@ -52,7 +52,6 @@ Output: Provide your answer as a JSON object with the key 'label' and the value 
     def _precompute_examples(self):
         train_data = self.get_split("train")
         model = self.get_pydantic_model()
-        # Change this line
         self.class_examples = {
             label.value: [] for label in model.model_fields["label"].annotation
         }
@@ -63,11 +62,12 @@ Output: Provide your answer as a JSON object with the key 'label' and the value 
         examples_per_class = self.num_examples_few_shot // len(self.class_examples)
         few_shot_examples = []
         for class_examples in self.class_examples.values():
-            few_shot_examples.extend(
-                random.sample(
-                    class_examples, min(examples_per_class, len(class_examples))
+            if len(class_examples) <= examples_per_class:
+                few_shot_examples.extend(class_examples)
+            else:
+                few_shot_examples.extend(
+                    random.sample(class_examples, examples_per_class)
                 )
-            )
         random.shuffle(few_shot_examples)
         return few_shot_examples
 

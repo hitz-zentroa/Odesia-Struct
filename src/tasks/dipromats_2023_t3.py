@@ -108,44 +108,34 @@ Output: Provide your answer as a JSON object with 'label' as a list of the categ
     def _precompute_examples(self):
         train_data = self.get_split("train")
         model = self.get_pydantic_model()
-
-        label_field = model.model_fields["label"]
-
-        label_annotation = label_field.annotation
-
-        label_args = label_annotation.__args__
-
-        LabelEnum = label_args[0]
+        LabelEnum = model.model_fields["label"].annotation.__args__[0]
 
         # Create the class_examples dictionary using the enum members
-
-        self.class_examples = {label: [] for label in LabelEnum}
+        self.class_examples = {label.value: [] for label in LabelEnum}
 
         for ex in train_data:
             for label in ex["answer"].label:
                 self.class_examples[label].append(ex)
 
-    def get_few_shot(self):
-        model = self.get_pydantic_model()
-        all_labels = [
-            label for label in model.model_fields["label"].annotation.__args__[0]
-        ]
+        # Pre-compute all_labels for get_few_shot
+        self.all_labels = list(self.class_examples.keys())
 
+    def get_few_shot(self):
         # Ensure at least one example per label
-        few_shot_examples = []
-        for label in all_labels:
-            if self.class_examples[label]:
-                few_shot_examples.append(random.choice(self.class_examples[label]))
+        few_shot_examples = [
+            random.choice(examples) if examples else None
+            for examples in self.class_examples.values()
+        ]
+        few_shot_examples = [ex for ex in few_shot_examples if ex is not None]
 
         # Fill remaining slots
         remaining_slots = self.num_examples_few_shot - len(few_shot_examples)
         if remaining_slots > 0:
-            additional_examples = []
-            for class_examples in self.class_examples.values():
-                additional_examples.extend(class_examples)
-
             additional_examples = [
-                ex for ex in additional_examples if ex not in few_shot_examples
+                ex
+                for examples in self.class_examples.values()
+                for ex in examples
+                if ex not in few_shot_examples
             ]
             few_shot_examples.extend(
                 random.sample(

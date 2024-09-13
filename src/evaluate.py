@@ -36,7 +36,9 @@ def evaluate_task(
     # Get the dev dataset
     dev_data = task.get_dataset(split)
     num_batches = len(dev_data) // batch_size
-    generator = outlines.generate.json(model, task.get_pydantic_model())
+    generator = outlines.generate.json(
+        model, task.get_pydantic_model(), whitespace_pattern=""
+    )
     predictions = []
     first = batch_size == 64
     with tqdm(
@@ -93,7 +95,7 @@ def evaluate(
         bnb_config = None
 
     model = outlines.models.transformers(
-        "meta-llama/Meta-Llama-3.1-8B-Instruct",
+        model_name,
         device="cuda",  # optional device argument, default is cpu
         model_kwargs={
             "torch_dtype": torch.bfloat16,
@@ -102,7 +104,7 @@ def evaluate(
         },  # optional model kwargs
     )
 
-    logging.info(f"Model loaded in {time.time() - start:.2f} seconds")
+    logging.info(f"Model {model.model} loaded in {time.time() - start:.2f} seconds")
     metric_dict = {}
 
     tasks_dict = get_tasks(

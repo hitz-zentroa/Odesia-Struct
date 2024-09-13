@@ -25,8 +25,12 @@ echo CUDA_VISIBLE_DEVICES "${CUDA_VISIBLE_DEVICES}"
 
 
 export PYTHONPATH="$PYTHONPATH:$PWD"
-torchrun --standalone --master_port 37227 --nproc_per_node=2 src/train.py train_configs/gemma2B.yaml
-torchrun --standalone --master_port 37227 --nproc_per_node=2 src/train.py train_configs/llama8b.yaml
+torchrun --standalone --master_port 37227 --nproc_per_node=4 src/train.py train_configs/gemma2B.yaml
+torchrun --standalone --master_port 37227 --nproc_per_node=4 src/train.py train_configs/llama8b.yaml
 
-torchrun --standalone --master_port 37227 --nproc_per_node=2 src/evaluate.py --tasks all --model_name models/gemma-2b-it --output_dir results/finetune/gemma-2b-it
-torchrun --standalone --master_port 37227 --nproc_per_node=2 src/evaluate.py --tasks all --model_name models/Llama-3.1-8B-Instruct --output_dir results/finetune/Llama-3.1-8B-Instruct 
+accelerate launch --config_file train_configs/accelerate.json src/train.py train_configs/gemma2B.yaml
+accelerate launch --config_file train_configs/accelerate.json src/train.py train_configs/gemma2B.yaml
+
+
+torchrun --standalone --master_port 37227 --nproc_per_node=1 src/evaluate.py --tasks all --model_name models/gemma-2b-it --output_dir results/finetune/gemma-2b-it
+torchrun --standalone --master_port 37227 --nproc_per_node=1 src/evaluate.py --tasks all --model_name models/Llama-3.1-8B-Instruct --output_dir results/finetune/Llama-3.1-8B-Instruct 

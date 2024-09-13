@@ -32,7 +32,7 @@ def get_device_map(
     force_auto_device_map: bool,
     max_memory_MB: int = None,
     use_better_transformer: bool = False,
-) -> (str, Union[int, List[int]]):
+) -> Tuple[str, Union[int, List[int]]]:
     """
     Get the device map to use for loading the model
 
@@ -143,7 +143,7 @@ def merge_lora_model(
         lora_weights_name_or_path=lora_weights_name_or_path,
         torch_dtype=torch_dtype,
         use_flash_attention=False,
-        force_auto_device_map=True,
+        force_auto_device_map=False,
     )
 
     model.config.save_pretrained(output_path)
@@ -250,8 +250,8 @@ def load_model(
 
     if isinstance(quantization, str):
         quantization = int(quantization)
-    assert (quantization is None) or (
-        quantization in [4, 8]
+    assert (
+        (quantization is None) or (quantization in [4, 8])
     ), f"Quantization must be 4 or 8, or None for FP32/FP16 training. You passed: {quantization}"
 
     if not inference and quantization is not None and not use_lora:
@@ -474,6 +474,8 @@ def load_model(
                 tokenizer.eos_token = "<|im_end|>"
         except AttributeError:
             pass
+
+    tokenizer.model_max_length = model.config.max_position_embeddings
 
     logging.info(f"Model dtype: {model.dtype}. Model device: {model.device}")
     logging.info(
