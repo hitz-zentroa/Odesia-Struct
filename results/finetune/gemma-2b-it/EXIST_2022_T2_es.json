@@ -1,0 +1,2612 @@
+[
+    {
+        "test_case": "EXIST2022",
+        "id": "514",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "515",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "516",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "517",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "518",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "519",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "520",
+        "value": "sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "521",
+        "value": "sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "522",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "523",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "524",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "525",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "526",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "527",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "528",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "529",
+        "value": "sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "530",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "531",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "532",
+        "value": "objectification"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "533",
+        "value": "objectification"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "534",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "535",
+        "value": "sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "536",
+        "value": "objectification"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "537",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "538",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "539",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "540",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "541",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "542",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "543",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "544",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "545",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "546",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "547",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "548",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "549",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "550",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "551",
+        "value": "objectification"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "552",
+        "value": "objectification"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "553",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "554",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "555",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "556",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "557",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "558",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "559",
+        "value": "sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "560",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "561",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "562",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "563",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "564",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "565",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "566",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "567",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "568",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "569",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "570",
+        "value": "sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "571",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "572",
+        "value": "objectification"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "573",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "574",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "575",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "576",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "577",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "578",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "579",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "580",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "581",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "582",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "583",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "584",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "585",
+        "value": "objectification"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "586",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "587",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "588",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "589",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "590",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "591",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "592",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "593",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "594",
+        "value": "objectification"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "595",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "596",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "597",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "598",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "599",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "600",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "601",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "602",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "603",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "604",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "605",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "606",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "607",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "608",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "609",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "610",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "611",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "612",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "613",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "614",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "615",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "616",
+        "value": "objectification"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "617",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "618",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "619",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "620",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "621",
+        "value": "sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "622",
+        "value": "objectification"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "623",
+        "value": "sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "624",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "625",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "626",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "627",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "628",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "629",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "630",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "631",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "632",
+        "value": "objectification"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "633",
+        "value": "objectification"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "634",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "635",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "636",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "637",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "638",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "639",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "640",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "641",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "642",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "643",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "644",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "645",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "646",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "647",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "648",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "649",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "650",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "651",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "652",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "653",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "654",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "655",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "656",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "657",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "658",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "659",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "660",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "661",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "662",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "663",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "664",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "665",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "666",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "667",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "668",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "669",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "670",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "671",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "672",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "673",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "674",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "675",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "676",
+        "value": "objectification"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "677",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "678",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "679",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "680",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "681",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "682",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "683",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "684",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "685",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "686",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "687",
+        "value": "objectification"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "688",
+        "value": "objectification"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "689",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "690",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "691",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "692",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "693",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "694",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "695",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "696",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "697",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "698",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "699",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "700",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "701",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "702",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "703",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "704",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "705",
+        "value": "sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "706",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "707",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "708",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "709",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "710",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "711",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "712",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "713",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "714",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "715",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "716",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "717",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "718",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "719",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "720",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "721",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "722",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "723",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "724",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "725",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "726",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "727",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "728",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "729",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "730",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "731",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "732",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "733",
+        "value": "objectification"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "734",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "735",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "736",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "737",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "738",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "739",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "740",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "741",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "742",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "743",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "744",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "745",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "746",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "747",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "748",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "749",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "750",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "751",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "752",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "753",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "754",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "755",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "756",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "757",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "758",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "759",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "760",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "761",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "762",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "763",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "764",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "765",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "766",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "767",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "768",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "769",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "770",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "771",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "772",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "773",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "774",
+        "value": "objectification"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "775",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "776",
+        "value": "objectification"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "777",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "778",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "779",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "780",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "781",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "782",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "783",
+        "value": "objectification"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "784",
+        "value": "objectification"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "785",
+        "value": "sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "786",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "787",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "788",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "789",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "790",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "791",
+        "value": "objectification"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "792",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "793",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "794",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "795",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "796",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "797",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "798",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "799",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "800",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "801",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "802",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "803",
+        "value": "objectification"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "804",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "805",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "806",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "807",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "808",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "809",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "810",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "811",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "812",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "813",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "814",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "815",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "816",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "817",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "818",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "819",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "820",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "821",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "822",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "823",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "824",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "825",
+        "value": "objectification"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "826",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "827",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "828",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "829",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "830",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "831",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "832",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "833",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "834",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "835",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "836",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "837",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "838",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "839",
+        "value": "objectification"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "840",
+        "value": "sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "841",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "842",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "843",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "844",
+        "value": "sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "845",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "846",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "847",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "848",
+        "value": "sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "849",
+        "value": "objectification"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "850",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "851",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "852",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "853",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "854",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "855",
+        "value": "sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "856",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "857",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "858",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "859",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "860",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "861",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "862",
+        "value": "sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "863",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "864",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "865",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "866",
+        "value": "objectification"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "867",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "868",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "869",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "870",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "871",
+        "value": "sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "872",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "873",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "874",
+        "value": "objectification"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "875",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "876",
+        "value": "sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "877",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "878",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "879",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "880",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "881",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "882",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "883",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "884",
+        "value": "objectification"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "885",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "886",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "887",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "888",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "889",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "890",
+        "value": "objectification"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "891",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "892",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "893",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "894",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "895",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "896",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "897",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "898",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "899",
+        "value": "sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "900",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "901",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "902",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "903",
+        "value": "objectification"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "904",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "905",
+        "value": "objectification"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "906",
+        "value": "sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "907",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "908",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "909",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "910",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "911",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "912",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "913",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "914",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "915",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "916",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "917",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "918",
+        "value": "sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "919",
+        "value": "sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "920",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "921",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "922",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "923",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "924",
+        "value": "objectification"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "925",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "926",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "927",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "928",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "929",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "930",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "931",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "932",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "933",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "934",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "935",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "936",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "937",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "938",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "939",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "940",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "941",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "942",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "943",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "944",
+        "value": "objectification"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "945",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "946",
+        "value": "objectification"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "947",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "948",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "949",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "950",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "951",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "952",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "953",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "954",
+        "value": "objectification"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "955",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "956",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "957",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "958",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "959",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "960",
+        "value": "sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "961",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "962",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "963",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "964",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "965",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "966",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "967",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "968",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "969",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "970",
+        "value": "sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "971",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "972",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "973",
+        "value": "objectification"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "974",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "975",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "976",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "977",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "978",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "979",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "980",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "981",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "982",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "983",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "984",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "985",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "986",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "987",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "988",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "989",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "990",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "991",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "992",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "993",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "994",
+        "value": "sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "995",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "996",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "997",
+        "value": "sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "998",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "999",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "1000",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "1001",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "1002",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "1003",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "1004",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "1005",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "1006",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "1007",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "1008",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "1009",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "1010",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "1011",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "1012",
+        "value": "sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "1013",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "1014",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "1015",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "1016",
+        "value": "sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "1017",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "1018",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "1019",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "1020",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "1021",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "1022",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "1023",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "1024",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "1025",
+        "value": "ideological-inequality"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "1026",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "1027",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "1028",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "1029",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "1030",
+        "value": "stereotyping-dominance"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "1031",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "1032",
+        "value": "misogyny-non-sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "1033",
+        "value": "non-sexist"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "1034",
+        "value": "sexual-violence"
+    },
+    {
+        "test_case": "EXIST2022",
+        "id": "1035",
+        "value": "misogyny-non-sexual-violence"
+    }
+]
