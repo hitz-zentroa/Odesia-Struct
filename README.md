@@ -57,26 +57,26 @@ Every task output is defined as a JSON schema using Pydantic. For example, for `
 
 
 ```python
-        class LabelEnum(str, Enum):
-            ad_populum = "ad-populum"
-            flag_waving = "flag-waving"
-            absurdity_appeal = "absurdity-appeal"
-            demonization = "demonization"
-            doubt = "doubt"
-            fear_appeals_destructive = "fear-appeals-destructive"
-            name_calling = "name-calling"
-            propaganda_slinging = "propaganda-slinging"
-            scapegoating = "scapegoating"
-            undiplomatic_assertiveness_whataboutism = (
-                "undiplomatic-assertiveness-whataboutism"
-            )
-            loaded_language = "loaded-language"
-            appeal_to_false_authority = "appeal-to-false-authority"
-            bandwagoning = "bandwagoning"
-            non_propaganda = "non-propaganda"
+class LabelEnum(str, Enum):
+    ad_populum = "ad-populum"
+    flag_waving = "flag-waving"
+    absurdity_appeal = "absurdity-appeal"
+    demonization = "demonization"
+    doubt = "doubt"
+    fear_appeals_destructive = "fear-appeals-destructive"
+    name_calling = "name-calling"
+    propaganda_slinging = "propaganda-slinging"
+    scapegoating = "scapegoating"
+    undiplomatic_assertiveness_whataboutism = (
+        "undiplomatic-assertiveness-whataboutism"
+    )
+    loaded_language = "loaded-language"
+    appeal_to_false_authority = "appeal-to-false-authority"
+    bandwagoning = "bandwagoning"
+    non_propaganda = "non-propaganda"
 
-        class Identification(BaseModel):
-            label: List[LabelEnum]
+class Identification(BaseModel):
+    label: List[LabelEnum]
 ```
 
 
