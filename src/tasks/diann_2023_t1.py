@@ -15,7 +15,7 @@ random.seed(33)
 class Diann2023T1(Task):
     def __init__(
         self,
-        num_examples_few_shot: int = 20,
+        num_examples_few_shot: int = 8,
         **kwargs,
     ):
         super().__init__(
@@ -25,9 +25,15 @@ class Diann2023T1(Task):
         self._precompute_examples()
 
     def get_system_prompt(self):
+        """
+        Returns the system prompt for the task
+        """
         return "You are an AI assistant trained for named entity recognition. You are given a text and you need to extract disabilities mentioned in the text."
 
     def get_instruction(self):
+        """
+        Returns the guidelines for the task
+        """
         return """
 Analyze the given text and extract all named entities that are disabilities.
 
@@ -51,14 +57,30 @@ Provide your answer as a JSON object:
 """.strip()
 
     def get_pydantic_model(self):
+        """
+        Returns the Pydantic model for the task output
+        """
+
         class SequenceLabelling(BaseModel):
             disabilities: List[str]
 
         return SequenceLabelling
 
     def _precompute_examples(self):
+        """
+        Divide the training examples into classes from which we will sample the few-shot examples.
+        This allows to select a equal number of few-shot examples from each class
+        """
         train_data = self.get_split("train")
-        self.examples = train_data
+
+        # Sort the data by the length of the question (which includes the context)
+        sorted_data = sorted(train_data, key=lambda x: len(x["question"]))
+
+        # Calculate the number of examples to keep (80% of the total)
+        num_keep = int(len(sorted_data) * 0.6)
+
+        # Keep only the shortest 80% of examples
+        self.examples = sorted_data[:num_keep]
 
     def get_few_shot(self):
         return random.sample(
@@ -103,6 +125,7 @@ Provide your answer as a JSON object:
                     else None,
                     "test_case": item["test_case"],
                     "id": item["id"],
+                    "tokens": item["tokens"],
                 }
             )
 
@@ -154,12 +177,8 @@ Provide your answer as a JSON object:
             true_disabilities = data[i]["answer"].disabilities
             pred_disabilities = prediction.disabilities
 
-            true_iob = self._convert_to_iob(
-                data[i]["question"].split(), true_disabilities
-            )
-            pred_iob = self._convert_to_iob(
-                data[i]["question"].split(), pred_disabilities
-            )
+            true_iob = self._convert_to_iob(data[i]["tokens"], true_disabilities)
+            pred_iob = self._convert_to_iob(data[i]["tokens"], pred_disabilities)
 
             true_labels.append(true_iob)
             pred_labels.append(pred_iob)
@@ -182,7 +201,7 @@ Provide your answer as a JSON object:
 
         test_data = []
         for i, prediction in enumerate(predictions):
-            tokens = data[i]["question"].split()
+            tokens = data[i]["tokens"]
             iob_tags = self._convert_to_iob(tokens, prediction.disabilities)
             test_data.append(
                 {

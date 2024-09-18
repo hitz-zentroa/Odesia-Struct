@@ -1,18 +1,19 @@
 #Training args
-model_name_or_path: meta-llama/Meta-Llama-3.1-8B-Instruct
+model_name_or_path: NousResearch/Hermes-3-Llama-3.1-8B
 torch_dtype: bfloat16
 use_lora: false
 quantization: null
 gradient_checkpointing: true
 force_auto_device_map: false
 use_flash_attention: true
+deepspeed: train_configs/deepspeed_zero3.json
 
-output_dir: models/Llama-3.1-8B-Instruct
+output_dir: models/Hermes-3-Llama-3.1-8B
 overwrite_output_dir: true
-load_best_model_at_end: true
+load_best_model_at_end: false
 metric_for_best_model: eval_loss
 greater_is_better: false
-save_strategy: "epoch"
+save_strategy: "no"
 save_only_model: true
 save_total_limit: 1
 
@@ -27,7 +28,7 @@ per_device_eval_batch_size: 2
 gradient_accumulation_steps: 8
 
 # optimizer settings
-optim: adamw_torch_fused
+optim: adamw_torch
 learning_rate: 0.000005
 weight_decay: 0.0
 num_train_epochs: 3
@@ -49,7 +50,7 @@ logging_strategy: steps
 logging_first_step: true
 logging_steps: 5
 report_to: wandb
-run_name: "Llama-3.1-8B-Instruct"
+run_name: "Hermes-3-Llama-3.1-8B"
 disable_tqdm: false
 
 # hub settings

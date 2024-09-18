@@ -25,9 +25,15 @@ class Exists2023T1(Task):
         self._precompute_examples()
 
     def get_system_prompt(self):
+        """
+        Returns the system prompt for the task
+        """
         return "You are an AI assistant trained to identify sexist content in text. Your task is to analyze the given input and determine whether it contains sexist language or attitudes."
 
     def get_instruction(self):
+        """
+        Returns the guidelines for the task
+        """
         return """
 Analyze the given text to determine if it contains sexist content. 
 
@@ -41,6 +47,10 @@ Output: Provide your answer as a JSON object with the probabilities for each cat
 """.strip()
 
     def get_pydantic_model(self):
+        """
+        Returns the Pydantic model for the task output
+        """
+
         class Identification(BaseModel):
             sexist: float = Field(
                 ...,
@@ -61,6 +71,10 @@ Output: Provide your answer as a JSON object with the probabilities for each cat
         return Identification
 
     def _precompute_examples(self):
+        """
+        Divide the training examples into classes from which we will sample the few-shot examples.
+        This allows to select a equal number of few-shot examples from each class
+        """
         train_data = self.get_split("train")
         self.sexist_examples = []
         self.non_sexist_examples = []
@@ -114,13 +128,13 @@ Output: Provide your answer as a JSON object with the probabilities for each cat
 
     def _normalize_prediction(self, prediction: BaseModel) -> BaseModel:
         """
-        Normalizes the prediction probabilities using softmax.
+        Normalizes the prediction probabilities to ensure they sum to 1.
         """
         model = self.get_pydantic_model()
-        probs = torch.tensor([prediction.sexist, prediction.non_sexist])
-        normalized_probs = F.softmax(probs, dim=0)
+        total = prediction.sexist + prediction.non_sexist
         return model(
-            sexist=normalized_probs[0].item(), non_sexist=normalized_probs[1].item()
+            sexist=round(prediction.sexist / total, 2),
+            non_sexist=round(prediction.non_sexist / total, 2),
         )
 
     def evaluate(self, predictions: List[BaseModel], split="dev") -> Dict[str, float]:

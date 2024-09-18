@@ -39,14 +39,14 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10210",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@LilxSkunK @322_305 @Dragonfap @WomanInWorld_ @Pontifex_es Por otro lado, tú eres libre de ser, SÍ, todo lo ridículo que gustes y puedes hablar como te salga de la punta de la polla ¿o tengo que decir del pollo para que tu polla no se sienta discriminada? Es que me pierdo en lo inclusivo. Y disculpa si soy bruta, soy chica de pueblo",
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "10211",
-        "prediction": "ideological-inequality"
+        "prediction": "objectification"
     },
     {
         "question": "Ayer me dijeron “Es que vos no sos una mujer sumisa” “Siempre haces lo que queres” Y eso yo lo tomaré como un cumplido, porque algunos hombres siempre buscan una mujer con la que pueden hacer y deshacer, y yo no entro en ese grupo.",
@@ -60,7 +60,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10213",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Solo que ess puta de porno judio, no puede y sobre todo no debe romper a presidente.",
@@ -123,21 +123,21 @@
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "10222",
-        "prediction": "stereotyping-dominance"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "NO ES JUSTO QUE LAS MUJERES DEBAN TEMER POR SUS VIDAS, NO DEBERÍAN SER VULNERABLES A ABUSADORES COMO JOAQUÍN LEONEL PEREZ NI VIVIR CON EL CONSTANTE MIEDO DE QUE PUEDEN SER LAS SIGUIENTES.MILAGROS MERECE VIVIR SEGURA Y TRANQUILA #DejalaEnPaz",
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "10223",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Me sorprende ver estados de chicas o amigas que conozco muy bien,  que ponen, \"gracias a mi mamita por enseñarme a no ser una mantenida por un hombre\" JAJAJAJAJAJAJAAJJ,pero las mantiene los padres, caras rotas, yo las conozco a ustedes, por FB son una cosa.",
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "10224",
-        "prediction": "objectification"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "Vivo al frente de una mujer gigante durmiendo...La ven? https://t.co/gIZvQJFmEn",
@@ -158,7 +158,7 @@
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "10227",
-        "prediction": "stereotyping-dominance"
+        "prediction": "non-sexist"
     },
     {
         "question": "@BrunoVGalloLA SALAZALERA  El día de San ValentínTambién del enamoradoHoy no es tan celebradoCon ese olor a jazmínDe aquel hermoso jardínQue el catorce de febreroHacía gala un caballeroPara enaltecer con rosasA la mujer más preciosaSe ve apenas el florero",
@@ -179,14 +179,14 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10230",
-        "prediction": "stereotyping-dominance"
+        "prediction": "objectification"
     },
     {
         "question": "@anitaee73 @rocioglzm  yo jamas lo lleve jajajajaja pero me encanta fregar a la amiga...jajajaja",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10231",
-        "prediction": "objectification"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "A cuenta de la negra que ha matado a Gabriel. ¡ATENTOS A PODEMOS!   Lo que me faltaba por leer hoy. Qué cantidad de hijos de puta campan por este mundo.",
@@ -214,7 +214,7 @@
         "answer": "sexual-violence",
         "test_case": "EXIST2021",
         "id": "10235",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "sexual-violence"
     },
     {
         "question": "#PUBGM #LAMANADA CAMPEONES!Nuestra escuadra de PUBG Mobile se consagro campeona de la Latam Pro League - 3ra División y logro el ascenso a la 2da división. Felicitaciones a todos nuestros lobos.#FlowNocturns https://t.co/9nIYRJwmxT",
@@ -228,7 +228,7 @@
         "answer": "objectification",
         "test_case": "EXIST2021",
         "id": "10237",
-        "prediction": "ideological-inequality"
+        "prediction": "objectification"
     },
     {
         "question": "Trump SÍ se lo merece !!!   Dieciocho congresistas republicanos proponen a Trump para el Premio Nobel de la Paz  http://www.elmundo.es/internacional/2018/05/03/5aeb38bd22601d16378b45b4.html",
@@ -242,14 +242,14 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10239",
-        "prediction": "objectification"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@ZenTao14 @Nievessebastia1 @Aurorarradical @redlgb_ @SoniaVivasRive3 Las sentencias en firme no son acoso. Lo que tiene no vivir en el mundo de la magufada sentida es que sabes que este tipo de cosas pueden suceder: ¿Merece la pena que se ponga en riesgo a mujeres solo porque hay hombres que dicen sentirse mujer?",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10240",
-        "prediction": "stereotyping-dominance"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Audre Lorde, la poeta crítica con el feminismo blanco https://t.co/oX4h3aQTCo",
@@ -270,7 +270,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10243",
-        "prediction": "sexual-violence"
+        "prediction": "objectification"
     },
     {
         "question": "@Kara_Webbo lo de siempre un hombre diciendole a las mujeres como deben ser mujeres... para empezar que tiene de feminismo a transexualidad, es como si el feminismo se tuviese q encargar de todos los movimientos sociales tan solo pq somos mujeres no? es el colmo del patriarcado",
@@ -312,7 +312,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10249",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "objectification"
     },
     {
         "question": "\"Como Federación, estamos poniendo nuestro personal técnico al servicio de los ayuntamientos fortalecer las Unidades de Gestión Ambiental, con apoyo de @UnionEuropeaRD y en estrecha coordinación con @AmbienteRD\"@KelvinAlcalde, presidente de Fedomu https://t.co/Uif70dKDwD",
@@ -326,7 +326,7 @@
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "10251",
-        "prediction": "stereotyping-dominance"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "Ojalá los terraplanistas tuvieran razon porque vaya cosa mas fea por culpa de la curvatura pof https://t.co/pJusgnjpgj",
@@ -361,7 +361,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10256",
-        "prediction": "objectification"
+        "prediction": "non-sexist"
     },
     {
         "question": "@lucianacadahia Claro que las feministas no es que representen la igualdad, en estricto sentido.",
@@ -417,7 +417,7 @@
         "answer": "sexual-violence",
         "test_case": "EXIST2021",
         "id": "10264",
-        "prediction": "stereotyping-dominance"
+        "prediction": "sexual-violence"
     },
     {
         "question": "@BrujaVerde5 @melukaler @Angelalerena @lalomirlo #Notallmen porsupuesto, no me voy hacer cargo de los malos comportamientos de los demás. ojo con esos deconstruidos de cartón, yo me porté bien toda la vida, no vale lo mismo a un violento que se hace el progre de hace un año. no somos lo mismo, allá cada uno con quien se junta.",
@@ -445,14 +445,14 @@
         "answer": "objectification",
         "test_case": "EXIST2021",
         "id": "10268",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "Espero que no sea la SEÑORA POTTS. Puedo lidiar con las Señoritas, la Señora Potts me da respeto.",
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "10269",
-        "prediction": "stereotyping-dominance"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Los judíos plantarán su museo del holocausto delante del Parlamento inglés, estropeando las vistasLa verdad que sí, siempre jodiendo al gentil. Y los parlamentarios de la más antigua democracia callaos como putas a sueldo que son...https://tinyurl.com/y2kx88bw",
@@ -473,14 +473,14 @@
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "10272",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "non-sexist"
     },
     {
         "question": "La Verdad del Socialismo:   La política de ser generoso con lo ajeno —que no es otra cosa que la política de violar el derecho de propiedad— ha transformado al victimario en noble y a la víctima en delincuente  María Marty.",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10273",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Es muy triste , no imagino estar en los pies de esa mujer, desprotegida por la ley, no saber para donde correr, es terrible, los #policias entongados y tapandose entre ellos. Locx no nos olvidemos de #Ursula #UrsulaBahillo , me recuerda a un caso en San Lorenzo #PaulaPerassi . https://t.co/1rf9xNv9Ty",
@@ -494,28 +494,28 @@
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "10275",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "Cada día me pone más triste lo que son los hombres, trato de no meter a todos en la misma bolsa(SÉ QUE NO TODOS SON IGUALES), de poner ambas partes en la balanza y aún así siguen abajo, les pedís que no hagan una cosa y es lo que te hacen!! porqué no son claros, facilitarían todo",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10276",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "@Tita_Batres Que no vamos a votar por vos, marimacho",
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "10277",
-        "prediction": "stereotyping-dominance"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Nadie te va a tratar tan bien como un hombre que te quiere comer por primera vez.",
         "answer": "sexual-violence",
         "test_case": "EXIST2021",
         "id": "10278",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "objectification"
     },
     {
         "question": "Onvrez: Las mujeres no son las únicas que saben hacer un buen half-time, eh, para que sepas feminancy.The weeknd:Onvrez: Pero el maicol jatson tenía pene.",
@@ -536,7 +536,7 @@
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "10281",
-        "prediction": "stereotyping-dominance"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "Las personas que te llenan de amor en tus días grises merecen el cielo",
@@ -592,28 +592,28 @@
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "10289",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Aprendan a las esposas de los albañiles que no andan de celosas preguntando ¿\"Quien es esa golfa a la que le chiflas pendejo\"?",
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "10290",
-        "prediction": "stereotyping-dominance"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Las mujeres de tu vida - Don Omar feat. La MoscaEsta canción y este videoclip son orohttps://t.co/KnM9q2XcZU",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10291",
-        "prediction": "objectification"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "@ivanaacalderoon Nunca explicaste que eras bisexual y el termino mansplaining es una estupidez mas grande el culo de tu vieja",
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "10292",
-        "prediction": "stereotyping-dominance"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "la depresion se cura con BUENAS VIBRAS COMPRENSE ROPA VIAJEN pero version perspectiva de genero. es raro que una cualquiera sale a opinar de cualquier cosa metiendole perspectiva de genero no salgan a decirle que hace mansplaining o que es un onvre que cree que se las sabe todas https://t.co/rSJot4cCCQ",
@@ -641,7 +641,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10296",
-        "prediction": "ideological-inequality"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "@Minutojuniorist @JuniorClubSA Alexis Mendoza es el hombre, tuvo un equipo no tan bien armado, la figura era toloza, y jugaba bien y tuvo como 3 o 4 finales",
@@ -683,7 +683,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10302",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Dentro del tour que hicimos con mi pareja, estaba la parada en @churreriaeltopoEn la calle todas las parejas con sus  flores. Mi novio me conoce tan bien sabe que soy una gorda angurrienta, que me regaló un ramo de churros.Topo te amamos. #DiaDeLosEnamorados #AmorDelBueno Lo https://t.co/fBfJbYti1n",
@@ -725,7 +725,7 @@
         "answer": "sexual-violence",
         "test_case": "EXIST2021",
         "id": "10308",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Lo unico que apartaron los judios a la Humanidad es prostitución, abortos LGTB estúpidas formulas matemáticas guerras y la lista es interminable. No merecen mi respeto estos hijos de perra. Adolfo tenia razón",
@@ -746,14 +746,14 @@
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "10311",
-        "prediction": "stereotyping-dominance"
+        "prediction": "objectification"
     },
     {
         "question": "@SomosPeruOf Que porqueria de suciedad dice este pobre diablo. Ignorante generalizando, como se ve que lo consume la xenofobia y el populismo. Lee un poco animal y ve como tratamos en el pasado a los peruanos. A ti es el que hay que pararte en paredon y fusilarte con la escoria de Maduro. .i.",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10312",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@blogesca @MarcosBL JAJAJAJAJJAJAJ hasta las propias mujeres saben y dicen que si ritmo de futbol parece otro deporte... No mezcleis",
@@ -767,14 +767,14 @@
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "10314",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "Una perra comunista le roba la gorra de Trump a un chico en la universidad.  Video.   https://youtu.be/4MTglQxLPK0",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10315",
-        "prediction": "stereotyping-dominance"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "La Unidad de Atención Integral a Víctimas de Violencia de Género, Intrafamiliar y Delitos Sexuales de esta demarcación arrestó este miércoles por violación sexual a dos mujeres al médico Lenin Quezada Fernández, exalcalde del municipio de Licey al Medio. https://t.co/ANSd9YPOYe",
@@ -802,21 +802,21 @@
         "answer": "objectification",
         "test_case": "EXIST2021",
         "id": "10319",
-        "prediction": "objectification"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "@isaseegura es el ser humano de sexo femenino, independientemente de si es niña o adulta. Tiene diferencias biológicas con el varón, como la cintura más estrecha, cadera más ancha y pelvis más amplia. Sus genitales son diferentes y sus mamas, a diferencia del varón, están desarrolladas.",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10320",
-        "prediction": "ideological-inequality"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "@protestona1 Debería privar lo del acoso sexual. Quien era la jefa?",
         "answer": "sexual-violence",
         "test_case": "EXIST2021",
         "id": "10321",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Un tribunal emiratí niega el divorcio a una mujer y la obliga a regresar \"obediente\" con su marido El tribunal de la sharía del emirato deSharjah ha rechazado la solicitud de separación presentada por una mujer de unos 40 años que había decidido poner fi… https://t.co/TMgN1grOU0",
@@ -830,7 +830,7 @@
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "10323",
-        "prediction": "objectification"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@dara_ordonez ya nada es igual que cuando las putas y zorras nos comentábamos",
@@ -844,7 +844,7 @@
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "10325",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "sexual-violence"
     },
     {
         "question": "Qué fuerte la relación Gustavo- kiko . Jamás hubiera imaginado q tenían una relación tan estrecha... pobrecito kiko q adolescencia mas perdido ha pasado buscando cariño aquí y allá #yoveosalvame",
@@ -865,7 +865,7 @@
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "10328",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "@PNUDRD Tantos problemas que tiene este país y el PNUD jodiendo con eso... Eso es  personal y punto...Coño ustedes quieren sodomizar el mundo.",
@@ -879,7 +879,7 @@
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "10330",
-        "prediction": "objectification"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Me acabo de acordar que estando en la playa vimos pasar a una señorita con gran atributo físico ubicado en la parte posterior de su cuerpo, y de forma inmediata un amigo dice “le debo como 3 meses de renta a ese señor culazo”. Nunca me había reído tanto con una frase así.",
@@ -893,7 +893,7 @@
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "10332",
-        "prediction": "non-sexist"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Pura frígida y puro marrano en la lista de pluris del @CDEPRISonora nomás para usarlos de tapadera para todo el desmadre y chingaderas que hizo @claudiapavlovic https://t.co/2elCg5FJAa",
@@ -914,7 +914,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10335",
-        "prediction": "sexual-violence"
+        "prediction": "objectification"
     },
     {
         "question": "peraí. não vai ter tetas caídas, sovacos cabeludos, e bacalhau ao luar?ah! que p e n i n h a.",
@@ -928,7 +928,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10337",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "objectification"
     },
     {
         "question": "@Davinona Eso no es feminismo, es hembrismo.  Disculpa, hablaste en plural y no en singular para referirte solo a Alba.",
@@ -949,7 +949,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10340",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "non-sexist"
     },
     {
         "question": "Michelle Bachelet reconoce violación de derechos civiles y políticos en Venezuela –  El LíberoClaramente no quiere tener que decir violación de derechos humanos ni echarle la culpa al socialismo de Chávez y Maduro, así que habla de derechos civiles y políticos y usa las sanciones gringas como cabeza de turco.https://ellibero.cl/alerta/michelle-bachelet-reconoce-violacion-de-derechos-civiles-y-politicos-en-venezuela/?mc_cid=ccc0c16707&mc_eid=fdc9112205via @GabDissenter",
@@ -963,28 +963,28 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10342",
-        "prediction": "objectification"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "Los que defiendeis al cantante de la polla records (que es un yonki que no sabe cantar), vuestros padres son hermanos? ",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10343",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@Hylia_Ren la mujer se sorprendió cuando habló, pero no se puso nerviosa ni se asustó -Tranquila, puedes moverte libremente, aunque no te lo aconsejaría, esa herida en el pecho ha costado horrores tratarla. Siento decirte que te dejará una buena cicatriz -Dijo mientras se iba acercando + https://t.co/Ml6Zo1JdSq",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10344",
-        "prediction": "objectification"
+        "prediction": "non-sexist"
     },
     {
         "question": "Pues me gusta su diseño, sobre el artista me parece pelotudo funar a alguien sólo por torturar a su OC, no es como si tuviera una niña de verdad y la está haciendo pasar por eso https://t.co/Lq3fZogAh7",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10345",
-        "prediction": "objectification"
+        "prediction": "non-sexist"
     },
     {
         "question": "Valerie Solanas, la primera feminazi que quería «cortar en pedazos a los hombres» https://youtu.be/LQASYChaMMY",
@@ -998,21 +998,21 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10347",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "sexual-violence"
     },
     {
         "question": "@TomasGomZ Todas putas",
         "answer": "objectification",
         "test_case": "EXIST2021",
         "id": "10348",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "objectification"
     },
     {
         "question": "Hostias se van a Hinchar a follar los #Podemitas y el TIGRE..!!   Roban 9.000 euros en tetas y pollas de plástico en un sex shop de Almería http://bit.ly/2BPaRnx  #Sexo",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10349",
-        "prediction": "sexual-violence"
+        "prediction": "objectification"
     },
     {
         "question": "Sabéis como me uní a la generación del 27? Era muy amiga de Lorca y Alberti (que en paz descansen ambos), y también fui novia de Luis Buñuel durante un verano. Pero fui mucho más que “la novia de” o “la amiga de”, yo también fui poeta y escritora :) #poeta #feminismo #G27",
@@ -1033,14 +1033,14 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10352",
-        "prediction": "stereotyping-dominance"
+        "prediction": "non-sexist"
     },
     {
         "question": "No es lo mismo que te bombardee una trans que un Trump. Dónde va a parar... Bombardeos #metoo Bombardeos peritas y nada fascistas. https://t.co/LT6sqJC3He",
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "10353",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "sexual-violence"
     },
     {
         "question": "Una señora con las ideas claras y un culo estupendo. God bless America xD",
@@ -1089,7 +1089,7 @@
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "10360",
-        "prediction": "sexual-violence"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Sua mãe é tão gorda que precisa desmatar 7% da Amazônia pra fabricar o tanto de papel higiênico suficiente pra ela limpar a bunda.",
@@ -1103,7 +1103,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10362",
-        "prediction": "stereotyping-dominance"
+        "prediction": "non-sexist"
     },
     {
         "question": "@TvDannyZ Mmmm no, por ser la mayor no destruye nada, la carga emocional si bien es distinta, mucho del personaje como por ejemplo el hecho de ser una madre desde niña y la culpa por la perdida de su madre son lo que más la definen.",
@@ -1131,7 +1131,7 @@
         "answer": "objectification",
         "test_case": "EXIST2021",
         "id": "10366",
-        "prediction": "ideological-inequality"
+        "prediction": "objectification"
     },
     {
         "question": "@iKissRadfems me quiero follar al osito bimbo, sus deliciosas curvas me excitan demasiado, tanto que me hacen llegar al orgasmo de solo verlas, me gustaría darle unas fuertes nalgadas a sus blancas y suaves pompas joder me tienes demente ni puedo verte en el supermercado porque se me pone dura",
@@ -1145,14 +1145,14 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10368",
-        "prediction": "non-sexist"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "Leí a una q decía q los hombres no deberían usar musculosas (???. Si las mujeres usamos pq tenemos calor por qué un hombre no podría usar también una musculosa? Como les gusta decirle a los demás como vivir la concha de sus madres",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10369",
-        "prediction": "objectification"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@alfredinsky @FidiasNunez @FranAlabi La estrecha capacidad de olvidar rapidamente",
@@ -1166,7 +1166,7 @@
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "10371",
-        "prediction": "objectification"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "@anotherrrobot @angeldlamort Tio tan difícil de entender es (por poner un ejemplo) que a las mujeres nos moleste escuchar una y otra vez los mismos chistes misóginos que parecen sacados del medievo? Xddd luego por otro lado os quejáis diciendo que \"no todos los hombres [texto predictivo]\"",
@@ -1187,7 +1187,7 @@
         "answer": "sexual-violence",
         "test_case": "EXIST2021",
         "id": "10374",
-        "prediction": "objectification"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@gastonm31518526 Si boludo está muy rebelde. Le falta aunquesea hablar con una mujer y ya es un plaga bárbaro",
@@ -1201,7 +1201,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10376",
-        "prediction": "non-sexist"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "@GordoMonstruo__ En lugar de ayudar a las mujeres a defenderse, aumentan el tamaño del patriarcado. Feministas, hagan purga, denuncien a los que viven para el cargo, y apoyen causas como la libre portación. Hasta entonces, #ElFeminismoEsComplice",
@@ -1215,14 +1215,14 @@
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "10378",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "#España #Musulmanes  #islam   Detenido un hombre, de una raza que no podemos decir, por violar a 13 mujeres en Alicante.   https://www.mediterraneodigital.com/espana/espana/vox-se-querella-contra-pedro-sanchez-y-sentara-al-presidente-del-gobierno-en-el-banquillo.html",
         "answer": "sexual-violence",
         "test_case": "EXIST2021",
         "id": "10379",
-        "prediction": "non-sexist"
+        "prediction": "sexual-violence"
     },
     {
         "question": "Una de las feministas resultó con una herida en la cara luego de recibir un golpe con un megáfono luego de abalanzarse en contra de la mujer que lo estaba usando para quitárselo.https://t.co/9n3zuQWsBJ",
@@ -1236,28 +1236,28 @@
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "10381",
-        "prediction": "stereotyping-dominance"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Podemos hablar de cómo una mujer de color está cantando en el país más horriblemente racista y misogino del perro mundo. https://t.co/bRLoT5O7TS",
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "10382",
-        "prediction": "stereotyping-dominance"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "@hora25 @La_SER @CienciaGob @astro_duque @PepaBueno a dorarle la píldorareirle las graciaspregúntale a que dedica el tiempo librey por la offshore de su mujer claroa no solo buen rollito",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10383",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "objectification"
     },
     {
         "question": "Hace tiempo que no me siento atractiva.",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10384",
-        "prediction": "stereotyping-dominance"
+        "prediction": "non-sexist"
     },
     {
         "question": "Era @BernieSanders el hombre que necesita EUA, ahora en un mes de mandato tienen al mundo otra vez al borde de una guerra, cuando la que tenemos contra el COVID aún no acaba. Biden es más de lo mismo https://t.co/jcY7sduojx",
@@ -1271,7 +1271,7 @@
         "answer": "sexual-violence",
         "test_case": "EXIST2021",
         "id": "10386",
-        "prediction": "non-sexist"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "nao merece estar la...",
@@ -1299,21 +1299,21 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10390",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "Aqui estoy zorras https://t.co/I6skbFDW6Q https://t.co/DvqshjucDT",
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "10391",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "objectification"
     },
     {
         "question": "Aquí dejo esto para todas esas feministas que admiran a esta pareja escoria de marxistashttps://disidencias.net/balderouge/las-travesuras-de-simone-de-beauvoir-y-jean-paul-sartre/",
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "10392",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "tal vez no tenga culo pero al menos lo se mover",
@@ -1334,7 +1334,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10395",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "http://casoaislado.com/refugiado-afgano-viola-una-nina-13-anos-tras-salir-la-carcel-intento-violacion/Alemania no levanta cabeza",
@@ -1348,7 +1348,7 @@
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "10397",
-        "prediction": "stereotyping-dominance"
+        "prediction": "non-sexist"
     },
     {
         "question": "@sanchezcastejon Menos palabrería que no sirve absolutamente para nada, y más actuar de verdad, contra esta escoria que se está cargando Cataluña.",
@@ -1383,21 +1383,21 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10402",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "@put4cachondatex Yo no diria que seas puta al contrario eres una mujer que le agrada experimentar nuevas emociones y x ende no es ser eso si no todo lo contrario y en verdad se nota que disfrutas tus experiencias x mucho de las expectativas cuidensen y aqui tienes un seguidor y admirador suyo",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10403",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "objectification"
     },
     {
         "question": "@grisasexual Hermano #yositecreo",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10404",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "non-sexist"
     },
     {
         "question": "@elisacarrio Jubilate, gorda termotanque de carne picada a precios cuidados.",
@@ -1418,7 +1418,7 @@
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "10407",
-        "prediction": "ideological-inequality"
+        "prediction": "non-sexist"
     },
     {
         "question": "@PabloIglesias Sois escoria y tenemos q echaros yaaa",
@@ -1432,7 +1432,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10409",
-        "prediction": "objectification"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Paris Hilton: A sus 40 rubia, pero no tonta https://t.co/IzSKUG0kRQ https://t.co/REAZrXQWI3",
@@ -1446,7 +1446,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10411",
-        "prediction": "ideological-inequality"
+        "prediction": "non-sexist"
     },
     {
         "question": "Idiota, esos son tus amigos de los CDR, a los que besáis el culo en la colonia.",
@@ -1467,7 +1467,7 @@
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "10414",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "como mujer cis SI TIENES PRIVILEGIO a comparación de las mujeres trans, su expectativa de vida es de 35 años, entre la poca oferta laboral, la prostitución, el rechazo, el no poder hacer la transición, los crímenes de odio y la posible depresión que te puede agarrar por ello mmm",
@@ -1509,14 +1509,14 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10420",
-        "prediction": "stereotyping-dominance"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "@chicajazz @BoudicaTercera @venus_2121 @PrimeraLinea9 Hay que ser bien chica para hacer amenazas por esta rrss, yo creo que por eso te dijo chica si está equivocada madura!!!",
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "10421",
-        "prediction": "non-sexist"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@Archidoitlisba1 @yiyibascu @jesuvivesz La chica acaba de ser estafada y aparece ella con su comentario diciéndole que para la otra pague después, eso es prácticamente echarle la culpa.Y no me vengai a huevear con que soy yo la maleducada desagradable que ni te conozco, barsa de mierda",
@@ -1530,14 +1530,14 @@
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "10423",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@osvaldobazan Esta a oposición nefasta, frigida y  cobarde va volver a perder. Lamentablemente.",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10424",
-        "prediction": "ideological-inequality"
+        "prediction": "non-sexist"
     },
     {
         "question": "  zorra a jose la miércoles  y a mi twiter blowueados y fakebumker...también.. Por la zorra de ana pastor..@MeDaIgual",
@@ -1572,14 +1572,14 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10429",
-        "prediction": "ideological-inequality"
+        "prediction": "non-sexist"
     },
     {
         "question": "@Anaro74 Desgraciadamente en México opines lo que opines, hasta lo que no se comen les hace daño, la cultura de fregar a como de lugar",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10430",
-        "prediction": "non-sexist"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "EXPONIENDO A @Choi_Mintae ¿Es Mintae una guarra?Abro hilo.",
@@ -1593,7 +1593,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10432",
-        "prediction": "stereotyping-dominance"
+        "prediction": "objectification"
     },
     {
         "question": "@fridaydiegoqro No es exclusivo swinger, pueden ir chicos solos, pero los que vimos son muy tímidos. Así que si van, deben ir con ánimo de tomar la iniciativa para que no sean ignorados. Las parejitas y mujeres casi nunca los llamarán ni tomarán la iniciativa por ellos.",
@@ -1621,7 +1621,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10436",
-        "prediction": "objectification"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Me pregunto hasta qué punto las líderes de partidos que intentan capitalizar el feminismo son conscientes del daño que le causan al escenificar sus diferencias en el teatro institucional del gobierno representativo. ¡Cuánta falta hace nos la autonomía de los movimientos!",
@@ -1635,28 +1635,28 @@
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "10438",
-        "prediction": "objectification"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "@krosula yo me divierto en los bazares soy una vieja frígida",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10439",
-        "prediction": "objectification"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@jlixtiny ay pero una niña en tiktok está haciendo como subs de skz code chilensis y dijo esta weá es como hotel beach? peeero si me veo el reality completo en volá lo hago",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10440",
-        "prediction": "non-sexist"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Además de la socialización diferenciada (sexismo) y la valoración simbólica de lo masculino (androcentrismo) el patriarcado se transmite a través de la discriminación, el menosprecio y la violencia cotidianas hacia las mujeres.Este miércoles en #WikiFeminista: MACHISMO https://t.co/PzyiunE87V",
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "10441",
-        "prediction": "ideological-inequality"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "@JootaGT Lo se,mi perra tuvo que llevar uno hace 2 años cuando la operaron y me dió mucha pena",
@@ -1719,14 +1719,14 @@
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "10450",
-        "prediction": "non-sexist"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "@Statsatm Gerard no va a estar en su casa, es un habitual desde hace tiempo. Y Adama nunca ha llegado a ser titular con la Selección. Fue convocado cuando hizo méritos en su club, ahora está por ver. Por qué das por hecho lo que nunca ha pasado? Ese victimismo llevado a todo...",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10451",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "@ivancarrino La misma idea estúpida de \"los hombres ginecólogos al no tener útero no deberían atender a las mujeres\". Van muy bien champion.",
@@ -1747,7 +1747,7 @@
         "answer": "sexual-violence",
         "test_case": "EXIST2021",
         "id": "10454",
-        "prediction": "sexual-violence"
+        "prediction": "non-sexist"
     },
     {
         "question": "me parte el corazón leer estas cosas #YoSiTeCreo  https://t.co/66JWsxnzkD",
@@ -1782,7 +1782,7 @@
         "answer": "objectification",
         "test_case": "EXIST2021",
         "id": "10459",
-        "prediction": "non-sexist"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "@BrumarioRMadrid He apoderado al pp en bcn, como siempre. Muy duro ver como triunfa lo peor. Alejandro es el mejor candidato. La campaña ha sido la más atractiva. Trabajada Madrid se ha volcado Casado ha estado casi cada día. Casado es el mejor candidato para el gobierno pero hay lo que hay",
@@ -1803,7 +1803,7 @@
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "10462",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "@sabinaberman Disculpe, pero no todo se puede escudar en el mal llamado feminismo de hoy en día. Hablando de deconstruir, el feminismo no está exento de ser manipulado, cuestionado o desacreditado si quienes están dentro lo usan para todo menos para la justicia de todas las mujeres.",
@@ -1817,7 +1817,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10464",
-        "prediction": "objectification"
+        "prediction": "non-sexist"
     },
     {
         "question": "@RAMN89845778 @ursulaup @araferreyraok No tiene lógica capo. Una cosa es abortar y otra cosa es asesinar a mujeres, a personas. No son las mismas acciones. Son protocolos distintos y situaciones distintas.",
@@ -1845,14 +1845,14 @@
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "10468",
-        "prediction": "ideological-inequality"
+        "prediction": "non-sexist"
     },
     {
         "question": "@Slider06 @felorivera96 @higuitarene @nacionaloficial @AmericadeCali . A los l que les dio por el culo fue a usudes. ¿¡Cómo putas tu ídolo te va a mandar a la ?!",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10469",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "objectification"
     },
     {
         "question": "@IreneMontero Que es contra ti, incompetente. Deja de creerte \"todas las mujeres\", que las demás no tenemos la culpa de que te vayas todas las noches a dormir con un tío feo y estés amargada. Petarda.",
@@ -1908,7 +1908,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10477",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "España: Un gobierno que prefiere proteger a los que vienen de fuera que a sus mayores, los cuales han trabajado duro por levantar al país, no merece ningún tipo de respeto.",
@@ -1964,7 +1964,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10485",
-        "prediction": "objectification"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Los problemas económicos de Cataluña se deben a una pésima gestión, con gastos innecesarios que hacen que sea insolvente, no pueda financiarse por ella misma al tener la calificación de bono basura y tener la mayor deuda pública de España.#economía #cataluñahttps://www.libremercado.com/2018-12-20/jose-maria-rotellar-el-victimismo-separatista-al-descubierto-cataluna-es-una-de-las-autonomias-mejor-financiadas-86761/",
@@ -1985,7 +1985,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10488",
-        "prediction": "stereotyping-dominance"
+        "prediction": "non-sexist"
     },
     {
         "question": "Me molesta un poco que las mujeres presuman lo de su pareja, su carro, su moto, su casa, su todo, vieja usted tiene las capacidades de conseguir todo eso y mas, no tiene porque presumir el sudor de otros",
@@ -1999,21 +1999,21 @@
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "10490",
-        "prediction": "stereotyping-dominance"
+        "prediction": "objectification"
     },
     {
         "question": "@megacrack200 @MediterraneoDGT Broma? Si en sus paises es normal violar a niñas y tatar a las mujeres como objetos pues nosotros no somos nadie para decirles que eso no se puede hacer, tendriamos que ser mas compresivos con esta gente",
         "answer": "sexual-violence",
         "test_case": "EXIST2021",
         "id": "10491",
-        "prediction": "ideological-inequality"
+        "prediction": "objectification"
     },
     {
         "question": "Bahar:-te voy a pegar una paliza zorra!-Coño los niños!#Mujer9Feb https://t.co/kieeulWqVw",
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "10492",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "sexual-violence"
     },
     {
         "question": "1492 fue el inicio del descubrimiento de Europa, no de América\"Mi madre murió de Alzheimer y la angustia de un enfermo sin memoria es que se siente sin futuro. El pasado tiene una estrecha relación con lo que somos y con lo que podemos ser\"https://t.co/13g6rO3ANI",
@@ -2034,7 +2034,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10495",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@NaChAlAnD Igual se está gastando lo que no tiene o tiene en pagar abogados y prensas para que saquen y pongan información a su antojo.Mientras tanto hay mujeres \" sacerdotisas\" que todavía haciéndole mamadas, y tocándose para exitarlo x que siguen llamandolo su maestro..y las feministas?",
@@ -2062,7 +2062,7 @@
         "answer": "objectification",
         "test_case": "EXIST2021",
         "id": "10499",
-        "prediction": "stereotyping-dominance"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Que se larguen los centroamericanos, fuera de Nuevo León escoria subhumana, vayanse a sus paises de porqueria y dejen a los regios y a NL en paz! regios despierten, tiempo de buscar separarnos de Mexico y ser una nación independiente para aplicar politicas migratorias estrictas y NO las del gobierno chilango destructor, solo nos llenan con su maldita prole",
@@ -2076,21 +2076,21 @@
         "answer": "objectification",
         "test_case": "EXIST2021",
         "id": "10501",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "@danielalozanocu No sería al contrario? Si los hombres somos los malos en todo deberíamos estar en el infierno y las mujeres y los gays, que son benditos e inmaculados deben estar en el cielo",
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "10502",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "me quiero follar a bambi, sus deliciosas curvas me excitan demasiado, tanto que me hacen llegar al orgasmo de solo verlas, me gustaría darle unas fuertes nalgadas a sus marrones y suaves pompas joder me tienes demente ni puedo verte en el bosque porque se me pone dura https://t.co/Zg08kMMGBE",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10503",
-        "prediction": "sexual-violence"
+        "prediction": "objectification"
     },
     {
         "question": "mi abuelo m dijo \"tu falda es muy corta\" y casi se m sale un \"querés q hablemos de cosas cortas?\"",
@@ -2104,7 +2104,7 @@
         "answer": "sexual-violence",
         "test_case": "EXIST2021",
         "id": "10505",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "¿Ya viste \"La MUJER DE PIEDRA? Mirá sus 4 episodios en #ContarEstudiantes reviven a una mujer convertida en piedra en el terremoto de #Salta en 1692, pero despiertan como zombis los antiguos habitantes del lugar.De Noelia D’Alessandro, D. Marinaro, C. Tamagnini@SecCulturaSLA https://t.co/Pr11ztGhSA",
@@ -2118,7 +2118,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10507",
-        "prediction": "ideological-inequality"
+        "prediction": "objectification"
     },
     {
         "question": "Realmente tengo muchas ganas de lograr todas mis metas, ser una mujer de negocios, verme como toda una mujer empoderada, dar trabajos,  ser la inspiración de otras mujeres,  realmente tengo muchas ganas de triunfar Y éstas ganas no me las quita nadie",
@@ -2146,14 +2146,14 @@
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "10511",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "Hay mucho mansplaining de onvres a onvres. Hay que fumárselo? O se puede condenar?",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10512",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "GINNY LA PUTA MADRE https://t.co/fPomnHOlee",
@@ -2167,14 +2167,14 @@
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "10514",
-        "prediction": "stereotyping-dominance"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@NicolNando Una mujer obediente sexualmente es una gran maravilla La cuestion es q pasa si le das rienda suelta q reacionaria la fiera?  seria capas de hacer algo en rebelion",
         "answer": "objectification",
         "test_case": "EXIST2021",
         "id": "10515",
-        "prediction": "objectification"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "No Rey, Bogotá necesita un ALCALDE, mujer u hombre, lo que sea, pero ALCALDE, autoridad, digna, respetable, seria... https://t.co/kuAm4FQzHm",
@@ -2202,7 +2202,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10519",
-        "prediction": "sexual-violence"
+        "prediction": "objectification"
     },
     {
         "question": "https://www.esdiario.com/610882287/Polemica-El-Pais-ataca-a-La-Sexta-por-convertirse-en-un-comisiarado-feminazi.html",
@@ -2223,14 +2223,14 @@
         "answer": "sexual-violence",
         "test_case": "EXIST2021",
         "id": "10522",
-        "prediction": "sexual-violence"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@Luis_Delia Cuánta mierda y escoria kiechnerista .... La mierda mayor ya se está pudriendo en el infierno... El otro piquetero de mierda ojalá que pronto",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10523",
-        "prediction": "non-sexist"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "@troll760 Antes parecías homosexual ,ahora pareces una vieja puta",
@@ -2265,7 +2265,7 @@
         "answer": "sexual-violence",
         "test_case": "EXIST2021",
         "id": "10528",
-        "prediction": "sexual-violence"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "\"El 8M\"Las mujeres dependientes de papá Estado y de sus maridos, como no saben que en España siempre fuimos libres e iguales a los hombres, volverán a pedirnos que seamos iguales a ellas.Pues no gracias, prefiero valerme por mi misma. https://t.co/yQ1yUxgU5V",
@@ -2293,21 +2293,21 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10532",
-        "prediction": "objectification"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "@TonoSVJ Condenado y nenaza que no para de lloriquear.",
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "10533",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "No puedo más con las zorras",
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "10534",
-        "prediction": "stereotyping-dominance"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@FeminismoDgital @watxuki @AAlvarezAlvarez @CarlaAntonelli @VICTORVILLAREPI @carmencalvo_ @abalosmeco @ContraBorrado Daño hacen los que, con esa excusa, cargan contra un grupo de mujeres porque en el fondo, el problema, es que no las consideran como tales.Disfrazar las verdaderas intenciones de otra cosa es lo más antiguo del mundo.",
@@ -2328,28 +2328,28 @@
         "answer": "sexual-violence",
         "test_case": "EXIST2021",
         "id": "10537",
-        "prediction": "non-sexist"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "Mi mujer, hermosa, empoderada, UNICA. https://t.co/pPEmzByEow",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10538",
-        "prediction": "stereotyping-dominance"
+        "prediction": "objectification"
     },
     {
         "question": "@rmapalacios Entonces estos congresistas sólo sirven para fregar. Deben por lo menos dignarse aprender a leer.",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10539",
-        "prediction": "non-sexist"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "@JeffGar21 Lo siento Aitor he de pegar mujeres",
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "10540",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "sexual-violence"
     },
     {
         "question": "Tengo a la mujer más linda a mi lado, y no hablo solo físicamente, de verdad ojalá todos encuentren una persona como mi novia (lo dudo, pero al menos parecida), lo es todo.",
@@ -2363,42 +2363,42 @@
         "answer": "objectification",
         "test_case": "EXIST2021",
         "id": "10542",
-        "prediction": "stereotyping-dominance"
+        "prediction": "objectification"
     },
     {
         "question": "Mayoría de edad en Colombia: 18 años.Le pago una caña y pincho de tortilla a quien, a simple vista y en un bar oscuro, sepa distinguir una chica de 17 años de una de 18.https://okdiario.com/espana/2018/10/08/jueces-del-supremo-que-fueron-colombia-avisan-delgado-que-querellaran-si-no-retracta-3205023",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10543",
-        "prediction": "objectification"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "@LaPiratadeVox NENAZA Anda quítate de ahí pringao y deja a un MACHO de verdad TEMBLAD FUERZAS DE OCUPACIÓN SENSEI SANDOKAN HA VUELTO  para SENSEI SANDOKAN los estacazos son CARICIAS https://t.co/rbjxOz5b7P",
         "answer": "sexual-violence",
         "test_case": "EXIST2021",
         "id": "10544",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "ya os gustaría tener el culo de mi tata yohana zorras",
         "answer": "objectification",
         "test_case": "EXIST2021",
         "id": "10545",
-        "prediction": "objectification"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@GatosQls Pero si armo el primer sindicato en la escuela Militar, lucho por la igualdad entre tanques y tanquetas , además de pedir que no se discriminara por el color de la boina ....y en su tiempo libre daba charlas a un montón de tipos de como hablar y escribir wuebadas.",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10546",
-        "prediction": "ideological-inequality"
+        "prediction": "non-sexist"
     },
     {
         "question": "Ejem, ejem... Un hombre sirio con cuatro mujeres y 23 hijos cobra 30.000€ al mes del sistema social alemán. Hay quienes se lo saben montar y otros que no sabemos ?",
         "answer": "objectification",
         "test_case": "EXIST2021",
         "id": "10547",
-        "prediction": "stereotyping-dominance"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "El androcentrismo no tiene límites https://t.co/0QCxeK7RiQ",
@@ -2468,14 +2468,14 @@
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "10557",
-        "prediction": "ideological-inequality"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "León mata a gorda animalista que quería dedicarse a cuidar animales en vez de a sus hijosDios perdona siempre; los hombres, a veces, la Naturaleza, nunca. DEP.https://abcnews.go.com/US/killed-lion-escapes-enclosure-north-carolina-animal-center/story?id=60080172",
         "answer": "objectification",
         "test_case": "EXIST2021",
         "id": "10558",
-        "prediction": "non-sexist"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@Viri_Rios Entonces el feminismo es un movimiento político Que no eran apartidistas, entonces si están financiadas por grupos de poder Fija mejor tus posturas, le puedes hacer más daño al movimiento, que ayudarlo https://t.co/QPCxfuRzYE",
@@ -2517,14 +2517,14 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10564",
-        "prediction": "stereotyping-dominance"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "me hablo una mina q me ghostea hace dos meses para saludarme y me pregunto q onda soplas las velitas? para caerme en mi casa y casi le contesto q Si  xq me acorde de las fotos de ayer con los coreanos manspreading https://t.co/8cVGY7yLMn",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10565",
-        "prediction": "sexual-violence"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "@mdudastoessel @JorgeBlancoG merece tantoooo",
@@ -2538,21 +2538,21 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10567",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Si eres árabe, puedes violar en grupo a niñas blancas durante años o décadas sin que la policía haga nada al respecto, pero si eres blanco y simplemente informas acerca de dicho crimen y del juicio que está teniendo lugar, eso significa tu arresto a los pocos minutos de haber llegado. #FreeTommyRobinson",
         "answer": "sexual-violence",
         "test_case": "EXIST2021",
         "id": "10568",
-        "prediction": "sexual-violence"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@xAna_Sofix Te comía ese chocho y esas tetas tan bonitas y te follaba",
         "answer": "sexual-violence",
         "test_case": "EXIST2021",
         "id": "10569",
-        "prediction": "objectification"
+        "prediction": "sexual-violence"
     },
     {
         "question": "@gonzalega_ Hombre, tanto como que nos han bañado... No han sido ni siquiera superiores. El Lega ha tenido dos clarísimas y las han sacado, una de ellas debajo del larguero. Además, han estado un bien rato sin pasar del medio del campo con el balón controlado. Que no estamos tan mal, hombre.",
@@ -2594,21 +2594,21 @@
         "answer": "sexual-violence",
         "test_case": "EXIST2021",
         "id": "10575",
-        "prediction": "stereotyping-dominance"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@MovistarPeru @OSIPTEL Ya le atendieron por ahí, y no me quieren ayudar si no les doy ese dato, lo cual cualquier personal de TI sabe que es una violacion a la seguridad de la información.",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10576",
-        "prediction": "ideological-inequality"
+        "prediction": "non-sexist"
     },
     {
         "question": "Me canse literalmente que la gente me diga, sos tan buena, sos una chica linda no te mereces tal cosa tal otra... parece que hay que ser bastante sorete para que te vaya bien...",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10577",
-        "prediction": "objectification"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "#Entérate El @PueblaAyto acumula 28 denuncias interpuestas contra funcionarios públicos por hostigamiento laboral y acoso sexual o laboral. https://t.co/HRZSvVqKEFVía: @dimemariaan",
@@ -2629,7 +2629,7 @@
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "10580",
-        "prediction": "stereotyping-dominance"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@SeptimoU @hax_uchi Sinceramente ni zorra, hace tiempo que lo dejé de seguir, empezaba a hacerse cansino",
@@ -2650,7 +2650,7 @@
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "10583",
-        "prediction": "stereotyping-dominance"
+        "prediction": "objectification"
     },
     {
         "question": "Ramiro Grau: Nunca oí a ninguna mujer pidiendo hacer la mili, el servicio a España sin recibir contraprestación algunaNunca lo había pensado...https://www.elcorreodemadrid.com/nacional/888197593/Ramiro-Grau-Nunca-oi-a-ninguna-mujer-pidiendo-hacer-la-mili-el-servicio-a-Espana-sin-recibir-contraprestacion-alguna.html",
@@ -2685,7 +2685,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10588",
-        "prediction": "non-sexist"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "@WillyAshcroft @tanamafiosa1974 @Apaparaway @JorgelinaKos Yo tuve clases con un nativo hace muchos años. Acá en Twitter hay una chica inglesa que da clases",
@@ -2720,7 +2720,7 @@
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "10593",
-        "prediction": "stereotyping-dominance"
+        "prediction": "objectification"
     },
     {
         "question": "Para algunos los cuentos sí pueden tener un final feliz.#mgtow #redpill https://t.co/K1SCvPHfYL",
@@ -2734,7 +2734,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10595",
-        "prediction": "non-sexist"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "No debería de sentirme reprimida de escribir algunas cosas ... Igual para eso es Twitter",
@@ -2748,7 +2748,7 @@
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "10597",
-        "prediction": "ideological-inequality"
+        "prediction": "objectification"
     },
     {
         "question": "Muy lindo tu culo amiga, pero quemaste las tostadas.",
@@ -2776,7 +2776,7 @@
         "answer": "sexual-violence",
         "test_case": "EXIST2021",
         "id": "10601",
-        "prediction": "non-sexist"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@eldiarioes @FatymaCaballero Que llame vago a Errejón quien no ha dado un palo en la vida y es complice en alzamiento de bienes y corrupta por perdonar la deuda pública de su padre ¡Manda narices! Ya la podemos llamar golfa y sinverguenza. Son lo  mismo que los ultras.",
@@ -2804,14 +2804,14 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10605",
-        "prediction": "stereotyping-dominance"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "¿Las feministas seguireis calladas por defender a esta escoria solo por ser musulmanes y extrangeros?¿Solo condenais a blancos españoles? ¿Los condenareis cuando sean vuestras madres, hermanas e hijas? #UngaUngaArmy #FelizJueveshttps://latribunadeespana.com/internacional/taharrush-el-juego-musulman-de-violacion-de-infieles-se-extiende-por-europa",
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "10606",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Me saque a la mierda la pintura de las uñas, y ni fea las tenia",
@@ -2825,7 +2825,7 @@
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "10608",
-        "prediction": "stereotyping-dominance"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "?? te quedaste sin argumentos o.. porque pareces una puta niña de primaria https://t.co/tCqCvWM4pW",
@@ -2860,7 +2860,7 @@
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "10613",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "yo diciéndole a mi mamá que ya casi no hay gatos y en eso dice mi abuela dice que el gato que anda aquí está embarazada quedé",
@@ -2881,7 +2881,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10616",
-        "prediction": "non-sexist"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "#ViernesIntratable callen a la rubia tonta de vestido gris, que tira datos sin mencionar concretamente la fuente, mas macrista la tonta",
@@ -2930,7 +2930,7 @@
         "answer": "sexual-violence",
         "test_case": "EXIST2021",
         "id": "10623",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "sexual-violence"
     },
     {
         "question": "@greenjota_ @SusanitaG5 @Joan49383476 @h0m3r02 Deberías irte a vivir a Praga una temporada. Es imprescindible si se quiere saber con certeza lo que hacían los nazis. Tú no tienes NI PUTA IDEA, @greenjota_  De lo único que pareces saber algo es de fútbol.",
@@ -2958,7 +2958,7 @@
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "10627",
-        "prediction": "stereotyping-dominance"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Feministas de Twitter y demás escoria en tu zona.",
@@ -2979,14 +2979,14 @@
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "10630",
-        "prediction": "non-sexist"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "Encontramos el piso de las chicas de Villarejo (del que habló a la ministra Delgado) http://www.elmundo.es/cronica/2018/10/14/5bc1be68268e3e6a348b45cc.html",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10631",
-        "prediction": "non-sexist"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "@yayarmadrid Pero qué tienen las pasarelas de madera que llegan a la playa de machistas xd, qué me lo expliquen pero no una feminazi",
@@ -3007,7 +3007,7 @@
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "10634",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Los mismos que publican que no pueden creer lo que le hacen a las mujeres son esos que son super tóxicos con sus chicas,las encierran en un círculo de mierda !!!Los odio ,no sirven lacras",
@@ -3021,7 +3021,7 @@
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "10636",
-        "prediction": "non-sexist"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "era comer como señorita, no comerse a una señorita",
@@ -3084,14 +3084,14 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10645",
-        "prediction": "stereotyping-dominance"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "Me encanta esta mujer. Es mejor que Faemino y Cansado y Martes y Trece juntos",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10646",
-        "prediction": "stereotyping-dominance"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "@CitlaHM @mario_delgado y AMLO la pisotean a usted, ni siquiera le dan voz, cómo es posible que como SECRETARIA NACIONAL del partido y como \"defensora\" de la mujer no pueda influir en absolutamente nada en esta aberración de candidato, discúlpeme pero la tienen ahí de florero.",
@@ -3133,7 +3133,7 @@
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "10652",
-        "prediction": "objectification"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "Coletas mandado callar a la feminazi",
@@ -3168,7 +3168,7 @@
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "10657",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "non-sexist"
     },
     {
         "question": "Cada dia k pasa es peor....putas ratas judias...tw d asco...",
@@ -3182,7 +3182,7 @@
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "10659",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "non-sexist"
     },
     {
         "question": "@MarquezRotsy Yes, a mi no me dejaron donar por tirar con 2 mujeres en 2 meses,  aparte de pasar pena por verano  tambien pase por no donar",
@@ -3217,14 +3217,14 @@
         "answer": "sexual-violence",
         "test_case": "EXIST2021",
         "id": "10664",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "@sextaNoticias @AntonioMaestre Antonio Maestre -La falda muy corta_v2.pdf",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10665",
-        "prediction": "non-sexist"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@chxrrys22 Claro claro,por eso ahora se esta viendo el masculinismo,pero casi nadie habla de ello por que no tiene tanta repercusión,y eso del final,creo que es mas por el discurso de \"igualdad\" que promovia el fenimismo hace tiempo",
@@ -3252,7 +3252,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10669",
-        "prediction": "objectification"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "Siempre tuvo la frente muy alta, la lengua muy larga y la falda muy corta",
@@ -3266,7 +3266,7 @@
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "10671",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "parece que el ex de mi hermana tiene una enfermedad fuerte, ese es el karma por haberle hecho tanto daño a mi hermana, con las mujeres de mi familia no, acá todas brujas",
@@ -3287,14 +3287,14 @@
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "10674",
-        "prediction": "stereotyping-dominance"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "absolutamente todos los hombres haciendo mansplaining estoy a punto de vomitar",
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "10675",
-        "prediction": "objectification"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "salvador illa es el típico señor random que se pone a hacer manspreading en el tren de la renfe",
@@ -3308,7 +3308,7 @@
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "10677",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "El gobierno de Mexico busca destruir Nuevo León y mantener a los chilangos del dinero e impuestos regios, alienta y patrocina el cruze de migrantes ilegales por Chiapas a traves del Instituto Nacional de Migración, al no cruzar a USA, la escoria se queda incluso con permiso de residencia y desgraciadamente no se largan a Oaxaca, Nuevo León debe dejar Mexico!",
@@ -3329,14 +3329,14 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10680",
-        "prediction": "stereotyping-dominance"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "@vicky_oteiza si sabian podes ir a un telo y estar ahi y si te arrepentis NO es No , no importa si tu marido,novio o chongo, si no quiere tener alguna practica sexual de sodomizar es NO, el sexo es consentido de ambas partes, si no lo respetas sos un violador",
         "answer": "sexual-violence",
         "test_case": "EXIST2021",
         "id": "10681",
-        "prediction": "non-sexist"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "@vincent9915 @ThaislilasSEX Me gustaría follar tu culo peludo",
@@ -3357,7 +3357,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10684",
-        "prediction": "non-sexist"
+        "prediction": "objectification"
     },
     {
         "question": "@hanan_midan @violetaccnovas Yo no lloro jajajjaaja disfruto la verdad, aquí con gente que se autoengaña y vive del víctimismo y de la mentira jajajajaja. Os agradezco mucho estos buenos momentos en serio",
@@ -3378,7 +3378,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10687",
-        "prediction": "objectification"
+        "prediction": "non-sexist"
     },
     {
         "question": "@ONomuty Ya salieron a cirticar tonta! Pero no lo ves porque eres una facha resentida con las mujeres de verdad y luchadoras. No com las de labios rojosss como tu. Tu pareces puta y bien fea y nadie te dice nada. Seguramente por la forma de tu cara eres gorda y nadie te dice nada. Respeta",
@@ -3406,14 +3406,14 @@
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "10691",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Ahora son tres las mujeres que acusan al erudito islámico Tariq Ramadan de violación. https://jaime48.wordpress.com/2018/03/08/ahora-son-tres-las-mujeres-que-acusan-al-erudito-islamico-tariq-ramadan-de-violacion/ via @edwin22951",
         "answer": "sexual-violence",
         "test_case": "EXIST2021",
         "id": "10692",
-        "prediction": "non-sexist"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": ".Pinche culeros como ustedes jesuitas no valen ninguna berga pinche babosos..  Quieren que pueden dicir no que quieran donde sea y nadien les va dicir nada?   estan pendejos en su pinche culo!",
@@ -3448,14 +3448,14 @@
         "answer": "sexual-violence",
         "test_case": "EXIST2021",
         "id": "10697",
-        "prediction": "objectification"
+        "prediction": "sexual-violence"
     },
     {
         "question": "@RealPif @Sopadebanano Admita que hay información que lo supera en sagacidad, que tiene una mente estrecha, apocada... por eso no entiende, jamás entenderá.",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10698",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Unas ganas de partirle su madre por puta vos pareces una persona sin atención y falta de amor y nadie te esta diciendo nada estupida de mierda cerra el orto que nadie te pregunto https://t.co/hV2lAl4SWH",
@@ -3469,14 +3469,14 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10700",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "@PatFBermejo Al levantarse del suelo se nota que es una mujer. Donde estarán ahora esas feministas que defienden a las mujeres de p.e. Yemen ?  Pero no a las nuestras",
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "10701",
-        "prediction": "ideological-inequality"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "#UngaUngaArmyA todos los que defendéis a esta gente, ¿realmente queréis que a vuestras mujeres, madres, hijas, hermanas, etc. les puedan hacer algo así?A las feministas modernas se les llena la boca condenando agresiones a mujeres, siempre que sean blancos y españoles los >>https://twitter.com/pokasoltes/status/1107251596377968640?s=19",
@@ -3490,7 +3490,7 @@
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "10703",
-        "prediction": "objectification"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "@josalvlc @txu_za @diostuitero Sin ningún problema, pero casi mejor que peguen un poco con el contexto... Por ejemplo, el día de la mujer en la ciencia ponemos la estadística del número de mujeres científicas y nos planteamos si los retos a los que nos enfrentamos se superarán si no mejoran esas estadísticas.",
@@ -3511,7 +3511,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10706",
-        "prediction": "non-sexist"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Paso 1 para detectar una feminazi: preguntarla si tiene novio.",
@@ -3532,7 +3532,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10709",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "@Mayka41328150 @MonederoJC @vox_es @laSextaColumna Tu pobre cerebro es el que empobrece,  no sabéis hablar y os dejan votar ......rubia y tonta....lo tienes todo ignoranta",
@@ -3581,7 +3581,7 @@
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "10716",
-        "prediction": "sexual-violence"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "@patrimarly ¡Ya basta de tanta #NormalidadDemocrática! Aunque después de escuchar a  jueces  reprocharle a la víctima de #LaManada por todo el placer recibido... creo estar curado de casi cualquier espanto. #LaCafeteraReygulación",
@@ -3595,7 +3595,7 @@
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "10718",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Unas ganas de que flor ya le nazca Isa ...hace 80 años que está embarazada",
@@ -3609,7 +3609,7 @@
         "answer": "sexual-violence",
         "test_case": "EXIST2021",
         "id": "10720",
-        "prediction": "objectification"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Amo mucho modern family pero el capítulo en el que hablan de “feminismo” NO DA.",
@@ -3658,7 +3658,7 @@
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "10727",
-        "prediction": "objectification"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "Un presentador de TV3 llama hijos de puta a los que apoyan a Manuel Valls y franquista a Juan Carlos I https://www.elcatalan.es/un-presentador-de-tv3-llama-hijos-de-puta-a-los-que-apoyan-a-manuel-valls-y-franquista-a-juan-carlos-i vía @ElCatalan",
@@ -3672,7 +3672,7 @@
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "10729",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "La ciudad de las putas liberales - #BoycottSanFrancisco",
@@ -3707,7 +3707,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10734",
-        "prediction": "non-sexist"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "@lulu1637 @ReginaBlandon El aborto libre es deslindarse de la responsabilidad que ejercer la sexualidad conlleva. De manera análoga,  cuando un padre abandona a la mujer, comete un delito como la mujer al abortar. Siglo XXI Y siguen argumentando la \"decisión sobre sus cuerpos\" Bastante ridículo.",
@@ -3721,7 +3721,7 @@
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "10736",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "sexual-violence"
     },
     {
         "question": "El “Un día sin nosotras” y las diferentes manifestaciones, dejaron ver que las mujeres sí podemos hacer la diferencia, si suficientes de nosotras y en conjunto con los hombres, podemos sacar a esa basura del gobierno y del congreso.#MiNombreEsMexico https://t.co/qbpv2YwLC8",
@@ -3742,7 +3742,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10739",
-        "prediction": "stereotyping-dominance"
+        "prediction": "objectification"
     },
     {
         "question": "@FrandeleonPP Claro que sí, no hay que demonizar a las Feminazis!!Señoritas de compañía sería una cursilada?",
@@ -3763,14 +3763,14 @@
         "answer": "objectification",
         "test_case": "EXIST2021",
         "id": "10742",
-        "prediction": "objectification"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "aceptar q una mujer sea protagonista, ademas Desde cuando es un problema q una directora alabe a los actores de sus peliculas y hablan mucho de feminismo pero en los citados estan diciendo \"el debe ser bueno en la cama\" para q ella diga eso como si olivia no fuese profesional",
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "10743",
-        "prediction": "objectification"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "Pues por fin he cazado #Akelarre gracias a @Filmin  y me ha gustado bastante esa mezcla de empoderamiento femenino con folklore vasco y un final bastante desquiciado. Compro. https://t.co/vF0evUgbn6",
@@ -3798,7 +3798,7 @@
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "10747",
-        "prediction": "stereotyping-dominance"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "aunque ya hay muchos otros que renunciaron voluntariamente a puestos que tenían en la 4T. Hoy podemos señalar a todas luces a Olga Sánchez florero como una mujer que está de más en ese proyecto pues ha sido señalada de actos que nada tienen que ver con la nueva transformación del https://t.co/wVT0jRQunc",
@@ -3812,7 +3812,7 @@
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "10749",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "Separatistas agreden a miembros de Vox que protestaban contra la apología del golpismo. Los muy salvajes incluso tiraron a una mujer por un terraplén. ¡155 YA! http://www.outono.net/elentir/2018/09/17/separatistas-agreden-a-miembros-de-vox-que-protestaban-contra-la-apologia-del-golpismo/",
@@ -3847,21 +3847,21 @@
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "10754",
-        "prediction": "objectification"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@nomesunmes Gracias, yo me lo tomo a risa y las aparto con el pijama, llevo guantes, hago la cama pensando lo guarra que es la tía y ya está",
         "answer": "objectification",
         "test_case": "EXIST2021",
         "id": "10755",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "objectification"
     },
     {
         "question": "@insominiea @Leo24__ @Brenjbogado @Saucunss @kaarencanob No, y te digo una cosa, ya están visibilizadas las muertes de las mujeres y el comentario de arriba de todo no hay que tener mas de 2 neuronas para darse cuenta de que esta dando a entender indirectamente que tiene odio hacia los hombres porque piensa que no les pasa y a ella si",
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "10756",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Esta es la única realidad sobre el tema de los abusos sexuales y la violencia contra las mujeres. #LIVGEl resto es paja.",
@@ -3889,7 +3889,7 @@
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "10760",
-        "prediction": "ideological-inequality"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "Los científicos afirman que existe una estrecha relación entre los alimentos que comemos y nuestra salud mental... https://t.co/rSlMmVofkA",
@@ -3903,7 +3903,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10762",
-        "prediction": "ideological-inequality"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "Si no hay chicas, mañana salimos aquí a violar a las jovenés aquí.   If there are no girls, tomorrow we go out here raping the young women here.",
@@ -3973,14 +3973,14 @@
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "10772",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "\"vamo' a tener una niña tan bella como usted\" https://t.co/8Zm67InV3k",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10773",
-        "prediction": "objectification"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "Si el agresor fuera de derechas contra un nazionalista, ya tendríamos su nombre, su foto, y todo su historial de redes sociales en un programa especial de La Sexta:   La Policía detiene por un delito de odio al agresor de la mujer que retiraba lazos amarillos: https://www.abc.es/espana/catalunya/abci-policia-detiene-delito-odio-agresor-mujer-retiraba-lazos-amarillos-201808291158_noticia.html",
@@ -4008,14 +4008,14 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10777",
-        "prediction": "non-sexist"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Lo suyo hubiera sido que a Laura Pérez, antes de dejarle entrar en la celda, se le hubiera prestado una pistola para que con ella recreara un tiro en la nuca a un concejal del PP o de UPNhttps://www.navarraconfidencial.com/2018/12/31/laura-perez-la-chica-de-los-recados-de-la-izquierda-abertzale/",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10778",
-        "prediction": "sexual-violence"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "@DiegoRuzzarin Saludos Diego.. podrías hablar algún día en uno de tus videos acerca del fenómeno MGTOW? #DiegoRuzzarin #MGTOW",
@@ -4029,7 +4029,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10780",
-        "prediction": "non-sexist"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Escrito por una Reina q merece todos mis respetos. https://t.co/Yjjl6iVMSV",
@@ -4057,7 +4057,7 @@
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "10784",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "@PatyJimenezD dato curioso...Fui a SEDECO para preguntar como iba mi tramite, despues del escandalo. Me atendio una señorita y m dijo es q ya no hay recurso.le dije oiga y los demas como lo obtuvieron si acaban d publicar. El programaRamon Davila fue quien dijo a quien sí se le iba a dar",
@@ -4071,14 +4071,14 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10786",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "@Neoliberalizar_ @JuanDomingo_OK la piba había denunciado y la justicia, quien debería haber actuado, la ignoró como hacen con todas. está comentando en un post de una chica que acaban de asesinar y te parece echarle la culpa a las propias mujeres q si hubieran sabido lo que ella pasó la habrían acompqñado",
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "10787",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "https://casoaislado.com/otra-vez-alicante-tres-argelinos-detenidos-tras-una-nueva-violacion-grupal/",
@@ -4134,7 +4134,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10795",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "sexual-violence"
     },
     {
         "question": "@martayyal yo una polla",
@@ -4148,7 +4148,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10797",
-        "prediction": "non-sexist"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "Menuda zorra el muerto en el entierro y el niño en el bautizo,q asco de tía",
@@ -4211,7 +4211,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10806",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@glz_marijose Se merecía que le arrancara el celular de las manos y lo aventara por la ventana xD con todo y su subway. Ojalá se la hubiera devuelto con algo sobre sus bubis o que era muy estrecha o algo así lel.",
@@ -4239,14 +4239,14 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10810",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "objectification"
     },
     {
         "question": "@Anrogo55 @LauraRdondo @HappilytipsyIza Jaja qué chistecito más original  No es genética, se llama EDUCACIÓN MACHISTA y lo tuyo, además, mansplaining. Hale, a buscar lo que significa... aunque a ti no te hace falta buscar nada, claro Lo malo de lo tuyo es q el único q no se da cuenta eres tú y lo sufrimos l@s demás",
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "10811",
-        "prediction": "stereotyping-dominance"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "Soloque soys putas ranas de mierda en esta historis",
@@ -4267,7 +4267,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10814",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "la gente que llega y te dice “ala tu eres familiar de no se quién/eres amigo de no se quien” y te empiezan a soltar mierda de esa persona????? osea me importa una puta mierda tu opinión pedazo de gilipollas que pareces subnormal",
@@ -4281,7 +4281,7 @@
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "10816",
-        "prediction": "ideological-inequality"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "Cómo carajos hacerle entender a @mario_delgado @PartidoMorenaMx @MorenaSenadores @DiputadosMorena el daño que estan haciendo a las mujeres abusadas! https://t.co/fK3cAVJo1i",
@@ -4295,7 +4295,7 @@
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "10818",
-        "prediction": "stereotyping-dominance"
+        "prediction": "objectification"
     },
     {
         "question": "Lo que no deja de llamarme la atención es hasta qué punto la gente atribuye a la catedral de París una condición de símbolo que, a mi entender, no merece. Ciertamente es un monumento de valor incalculable desde una perspectiva meramente artística (dejamos de lado que gran parte del edificio no es sino una reconstrucción/reinvención decimonónica), y no hace falta explicar aquí lo que significa para los católicos franceses y para la iglesia de Roma en general (Francia es la fille aînée del papado).",
@@ -4316,7 +4316,7 @@
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "10821",
-        "prediction": "objectification"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "Que guapa la marimacho de @luisa_garrido68 https://t.co/G3Gxcpnj3D",
@@ -4351,7 +4351,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10826",
-        "prediction": "objectification"
+        "prediction": "non-sexist"
     },
     {
         "question": "Me topé hace un rato con uno (de mi tierra encima) que afirma que en nuestra América es imposible el estado-nación porque allí nunca hubo monoteísmo y la sexualidad no está reprimida. ¿Se puede ser más mendrugo?Un personaje que -por lo que se desprende de sus escritos- no tiene fe se permite dictaminar qué es monoteísmo y qué no, o en qué cree la gente aun cuando ésta esté convencida de creer lo contrario. Es una actitud que me produce casi tanta repugnancia como la que me sobreviene cada vez que me toca leer a un filósofo o a un teórico de cualquier disciplina que me afecte. Palabrería envuelta en retórica altisonante y con pretensiones científicas (sea lo que sea eso). Asqueroso.",
@@ -4372,7 +4372,7 @@
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "10829",
-        "prediction": "non-sexist"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "@Kryzpo3 @Rkiver83 @Anderus0729 @Wismichu Mira sus videos se ve claro el odio que le tiene a las mujeres xd",
@@ -4386,7 +4386,7 @@
         "answer": "sexual-violence",
         "test_case": "EXIST2021",
         "id": "10831",
-        "prediction": "sexual-violence"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@fachaner_ El daño que ha hecho el feminismo",
@@ -4400,7 +4400,7 @@
         "answer": "objectification",
         "test_case": "EXIST2021",
         "id": "10833",
-        "prediction": "non-sexist"
+        "prediction": "objectification"
     },
     {
         "question": "Tienes que ser muy pajeros para pagarle a una chica para que te mande fotos en bola están locos !!!!",
@@ -4414,14 +4414,14 @@
         "answer": "objectification",
         "test_case": "EXIST2021",
         "id": "10835",
-        "prediction": "stereotyping-dominance"
+        "prediction": "objectification"
     },
     {
         "question": "No veo la hora de ser una mujer independiente empoderada apoteosica mamá luchona de mis 2 perros con carro casa y todo propio uishhhh",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10836",
-        "prediction": "stereotyping-dominance"
+        "prediction": "objectification"
     },
     {
         "question": "@AstoVirgy79 No te conozco pero alguna vez me has salido por el tl y me pareces guapísima, y además tipazo y por lo que he leído pareces una tia de puta madre, así que follow!",
@@ -4435,7 +4435,7 @@
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "10838",
-        "prediction": "non-sexist"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "Qué le den por el culo a Twitter.",
@@ -4477,7 +4477,7 @@
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "10844",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "objectification"
     },
     {
         "question": "@marcoslg_99 @celinauoatime77 @Macarena_Olona @Congreso_Es Que abogados negacionistas, de Extrema Derecha, que defienden a los violadores y niegan la #ViolenciaMachista haberlos, haylos. #LaManada #LaViolenciaNoTieneGenero",
@@ -4498,7 +4498,7 @@
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "10847",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Madrid es España dentro de España, pero cuando el resto de España critica a Madrid, Madrid se convierte en victimismo y del malo https://t.co/bNLFfrLuZ0",
@@ -4533,7 +4533,7 @@
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "10852",
-        "prediction": "sexual-violence"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "El #MarxismoCultural bajo el eufemismo de #Feminismo va a hacer todo lo posible por acabar con el #capitalismo:    Fomentar el #Islam  Fomentar la disolución de la institución de la #Familia  Fomentar el #aborto  Fomentar el #victimismo",
@@ -4547,35 +4547,35 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10854",
-        "prediction": "objectification"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "¡E-Escoria de bur--...! —Casi se atraganta. No, no, no podía permitir que una mojigata como esa la insultara, pero... L-La estaba insultando y gritando... U-Uuh... Qué miedo.— ¿Y-Y quien es ese Togamierdas?",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10855",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "objectification"
     },
     {
         "question": "Juguetes para sodomizar. https://t.co/Pch9gjD71i",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10856",
-        "prediction": "objectification"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "Por cierto, no puede ser que Marissa esté tan ciega con el tema Oliver. Se está comportando como una niñata y normal que le pase lo que le pasa.... Poco le pasa y cero pena, sorry not sorry",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10857",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Es a nosotras a quienes están invisibilizando y borrando. Ni siquiera por respeto post-mortem respetan nuestra identidad.Y no, no son las mujeres transfóbicas quienes nos matan, pero silenciar nuestras voces no ayuda en nada. Y ya lo deberían de saber.",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10858",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Las feministas Hegemónicas cuando les desarman todos sus argumentos: https://t.co/USfEwlg8vf",
@@ -4596,7 +4596,7 @@
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "10861",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "objectification"
     },
     {
         "question": "El género como el feminismo tiene mucha resistencia. Porque ambos trabajan por romper los muros represivos históricos contra las mujeres. Y el machismo (con el que lo suelen equiparar los reaccionarios) se amparan en el supremasismo de los hombres...... https://t.co/k07AomFxGk",
@@ -4617,7 +4617,7 @@
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "10864",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "objectification"
     },
     {
         "question": "@25061963sony Lo que en mi pueblo se ha llamado siempre un marimachoCapao o sin capar, pero lo que es, es.",
@@ -4645,7 +4645,7 @@
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "10868",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "Que sirva de ejemplo para que dejen de acusar a RD de racista por no violar sus propias leyes para darle nacionalidad a los haitianos. @ONU_es @CIDH https://t.co/9I1TZ2kWvR",
@@ -4673,14 +4673,14 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10872",
-        "prediction": "non-sexist"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "Este es el equipo de gobierno de Sabadell¿Se entiende ahora que unos moros hayan violado a una chica, o no?http://ramblalibre.com/2019/02/04/el-ayuntamiento-de-sabadell-recoge-las-violaciones-que-ha-sembrado/",
         "answer": "sexual-violence",
         "test_case": "EXIST2021",
         "id": "10873",
-        "prediction": "objectification"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@iKITETRANS @EPELUV La RAE que dice que toballa y feminazi son palabras reales jaja si, que buena fuente de información jaja.Para mí no es válida y me vale :)",
@@ -4729,14 +4729,14 @@
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "10880",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "Cristina Kirchner sobre los logros de los 90's (1994) https://t.co/WmsYfL8WXd vía @YouTubeEn el segundo 15 se puede apreciar cuando el androcentrismo no era tan importante y CFK llama “Señora PresidentE” a la Presidenta de la HCDN. El tiempo nos hace mejores.....",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10881",
-        "prediction": "non-sexist"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "Termine hecha una milanesa con las chicas jajajajja",
@@ -4750,7 +4750,7 @@
         "answer": "sexual-violence",
         "test_case": "EXIST2021",
         "id": "10883",
-        "prediction": "stereotyping-dominance"
+        "prediction": "sexual-violence"
     },
     {
         "question": "Envidio a las chicas que saben maquillarse, yo ni colorete no se ponerme jaja",
@@ -4764,7 +4764,7 @@
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "10885",
-        "prediction": "stereotyping-dominance"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Cosas que no me esperaba: empezar a jugar al frifair por el meme y que me acabe gustadoPD: @Cristiano échate una skin de esas tuyas guapas anda crackPD2: cuando queráis nos echamos unas squads que soy más malo que mi puta madre pero me lo paso bien",
@@ -4778,7 +4778,7 @@
         "answer": "objectification",
         "test_case": "EXIST2021",
         "id": "10887",
-        "prediction": "ideological-inequality"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "No quiero ser tu mujer florero, quiero ser las flores de tu entierro",
@@ -4799,7 +4799,7 @@
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "10890",
-        "prediction": "ideological-inequality"
+        "prediction": "non-sexist"
     },
     {
         "question": "Cadena perpetua para el transgénero que abusó de cuatro reclusas en una cárcel de mujeres https://es.rt.com/693y via @ActualidadRT",
@@ -4855,14 +4855,14 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10898",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Si Mexico pais de porqueria quiere recibir la escoria centroamericana esta bien pero Nuevo León no tiene por que y ellos ni tienen por que radicar en NL otra razon mas para que Nuevo León se independize y regular estrictamente quien entra lo mismo con los del centro y sur de Mexico que los deporten a sus tierras, largo!, basta de recibir deportados que NO son de NL",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10899",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "@PurringCato me quiero follar al osito bimbo, sus deliciosas curvas me excitan demasiado, tanto que me hacen llegar al orgasmo de solo verlas, me gustaría darle unas fuertes nalgadas a sus blancas y suaves pompas joder me tienes demente ni puedo verte en el supermercado porque se me pone dura",
@@ -4876,7 +4876,7 @@
         "answer": "objectification",
         "test_case": "EXIST2021",
         "id": "10901",
-        "prediction": "objectification"
+        "prediction": "non-sexist"
     },
     {
         "question": "Entregada a mí / Adán Echeverría https://t.co/4gug26yR0i a través de @YouTube le escribí esta canción a mi mujerpara ti @Larableu",
@@ -4897,7 +4897,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10904",
-        "prediction": "stereotyping-dominance"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "mostrar bobs y veginalasaña perra",
@@ -4925,14 +4925,14 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10908",
-        "prediction": "objectification"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "El curioso feminismo del PSOE: ataca a Vox por pedir ayudas para las embarazadas sin recursos. ¿Sabías que España ofrece diez veces más ayudas públicas para abortar que para dar a luz? Están forzando a las mujeres a abortar, especialmente a las más pobres: http://www.outono.net/elentir/2019/07/15/el-curioso-feminismo-del-psoe-ataca-a-vox-por-pedir-ayudas-para-las-embarazadas-sin-recursos/",
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "10909",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "El partido no termina hasta que la señora gorda cante. Mamita querida!Granada 2- Barcelona 2",
@@ -4967,14 +4967,14 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10914",
-        "prediction": "non-sexist"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "me meto de una aunque la puerta sea estrecha",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10915",
-        "prediction": "non-sexist"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@PamCerdeira apoyo a FSM es caso cerrado, AMLO lo va a apoyar porque así lo decidió, esto le va a pegar en las elecciones, esperemos que le pegue muy fuerte y que las mujeres de todo MX se lo griten con sus votos,",
@@ -5009,7 +5009,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10920",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@hyltlauren No claramente no podes venir y tachar a alguien de un error del pasado cuando ya pidió disculpas. La mayoría no hablamos mal de mujeres, pero ustedes no pueden venir y decirnos chupa pijas, por stannear a hombres.",
@@ -5030,7 +5030,7 @@
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "10923",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "Estoy en esa edad tan atractiva... que hasta pude conseguir tres citas en San Valentin.9 am: Radiologo1 pm: Urologo4pm: Proctologo",
@@ -5044,7 +5044,7 @@
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "10925",
-        "prediction": "sexual-violence"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "@eslavita2 La \"Tere\" seguro que sí... menuda golfa. Le di la patada en el culo a tiempo.",
@@ -5072,7 +5072,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10929",
-        "prediction": "stereotyping-dominance"
+        "prediction": "non-sexist"
     },
     {
         "question": "¿Qué se necesita para que una denuncia reciba justicia? Las mujeres que denunciaron por delitos sexuales a @FelixSalMac, Cuauhtémoc Gutiérrez de la Torre, etc. Lo que necesita México es Justicia y por esto votamos por la 4T, hay que exigir que se acabe con los distractores https://t.co/zmSAAysdRY",
@@ -5100,7 +5100,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10933",
-        "prediction": "objectification"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "Soon when you call 911, you will hear hola ¿Cuál es tu emergencia? tienes una mierda metida en el culo?  si eres parte de ms-13, espera en la línea, tu madre quiere hablar contigo",
@@ -5114,7 +5114,7 @@
         "answer": "objectification",
         "test_case": "EXIST2021",
         "id": "10935",
-        "prediction": "objectification"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "@JeremyH09 @_kimtaejin @ravesbian Claro, los hombres por  deportes, por salud, por trabajo. Bueno y después estamos las mujeres que tenemos que depilarnos porque sino somos unas sucias, no tenemos higiene, no es de señoritas y “se nos ve horrible”.",
@@ -5135,7 +5135,7 @@
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "10938",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "sexual-violence"
     },
     {
         "question": "Jajajaja..... Dónde están las feministas del PSOE ahora ??? Se referían a esto al querer limitar la libertad de expresión de los medios de comunicación ??",
@@ -5156,14 +5156,14 @@
         "answer": "sexual-violence",
         "test_case": "EXIST2021",
         "id": "10941",
-        "prediction": "objectification"
+        "prediction": "sexual-violence"
     },
     {
         "question": "Estaba pensando en los efectos secundarios de los anticonceptivos en las mujeres, es que los cambios son demasiados y hasta llega a ser muy agotador, desde cambios físicos, irregularidades en el periodo, hasta el gran daño emocional.",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10942",
-        "prediction": "objectification"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "@Alven384Ventura Ufff para mamar ese culo",
@@ -5205,7 +5205,7 @@
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "10948",
-        "prediction": "objectification"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Decid lo mismo de la chavala que ha perdido un ojo o de la gente a la que le han metido palizas por como vestían cuando no tenían nada que ver con la manifestación. No se lo digáis a los policías que insultaban a la gente llamándoles \"Putas\" o \"Zorras de mierda\". Que se jodan. :) https://t.co/1idkgql2Mv",
@@ -5233,7 +5233,7 @@
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "10952",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@eurovisir Oh, por favor, espero que no. Es que como se pongan serios con esto desaparecemos todes! Si al menos hubiera una manera atractiva de enlazar vídeos de YouTube... En fin, en cualquier caso, a resistir!!",
@@ -5254,21 +5254,21 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10955",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "non-sexist"
     },
     {
         "question": "Los Mossos se niegan a detener al separatista que ha roto la nariz a una mujer por quitar lazos https://okdiario.com/espana/cataluna/2018/08/25/mossos-niegan-detener-separatista-que-roto-nariz-mujer-quitar-lazos-3042326#.W4GoLCZ2l74.twitter",
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "10956",
-        "prediction": "non-sexist"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "Lllamadme exquisito, pero soy de los que les gustan las mujeres sin polla.",
         "answer": "objectification",
         "test_case": "EXIST2021",
         "id": "10957",
-        "prediction": "stereotyping-dominance"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@aguskampfer @polloalvarezok el ex de julieta ya tenía antecedentes,  ahora con los nuevos, como otra mujer le da bola?  Las mujeres deberían ser más inteligentes no dar bola a estos tipos,dejarlos solos. Pero parece que les gusta el atorrante,mal hombre",
@@ -5317,7 +5317,7 @@
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "10964",
-        "prediction": "stereotyping-dominance"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@DiegoPetersen No entender que les da todo a las mujeres y todavía le siguen reclamando, esto solo se entiende cuando alguien recibe dinero para atacar",
@@ -5331,14 +5331,14 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10966",
-        "prediction": "stereotyping-dominance"
+        "prediction": "objectification"
     },
     {
         "question": "@tbslou91 Pero eres hermosa mujer",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10967",
-        "prediction": "objectification"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "¡YA NO FALTA NADA!En pocos días te contaremos cuándo regresamos  un montón de sorpresas y cambios hemos preparado para ti, para que tus domingos estén cargados de alegría y diversión.  Sigue nuestras redes sociales @MiMamaCocinaPe  muy pronto por @americatv_peru https://t.co/nFL7xfH23C",
@@ -5352,7 +5352,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10969",
-        "prediction": "ideological-inequality"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "@adiraathena follar toda la vida con mi mujer",
@@ -5373,7 +5373,7 @@
         "answer": "sexual-violence",
         "test_case": "EXIST2021",
         "id": "10972",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "Ya con tenerla a Nai, me hace saber que no quiero tener más hijos en mi puta vida jajajaj",
@@ -5492,7 +5492,7 @@
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "10989",
-        "prediction": "non-sexist"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "O1; #PowerMixWorldTourHoy fuí la telonera de en el obvio en la bella y estoy agradecida de estar en un escenario nuevamente. Gracias a las chicas por contemplarme. Mucho éxito.  https://t.co/57x5haIPMW",
@@ -5527,7 +5527,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10994",
-        "prediction": "ideological-inequality"
+        "prediction": "non-sexist"
     },
     {
         "question": "@Valentivaliente Usted sola acabo de validar asesinar mujeres y violarlas, y se llama activista feminista.",
@@ -5555,7 +5555,7 @@
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "10998",
-        "prediction": "ideological-inequality"
+        "prediction": "objectification"
     },
     {
         "question": "ahora para ser feliz necesito que delfi chaves me toque las tetas https://t.co/8n2CBaLAmG",
@@ -5576,7 +5576,7 @@
         "answer": "sexual-violence",
         "test_case": "EXIST2021",
         "id": "11001",
-        "prediction": "sexual-violence"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@DorisCname muchas felicidades @DorisCname  ya beras que seran aun mas años al lado de esa persona tan especial que hace tus dias maravillosos les deceo muchas bendiciones y muchos exitos en sus vidas Las Quiero y muchas felicidades de nuevo",
@@ -5597,14 +5597,14 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11004",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "non-sexist"
     },
     {
         "question": "Apresan a otro dirigente del PRM por violacion, nunca hemos visto un cambio tan violador. #EstamosCambiando.",
         "answer": "sexual-violence",
         "test_case": "EXIST2021",
         "id": "11005",
-        "prediction": "sexual-violence"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "\"Andalucía guapa, gitana, mujer morena, despierta que eres libre, gitana, de tus cadenas, despierta¡ \"#Andalucia #FelizDiaDeAndalucia #28F",
@@ -5632,7 +5632,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11009",
-        "prediction": "objectification"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "La República de Singapur afirma que un 73% de las mujeres pertenecientes a la República Chilena están a favor del aborto y que las políticas de dicho país no son acordes con lo que pide la población.   OMS",
@@ -5646,7 +5646,7 @@
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "11011",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "Una reflexión a los 4 vientos, hace poco salio el ministerio de la mujer, las instituciones no se desarrollan de undia para el otro, si ya lo dan de baja va a ser como muchas otras cosas en argentina que no se les dió continuidad y no funciinaron, nada va a funcionar asi.",
@@ -5660,7 +5660,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11013",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "non-sexist"
     },
     {
         "question": "Porque no es suficiente hacer corajes un día a la vez, acuérdate el resto de tus días de las que te han hecho en cada momento de tu vida. Jamás cicatrices; ten vivas las heridas y deja que te sumen más, total, dicen que una raya más al tigre... #TúAguanta",
@@ -5674,14 +5674,14 @@
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "11015",
-        "prediction": "non-sexist"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "No pendejo ,su falda no es muy corta ..Tu educación, sí  ( y tu Pit0)",
         "answer": "objectification",
         "test_case": "EXIST2021",
         "id": "11016",
-        "prediction": "objectification"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "La vida es una película de terror y yo soy la típica rubia tonta",
@@ -5695,7 +5695,7 @@
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "11018",
-        "prediction": "stereotyping-dominance"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@Mar39005126 @Miarma64 Algunas mujeres hacen daño a través de sus hijos??? Y algunos hombres qué hacen?? Ellos pueden hacer cosas tan horribles que no las quiero ni nombrar. Hasta el mismísimo de machismo estoy ya!! Y que lo digan mujeres además!!",
@@ -5716,7 +5716,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11021",
-        "prediction": "objectification"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "panorama , Roxana cueva  corrupta de mierda  por mas que saquen denuncias  apretando a basuras humanas como ellos esos seguirán siendo basuras, vamos a terminarlos hijos de perra",
@@ -5730,7 +5730,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11023",
-        "prediction": "stereotyping-dominance"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Emireth...— Repitió en un pequeño susurro para no olvidar el nombre. La mujer parecía interesante, alguien que quizá valdría la pena observar. —Encantado, ¡encantando de conocerla! Yo soy Muninn, el cuervo más apuesto de los nueve mundos. https://t.co/IeM1JqcWiT",
@@ -5744,14 +5744,14 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11025",
-        "prediction": "non-sexist"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "Una señorita que vivió toda la vida en ciudad me quiere discutir sobre el sacrificio y lucha en el campo, por Dios. La mandó al campo y ni dos dias se aguanta, sin luz y más con el calor como vivíamos en esas epocas en Santa Fe. Que siga en Matemáticas que yo de eso no entiendo",
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "11026",
-        "prediction": "ideological-inequality"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "@SomosOlimpia Es una basura @JMBRUNOTTE estas dirigiendo el mejor club del pais pero juega como si fuera un exa.. Abri los ojos carajo y hechale a patadas a este inútil, que mas queres? Se paga cuotas mensuales para ver esta cagada pio? Que puta le pareces a marito, Es triste verle a olimpia",
@@ -5779,14 +5779,14 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11030",
-        "prediction": "objectification"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Que tan bien tengo que hacer las cosas para tener un hombre como Diego? No se",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11031",
-        "prediction": "objectification"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "@ElPapadePeppa Yo veo que el culo es muy grande y con 4 patas metálicas, puntos de vista no?",
@@ -5800,7 +5800,7 @@
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "11033",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "@JavierGarcia_Uy @EjercitoUy Con razón estaba la vice. Si para ella lo único q existe son las mujeres, deberían avisarle q es vice de todos los uruguayos, no sólo de las mujeres.",
@@ -5828,7 +5828,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11037",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "@ArizonaRobbinFR *Llego al coche y rompo a llorar nuevamente, ya sin control, con rabia. Grito a la nada y doy un golpe en el volante sin creerme que de verdad esto estuviera pasando. Que la mujer que tanto amaba, me acababa de dejar. Cuando me recupero, vuelvo a casa no sé ni como ++",
@@ -5870,7 +5870,7 @@
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "11043",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "objectification"
     },
     {
         "question": "@lannaviv y a mi cenando pues que tu hablas de victimismo. Y yo de gente que defiende sus derechos",
@@ -5905,14 +5905,14 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11048",
-        "prediction": "ideological-inequality"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "Mí tía me enseño a tirar comentarios venenosos  fea horrenda",
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "11049",
-        "prediction": "objectification"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "@pandxddy acomodo mi vestido y mi pelo— ¿Vamos a subir a cambiarnos o nos vamos así? Yo voto por ir así, una no se viste de novia por tercera vez, todos los días —Suelto una carcajada inmediatamente después, aunque al colocar mis manos en tus mejillas, me pongo seria— Estoy completamente +",
@@ -5940,7 +5940,7 @@
         "answer": "sexual-violence",
         "test_case": "EXIST2021",
         "id": "11053",
-        "prediction": "non-sexist"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "se hacen las \"feministas\" pero dsp las tenes ahi las tenes tmb, defendiendo al golpeador y juntandose con el que escracharon ... no tienen C A R A",
@@ -5968,14 +5968,14 @@
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "11057",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "Divorciada es la palabra más fea del mundo.",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11058",
-        "prediction": "non-sexist"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@damiconm @ManuB_Rioja @el_pais Gracias por marcarte un #NotAllMen Qué piel más fina tenéis. Curioso que lo hombres feministas que me siguen no protesten, porque saben bien de qué hablo cuando hablo de esto. Y yo también soy andaluza, de Cádiz. No te ha salido bien tampoco eso, sorry.",
@@ -6017,14 +6017,14 @@
         "answer": "sexual-violence",
         "test_case": "EXIST2021",
         "id": "11064",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "objectification"
     },
     {
         "question": "Viendo la que se está liando en Barcelona con TV3, la ANC, Omnium y partidos independentistas, creo que es hora de cerrar TV3 y de sacar a la Policía Nacional y a la Guardia Civil para que junto a los Mossos metan en vereda (a hostia limpia) a esos hijos de perra de las sonrisas. #HdeP",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11065",
-        "prediction": "non-sexist"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@ALFONSOFRAGUELA Eso mismo pienso yo...lo que da a entender que el personal de salud es el que ha contagiado a la población.... No será que han inflado los números para tener estás absurdas cuarentenas y fregar la economía de ciertos adversarios políticos ?",
@@ -6038,7 +6038,7 @@
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "11067",
-        "prediction": "stereotyping-dominance"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@PuesLaVerdad Exacto. Justo cuando se necesita a la cabeza del MINSA enfocada al 100% en la vacunación viene el Congreso a fregar.",
@@ -6059,7 +6059,7 @@
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "11070",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "objectification"
     },
     {
         "question": "Las gimnastas británicas obligadas a aceptar que los chicos que se identifican como chicas compartan con ellas vestuarios y aseoshttp://feedproxy.google.com/~r/LaYijadEnEurabia/~3/ZOFyvnpyW2E/",
@@ -6087,14 +6087,14 @@
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "11074",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "objectification"
     },
     {
         "question": "La \"mejor universidad del país\" no puede permitirse un rector con denuncias de acoso sexual. #ConAcosoNoHayRectoria",
         "answer": "sexual-violence",
         "test_case": "EXIST2021",
         "id": "11075",
-        "prediction": "non-sexist"
+        "prediction": "objectification"
     },
     {
         "question": "ADAM CHILSON - MUJERES DE ARMAS TOMAR (RECOPILACIÓN)Adam Chilson es un maestro de la fotografía con una visión sin precedentes. Él crea impresionantes imágenes que empuja los límites de la carne y de la imaginación, todo ello con un mínimo de post-procesamiento, y cero en el uso de gráficos generados por ordenador o de composición digital. talleres de Adam van desde los fundamentos de la iluminación fotográfica, para exploraciones avanzadas de establecer la artesanía y la iluminación para los temas estilísticos muy especializados.ENLACE: https://anteroseros.blogspot.com/2019/03/adam-chilson-mujeres-de-armas-tomar.html ",
@@ -6108,14 +6108,14 @@
         "answer": "sexual-violence",
         "test_case": "EXIST2021",
         "id": "11077",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "objectification"
     },
     {
         "question": "El volante y el alcohol nunca se deben combinar, al igua que una mujer y el primero. https://t.co/W1wPT6ECTv",
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "11078",
-        "prediction": "ideological-inequality"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "Los travelos insisten en ganar a las chicas en los deportesMujeres no lo son, pero caballeros menos aún. Que vayan a competir a la selva con los leones.https://www.washingtontimes.com/news/2019/feb/24/terry-miller-andraya-yearwood-transgender-sprinter/",
@@ -6129,7 +6129,7 @@
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "11080",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@jujo_rey -me tiro encima tuyo- si lo eres &gt;w&lt;",
@@ -6143,21 +6143,21 @@
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "11082",
-        "prediction": "stereotyping-dominance"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "Huiran como lo que son, unas putas ratas.",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11083",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "objectification"
     },
     {
         "question": "@piernikas es mío llorar chicas",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11084",
-        "prediction": "stereotyping-dominance"
+        "prediction": "objectification"
     },
     {
         "question": "@_mmelaquiroz Que vergüenza las mujeres de hoy en día. Que generación de mierda",
@@ -6185,7 +6185,7 @@
         "answer": "objectification",
         "test_case": "EXIST2021",
         "id": "11088",
-        "prediction": "non-sexist"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "@mrssensualidad Prácticamente cualquier mujer pero en especial las que son mayores que yo y tienen ese algo especial en la cara que dice nene te voy a follar jajaja",
@@ -6213,7 +6213,7 @@
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "11092",
-        "prediction": "objectification"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "El historiador ruso S. Kovaliof ha estudiado el comportamiento  de las fuerzas extranjeras en la URSS hacia las mujeres. Los españoles, los más respetuosos y considerados. En Una hora con la historia: https://www.youtube.com/watch?v=T7_YwJSJw2k  ",
@@ -6283,21 +6283,21 @@
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "11102",
-        "prediction": "non-sexist"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "a puesto a que huele a culo y a sangre seca adentro",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11103",
-        "prediction": "non-sexist"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@Persuasor Por supuesto. Que escondan ya ese trapo mugriento que es más feo que la fresca de Francisco Franco. Ese trapo se lo metía yo por el ojete a cualquiera facha, así seguro que le molaba, que es lo que esconden todos los fachas. Homosexualidad reprimida...",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11104",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "Nuestra Fiscal Jefe, la Delgado, tiene como pasión oculta pero no reprimida, delinquir. https://t.co/ugu37U4nam",
@@ -6332,14 +6332,14 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11109",
-        "prediction": "non-sexist"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "uh all about us de las t.a t.u. despertó las lesbiana reprimida en nosotras las nacidas en los 90",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11110",
-        "prediction": "objectification"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "Si tienes entre 18 y 28 años, eres de Urabá y te consideras una lideresa interesada en el empoderamiento femenino, la prevención de la violencias basadas en género y la equidad de género, esta convocatoria es para ti: https://t.co/9hG2QCljo9 https://t.co/WNdpeqXjf7",
@@ -6360,7 +6360,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11113",
-        "prediction": "non-sexist"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "Levantate Lazaro... Y agachate por que te vamos a sodomizar otra vez",
@@ -6388,7 +6388,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11117",
-        "prediction": "sexual-violence"
+        "prediction": "non-sexist"
     },
     {
         "question": "@PPrendes  x cierto.. Para buscar las fotos con la camiseta de ROCK STAR REBELDE junto a la mujer de la bolsa de DOLORES PROMESAS (=marca d ropa d mujer de la q @IkerCasillas se puso camiseta)..me recibio mi ALL IN ONE con el VALLE D LA MUERTE donde @u2 hizo el Arte d JOSHUA TREE https://t.co/3rDvlPUPjS",
@@ -6409,7 +6409,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11120",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "acá en Guatemala un hombre fue denunciado 3 veces por acoso sexual y amenazas de nuerte contra una niña de NUEVE AÑOS, la policía y el mp hizo caso omiso a las denuncias ¿por qué? Por ser una niña, ella logro escapar y pudo hablar pero no le creen dios tremenda impotencia que hdp",
@@ -6458,14 +6458,14 @@
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "11127",
-        "prediction": "stereotyping-dominance"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "// Claudia ve a Louis como a una pareja..ademas que un padre. Ya que tiene cuerpo de niña pero con el tiempo le ama o desea. Pero Louis siempre la verá como a una hija. https://t.co/VFNoI0ssAJ",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11128",
-        "prediction": "objectification"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "¿Cómo se puede llamar periodismo a esto que dicen algunos sobre las mujeres y Vox? Parecen tomar por estúpidos a sus lectores, y especialmente a sus lectoras. http://www.outono.net/elentir/2019/01/10/como-se-puede-llamar-periodismo-a-esto-que-dicen-algunos-sobre-las-mujeres-y-vox/",
@@ -6521,21 +6521,21 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11136",
-        "prediction": "non-sexist"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "@LaCrono__ Que el padre ha sido un héroe dice? Hombre el pobre claro que se habrá asustado y habrá pasado nervios...pero y esa mujer? PARIENDO SOLA muerta de miedo ,pa ella no hay alagos? Cago en to! Este habrá asistido muchos partos pero como se nota que no sabe lo que es parir!!",
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "11137",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "Yo vengo aplicando esto hace rato. Ya no insulto más a mujeres al volante por miedo a la denuncia de violencia de género. Si se manda una cagada, me pongo al lado y ojeo, si es tipo lo bajo a puteadas, si es mujer, la miro con cara de desaprobación nomás. Vendí mi alma. https://t.co/07SdW16nGm",
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "11138",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "Tootles chica!",
@@ -6549,14 +6549,14 @@
         "answer": "objectification",
         "test_case": "EXIST2021",
         "id": "11140",
-        "prediction": "objectification"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "Felicitaciones a todas nuestras Mujeres Científicas. Trabajé con algunas y sé de su lucha. Tuve alumnas que hoy sobresalen en el mundo en ámbitos, muchas veces, patriarcales. Luchan  día a día para no ser pisadas por la manada. ¡A seguir que las niñas del hoy precisan referentes!",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11141",
-        "prediction": "non-sexist"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "look it up. totally bullshit https://www.razon.com.mx/en-ataque-a-voluntarios-ni-robo-viveres-ni-violacion-ni-fue-en-oaxaca/",
@@ -6577,14 +6577,14 @@
         "answer": "objectification",
         "test_case": "EXIST2021",
         "id": "11144",
-        "prediction": "stereotyping-dominance"
+        "prediction": "objectification"
     },
     {
         "question": "@marceloCena @marceloCena Hermoso texto poético para una tragedia histórica, el MIEDO a las MUJERES, consciente e inconsciente, que se VUELVE CULTURA MISÓGINA y ODIO ancestrales. ¿Qué hacen las MUJERES como @arroyosalgado @mmlosardo etc. con COMPETENCIA en la JUSTICIA? ¿A ÉSTOS SÍ \"INDULTAN\"?",
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "11145",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "La sostenibilidad democrática del sistema es el feminismo.Debemos estar ojo avizor.La base de un partido transformador de la sociedad, el #PSOE, es la revolución del BOE: hechos, compromisos, logros y realidades. @carmencalvo_ #LaEspañaQueNosMerecemos https://t.co/KmpjFllRHT",
@@ -6598,14 +6598,14 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11147",
-        "prediction": "sexual-violence"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@_Joy_V @sandracanales38 Yo siempre andaba bravo porque mi vecinitos jugaban, en cambio a mi a fregar, cocinar, barrer, lavar la ropa y planchar, además de estudiar y yo le decía que no era niña, hasta hoy entendí lo último que fue toda su enseñanza",
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "11148",
-        "prediction": "objectification"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "Para mí es súper interesante como hay personas que \"critican\" o opinan sobre una zona de la Ciudad no por la seguridad de la zona o por las ventajas de vivir en aquella zona o algo por el estilo , pará está mujer la zona es mala para vivir , únicamente por la gente #Interesante",
@@ -6626,7 +6626,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11151",
-        "prediction": "ideological-inequality"
+        "prediction": "non-sexist"
     },
     {
         "question": "@DeniseDresserG Siento que Usted no ha rompido el pacto con la corrupcion, con los que han danado a México, con su ataque a un presidente Integro y solidario con el pueblo (mujeres y hombres). Pense bien lo que expresa por la palabras se pueden revolver con mayor impacto cuando carecen de moral",
@@ -6647,14 +6647,14 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11154",
-        "prediction": "sexual-violence"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@CourfyFurieux —no puede evitar reírse con las últimas palabras de Jacques— Como se nota que no eres tú quien va al lavadero cada semana... —dice cuando, al fin, puede dejar de reír— Hay formas más sencillas y rápidas para saber ciertas cosas —le guiña un ojo— La mayoría de las mujeres, sobre +",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11155",
-        "prediction": "stereotyping-dominance"
+        "prediction": "non-sexist"
     },
     {
         "question": "@skianatoooo @StuarthBrayan @Carrascxl @NavaGalloRojo22 Inventaste una nueva parafilia.La comedia estaba muerta, que necesidad de violar el cadaver como hiciste com tu perrito?",
@@ -6703,35 +6703,35 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11162",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Verónica Sánchez es Coral, un torbellino autodestructivo. Es inteligente, elegante y tiene una mente analítica que le salva las papas a las chicas. https://t.co/dWZXgCE5KR",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11163",
-        "prediction": "objectification"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "Nuevo León DEBE independizarse del pais basura Mexico gobernado por chilangos come perros, NO es justo que la escoria deportada de US hacia Mexico viva en Nuevo León, que se LARGUEN a sus paises apestosos en Centroamerica o centro y sur de Mexico donde en verdad pertenecen, si algun regio lee esto pasa la voz, Independencia! saquemoslos y negemosles entrada",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11164",
-        "prediction": "non-sexist"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@comounabebe @_mariadanielaa Primero me acusas de llamarla Feminazi por el tweet cuando no fue así, te demostré que te equivocaste con eso y cambias tu discurso a \"México es un país machista\". ¿Hasta dónde eres capaz de llegar con tal de aceptar que la cagaste y de cerrar el hocico tú? Para no perder tiempo.",
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "11165",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "@sidedval maldita golfa",
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "11166",
-        "prediction": "objectification"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "//Isaac jo puta que tienes fans ajaajajNo sé cómo pero los tienes, con lo seco que eres que pareces una mojama niño",
@@ -6752,14 +6752,14 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11169",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@Elisabetth2015 Joder!!! Cuando empieza es terrorífico, casi me hago caquita...Luego me ha puesto más caliente que el cenicero de un bingo, me han entrado ganas de follarme a un murciélago o sodomizar al mismísimo Satanás en el averno",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11170",
-        "prediction": "objectification"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@Jjazblanco @Candee_roberti @Alann_Gnzlz @lucigoddoy Córtala con tu circo queres pedazo de lagartona, quedate tranquila que yo se quien sos vos y tu novio y te aseguro que ustedes no van a queres saber quien soy y a la piba no la jodas mas, tene los ovarios suficiente para arreglarlo por priv o de frente",
@@ -6773,7 +6773,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11172",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "objectification"
     },
     {
         "question": "@nienoviz me quiero follar al osito bimbo, sus deliciosas curvas me excitan demasiado, tanto que me hacen llegar al orgasmo de solo verlas, me gustaría darle unas fuertes nalgadas a sus blancas y suaves pompas joder me tienes demente ni puedo verte en el supermercado porque se me pone dura",
@@ -6787,21 +6787,21 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11174",
-        "prediction": "non-sexist"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@atticus43222087 @lionesas Me gustaría saber en este hilo cuantas guarradas o la palabra “follar” se han dicho. Y cuantas veces se dirían guarradas y follar en un hilo sobre el volumen de las tetas. Apostamos?",
         "answer": "objectification",
         "test_case": "EXIST2021",
         "id": "11175",
-        "prediction": "objectification"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "Ela merece tantoo https://t.co/57eSbugAyC",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11176",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "objectification"
     },
     {
         "question": "@HStylesSP @Harry_Styles Empoderamiento con esta cancioooon #EresGolden",
@@ -6815,21 +6815,21 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11178",
-        "prediction": "non-sexist"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "Uugghhh, porque tengo que ser bisexual!!! Estoy cansada de los hombres!! Alguna niña linda que quiera ser mi novia? Pd: niña linda = todas las mujeres",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11179",
-        "prediction": "objectification"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "@OnpublicoES A @eledhmel q no la tocas ni con un palo si te respetas a ti mismo como hombre? Y la llamas puta?Ya quisiera más de una mujer tener la cabeza tan bien amueblada como la tiene Toscano y conservarse como se conserva a pesar de ser una \"veterana\" (como dice ella )...",
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "11180",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "sois unas zorras y ahora no a bien",
@@ -6843,7 +6843,7 @@
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "11182",
-        "prediction": "non-sexist"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "@Orlandolgi @DaiNarela @mauroszeta @TeBas23J Y no, no estoy equivocada. ES MANSPLAINING LO QUE ESTAS HACIENDO. Bechituuuu",
@@ -6857,7 +6857,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11184",
-        "prediction": "objectification"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@_albisco solo por las tetas de estela",
@@ -6899,7 +6899,7 @@
         "answer": "sexual-violence",
         "test_case": "EXIST2021",
         "id": "11190",
-        "prediction": "sexual-violence"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@Mari70796587 @elmundoes Haztelo mirar, el ejemplo es si eres ultra sur, no vayas a terreno de boixos nois, porque ya sabemos como termina. Poner ejemplo de violación, falda corta etc etc dice mucho de vosotros, no se me ocurriría nunca poner ese ejemplo, es muy cruel. Así sois todos",
@@ -6948,21 +6948,21 @@
         "answer": "objectification",
         "test_case": "EXIST2021",
         "id": "11197",
-        "prediction": "objectification"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@Anyoli @dtezanos @Gabbie @hipolitodelgado @ANivelDe No mujer, nada que ver. Anivelde salió de un joyo como combustion expontanea, seguro que ese era el que tenia una pagina que se llamaba rock algo que nadie entraba.",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11198",
-        "prediction": "non-sexist"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "Marico estaba embarazada, tuve cesárea y cuidaba y bañaba al bebé. Que loco",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11199",
-        "prediction": "objectification"
+        "prediction": "non-sexist"
     },
     {
         "question": "@GordaZombie Odio eso, y encima tiene nombre: manspreading.",
@@ -6976,35 +6976,35 @@
         "answer": "objectification",
         "test_case": "EXIST2021",
         "id": "11201",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "objectification"
     },
     {
         "question": "@albayvalle a las mujeres heterosexuales les gustan los hombres que se lo ponen fácil, que empatizan, sensibles, que te escuchan y comparten tus sueños, pero al final se van con el malote dominante que les hace sentir un no se qué inquietante y que sin duda algún día cambiarán.",
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "11202",
-        "prediction": "stereotyping-dominance"
+        "prediction": "objectification"
     },
     {
         "question": "Peñarol Peñarol scelza hijo de puta cerra el culo",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11203",
-        "prediction": "objectification"
+        "prediction": "non-sexist"
     },
     {
         "question": "No cabe duda qué hay gente muy guapa pero muy poco atractiva por dentro",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11204",
-        "prediction": "objectification"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "No tienen madre y la florero ni por ser mujer es empática y solidaria https://t.co/HT9bq61mGU",
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "11205",
-        "prediction": "ideological-inequality"
+        "prediction": "non-sexist"
     },
     {
         "question": "El pan nuestro de cada día...https://www.elperiodico.com/es/sociedad/20181114/malaga-secuestro-violacion-infidelidad-7146623",
@@ -7018,7 +7018,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11207",
-        "prediction": "stereotyping-dominance"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "Esto es lo que pasa cuando tienes un ejército de putillas y afeminadosElla llega borracha, y se le echa encima a un mediohombre que gritó en vez de llamarle guarra y partirle la cara.Claro, que lo habrían licenciado ipsofacto.https://tinyurl.com/y9pbzywy",
@@ -7067,7 +7067,7 @@
         "answer": "sexual-violence",
         "test_case": "EXIST2021",
         "id": "11214",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "sexual-violence"
     },
     {
         "question": "La celebración del Día Mundial de la Justicia Social busca apoyar la labor de la comunidad internacional encaminada a erradicar la pobreza y promover el empleo pleno y el trabajo decente, la igualdad entre los sexos y el acceso al bienestar social y la justicia social para todos. https://t.co/t5ojeCE1me",
@@ -7102,14 +7102,14 @@
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "11219",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Siempre tuvo la frente muy alta, la lengua muy larga y la falda muy corta",
         "answer": "objectification",
         "test_case": "EXIST2021",
         "id": "11220",
-        "prediction": "stereotyping-dominance"
+        "prediction": "objectification"
     },
     {
         "question": "@ladivaza por maternidad. Las feministas también han trabajado para asegurar derechos reproductivos e integración social, y para proteger a mujeres y niñas de la violación, el acoso sexual y la violencia doméstica. Los cambios en las normas de vestimenta y las actividades aceptables para",
@@ -7221,14 +7221,14 @@
         "answer": "objectification",
         "test_case": "EXIST2021",
         "id": "11236",
-        "prediction": "sexual-violence"
+        "prediction": "objectification"
     },
     {
         "question": "@carcabdu No da.Cuando voy a un lugar fino, el cuate que necesita la factura paga y luego devolvemos el importe. (Entre cuates)Las señoritas empoderadas hacen lo mismo, pero si estás con tu PAGAFANTAS quedar en los mismos términos.",
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "11237",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "@ingyeremy Ah! Hermano es un tema delicado. No se trata de hombre o mujer. Hablamos de igualdad de pareja. Yo he sido una obediente hija de Dios y viví un infierno emocional al lado de un hombre que se decía cristiano.  Y pasa a la inversa también.",
@@ -7263,7 +7263,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11242",
-        "prediction": "objectification"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": " @JaimeBerenguer bienvenido, cada vez más y más gente buena y que merece la pena viniendose afuera de la censura y persecución que se ha instalado en Twitter ",
@@ -7298,7 +7298,7 @@
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "11247",
-        "prediction": "stereotyping-dominance"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "La ministra delgado tiene la cara de cemento   Estáseñora que apela a su femineidad para librarse del linchamiento que merece, es la misma que como buen machirulo bebía con amigotes ( uno preso y otro inhabilitado) hablando de prostitución y menores",
@@ -7319,7 +7319,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11250",
-        "prediction": "stereotyping-dominance"
+        "prediction": "non-sexist"
     },
     {
         "question": "@letserkanlive me has llamado guarra así que tus pensamientos debían ser guarros eso no es ninguna conclusión",
@@ -7340,7 +7340,7 @@
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "11253",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "Que afán de algunos hombres y mujeres de meterse en la relación de alguien más.Y no los culpo, porque los únicos culpables son las personas que los dejan entrar, a un espacio donde ellos no deberían de estar incluidos.",
@@ -7354,7 +7354,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11255",
-        "prediction": "non-sexist"
+        "prediction": "objectification"
     },
     {
         "question": "Perra https://t.co/v3T0UsSBTj",
@@ -7396,14 +7396,14 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11261",
-        "prediction": "non-sexist"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "@ReginaUribeB @FelipeCalderon @Mzavalagc Hombres al final de cuentas, por eso tanto feminicidio, creen q la mujer no tiene valor real, solo valor por su sexualidad, si tiene vida sexual activa put4 y si no mojigata, no hay nada más q eso para ellos",
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "11262",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Minimizó una denuncia de acoso sexual.  Protegió a un acosador  Regidor del gobierno corrupto de Castañeda  Programas basura a montones. https://t.co/jBKmlANhIX",
@@ -7424,7 +7424,7 @@
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "11265",
-        "prediction": "objectification"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "@carmeng0mez_ @Alex_baneguismo que me citas guarra me odias",
@@ -7459,14 +7459,14 @@
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "11270",
-        "prediction": "ideological-inequality"
+        "prediction": "non-sexist"
     },
     {
         "question": "https://aka.re/Black-Latte---ESEl plan de dieta extremo llevó la chica directo a los cuidados intensivos: estaba tan demacrada que su cuerpo se rindió y Helen acabó en una cama de hospital. Fueron los equipos de salud que la resucitaron. Cuando la joven fue hospitalizada, pesaba solo 34 kilos. Helen admitió que había decidido correr el riesgo para poder hacerse amiga de sus compañeros de clase, que pensaban que estaba gorda y le dieron el apodo de ballena.",
         "answer": "objectification",
         "test_case": "EXIST2021",
         "id": "11271",
-        "prediction": "objectification"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "Menudas dos trepas. Tal para cual. ???https://casoaislado.com/la-reina-letizia-esta-harta-de-la-mujer-de-sanchez-begona-gomez-por-su-afan-de-protagonismo/",
@@ -7480,7 +7480,7 @@
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "11273",
-        "prediction": "objectification"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "CLUB DE SATANICOS BILDERBERG, LOS AMOS DEL MUNDOHISTORIA DEL CLUB DE BILDERBERG: El sistema financiero mundial y sus núcleos de poder.La más secreta de las logias del poder mundial toma su nombre de un hotel en la ciudad holandesa de Oosterbeek, donde se efectuó su primera reunión en mayo de 1954. En plena guerra fría, fue creada por el príncipe Bernardo de Holanda para que los dirigentes de los EE.UU y Europa pudieran mantener conversaciones en reserva y coordinar políticas....¿ Por que se desconoce que entre otros, el hombre de PRISA, Juan Luis Cebrían, ex director ideólogo del diario progresita ´EL PAIS´, asiste a estas reuniones secretas? ( ver artículos de solidaridad.net sobre este tema)El grupo Bilderberg nació oficialmente en mayo de 1954, fecha en la que tuvo lugar en la localidad holandesa de Oosterbeek la primera Conferencia de esta entidad con la participación de un centenar de destacadas figuras del mundo económico, político, académico y mediático. El anfitrión de aquella sesión inaugural, celebrada en los salones del hotel Bilderberg, de donde procede el nombre del grupo, fue el príncipe Bernardo de Holanda, un personaje estrechamente vinculado a los altos círculos financieros y políticos occidentales. Desde que echara a andar, el mensaje difundido por los mentores del Bilderberg Group fue el característico de este tipo de organismos: se trataba, según el comunicado oficial, de una entidad destinada a fortalecer la unidad atlántica, a frenar el expansionismo soviético y a fomentar la cooperación y el desarrollo económico de los países del área occidental. Todo lo cual no era más que una forma eufemística de describir los objetivos reales de la organización, perfectamente conocidos a tenor del contenido de sus reuniones. Y es que, a pesar del hermetismo en el que se desarrollan éstas, nunca han faltado las filtraciones reveladoras sobre el particular. En el seguimiento de las reuniones y andanzas de esta emérita cofradía merece destacarse la labor que, desde hace tiempo, viene realizando el rotativo estadounidense The Spotlight, cuyas valiosas informaciones han sido fundamentales para saber que tales objetivos se resumen en uno, cual es el cercenamiento progresivo de las soberanías nacionales y su transferencia a instituciones de carácter oligárquico y supranacional. Pero antes de seguir adelante convendrá escudriñar en los orígenes de esta entidad, en los que aparece como eminencia gris e instigador un personaje de escasa resonancia pública, pero de enorme peso en los más discretos y selectos círculos del Poder. Se trata de Joseph Retinger, un sujeto a quien el propio Bernardo de Holanda rendiría homenaje fúnebre con estas palabras: La historia conoce numerosos personajes notables sobre los cuales se concitó durante su vida la atención general. Ellos fueron admirados y festejados por todos, y nadie ignoró su nombre.... Existen, sin embargo, otros hombres cuya influencia es todavía mayor, incidiendo con su personalidad en el tiempo en que vivieron, aunque no son conocidos, pese a todo, más que por un círculo de iniciados muy restringido. Joseph Retinger fue uno de éstos. (Bulletin nº 5 du Centre de Culture Europeèn). ",
@@ -7515,7 +7515,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11278",
-        "prediction": "objectification"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "@rodolfo_parker Ánimo @rodolfo_parker estamos a pocos días de tu jubilación y tus vacaciones en España",
@@ -7550,7 +7550,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11283",
-        "prediction": "non-sexist"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@Perseo93 @FernandoGimeno A EEUU si te Piden VisaPara EUROPA (NO TODA)REPITO SU CALIDAD MIGRATORIA ES DISTINTA(revisar ello)Uno habla en base a la XPERIENCIA y Vivencias he vivido en CHILEsi el ARGUMENTO ES TODOS SON MALOSEntonces TODOS LOS PERUANOS SON NARCOS GOLPEAN A LAS MUJERES O FUERON TERRUCOS",
@@ -7578,7 +7578,7 @@
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "11287",
-        "prediction": "stereotyping-dominance"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Porque la que no es PERRA NO PROSPERAPorque la que no es PUTA NO DISFRUTAY la que no es ZORRA NO CO RO NA",
@@ -7592,7 +7592,7 @@
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "11289",
-        "prediction": "stereotyping-dominance"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "Hoy es un día que debemos conmemorar con mucho orgullo, pues el 12 de febrero de 1947, ganaron las mujeres mexicanas. Obtuvieron el derecho a participar en las elecciones del país. Su tenacidad y lucha me inspiran, ¡nunca más un país sin ellas! https://t.co/XLvpkyjeoB",
@@ -7606,35 +7606,35 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11291",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "non-sexist"
     },
     {
         "question": "Bueno señores y señoritas vamos hacer ejercicios de espalda y abdominales. Recuerda que no te falte nunca las ganas....para lo que sea.Ojo necesito un par de Cabras para hacer este ejercicio de resistencia....    https://t.co/QPh5GStpqP",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11292",
-        "prediction": "stereotyping-dominance"
+        "prediction": "objectification"
     },
     {
         "question": "@KinryuReborn @IsaNaradiel @NitritoG Te iba a responder, pero ya me huelo un #NotAllMen y me asalta la pereza. El contenido de esas personas lo ven en un 85/90% hombres cis heteros. Así que bueno, sigue siendo un ELLOS mayúsculos.",
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "11293",
-        "prediction": "stereotyping-dominance"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "Vendrán esos títulos que tanto ha hablado la gente, porque Nintendo, NO ES TONTA.",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11294",
-        "prediction": "ideological-inequality"
+        "prediction": "non-sexist"
     },
     {
         "question": "Me imagino la intimidad de Ginés en estos momentos como el capítulo de Relatos Salvajes donde el tincho atropella a la embarazada",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11295",
-        "prediction": "stereotyping-dominance"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "@BelHartisima @monkeysxblur @federic69289296 @NicolasSchrute 1) yo no mate a nadie, yo creo que generalizar con los femicidios muestra una falta de actividad cerebral tuya mas grande que la mia.2) y yo solo hice una aclaracion... son terminos que no existen, ni feminazi ni todes (y todos sus derivados)",
@@ -7662,14 +7662,14 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11299",
-        "prediction": "non-sexist"
+        "prediction": "objectification"
     },
     {
         "question": "@Rami_F_G @migrainegirlrf Hay cierto sector del masculinismo que si lo hace Me he tomado con algunos",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11300",
-        "prediction": "ideological-inequality"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "*Se saca la polla* https://t.co/65nrt9G7es",
@@ -7683,7 +7683,7 @@
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "11302",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "http://goodpromotion.blogspot.com/p/abusar-de-nuevos-quemagrasas-puede.html  Tomando como referencia la apariencia de las modelos, muchas chicas empiezan a perder peso hasta perder el control sobre sí mismas. Ahora es más fácil que nunca con la aparición en el mercado del adelgazamiento de un pote",
@@ -7697,7 +7697,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11304",
-        "prediction": "ideological-inequality"
+        "prediction": "non-sexist"
     },
     {
         "question": "@ManonAubryFr @PabloEchenique @PabloIglesias Toda la razón, no es democrático tener un vicepresidente que NO ha sido votado y que hace bromas con azotar hasta hacer sangrar a las mujeres.",
@@ -7711,7 +7711,7 @@
         "answer": "ideological-inequality",
         "test_case": "EXIST2021",
         "id": "11306",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "Pack de LUNAREJA de mega tetas #sex #porn #tits #amateur #packs #erotic #nsfw #milf #anal #fetish #sexy https://pasateelpackrufian.blogspot.com/2018/06/pack-de-fotos-de-dany-mega-tetona.html ",
@@ -7753,7 +7753,7 @@
         "answer": "sexual-violence",
         "test_case": "EXIST2021",
         "id": "11312",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "@HoIden_McGroin @hermanoelectron @toayita Me hacéis sentirme una nenaza :___))",
@@ -7802,14 +7802,14 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11319",
-        "prediction": "objectification"
+        "prediction": "non-sexist"
     },
     {
         "question": "basta NUNCA dije cis como un insulto, y \"no cambié\" mi género por conveniencia pq si así fuera sería muchísimo mejor ser una mujer cis q trans https://t.co/RFLOATHS4g",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11320",
-        "prediction": "ideological-inequality"
+        "prediction": "non-sexist"
     },
     {
         "question": "@hugexzayn @goldenxflames I #VoteHarryStyles as Favorite Male Artist at KCA’s #KCA que mal educadas las señoritas no hablan así!!",
@@ -7837,7 +7837,7 @@
         "answer": "misogyny-non-sexual-violence",
         "test_case": "EXIST2021",
         "id": "11324",
-        "prediction": "ideological-inequality"
+        "prediction": "misogyny-non-sexual-violence"
     },
     {
         "question": "No spoilers chica.",
@@ -7865,7 +7865,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11328",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "objectification"
     },
     {
         "question": "Mi hermano: mirate este video de un abogado q habla sobre feminismoYo: ¿en contra?Él : obvio, sabes q los hombres legalmente tenemos menos derechos q las mujeres?Dios mio lo comida q tienen la cabeza",
@@ -7900,14 +7900,14 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11333",
-        "prediction": "stereotyping-dominance"
+        "prediction": "objectification"
     },
     {
         "question": "Cuando venga el colapso, los que controlan el sistema impondrán a una mujer para lidiar con toda la energía masculina disgustada como manejaron las cosas.",
         "answer": "stereotyping-dominance",
         "test_case": "EXIST2021",
         "id": "11334",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "ideological-inequality"
     },
     {
         "question": "Sobre el victimismo, aplíquese a cualquier colectivo actual.Crítica de la víctima de Daniele Giglioli.",
@@ -7928,7 +7928,7 @@
         "answer": "sexual-violence",
         "test_case": "EXIST2021",
         "id": "11337",
-        "prediction": "misogyny-non-sexual-violence"
+        "prediction": "stereotyping-dominance"
     },
     {
         "question": "El régimen ha perdido el monopolio de la narrativa. Tampoco es el único que pone los puntos de la agenda política. Los sectores de la sociedad civil y las iniciativas ciudadanas se abren paso  #YoVotoNo #EstamosConectados #YoSiTeCreo #PatriaYVida #AyudanosAContarLaVerdad",
@@ -7984,6 +7984,6 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11345",
-        "prediction": "non-sexist"
+        "prediction": "ideological-inequality"
     }
 ]

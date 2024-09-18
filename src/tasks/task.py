@@ -60,12 +60,29 @@ Input: {{ question }}
         raise NotImplementedError
 
     def get_instruction(self):
+        """
+        Returns the guidelines for the task
+        """
         raise NotImplementedError
 
     def get_pydantic_model(self):
+        """
+        Returns the Pydantic model for the task output
+        """
         raise NotImplementedError
 
     def build_prompt(self, question: str, examples: List[Dict[str, str]], answer=None):
+        """
+        Builds the chat prompt for the given question and examples based on the tokenizer chat template
+
+        Args:
+            question (str): Question to ask
+            examples (List[Dict[str, str]]): List of examples
+            answer (str, optional): Answer to include. Defaults to None.
+
+        Returns:
+            str: Chat prompt
+        """
         user_input = self.template.render(
             instruction=self.instruction, question=question, examples=examples
         )
@@ -96,7 +113,18 @@ Input: {{ question }}
 
     def get_conversation(
         self, question: str, examples: List[Dict[str, str]], answer=None
-    ):
+    ) -> List[Dict[str, str]]:
+        """
+        Builds the chat prompt for the given question and examples based on the tokenizer chat template
+
+        Args:
+            question (str): Question to ask
+            examples (List[Dict[str, str]]): List of examples
+            answer (str, optional): Answer to include. Defaults to None.
+
+        Returns:
+            List[Dict[str, str]]: Chat conversation
+        """
         user_input = self.template.render(
             instruction=self.instruction, question=question, examples=examples
         )
@@ -135,6 +163,9 @@ Input: {{ question }}
             raise ValueError("Split must be one of 'train', 'dev', or 'test'")
 
     def get_few_shot(self):
+        """
+        Gets random few-shot examples from the training data
+        """
         raise NotImplementedError
 
     def get_dataset(self, split="train") -> List[Dict[str, str]]:

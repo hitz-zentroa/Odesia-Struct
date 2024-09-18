@@ -18,7 +18,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10207",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "LA EMBARAZADA MÁS HERMOSA  DIOSA  @KimberlyLoaiza_  https://t.co/Omi142fvlQ",
@@ -186,7 +186,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10231",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "A cuenta de la negra que ha matado a Gabriel. ¡ATENTOS A PODEMOS!   Lo que me faltaba por leer hoy. Qué cantidad de hijos de puta campan por este mundo.",
@@ -263,7 +263,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10242",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "@Limonchelo3 Este tipo es un teviremoiLe gusta el sable Estos vienen con su agenda Sodomizar a nuestros niños",
@@ -333,7 +333,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10252",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "Deseando que haya un App de GAB y mandar a tomar por culo el Judeo Twitter y sus putos narizotas y esclavos goyim",
@@ -480,7 +480,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10273",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "Es muy triste , no imagino estar en los pies de esa mujer, desprotegida por la ley, no saber para donde correr, es terrible, los #policias entongados y tapandose entre ellos. Locx no nos olvidemos de #Ursula #UrsulaBahillo , me recuerda a un caso en San Lorenzo #PaulaPerassi . https://t.co/1rf9xNv9Ty",
@@ -501,7 +501,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10276",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "@Tita_Batres Que no vamos a votar por vos, marimacho",
@@ -606,7 +606,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10291",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "@ivanaacalderoon Nunca explicaste que eras bisexual y el termino mansplaining es una estupidez mas grande el culo de tu vieja",
@@ -620,7 +620,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10293",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "@Gustavo31734536 @Almonet78 @Faitelson_ESPN Y a ti quien putas te llamo cara de culo? Saques a la verga hombre feo",
@@ -690,7 +690,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10303",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "Yo no sé uds pero la verdad lloré de rabia leyendo esta columna, yo como padre no puedo ni imaginar el sufrimiento d ver como una niña de 6  y un bebé de 18 m  fueron degolladosEsto es lo que les gusta a #Uribistas .Necesitamos un cambio  #PetroPresidente2022 #UribeDioLaOrden https://t.co/r3TKqMfGP7",
@@ -865,7 +865,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10328",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "@PNUDRD Tantos problemas que tiene este país y el PNUD jodiendo con eso... Eso es  personal y punto...Coño ustedes quieren sodomizar el mundo.",
@@ -921,7 +921,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10336",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "@IvNachoni Pero porque?? Tienes a la tipa que pudo sodomizar aún vampiro de miles de años ,su estudiante, y un grupo de cazarrecompensas muy franceses, al mismo tiempo y sin morir en el proceso.",
@@ -1033,7 +1033,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10352",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "No es lo mismo que te bombardee una trans que un Trump. Dónde va a parar... Bombardeos #metoo Bombardeos peritas y nada fascistas. https://t.co/LT6sqJC3He",
@@ -1047,7 +1047,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10354",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "el manspreading en sitios públicos donde puedes molestar famosos cuarentones manspreading en sillones durante sus entrevistas",
@@ -1215,7 +1215,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10378",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "#España #Musulmanes  #islam   Detenido un hombre, de una raza que no podemos decir, por violar a 13 mujeres en Alicante.   https://www.mediterraneodigital.com/espana/espana/vox-se-querella-contra-pedro-sanchez-y-sentara-al-presidente-del-gobierno-en-el-banquillo.html",
@@ -1257,7 +1257,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10384",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "Era @BernieSanders el hombre que necesita EUA, ahora en un mes de mandato tienen al mundo otra vez al borde de una guerra, cuando la que tenemos contra el COVID aún no acaba. Biden es más de lo mismo https://t.co/jcY7sduojx",
@@ -1334,7 +1334,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10395",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "http://casoaislado.com/refugiado-afgano-viola-una-nina-13-anos-tras-salir-la-carcel-intento-violacion/Alemania no levanta cabeza",
@@ -1355,7 +1355,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10398",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "@pijetas Vaya nenaza gallina",
@@ -1418,7 +1418,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10407",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "@PabloIglesias Sois escoria y tenemos q echaros yaaa",
@@ -1502,14 +1502,14 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10419",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "Del famosísimo #NotAllMen llega el #NotAllPolicias",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10420",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "@chicajazz @BoudicaTercera @venus_2121 @PrimeraLinea9 Hay que ser bien chica para hacer amenazas por esta rrss, yo creo que por eso te dijo chica si está equivocada madura!!!",
@@ -1663,7 +1663,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10442",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "Me tengo que reir porque os recuerdo que a todos nos gustan los mimos, ya sea hacer el amor o follar así que guardaros el moralismo barato. Que luego sois los primeros que criticáis a una mujer por enseñar es su cuerpo que haga lo que quiera como si quiere hacer onlyfans",
@@ -1782,7 +1782,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10459",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "@BrumarioRMadrid He apoderado al pp en bcn, como siempre. Muy duro ver como triunfa lo peor. Alejandro es el mejor candidato. La campaña ha sido la más atractiva. Trabajada Madrid se ha volcado Casado ha estado casi cada día. Casado es el mejor candidato para el gobierno pero hay lo que hay",
@@ -1866,7 +1866,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10471",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "@ARMH_Memoria @chuchoquehabla @carmencalvo_ La ministra @carmencalvo_ es como ellos... otra benedictina, una mojigata que quiere estar en misa y tocando las campanas https://t.co/XUp95FTFng",
@@ -1943,7 +1943,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10482",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "@Luisg96043655 @fafataveras La inquisición fue un acto cometido por la iglesia católica para torturar y asesinar a todas las personas que se salían del molde de lo “socialmente aceptable”, principalmente mujeres y científicos, incluso a las mujeres las acusaban de brujería sin pruebas.",
@@ -2048,7 +2048,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10497",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "Y ya en el colmo de la “casualidad” también dan una cobertura normal del acto de anoche en el que volvimos a sufrir la violencia de los radicales de siempre. Merece la pena leerlo, porque demuestra que los periodistas de ABC saben escribir con rigor.https://t.co/KjfsMH8nGI",
@@ -2167,7 +2167,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10514",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "@NicolNando Una mujer obediente sexualmente es una gran maravilla La cuestion es q pasa si le das rienda suelta q reacionaria la fiera?  seria capas de hacer algo en rebelion",
@@ -2230,7 +2230,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10523",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "@troll760 Antes parecías homosexual ,ahora pareces una vieja puta",
@@ -2293,7 +2293,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10532",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "@TonoSVJ Condenado y nenaza que no para de lloriquear.",
@@ -2391,21 +2391,21 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10546",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "Ejem, ejem... Un hombre sirio con cuatro mujeres y 23 hijos cobra 30.000€ al mes del sistema social alemán. Hay quienes se lo saben montar y otros que no sabemos ?",
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10547",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "El androcentrismo no tiene límites https://t.co/0QCxeK7RiQ",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10548",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "@ClauuRial El empoderamiento https://t.co/DncgZ4kYCS",
@@ -2454,7 +2454,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10555",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "@basta_me_voy No vi nada la verdad, pero el feminismo salió a las calles hace dos días por Úrsula. Igual adhiero que es una cagada y demanda autocritica que no haya habido más difusión, yo recién me entero.",
@@ -2475,14 +2475,14 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10558",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "@Viri_Rios Entonces el feminismo es un movimiento político Que no eran apartidistas, entonces si están financiadas por grupos de poder Fija mejor tus posturas, le puedes hacer más daño al movimiento, que ayudarlo https://t.co/QPCxfuRzYE",
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10559",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "Pedís aumento mena corre todas hijo de puta regalas pelotas pareces una tortuga",
@@ -2503,7 +2503,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10562",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "Los miserables tiranos comunistas podemitas defienden a los asesinos etarras y a criminales tiranías chavistas. ¿Quien vota a esta escoria?",
@@ -2573,7 +2573,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10572",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "Una noticia falsa más de este señor. Cada día queda  más en duda su trabajo “periodístico” antes mínimo te llamaban para corroborar. Lastima, queda usted como un viejo mentiroso porque farsante ya era. Por cierto, atienda las denuncias de #Metoo que tiene su periódico. https://t.co/bt15yeC6J9",
@@ -2594,7 +2594,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10575",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "@MovistarPeru @OSIPTEL Ya le atendieron por ahí, y no me quieren ayudar si no les doy ese dato, lo cual cualquier personal de TI sabe que es una violacion a la seguridad de la información.",
@@ -2629,7 +2629,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10580",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "@SeptimoU @hax_uchi Sinceramente ni zorra, hace tiempo que lo dejé de seguir, empezaba a hacerse cansino",
@@ -2671,7 +2671,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10586",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "siendo muy del tix... ojalá raylee gane porque se lo merece la que más y es una heroina y una salvaje y la amamos",
@@ -2685,7 +2685,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10588",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "@WillyAshcroft @tanamafiosa1974 @Apaparaway @JorgelinaKos Yo tuve clases con un nativo hace muchos años. Acá en Twitter hay una chica inglesa que da clases",
@@ -2727,7 +2727,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10594",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "@Luis68655577 @MartinCharquero No le pegan al maricon ese, que se vaya a ver a la mujer de rodriguez y deje de mariconear",
@@ -2839,7 +2839,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10610",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "La mejor manera de ganar es no jugar . No vale la pena. #MGTOW https://t.co/JtINhWauBS",
@@ -2881,7 +2881,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10616",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "#ViernesIntratable callen a la rubia tonta de vestido gris, que tira datos sin mencionar concretamente la fuente, mas macrista la tonta",
@@ -3000,14 +3000,14 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10633",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "Y suerte tendrá el Guardia civil si encima no lo denuncia por odio.https://www.mediterraneodigital.com/feminismo/feminazis-1/una-feminazi-arrastra-25-metros-con-el-coche-a-un-guardia-civil-por-ponerle-una-multa.html",
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10634",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "Los mismos que publican que no pueden creer lo que le hacen a las mujeres son esos que son super tóxicos con sus chicas,las encierran en un círculo de mierda !!!Los odio ,no sirven lacras",
@@ -3168,7 +3168,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10657",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "Cada dia k pasa es peor....putas ratas judias...tw d asco...",
@@ -3231,7 +3231,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10666",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "@3porciento_3 Pero sólo si se siente mujer, trans, o d cualquier otro grupo q la izmierda considere q es inferior y por tanto necesite d la protección q ellos ofrecen en aras de mantener la desigualdad, podrá optar a paguita compensatoriaMe lo veo con un fondo de armario como una tienda d H&amp;M",
@@ -3252,7 +3252,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10669",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "Siempre tuvo la frente muy alta, la lengua muy larga y la falda muy corta",
@@ -3287,7 +3287,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10674",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "absolutamente todos los hombres haciendo mansplaining estoy a punto de vomitar",
@@ -3301,14 +3301,14 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10676",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "Apareció hace meses, nunca quisieron investigar al novio, prefieren hablar de redes de trata para no reconocer la actividad de la chica y tenemos que andar apoyando sus marchas de injusticia? No cuenten conmigo.",
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10677",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "El gobierno de Mexico busca destruir Nuevo León y mantener a los chilangos del dinero e impuestos regios, alienta y patrocina el cruze de migrantes ilegales por Chiapas a traves del Instituto Nacional de Migración, al no cruzar a USA, la escoria se queda incluso con permiso de residencia y desgraciadamente no se largan a Oaxaca, Nuevo León debe dejar Mexico!",
@@ -3336,7 +3336,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10681",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "@vincent9915 @ThaislilasSEX Me gustaría follar tu culo peludo",
@@ -3427,7 +3427,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10694",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "Ya me voy a dormir cabreado por las putas burradas que suelta la peña",
@@ -3616,7 +3616,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10721",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "@Pandita_queer me quiero follar al osito bimbo, sus deliciosas curvas me excitan demasiado, tanto que me hacen llegar al orgasmo de solo verlas, me gustaría darle unas fuertes nalgadas a sus blancas y suaves pompas joder me tienes demente ni puedo verte en el supermercado porque se me pone dura",
@@ -3679,7 +3679,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10730",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "Ahora en una reunión se tocó un poco de feminismo y muchas mujeres se indignaron por que en su época les pusieron el \"de\" unas dijeron: \"cómo que fueramos objetos de ellos\" Y yo eso reinas revelense contra ellos ustedes son sus propias dueñas.",
@@ -3700,7 +3700,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10733",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "@iYELENASLOVER DALE EMPEZALO Y PONETE AL DIA VAM X EL CAP 18 SALEN TODOA LOS VIERNES Y LOS PERSONAJES SON TODOS HERMOSOS LAS MUJERES ESTAN BIEN ESCRITAS Y NO SEXUALIZADAS",
@@ -3756,7 +3756,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10741",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "- Me miro al espejo y me deprimo de lo fea que soy.- Te entiendo.- Los hombres no me hacen ni puto caso.- Normal.- ¿Y qué hago?- ¿Has pensado en hacerte feminista?- Pues es verdad.- Y bollera.- ¡Nosotras parimos, nosotras decidimos!- Ahí, ahí.- ¡Abajo el patriarcado!",
@@ -3819,14 +3819,14 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10750",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "Hay algo mas miserable que ser mujer y no aplaudir a favor de las mujeres asesinadas por violencia machista ??Y encima de @vox_es , que vergüenza. https://t.co/M9LyPCUTmI",
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10751",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "@marcoslg_99 @celinauoatime77 @Macarena_Olona @Congreso_Es Es decir, que un abogado machista, como los defensores de #LaManada, comparte el argumentario negacionista de la Extrema Derecha. ¡Qué sorpresa! #LaViolenciaNoTieneGenero",
@@ -3868,7 +3868,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10757",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "A esto es a lo que yo llamo: un hipócrita, falso y desgrac....o!  Apoyando las feministas mientras pretende meternos millones de los otros y dice estas cosas.",
@@ -3938,28 +3938,28 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10767",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "El alcalde de San Juan es una perra egoísta.",
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10768",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "@tcngvetied Ciertamente lo es, y se merece ser feliz, más que nadie. Yo siempre he pensado que ninguna mujer está a la altura para casarse con él.—Qué iba a decir ella, claro. Sabía que su hermano no era perfecto, pero creía ciegamente en él, errores incluidos—.",
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10769",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "Hace un tiempo me ahogue y casi muero, de ahí paso un tiempo y me enferme mi tía llamó a una chaman, la mujer vino me observó y me dijo que me echara en el piso yo toda obediente le hice caso, me agarro de las patas y me jalo por todo el cuarto, trajo unas flores y me los puso",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10770",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "@mlukacs @Alonso_GD Este quiso dar pena de acuerdo a lo que está de moda, la puta cultura del victimismo,  pero me hizo cagar de risa jajajaja.",
@@ -4008,7 +4008,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10777",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "Lo suyo hubiera sido que a Laura Pérez, antes de dejarle entrar en la celda, se le hubiera prestado una pistola para que con ella recreara un tiro en la nuca a un concejal del PP o de UPNhttps://www.navarraconfidencial.com/2018/12/31/laura-perez-la-chica-de-los-recados-de-la-izquierda-abertzale/",
@@ -4022,7 +4022,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10779",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "Que lindo se ha transformado este país ..personalmente no recuerdo un hecho de este tipo en los últimos años.El empoderamiento de los delincuentes se nota y cuando se quiera frenar será muuyyy tarde.Y los políticos estarán apuntando culpas en la comodidad de sus casas https://t.co/SdTlgakFeE https://t.co/8GXYmgH2oq",
@@ -4113,14 +4113,14 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10792",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "A nivel internacional no se conocen los muertos que se ha echado al buche el cucho.Ha explotado el victimismo, \"el político estrella\", \"el torturado\", la carta de triunfo del régimen. https://t.co/uobb9e0MBf https://t.co/Xy0LsX3CiL",
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10793",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "@PabloEchenique eres un escoria humane echó de retazos por que para lo mierda que eres ser el ser más odiado de España #pudretecerdo",
@@ -4169,7 +4169,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10800",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "RT rociosanmiguel  El grado de legitimidad de Maduro es directamente proporcional al miedo que tiene de celebrar su juramentación en el paseo los próceres. El acto ha quedado circunscrito, al espacio del patio de las Academias, con vigilancia estrecha sobre la FANB  ... https://pic.twitter.com/r1",
@@ -4190,7 +4190,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10803",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "Que pongas en la foto de perfil de whatssap a tu novia no te garantiza que esta dejará de ponerte los cuernos a la primera que hagas algo que no le agrade. #mgtow",
@@ -4386,7 +4386,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10831",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "@fachaner_ El daño que ha hecho el feminismo",
@@ -4428,7 +4428,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10837",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "El 91% de los abortos (818) se realizó según el motivo a petición de la mujerhttps://www.navarraconfidencial.com/2019/01/15/el-aborto-en-navarra-en-2017/",
@@ -4484,7 +4484,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10845",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "En una época me veía con un chabon así y no tenía foto para pasarle a mis amigas por si resultaba femicida.Que deporte de riesgo ser mujer https://t.co/5eiBlCCbEl",
@@ -4554,7 +4554,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10855",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "Juguetes para sodomizar. https://t.co/Pch9gjD71i",
@@ -4603,7 +4603,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10862",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "Síganme hijos de su puta madre...",
@@ -4687,7 +4687,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10874",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "Ojalá llegue pronto el día en que las niñas de todo el mundo tengan acceso a una educación que les permita si lo desean desarrollarse como científicas. https://t.co/u04EgDchOK",
@@ -4806,7 +4806,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10891",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "El feminismo de Rufián y de Podemos: apoyan a tipos presos por dar una paliza a dos chicas. http://www.outono.net/elentir/2019/03/01/el-feminismo-de-rufian-y-de-podemos-apoyan-a-tipos-presos-por-dar-una-paliza-a-dos-chicas/ ",
@@ -4827,7 +4827,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10894",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "Lo de la unión europea multándonos con pagar 50.000€ a escoria humana simplemente por darles unas pataditas es de traca, entre esto y la invasión de moros vamos listos...‍♂",
@@ -4932,7 +4932,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10909",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "El partido no termina hasta que la señora gorda cante. Mamita querida!Granada 2- Barcelona 2",
@@ -5009,7 +5009,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10920",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "@hyltlauren No claramente no podes venir y tachar a alguien de un error del pasado cuando ya pidió disculpas. La mayoría no hablamos mal de mujeres, pero ustedes no pueden venir y decirnos chupa pijas, por stannear a hombres.",
@@ -5142,7 +5142,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10939",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "A Dani Mateo le gusta meter sus narices en muchos lados, la bandera de España, la cocaína, el culo de Wyoming...",
@@ -5163,7 +5163,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10942",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "@Alven384Ventura Ufff para mamar ese culo",
@@ -5247,7 +5247,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10954",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "@adnradiochile Ajajjajajajajaja zorras con tragedia",
@@ -5331,7 +5331,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10966",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "@tbslou91 Pero eres hermosa mujer",
@@ -5352,7 +5352,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10969",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "@adiraathena follar toda la vida con mi mujer",
@@ -5366,7 +5366,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10971",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "@populares Pobrecico el que está debajo de #LaManada",
@@ -5422,14 +5422,14 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "10979",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "Toni Soler y Empar Moliner se mofan de la mujer agredida por retirar lazos amarillos en la Ciudadela https://www.elcatalan.es/toni-soler-y-empar-moliner-se-mofan-de-la-mujer-agredida-por-retirar-lazos-amarillos-en-la-ciudadela",
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "10980",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "Ni me gustan 50% los chicos, 50% las chicas, ni quiero hacer tríos con todo el mundo, ni estoy confusa, ni tengo que determinar mi acera. #DiadelaVisibilidadBisexual",
@@ -5632,7 +5632,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11009",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "La República de Singapur afirma que un 73% de las mujeres pertenecientes a la República Chilena están a favor del aborto y que las políticas de dicho país no son acordes con lo que pide la población.   OMS",
@@ -5716,7 +5716,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11021",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "panorama , Roxana cueva  corrupta de mierda  por mas que saquen denuncias  apretando a basuras humanas como ellos esos seguirán siendo basuras, vamos a terminarlos hijos de perra",
@@ -5730,7 +5730,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11023",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "Emireth...— Repitió en un pequeño susurro para no olvidar el nombre. La mujer parecía interesante, alguien que quizá valdría la pena observar. —Encantado, ¡encantando de conocerla! Yo soy Muninn, el cuervo más apuesto de los nueve mundos. https://t.co/IeM1JqcWiT",
@@ -5751,7 +5751,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "11026",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "@SomosOlimpia Es una basura @JMBRUNOTTE estas dirigiendo el mejor club del pais pero juega como si fuera un exa.. Abri los ojos carajo y hechale a patadas a este inútil, que mas queres? Se paga cuotas mensuales para ver esta cagada pio? Que puta le pareces a marito, Es triste verle a olimpia",
@@ -5779,7 +5779,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11030",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "Que tan bien tengo que hacer las cosas para tener un hombre como Diego? No se",
@@ -5863,7 +5863,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "11042",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "Pues para protestar a favor del aborto, utilizan sus tetas. ¿Sabrán para qué sirven esas glándulas..? Luego defenderán a la naturaleza y no sé qué gaitas más... ¡Qué ganas de manchar reivindicaciones justas con sandeces de género..!",
@@ -6185,7 +6185,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "11088",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "@mrssensualidad Prácticamente cualquier mujer pero en especial las que son mayores que yo y tienen ese algo especial en la cara que dice nene te voy a follar jajaja",
@@ -6521,7 +6521,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11136",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "@LaCrono__ Que el padre ha sido un héroe dice? Hombre el pobre claro que se habrá asustado y habrá pasado nervios...pero y esa mujer? PARIENDO SOLA muerta de miedo ,pa ella no hay alagos? Cago en to! Este habrá asistido muchos partos pero como se nota que no sabe lo que es parir!!",
@@ -6605,7 +6605,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "11148",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "Para mí es súper interesante como hay personas que \"critican\" o opinan sobre una zona de la Ciudad no por la seguridad de la zona o por las ventajas de vivir en aquella zona o algo por el estilo , pará está mujer la zona es mala para vivir , únicamente por la gente #Interesante",
@@ -6633,7 +6633,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11152",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "@MarcosdeQuinto Entonces deberíamos llamarlo hembrismo",
@@ -6654,7 +6654,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11155",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "@skianatoooo @StuarthBrayan @Carrascxl @NavaGalloRojo22 Inventaste una nueva parafilia.La comedia estaba muerta, que necesidad de violar el cadaver como hiciste com tu perrito?",
@@ -6724,7 +6724,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "11165",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "@sidedval maldita golfa",
@@ -6752,7 +6752,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11169",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "@Elisabetth2015 Joder!!! Cuando empieza es terrorífico, casi me hago caquita...Luego me ha puesto más caliente que el cenicero de un bingo, me han entrado ganas de follarme a un murciélago o sodomizar al mismísimo Satanás en el averno",
@@ -6850,7 +6850,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "11183",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "Quería agradecer a todas las chicas, mujeres, madres, señoras, de toda su labor a lo largo de su vida, q nos quieren, nos aman, nos cuidan, nos alimentan, nos apoyan, pero para nada a aquellas q lo único q saben hacer es daño a los demás, para esas anormales no les deseo nada bue",
@@ -6906,7 +6906,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "11191",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "Hoy en el Día de la Igualdad Salarial.Nosotros en el @PSOE_LaLaguna queremos contribuir en la reducción de la brecha salarial entre hombres y mujeres. Comparto el manifiesto del @PSOE  https://t.co/OynxeYiaR6#AcabemosConLaDesigualdad https://t.co/C5Xij4WJGs https://t.co/mmIIH8FfJG",
@@ -6920,7 +6920,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "11193",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "peeero quien sos lagartona",
@@ -6941,14 +6941,14 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11196",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "Quien sea el que maneja esta cuenta, deje de usar a esa señora en su foto para escribir estupideces. El personaje de rubia tonta dejó de ser gracioso el 2000. https://t.co/gqKzNFpuVI",
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "11197",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "@Anyoli @dtezanos @Gabbie @hipolitodelgado @ANivelDe No mujer, nada que ver. Anivelde salió de un joyo como combustion expontanea, seguro que ese era el que tenia una pagina que se llamaba rock algo que nadie entraba.",
@@ -7011,7 +7011,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "11206",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "@robboby @PedroBufalo No lo creo, la decisión, quienes la hayan tomado y cómo la hayan tomado, me parece una de las más acertadas, tanto @clavon73 como @Grolucero me parecen, son dos de los perfiles que mejor saben hacer periodismo en Qro., objetivas, equilibradas y lo mejor...es que son mujeres!!!",
@@ -7039,7 +7039,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "11210",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "@ferruti76 @PuntaLeyend Buena gente, sin duda, pero solo el 11%. \"Un 89% de los cuidadores en España son mujeres de mediana edad, cuyos problemas más frecuentes suelen estar relacionados con la presión psicológica a la que están sometidas. https://t.co/eEqmqG4TfA",
@@ -7053,7 +7053,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "11212",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "Y si fuéramos como las de la segunda foto también os quejaríais Por lo visto no queréis violencia pero para ser “mujer empoderada” tenemos que ser violentas? No comprendo https://t.co/SVsJX7yyHw",
@@ -7116,7 +7116,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "11221",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "@skereunpesado san valentín lo voy a pasar de zorra",
@@ -7165,7 +7165,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11228",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "No me jodas, leyes de mierda!! Tendría que estar toda su puta vida en prisión!! En fin, luego dicen en Bruselas que somos fascistas, por favor... Esto no pasa ni en Memezuela.",
@@ -7193,7 +7193,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11232",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "@buffonSoy Jajajajaja! Madre mía! Y el diputado del frente enojado sacó el manual y encajó el #NotAllMen más rápido del condado.",
@@ -7249,7 +7249,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "11240",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "@trigue28 @PabloHasel De la cárcel se sale pero de la tumba no a los fascistas como tú los usaba como abono escoria",
@@ -7319,14 +7319,14 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11250",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "@letserkanlive me has llamado guarra así que tus pensamientos debían ser guarros eso no es ninguna conclusión",
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "11251",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "Las mujeres y jóvenes de los pueblos de Oaxaca son prioridad para el @goboax; con el impulso del gobernador @alejandromurat, el subsecretario de Derechos de la SEPIA hace entrega de los programas #SemillasDeTalento y #MujerEsFamilia. https://t.co/aFj67ZfDG9",
@@ -7347,7 +7347,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11254",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "@MARIBEL41826017 Marte puede ser ira reprimida o que si no diriges hacia otro , la diriges contra ti y nos habla de perdonarte muchas cosas cuando está cerca de Plutón.",
@@ -7452,7 +7452,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11269",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "@vicentedf88 Cuando jugamos a peleas con mis dos hijas de 7 y 9 años nos damos más duro , NENAZA.",
@@ -7641,7 +7641,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "11296",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "En serio siento mucha bronca contra esta gente. Primero por el mansplaining, los consejos no solicitados y porque andan vociferando sus creencias mágicas provocando daños colaterales en la gente que tiene acceso a las estupideces que dicen a tontas y a locas. Desprecio infinito https://t.co/r94o50KhTr",
@@ -7697,7 +7697,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11304",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "@ManonAubryFr @PabloEchenique @PabloIglesias Toda la razón, no es democrático tener un vicepresidente que NO ha sido votado y que hace bromas con azotar hasta hacer sangrar a las mujeres.",
@@ -7739,7 +7739,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "11310",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "@alejo_trs @0000Horas Yo te vi Ambos ya somos maduros Y me gustas mucho Veo interior Necesita un hombre No un físico",
@@ -7774,7 +7774,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "11315",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "#gays #homosexualismo   Ésta es la clase de educación que los sodomitas dan a sus hijos adoptados: cómete una polla.",
@@ -7851,14 +7851,14 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11326",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "Alemania TV estatal en canal de jóvenes: Serie proxeneta romantizando relaciones amorosas entre chicas menores y extranjeros/fugees  #Zanzu #Kalergi #WhiteGenocide #EU paraíso   Video solo en alemán https://www.kika.de/schau-in-meine-welt/sendungen/sendung103934.html",
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "11327",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "@ObjetivoLaSexta @CarlaAntonelli Victimismo insoportable",
@@ -7900,7 +7900,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11333",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "Cuando venga el colapso, los que controlan el sistema impondrán a una mujer para lidiar con toda la energía masculina disgustada como manejaron las cosas.",
@@ -7914,7 +7914,7 @@
         "answer": "non-sexist",
         "test_case": "EXIST2021",
         "id": "11335",
-        "prediction": "non-sexist"
+        "prediction": "sexist"
     },
     {
         "question": "Hoy se conmemora el #DIADELAMUJERMEXICANA fue establecido en 1960, con la finalidad de crear conciencia de la importancia de la igualdad de género.Brindamos gran reconocimiento a todas las mujeres que día con día se esfuerzan por un México mejor.¡Felicidades mujeres mexicanas! https://t.co/PGxhbjN15z",
@@ -7928,7 +7928,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "11337",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "El régimen ha perdido el monopolio de la narrativa. Tampoco es el único que pone los puntos de la agenda política. Los sectores de la sociedad civil y las iniciativas ciudadanas se abren paso  #YoVotoNo #EstamosConectados #YoSiTeCreo #PatriaYVida #AyudanosAContarLaVerdad",
@@ -7977,7 +7977,7 @@
         "answer": "sexist",
         "test_case": "EXIST2021",
         "id": "11344",
-        "prediction": "sexist"
+        "prediction": "non-sexist"
     },
     {
         "question": "@elmundoes A Pablo es que ya no le hacen caso en los consejos y tiene que soltar tonterías. Se nota que pasan de él y su mujer.Si hablas bien de él y su plebe, medios buenos. Si hablas mal, medios malos. Cómo un crío!",

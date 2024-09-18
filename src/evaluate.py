@@ -25,8 +25,7 @@ def evaluate_task(
     output_dir: str = "results",
 ):
     """
-    Runs the task on the model
-
+    Runs the model on the given task
     Args:
         task (Task): Task object
         model (outlines.models.transformers): Model object

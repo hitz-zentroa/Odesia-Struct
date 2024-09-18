@@ -12,6 +12,13 @@ from src.training.trainer import OdesiaTrainer
 
 
 def train(training_args: Seq2SeqTrainingArguments, model_args: ModelArguments):
+    """
+    Train the model
+
+    Args:
+        training_args (Seq2SeqTrainingArguments): Training arguments
+        model_args (ModelArguments): Model arguments
+    """
     os.makedirs(training_args.output_dir, exist_ok=True)
 
     # Load model only on the main process

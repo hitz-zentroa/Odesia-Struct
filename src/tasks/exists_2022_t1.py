@@ -24,9 +24,15 @@ class Exists2022T1(Task):
         self._precompute_examples()
 
     def get_system_prompt(self):
+        """
+        Returns the system prompt for the task
+        """
         return "You are an AI assistant trained to identify sexist content in text. Your task is to analyze the given input and determine whether it contains sexist language or attitudes."
 
     def get_instruction(self):
+        """
+        Returns the guidelines for the task
+        """
         return """
 Analyze the given text to determine if it contains sexist content. 
 
@@ -40,6 +46,10 @@ Output: Provide your answer as a JSON object with the key 'label' and the value 
 """.strip()
 
     def get_pydantic_model(self):
+        """
+        Returns the Pydantic model for the task output
+        """
+
         class LabelEnum(str, Enum):
             sexist = "sexist"
             non_sexist = "non-sexist"
@@ -50,6 +60,10 @@ Output: Provide your answer as a JSON object with the key 'label' and the value 
         return Identification
 
     def _precompute_examples(self):
+        """
+        Divide the training examples into classes from which we will sample the few-shot examples.
+        This allows to select a equal number of few-shot examples from each class
+        """
         train_data = self.get_split("train")
         model = self.get_pydantic_model()
         # Change this line

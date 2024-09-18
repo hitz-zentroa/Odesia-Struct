@@ -6,9 +6,7 @@
         ],
         "test_case": "DIANN2018",
         "id": "800",
-        "prediction": [
-            "paresia bilateral del músculo recto externo"
-        ]
+        "prediction": []
     },
     {
         "question": "Resumen Introducción Los estudios con pruebas neuropsicológicas han demostrado déficits en la memoria operativa de pacientes con trastorno afectivo bipolar ( TAB ) . Todavía no es clara la correlación de estos déficits con activaciones funcionales detectados con neuroimágenes , como la resonancia magnética funcional ( RMf ) . Objetivo Describir la aplicación de un nuevo paradigma de evaluación neurocognitiva para identificar las posibles diferencias en las características de respuesta neurofuncional en pacientes con TAB en tareas de memoria operativa . Método Estudio descriptivo - correlacional de corte transversal . Se evaluaron 12 pacientes eutímicos con TAB tipo I ( cuatro en tratamiento con carbonato de litio , cuatro con ácido valproico y cuatro sin medicación al menos durante dos meses previos a la evaluación ) y cuatro controles . La RMf se usó para correlacionar sus procesos de memoria operativa con los cambios vistos en la señal BOLD , usando un paradigma que combina la presentación de bloques y eventos relacionados . Resultados La activación cerebral del grupo control fue significativamente mayor durante su condición de respuesta , comparada con la presentada en pacientes con TAB ; pero al contrastar los grupos de pacientes no hubo diferencia estadísticamente significativa ( p>0 , 05 ) . Discusión El paradigma evaluado es útil en el estudio de áreas de activación cerebral en procesos de memoria operativa . Los resultados diferenciales en pacientes bipolares requieren estudios con muestras más grandes para comparar otros posibles déficits cognitivos asociados y efectos específicos de los medicamentos .",
@@ -18,7 +16,7 @@
         "test_case": "DIANN2018",
         "id": "801",
         "prediction": [
-            "déficits en la memoria operativa"
+            "trastorno afectivo bipolar"
         ]
     },
     {
@@ -30,10 +28,7 @@
         ],
         "test_case": "DIANN2018",
         "id": "802",
-        "prediction": [
-            "deterioro cognitivo leve",
-            "enfermedad de Alzheimer"
-        ]
+        "prediction": []
     },
     {
         "question": "Resumen Introducción Es importante la atención de las necesidades espirituales de pacientes y familiares para vivir un proceso de final de la vida de calidad . El objetivo del estudio es evaluar cómo perciben los pacientes y los cuidadores principales de una unidad de cuidados paliativos la atención espiritual recibida y compararla entre grupos : paciente , cuidador durante ingreso y cuidador en seguimiento . Método Descriptivo comparativo de corte transversal mediante cuestionario ad hoc ( ítems sobre estado emocional , medida de atención espiritual recibida y otros recursos ) , sobre una población de 219 usuarios de una unidad de cuidados paliativos donde existe servicio de atención espiritual . Criterios de entrada : al menos 2 días de ingreso y un primer contacto con el agente espiritual , sin deterioro cognitivo , que aceptara participar y que pudiera responder . Participantes Se preseleccionaron 145 usuarios , la muestra final fue de 66 usuarios ( tasa de respuesta 45 , 5% ) , 56 ( 84 , 8% ) pacientes oncológicos ; 38 ( 57 , 6% ) mujeres y 28 ( 42 , 4% ) hombres . Media de edad 76 años ( desviación típica 9 ) . Tasa de respuesta ; pacientes 36 , 7% ( 11 ) , cuidadores de ingresados 44 , 9% ( 22 ) y cuidadores en seguimiento 50% ( 33 ) . Razones de rechazo : 83 , 5% ( 66 ) negativa a participar , 8 , 9% ( 10 ) no contactados y 3 , 8% ( 3 ) el familiar no lo permite . Resultados La atención espiritual ayuda al 88% a sentirse esperanzado , al 83% confortado , al 79 , 1% a encontrar significado y al 73 , 4% a comprender el sentido . El 95 , 2% valora la atención espiritual necesaria en la enfermedad . Conclusión Aunque el intento de cuantificar la atención espiritual reduce sustancialmente su valor nuestros datos apoyan la hipótesis de que una atención espiritual adecuada mejora la calidad de la vivencia de la fase terminal de la vida y el afrontamiento de la muerte influyendo positivamente sobre el paciente y los familiares .",
@@ -42,9 +37,7 @@
         ],
         "test_case": "DIANN2018",
         "id": "803",
-        "prediction": [
-            "deterioro cognitivo"
-        ]
+        "prediction": []
     },
     {
         "question": "Resumen El glaucoma es la primera causa mundial de ceguera irreversible . Su prevalencia en nuestro medio es del 2% ; la mitad de los pacientes permanecen sin diagnóstico . Determinados fármacos pueden desencadenar o exacerbar el glaucoma , de ahí la importancia del conocimiento de estos fármacos por parte del médico de atención primaria . Además , los fármacos empleados en el tratamiento del glaucoma , incluso por vía tópica , pueden tener efectos secundarios sistémicos que también debe conocer el médico de atención primaria . El adecuado conocimiento de todos estos grupos farmacológicos y su correcta prescripción en pacientes con factores de riesgo y enfermedad de base , permitirá al médico de atención primaria una optimización de la relación riesgo/beneficio en el manejo terapéutico de este tipo de pacientes . Se efectúa una actualización de esta enfermedad oftalmológica , con especial atención a sus implicaciones con los tratamientos farmacológicos .",
@@ -54,7 +47,6 @@
         "test_case": "DIANN2018",
         "id": "804",
         "prediction": [
-            "ceguera",
             "ceguera irreversible"
         ]
     },
@@ -67,23 +59,7 @@
         "test_case": "DIANN2018",
         "id": "805",
         "prediction": [
-            "deterioro cognitivo leve",
-            "deterioro",
-            "deterioro",
-            "deterioro",
-            "deterioro",
-            "deterioro",
-            "deterioro",
-            "deterioro",
-            "deterioro",
-            "deterioro",
-            "deterioro",
-            "deterioro",
-            "deterioro",
-            "deterioro",
-            "deterioro",
-            "deterioro",
-            ")}ımdaासन$PostalCodesNLHTTPRequestOperation 洲(找不到單字或標點符號瑣)ected variables : the habit of alcohol consumption and the history of cerebrovascular accidents (CVA) have influence on the results obtained in the MEC, in the classification of the subject as healthy versus deterioration and in some memory tests. Through a "
+            "deterioro cognitivo leve"
         ]
     },
     {
@@ -94,7 +70,7 @@
         "test_case": "DIANN2018",
         "id": "806",
         "prediction": [
-            "deficit visual"
+            "déficit visual"
         ]
     },
     {
@@ -116,8 +92,8 @@
         "test_case": "DIANN2018",
         "id": "808",
         "prediction": [
-            "espasticidad",
-            "síntomas de la esclerosis múltiple",
+            "náuseas y vómitos",
+            "esclerosis múltiple",
             "alteraciones del movimiento"
         ]
     },
@@ -128,7 +104,11 @@
         ],
         "test_case": "DIANN2018",
         "id": "809",
-        "prediction": []
+        "prediction": [
+            "pérdida visual irreversible",
+            "edema macular secundario a oclusión venosa retiniana",
+            "edema macular secundario a OVR"
+        ]
     },
     {
         "question": "Resumen Introducción Solo el 20 - 26% de los pacientes con esclerosis múltiple presenta déficits en habilidades visuoespaciales - visuoconstructivas ( VE - VC ) pese a la frecuente afectación témporo - parieto - occipital en resonancia magnética . No hay estudios que analicen la relación entre estas funciones y el volumen lesional ( VL ) de estas áreas cerebrales . Objetivo Evaluar la relación del VL parieto - occipito - temporal y la atrofia subcortical con el rendimiento en funciones VE - VC en esclerosis múltiple . Metodología De 100 pacientes de esclerosis múltiple con evaluación neuropsicológica rutinaria se seleccionan 21 por afectación en habilidades VE - VC , medidas por Figuras incompletas , Cubos ( WAIS - III ) y Figura compleja de Rey - Osterrieth , y 13 sin déficit cognitivo ( grupo control ) . El VL regional se cuantifica por un método semiautomático en secuencias FLAIR y T1 , y la atrofia subcortical por el ratio bicaudado y la anchura del iii ventrículo ( AIIIV ) . Se utilizan correlaciones parciales ( controlando con edad y escolarización ) y regresión lineal para analizar la relación entre los parámetros de resonancia magnética y el rendimiento cognitivo . Resultados Todas las medidas de VL y de atrofia cerebral son significativamente mayores en pacientes con deterioro cognitivo . El VL regional en FLAIR , ratio bicaudado y AIIIV muestran significativa correlación inversa con el rendimiento cognitivo , mayor entre la AIIIV y VC ( Cubos : p = 0 , 001 ; Figura compleja de Rey - Osterrieth : p < 0 , 000 ) . En el análisis multivariante , la AIIIV influye significativamente en tareas de VC ( Cubos : p = 0 , 000 ; Figura compleja de Rey - Osterrieth : p = 0 , 000 ) y el VL regional en FLAIR en tareas VE ( Figuras incompletas ; p = 0 , 002 ) . Conclusiones Las medidas de atrofia subcortical se relacionan con tareas de visuoconstrucción y el VL regional con tareas VE .",
@@ -139,9 +119,9 @@
         "test_case": "DIANN2018",
         "id": "810",
         "prediction": [
-            "deterioro cognitivo",
+            "déficit en habilidades visuoespaciales - visuoconstructivas",
             "esclerosis múltiple",
-            "funciones VE - VC"
+            "deterioro cognitivo"
         ]
     },
     {
@@ -190,7 +170,7 @@
         "test_case": "DIANN2018",
         "id": "814",
         "prediction": [
-            "deficit cognitivo"
+            "déficit cognitivo del paciente con síndrome de fatiga crónica ( SFC )"
         ]
     },
     {
@@ -232,9 +212,7 @@
         ],
         "test_case": "DIANN2018",
         "id": "818",
-        "prediction": [
-            "amaurosis"
-        ]
+        "prediction": []
     },
     {
         "question": "Resumen Objetivo Estudio in vivo de la luz dispersa que alcanza la retina en un paciente antes y después de someterse a una queratoplastia penetrante ( o sus siglas en inglés , PKP ) . Métodos En un paciente varón de 65 años con una úlcera corneal herpética se midió la proporción de luz dispersa que alcanza la retina tanto antes como después de una PKP , utilizando para ello un método psicométrico denominado “de comparación por compensación” ( «Compensation comparison method» , C - Quant straylightmeter , Oculus GmbH , Alemania ) . Resultados La cantidad de luz dispersa que alcanza la retina medida antes de la cirugía fue elevada en comparación con los valores obtenidos en estudios previos en sujetos normales de la misma edad , debido principalmente a la dispersión provocada por la úlcera corneal . La cantidad de luz dispersa que llega a la retina ( media ± desviación típica ) , en las medidas preoperativas y en las realizadas 9 meses después de la intervención de PKP , fue igual a log ( s ) =1 , 71±0 , 09 y 1 , 05±0 , 08 respectivamente . La disminución de la cantidad de luz dispersa podría deberse a un aumento de la transparencia corneal , lo que también ocasionaría una mejora significativa de la agudeza visual . Conclusiones La medida de la luz dispersa que llega a la retina proporciona información clínicamente relevante sobre la dispersión de la luz hacia delante como causa de discapacidad visual . Las medidas de agudeza visual subestiman la mejora de la función visual obtenida tras la cirugía .",
@@ -244,7 +222,7 @@
         "test_case": "DIANN2018",
         "id": "819",
         "prediction": [
-            "úlcera corneal herpética"
+            "discapacidad visual"
         ]
     },
     {
@@ -256,7 +234,9 @@
         "id": "820",
         "prediction": [
             "psicosis",
-            "psicosis"
+            "anomalías cerebrales",
+            "defectos de la migración neural prenatal",
+            "déficit de la memoria visual inmediata y tardía"
         ]
     },
     {
@@ -268,7 +248,9 @@
         "test_case": "DIANN2018",
         "id": "821",
         "prediction": [
-            "hipoacusia bilateral"
+            "hipoacusia bilateral",
+            "parálisis facial izquierda",
+            "pérdida de la consciencia"
         ]
     },
     {
@@ -290,7 +272,11 @@
         ],
         "test_case": "DIANN2018",
         "id": "823",
-        "prediction": []
+        "prediction": [
+            "enfermedad de Parkinson",
+            "parkinsonismos atípicos",
+            "otros"
+        ]
     },
     {
         "question": "La panencefalitis esclerosante subaguda ( PEES ) es una enfermedad rara y de curso fatal , que afecta de forma progresiva al sistema nervioso central . Está causada por la infección persistente de una forma mutante del virus del sarampión . En países desarrollados la incidencia de PEES es muy baja ; no ocurre lo mismo en países menos favorecidos , donde existen todavía zonas endémicas de sarampión y la vacunación no está al alcance de la mayoría de la población . Se presenta una niña española de 8 años con mioclonías rítmicas y simétricas . Como antecedentes tan sólo destacaba un ingreso hospitalario por sarampión a los 13 meses de edad . No presentaba deterioro cognitivo ni intelectual . Las técnicas de neuroimagen fueron normales , así como los electroencefalogramas iniciales . En la electroforesis en suero y líquido cefalorraquídeo ( LCR ) se detectaron bandas oligoclonales . Los niveles de anticuerpos antisarampión en suero y LCR eran muy elevados . Se inició tratamiento con metisoprinol oral e interferón alfa por vía intraventricular con lo que se ha detenido la progresión de la enfermedad . Se subraya la importancia que tiene incluir la PEES en el diagnóstico diferencial de pacientes que consultan por deterioro cognitivo , disminución del rendimiento escolar o trastornos del movimiento . Se debe prestar especial atención a la población inmigrante procedente de países donde la PEES presenta una mayor incidencia que en España .",
@@ -302,10 +288,7 @@
         "test_case": "DIANN2018",
         "id": "824",
         "prediction": [
-            "mioclonías rítmicas y simétricas",
-            "deterioro cognitivo",
-            "deterioro cognitivo",
-            "trastornos del movimiento"
+            "deterioro cognitivo"
         ]
     },
     {
@@ -316,7 +299,11 @@
         "test_case": "DIANN2018",
         "id": "825",
         "prediction": [
-            "deterioro cognitivo"
+            "dolor",
+            "problemas de movilidad",
+            "actividades de la vida cotidiana",
+            "ansiedad/depresión",
+            "problemas para el cuidado personal"
         ]
     },
     {
@@ -334,7 +321,7 @@
         "id": "826",
         "prediction": [
             "trastornos neurocognitivos",
-            "TNC"
+            "trastornos neurocognitivos"
         ]
     },
     {
@@ -344,9 +331,7 @@
         ],
         "test_case": "DIANN2018",
         "id": "827",
-        "prediction": [
-            "deterioro cognitivo"
-        ]
+        "prediction": []
     },
     {
         "question": "Objetivo Describir el tratamiento inicial de pacientes > 60 años con quejas subjetivas de memoria y/o deterioro cognitivo de al menos 6 meses de evolución . Diseño Estudio observacional , longitudinal , multicéntrico y naturalístico , con un período de seguimiento de 12 meses . Emplazamiento Un total de 105 centros de atención primaria . Participantes Participaron 921 pacientes que acudieron a consulta . Mediciones principales En la visita basal se recogieron las características sociodemográficas , el diagnóstico , el tratamiento y las derivaciones asistenciales , y en las 2 siguientes ( 6 y 12 meses ) , el cambio de diagnóstico , el tratamiento y las derivaciones . Resultados El 66 , 9% de los sujetos eran mujeres y la edad media fue de 74 , 3 ± 6 , 8 años . En la visita inicial , el 50 , 5% ( intervalo de confianza [IC] del 95% , 47 , 3 - 53 , 7 ) de los diagnósticos fue de tipo sindrómico y el 33 , 3% ( IC del 95% , 30 , 3 - 36 , 3 ) , etiológico . El médico de atención primaria modificó el diagnóstico de sospecha inicial en el 22% ( IC del 95% , 19 , 3 - 24 , 7 ) de los pacientes durante el año de seguimiento del estudio . El 63 , 8% ( IC del 95% , 60 , 7 - 66 , 9 ) de los pacientes fue diagnosticado a través de la anamnesis , la exploración física , el test de cribado y los datos de laboratorio . En la visita inicial , el 52 , 6% ( IC del 95% , 49 , 4 - 55 , 8 ) de los pacientes recibían tratamiento , principalmente nootropos y neuroprotectores , y más tarde aumentó el porcentaje de pacientes con inhibidores de la colinesterasa . Durante los 12 meses de estudio , el médico de atención primaria remitió a un 54 , 9% ( IC del 95% , 51 , 7 - 58 , 1 ) de los pacientes . Conclusiones El médico de atención primaria diagnostica a la mayoría de los pacientes con los medios disponibles , basándose fundamentalmente en la anamnesis , la exploración , el test de cribado y los datos de laboratorio . Se prescriben fármacos que carecen de eficacia en esta enfermedad y pocos de los que han demostrado eficacia .",
@@ -356,7 +341,6 @@
         "test_case": "DIANN2018",
         "id": "828",
         "prediction": [
-            "quejas subjetivas de memoria",
             "deterioro cognitivo"
         ]
     },
@@ -385,7 +369,6 @@
         "test_case": "DIANN2018",
         "id": "830",
         "prediction": [
-            "cefallia",
             "alteraciones visuales",
             "alteraciones de consciencia"
         ]
@@ -409,7 +392,8 @@
         "test_case": "DIANN2018",
         "id": "832",
         "prediction": [
-            "discapacidad intelectual total"
+            "discapacidad intelectual total",
+            "enfermedad de Alzheimer"
         ]
     },
     {
@@ -431,7 +415,9 @@
         "test_case": "DIANN2018",
         "id": "834",
         "prediction": [
-            "trastorno esquizoafectivo"
+            "trastorno psicótico",
+            "trastorno esquizoafectivo",
+            "psiquiátrico"
         ]
     },
     {
@@ -446,7 +432,7 @@
             "enfermedad de Alzheimer",
             "demencia frontotemporal",
             "enfermedad de Parkinson",
-            "parkinsonismos"
+            "otros parkinsonismos"
         ]
     },
     {
@@ -458,15 +444,14 @@
         "id": "836",
         "prediction": [
             "ceguera infantil",
-            "visión borrosa",
+            "visor borrosa",
             "manifestaciones oculares de la rubeola",
             "cataratas",
             "conjuntivitis",
             "bizquera",
             "estrabismo",
             "miopía",
-            "orzuelos",
-            "mala visión"
+            "orzuelos"
         ]
     },
     {
@@ -480,15 +465,10 @@
         "test_case": "DIANN2018",
         "id": "837",
         "prediction": [
+            "esclerosis tuberosa",
+            "epilepsia refractaria",
             "deterioro cognitivo",
-            "deterioro cognitivo",
-            "deterioro cognitivo",
-            "epilepsia refractaria",
-            "epilepsia refractaria",
-            "epilepsia refractaria",
-            "epilepsia refractaria",
-            "epilepsia refractaria",
-            "epsil"
+            "trastornos de conducta"
         ]
     },
     {
@@ -500,10 +480,8 @@
         "test_case": "DIANN2018",
         "id": "838",
         "prediction": [
-            "enfermedad de Alzheimer de inicio precoz",
-            "EAIP",
-            "enfermedad de Alzheimer de inicio tardío",
-            "EAIT"
+            "afectación de las funciones ejecutiva y visuoespacial y de las praxias",
+            "memoria"
         ]
     },
     {
@@ -515,9 +493,8 @@
         "test_case": "DIANN2018",
         "id": "839",
         "prediction": [
-            "funcionamiento general alterado",
             "trastorno bipolar tipo I",
-            "funcionamiento cognitivo alterado"
+            "TBI"
         ]
     },
     {
@@ -533,11 +510,7 @@
         "id": "840",
         "prediction": [
             "deterioro cognitivo",
-            "deterioro cognitivo",
-            "deterioro cognitivo",
-            "deterioro cognitivo",
-            "deterioro cognitivo",
-            "deterioro cognitivo"
+            "funciones intelectuales alteradas"
         ]
     },
     {
@@ -561,7 +534,7 @@
         "test_case": "DIANN2018",
         "id": "842",
         "prediction": [
-            "deficit visual severo"
+            "deterioro cognitivo"
         ]
     },
     {
@@ -573,10 +546,7 @@
         "test_case": "DIANN2018",
         "id": "843",
         "prediction": [
-            "deterioro cognitivo",
-            "enfermedad de Alzheimer",
-            "enfermedad de Alzheimer",
-            "deterioro cognitivo"
+            "enfermedad de Alzheimer"
         ]
     },
     {
@@ -586,10 +556,7 @@
         ],
         "test_case": "DIANN2018",
         "id": "844",
-        "prediction": [
-            "deterioro cognitivo",
-            "deterioro cognitivo"
-        ]
+        "prediction": []
     },
     {
         "question": "Objetivo conocer la prevalencia de uso de dispositivos de sujeción física en residencias públicas de mayores utilizando el Sistema de Información Clasificación Funcional de Residentes , para evaluar la implantación del protocolo dirigido a reducir su uso y a su manejo racional . Material y métodos se han incluido en este estudio las 25 residencias públicas de la Comunidad de Madrid . Se analizan datos sobre el uso de sujeciones físicas : frecuencia de su uso ( diario o no ) , tipo de dispositivo , grado de dependencia funcional para las actividades de la vida diaria ( AVD ) y el grado de deterioro cognitivo . Resultados residentes incluidos : 5 .346 . La prevalencia fue del 8 , 4% . Añadiendo el uso de barandillas en la cama , el porcentaje se eleva al 20 , 8% . El 63 , 4% de las sujeciones eran barandillas ; había restricción de tronco en el 17 , 7% , restricción de miembros en el 3% y sillas de sujeción en el 15 , 9% . Sólo se utilizó un dispositivo en el 62 , 6% . De las sujeciones , el 71 , 4% se utilizó a diario y 28 , 6% de forma no permanente . Conclusiones los resultados permiten obtener una aproximación a la situación actual del uso de sujeciones físicas en residencias . La prevalencia es similar a la obtenida en otros estudios e incluso inferior a otras publicadas . Las barandillas son el dispositivo de sujeción más empleado . Probablemente exista un uso excesivo de barandillas que afecta incluso a residentes sin deterioro cognitivo ni dependencia física . Para reducir su utilización y garantizar los mejores cuidados en aquellos casos en los que estén indicadas , el Servicio Regional de Bienestar Social está aplicando de forma sistemática un protocolo de prevención y uso de sujeciones mecánicas .",
@@ -602,8 +569,7 @@
         "id": "845",
         "prediction": [
             "deterioro cognitivo",
-            "deterioro cognitivo",
-            "deterioro cognitivo",
+            "dependencia funcional",
             "deterioro cognitivo"
         ]
     },
@@ -615,11 +581,7 @@
         "test_case": "DIANN2018",
         "id": "846",
         "prediction": [
-            "deterioro cognitivo",
-            "agresividad",
-            "desinhibición",
-            "hipersesexualidad",
-            "intentos de suicidio"
+            "deterioro cognitivo e intentos de suicidio"
         ]
     },
     {
@@ -629,7 +591,10 @@
         ],
         "test_case": "DIANN2018",
         "id": "847",
-        "prediction": []
+        "prediction": [
+            "amaurosis brusca",
+            "OACR"
+        ]
     },
     {
         "question": "Resumen Introducción y objetivos Valorar la memoria episódica , adaptándola a la definición del concepto , haciéndola asequible a las familias , y aplicándola con una alta sensibilidad y especificidad , es el concepto del test episódico y el test episódico del cuidador . Métodos y resultados Se aplicó un test formado por 10 preguntas relacionadas con hechos episódicos a 332 sujetos , de los cuales 65 tenían enfermedad de Alzheimer ( EA ) , 115 deterioro cognitivo leve amnésico ( DCLa ) y 152 no mostraron alteración cognitiva , según la escala de deterioro global ( GDS ) de Reisberg . Se calculó la sensibilidad y especificidad del test episódico para detectar EA frente a DCLa y normalidad . El área bajo la curva ROC para el diagnóstico de DCLa fue de 0 , 94 y el mejor punto de corte fue 20 , valor con el que se obtuvo una sensibilidad del 89% y una especificidad del 82% . Con respecto al diagnóstico de EA , el área bajo la curva ROC fue de 0 , 99 y el mejor punto de corte fue 17 , con el que se obtuvo una sensibilidad del 98% y una especificidad del 91% . Un estudio posterior con similar metodología demostró resultados similares cuando el test era pasado directamente por el cuidador . Conclusiones El test episódico y el test episódico del cuidador son herramientas útiles como test breves de cribado para la captación de enfermos con EA en estadios iniciales , adecuadas para la utilización en atención primaria y en él domicilio , al poder ser pasado directamente por el cuidador . Las limitaciones del test vienen dadas por la necesidad de un cuidador fiable y por la medición exclusiva de la memoria episódica .",
@@ -643,8 +608,8 @@
         "test_case": "DIANN2018",
         "id": "848",
         "prediction": [
-            "enfermedad de Alzheimer",
-            "deterioro cognitivo leve amnésico"
+            "deterioro cognitivo leve amnésico",
+            "enfermedad de Alzheimer"
         ]
     },
     {
@@ -657,9 +622,13 @@
         "prediction": [
             "síntomas motores parkinsonianos",
             "apatía",
-            "sintomas motores parkinsonianos",
+            "parálisis supranuclear progresiva",
+            "distonías",
+            "degeneración córtico - basal",
+            "esquizofrenia",
             "depresiones",
-            "trastorno bipolar"
+            "trastorno bipolar",
+            "autismo"
         ]
     },
     {
@@ -692,9 +661,7 @@
         "test_case": "DIANN2018",
         "id": "900",
         "prediction": [
-            "deterioro cognitivo leve",
-            "deterioro cognitivo leve amnésico",
-            "deterioro cognitivo leve no amnésico"
+            "deterioro cognitivo leve"
         ]
     },
     {
@@ -715,7 +682,7 @@
         "test_case": "DIANN2018",
         "id": "901",
         "prediction": [
-            "trastorno por déficit de atención e hiperactividad (TDAH)"
+            "trastorno por déficit de atención e hiperactividad"
         ]
     },
     {
@@ -727,81 +694,7 @@
         "id": "902",
         "prediction": [
             "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquizofrenia",
-            "esquiz üyoruz.olačního syndromu 22q11.2 (22q11.2 DS) se projevuje řadou defektů v různých tkání a orgánech, což zahrnuje vysoké riziko psychiatrických poruch, zejména schizofrenie. Vysoká prevalence v skupině lidí s schizofrenií vybraných podle syndromatických rysů, jako je obtížný učení, typické rysy obličeje, abnormality palate a kongenitální srdeční vadnosti. Vyšetření FISH, qPCR, MLPA a později aCGH a NGS diagnostikují tuto mikrodelecí. Z klinické praxe je důležité znát, že pacienti s 22q11.2 DS mají vysoký výskyt schizofrenie, protože oblast 22q11.2 obsahuje kandidátní geny související se schizofrenií. Komorbiditou této nemoci a 22q11.2 DS se považuje za genetický podtyp schizofrenie. Patologické znaky a cytogenetické a molekulární metody umožňují diagnostikovat tyto pacienty a optimalizovat multidisciplinární přístup v jejich sledování. breaker> Disabilidades: ["
+            "dificultades de aprendizaje"
         ]
     },
     {
@@ -811,10 +704,7 @@
         ],
         "test_case": "DIANN2018",
         "id": "903",
-        "prediction": [
-            "lumbalgia crónica inespecífica",
-            "deterioro cognitivo"
-        ]
+        "prediction": []
     },
     {
         "question": "Resumen Se ha alertado en el último tiempo en un pequeño número de estudios sobre un riesgo incrementado de muerte súbita en pacientes con enfermedad de Parkinson . Describimos los casos de 2 varones parkinsonianos de más de 10 años de evolución tratados con L - dopa/carbidopa/entacapone/rasagilina/amantadina en el primer caso y L - dopa/carbidopa/piribedil/amantadina en el segundo ( en este último se realizó autopsia ) . Se discuten las causas de este fenómeno : degeneración neuronal cardioselectiva simpática , disautonomía parasimpática y fármacos antiparkinsonianos que prolongan el intervalo QTc . Se sugieren conductas prácticas para el seguimiento de este grupo de pacientes hasta tanto se cuente con más datos sobre el origen de este fenómeno .",
@@ -823,9 +713,7 @@
         ],
         "test_case": "DIANN2018",
         "id": "904",
-        "prediction": [
-            "enfermedad de Parkinson"
-        ]
+        "prediction": []
     },
     {
         "question": "Resumen La batería NEUROBEL ( Evaluación neuropsicológica del lenguaje en adultos ) es una prueba breve que permite una valoración de sondeo de los procesos básicos de comprensión y producción del lenguaje . Consta de 8 tareas , que analizan el correcto funcionamiento del lenguaje oral desde el modelo teórico propuesto por la neuropsicología cognitiva . El objetivo de este trabajo ha consistido en realizar un estudio piloto de los valores de referencia normativos iniciales de esta batería en adultos y mayores . Para ello , se ha estudiado una muestra de 30 participantes sin deterioro cognitivo ( MMSE ≥ 25 ) , de ambos sexos y de más de 50 años . La batería NEUROBEL fue administrada a toda la muestra dividida en 2 grupos de edad : «adultos» ( 50 - 64 ) y «adultos - mayores» ( > 65 ) . Estos últimos analizados también según su lugar habitual de residencia ( domicilio particular o centros de mayores ) . En el apartado Resultados se presentan las puntuaciones , tiempos de referencia y percentiles principales obtenidos en la batería . NEUROBEL se muestra como una herramienta válida y fiable , con altas correlaciones bivariadas entre las tareas . ANOVA univariantes muestran efectos de grupo y escolaridad en puntuación , a favor de los participantes más jóvenes y escolarizados . Por el contrario , el sexo no influye en los resultados alcanzados , aunque sí se muestra como un factor significativo en el tiempo de ejecución de la batería , a favor de las mujeres . Ciertas diferencias observadas en los resultados entre los participantes del grupo de mayores de 65 años , dependiendo de su lugar habitual de residencia y sexo , se debaten en el apartado Discusión .",
@@ -834,7 +722,9 @@
         ],
         "test_case": "DIANN2018",
         "id": "905",
-        "prediction": []
+        "prediction": [
+            "deterioro cognitivo"
+        ]
     },
     {
         "question": "La deficiencia de vitamina B12 es frecuente en los ancianos ; sus manifestaciones clínicas sutiles son muy pocas veces reconocidas . Presentamos el caso de un varón de 81 años con deterioro cognitivo por déficit de vitamina B12 asociado a fármacos y posible gastritis crónica . Es importante recordar las causas más relevantes de deficiencia de cobalamina en la práctica clínica , el daño neurológico y las alteraciones del dominio cognitivo que se produce por dicho daño . Es necesario realizar un diagnóstico precoz y un tratamiento oportuno ; en la práctica habitual el tratamiento es intramuscular , aunque existen diversos estudios que demuestran la efectividad del tratamiento oral . ",
@@ -845,8 +735,7 @@
         "test_case": "DIANN2018",
         "id": "906",
         "prediction": [
-            "deterioro cognitivo",
-            "]Houston we have a problem - the input text is incomplete. Please provide more text for a correct analysis.["
+            "deterioro cognitivo"
         ]
     },
     {
@@ -873,6 +762,7 @@
         "id": "908",
         "prediction": [
             "parálisis cerebral infantil",
+            "PCI",
             "PCI"
         ]
     },
@@ -884,8 +774,8 @@
         "test_case": "DIANN2018",
         "id": "909",
         "prediction": [
-            "pérdida parcial o total de la visión",
-            "retraso en el neurodesarrollo"
+            "ROP",
+            "ROP de tipo 1"
         ]
     },
     {
@@ -896,7 +786,8 @@
         "test_case": "DIANN2018",
         "id": "910",
         "prediction": [
-            "deterioro cognitivo"
+            "deterioro cognitivo de grado significativo",
+            "desnutrición importante"
         ]
     },
     {
@@ -908,7 +799,9 @@
         "test_case": "DIANN2018",
         "id": "911",
         "prediction": [
-            "trastornos del movimiento"
+            "trastornos del movimiento",
+            "temblor esencial",
+            "enfermedad de Párkinson"
         ]
     },
     {
@@ -935,9 +828,8 @@
         "test_case": "DIANN2018",
         "id": "913",
         "prediction": [
-            "disfunción cognitiva en el trastorno depresivo mayor",
             "disfunción cognitiva",
-            "disfunción neurocognitiva en el TDM"
+            "déficits cognitivos"
         ]
     },
     {
@@ -950,7 +842,8 @@
         "prediction": [
             "déficit visual",
             "déficit vestibular",
-            "déficit somatosensorial"
+            "déficit somatosensorial",
+            "alteración visual"
         ]
     },
     {
@@ -961,7 +854,8 @@
         "test_case": "DIANN2018",
         "id": "915",
         "prediction": [
-            "disfunción cognitiva postquirúrgica"
+            "epilepsia del lóbulo temporal",
+            "disfunción cognitiva"
         ]
     },
     {
@@ -985,113 +879,7 @@
         "test_case": "DIANN2018",
         "id": "917",
         "prediction": [
-            "trastorno del espectro autista",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA",
-            "TEA"
+            "trastorno del espectro autista"
         ]
     },
     {
@@ -1101,9 +889,7 @@
         ],
         "test_case": "DIANN2018",
         "id": "918",
-        "prediction": [
-            "disnea"
-        ]
+        "prediction": []
     },
     {
         "question": "Introducción . El síndrome de Guillain - Barré es poco frecuente , sin embargo , durante la oleada de zika en América se vio un marcado incremento en la incidencia del síndrome , sin poder denotarse una relación causal directa en todos los casos . Métodos . Se revisaron los casos de enfermedad febril exantemática y parálisis flácida aguda durante el periodo del 1 de agosto a 15 de diciembre del 2016 , realizando caracterización clínica y bioquímica de cada caso para ser incluidos como síndrome de Guillain - Barré asociado a zika . Resultados . Durante el periodo comentado , se encontró una cohorte de 8 pacientes , 6 hombres y 2 mujeres , grupo etario más afectado : 50 - 59 años . La mayor incidencia fue en el mes de septiembre , con 7 casos . Los síntomas más frecuentes fueron exantema y conjuntivitis , seguidos de fiebre . La presentación más común fue parálisis simétrica ascendente con 7 casos . La afectación de pares craneales más frecuente fue la del vii par craneal . Solo 2 pacientes presentaron disociación albumino - citológica . Todos presentaron PCR - RT negativa a zika . Todos recibieron inmunoglobulina por vía intravenosa y todos tuvieron buen pronóstico . Ninguno ameritó ventilación mecánica . No se registraron defunciones . La tasa de incidencia acumulada es del 3 , 9% , la incidencia de casos/mes fue de 0 , 04 casos/mes a 2 casos/mes . Conclusiones . Existe un incremento en los casos de Guillain - Barré durante la oleada de zika , con un incremento en la incidencia y el número de casos/mes ; sin embargo , no se pudo demostrar relación causal directa entre estas 2 entidades . ",
@@ -1113,7 +899,6 @@
         "test_case": "DIANN2018",
         "id": "919",
         "prediction": [
-            "síndrome de Guillain-Barré",
             "parálisis flácida aguda"
         ]
     },
@@ -1124,10 +909,7 @@
         ],
         "test_case": "DIANN2018",
         "id": "920",
-        "prediction": [
-            "disminución de agudeza visual",
-            "hiposfagma"
-        ]
+        "prediction": []
     },
     {
         "question": "El temblor esencial es el trastorno del movimiento más frecuente en el adulto . Se ha considerado una enfermedad benigna , pero puede ocasionar una importante discapacidad física y psicosocial . El tratamiento farmacológico sigue siendo poco satisfactorio . En este artículo se exponen las diversas estrategias terapéuticas disponibles en la actualidad según el grado de incomodidad que el temblor causa al paciente : en el temblor leve , estrategias no farmacológicas , alcohol y tratamiento farmacológico agudo ; en el temblor moderado , tratamientos farmacológicos ( propranolol , gabapentina , primidona , topiramato , alprazolam y otros fármacos ) , y en el temblor grave , se subraya el papel de la cirugía funcional ( estimulación cerebral profunda del núcleo talámico , talamotomía ) . Asimismo , se describe el tratamiento más específico del temblor cefálico , prestando especial atención al uso de la toxina botulínica . Finalmente , se exponen los puntos en los que en un futuro inmediato debería hacer hincapié la investigación sobre esta enfermedad .",
@@ -1138,7 +920,8 @@
         "test_case": "DIANN2018",
         "id": "921",
         "prediction": [
-            "temblor"
+            "discapacidad física",
+            "discapacidad psicosocial"
         ]
     },
     {
@@ -1149,10 +932,9 @@
         "test_case": "DIANN2018",
         "id": "922",
         "prediction": [
-            "parálisis cerebral",
-            "lesión cerebral traumática",
-            "ictus",
-            "lesión medular"
+            "patología neurológica",
+            "patología de origen neurológico",
+            "alteraciones neurológicas"
         ]
     },
     {
@@ -1162,7 +944,9 @@
         ],
         "test_case": "DIANN2018",
         "id": "923",
-        "prediction": []
+        "prediction": [
+            "deterioro cognitivo"
+        ]
     },
     {
         "question": "Resumen Objetivo Determinar la prevalencia de la deficiencia visual atribuible al error refractivo y a otras causas en una población de jóvenes de Ghana . Métodos Estudio prospectivo de todas las visitas consecutivas realizadas por estudiantes terciarios de primer año que acudieron a la Clínica de Optometría entre Agosto de 2013 y Abril de 2014 . De los 4 .378 estudiantes de primer año registrados , de edades comprendidas entre 16 y 39 años , 3 .437 ( 78 , 5% ) se sometieron a un examen ocular . El protocolo del examen incluyó la revisión de la agudeza visual ( AV ) , la motilidad ocular y la biomicroscopía del ojo externo , segmento anterior y medio , y el examen del fondo de ojo sin dilatación . Los exámenes de la agudeza con agujero estenopeico y del fondo de ojo se realizaron en aquellos casos de AV ≤ 6/12 en uno o ambos ojos para determinar la causa principal de la pérdida de visión . Resultados La edad media de los participantes fue de 21 , 86 años ( 95% IC : de 21 , 72 a 21 , 99 ) . La prevalencia de la deficiencia visual bilateral ( BVI ; AV en el mejor ojo ≤ 6/12 ) y la deficiencia visual unilateral ( UVI ; AV en el peor ojo ≤ 6/12 ) fue del 3 , 08% ( 95% IC : de 2 , 56 a 3 , 72 ) y el 0 , 79% ( 95% IC : de 0 , 54 a 1 , 14 ) , respectivamente . En 106 participantes con BVI , las causas principales fueron el error refractivo ( 96 , 2% ) y la opacidad corneal ( 3 , 8% ) . De los 27 participantes con UVI , el error refractivo ( 44 , 4% ) , la maculopatía ( 18 , 5% ) y la enfermedad retiniana ( 14 .8% ) fueron los principales motivos . Se produjo una distribución desigual de la BVI en los diferentes grupos de edad , habiendo un menor impacto en aquellos participantes con edades superiores a 20 años . Conclusión La exploración ocular y la adaptación de una corrección en gafa asequible en los jóvenes podría eliminar a tiempo la deficiencia visual .",
@@ -1181,8 +965,7 @@
         "test_case": "DIANN2018",
         "id": "924",
         "prediction": [
-            "deficiencia visual",
-            "time the visual impairment"
+            "deficiencia visual"
         ]
     },
     {
@@ -1199,11 +982,11 @@
         "test_case": "DIANN2018",
         "id": "925",
         "prediction": [
-            "retraso global del discapacidad intelectual",
+            "discapacidad intelectual",
             "malformaciones congénitas",
             "trastornos del espectro autista",
-            "psiquiátricas",
-            "epilepsia"
+            "epilepsia",
+            "psiquiátricas"
         ]
     },
     {
@@ -1215,19 +998,7 @@
         "id": "926",
         "prediction": [
             "síndrome post - polio",
-            "quejas cognitivas",
-            "alteración cognitiva",
-            "síndrome post - polio",
-            "síndrome post - polio",
-            "síndrome post - polio",
-            "síndrome post - polio",
-            "síndrome post - polio",
-            "síndrome post - polio",
-            "síndrome post - polio",
-            "síndrome post - polio",
-            "síndrome post - polio",
-            "síndrome post - polio",
-            "síndrome post - polio"
+            "alteración cognitiva"
         ]
     },
     {
@@ -1248,9 +1019,7 @@
         ],
         "test_case": "DIANN2018",
         "id": "928",
-        "prediction": [
-            "deterioro cognitivo"
-        ]
+        "prediction": []
     },
     {
         "question": "Resumen Caso clínico Se presenta el caso de una mujer de 31 años con pérdida brusca de visión de un ojo debido a una oclusión de arteria ciliorretiniana . En la exploración presentaba hepatomegalia y en la analítica los niveles séricos de hierro , saturación de transferrina y ferritina estaban elevados . Los perfiles de autoinmunidad y de hipercoagulabilidad fueron normales . El estudio doppler - ultrasónico de los troncos supraaórticos fue anodino , pero la ecografía cardíaca evidenció una miocardiopatía con calcificación subendocárdica . El estudio genético para la hemocromatosis fue positivo . Discusión La calcificación subendocárdica secundaria a hemocromatosis puede ser la causa de la oclusión embólica de la arteria ciliorretiniana . El cuadro embólico ocular fue la forma de presentación de la hemocromatosis en nuestra paciente .",
@@ -1270,13 +1039,7 @@
         ],
         "test_case": "DIANN2018",
         "id": "930",
-        "prediction": [
-            "deterioro cognitivo",
-            "enfermedad terminal",
-            "problemas articulares",
-            "diabetes",
-            "hipertensión"
-        ]
+        "prediction": []
     },
     {
         "question": "Resumen Introducción El síndrome de Dravet se caracteriza por una epilepsia resistente a fármacos de inicio en el primer año de vida con crisis con fiebre , y posterior evolución con déficit cognitivo y epilepsia con múltiples tipos de crisis . Habitualmente se diagnosticaba en torno a los 3 - 4 años de vida , pero el mejor conocimiento de las características de las crisis en los últimos años y el hallazgo de la alteración genética causal más frecuente han permitido adelantar el diagnóstico . Pacientes y métodos Se presenta una serie de 14 niños diagnosticados de síndrome de Dravet o epilepsia del espectro Dravet . A las características de las crisis ocurridas durante el primer año de vida en estos pacientes , se aplican una serie de criterios de riesgo para ver si es posible hacer el diagnóstico en dicho período de tiempo . Resultados : en el 100% de los niños de esta serie se podía sospechar el diagnóstico en el primer año de vida aplicando estos criterios . Además , el 79% cumplían ya los criterios de riesgo en la primera crisis . Conclusiones Es posible obtener un índice alto de sospecha de síndrome de Dravet en el primer año de vida . Es esencial , por tanto , la difusión de los criterios clínicos que permiten la sospecha diagnóstica temprana y la distinción de crisis febriles de otro origen , y el establecimiento de un protocolo de recogida de datos para las crisis con fiebre en el primer año de vida .",
@@ -1287,8 +1050,7 @@
         "id": "931",
         "prediction": [
             "epilepsia",
-            "déficit cognitivo",
-            "epilepsia con múltiples tipos de crisis"
+            "déficit cognitivo"
         ]
     },
     {
@@ -1306,6 +1068,8 @@
             "deterioro cognitivo",
             "deterioro cognitivo",
             "DC",
+            "deterioro cognitivo",
+            "deterioro cognitivo atendidos en AP",
             "deterioro cognitivo"
         ]
     },
@@ -1316,9 +1080,7 @@
         ],
         "test_case": "DIANN2018",
         "id": "933",
-        "prediction": [
-            "papiledema"
-        ]
+        "prediction": []
     },
     {
         "question": "Objetivo . Objetivo primario . Determinar la supervivencia y los factores predictores de supervivencia en pacientes con insuficiencia renal crónica avanzada ( IRCA ) desestimados para tratamiento renal sustitutivo ( TRS ) . Objetivos secundarios . Describir : a ) las características sociodemográficas de los pacientes y del cuidador principal ; b ) la etiología de la nefropatía y la comorbilidad asociada ; c ) variables clínicas de los pacientes cuando son incluidos en el programa ; d ) la evolución clínica en términos de tensión arterial ( TA ) , número de episodios de sobrecarga hídrica , tratamientos recibidos , frecuencia de hospitalizaciones , causas de las mismas , lugar y causa del fallecimiento ; e ) la evolución de los parámetros analíticos ; f ) el grado de información del diagnóstico y del pronóstico del paciente y de la familia , y g ) la actividad asistencial realizada por los equipos de soporte de atención paliativa domiciliaria ( ESAPD ) durante el seguimiento . Material y método . Diseño . Estudio descriptivo longitudinal de cohorte histórica . Ámbito . ESAPD áreas 1 , 5 y 7 de Madrid . Sujetos a estudio . Pacientes con IRCA que han sido considerados y desestimados para TRS . Criterios de selección . 1 ) Pacientes con IRCA que han sido considerados y desestimados para depuración extrarrenal , y 2 ) el paciente y/o cuidador y/o familia acepta el seguimiento de la enfermedad por el ESAPD y/o por su médico de Atención Primaria . Tamaño de la muestra . Se seleccionaron todas las historias clínicas de los archivos desde la creación de los respectivos ESAPD , desde 1997 hasta diciembre del 2009 . Variables analizadas . 1 ) Respuesta principal : tiempo de supervivencia ; 2 ) variables secundarias : 2 .1 ) sociodemográficas paciente y cuidador principal ; edad , sexo ; cuidador principal : estado civil , parentesco ; 2 .2 ) variables relacionadas con la enfermedad renal ; etiología de la nefropatía , motivo de exclusión de TRS , comorbilidad ; 2 .3 ) variables clínicas ; grado de control TA a lo largo de la evolución de la enfermedad ; se recoge la TA en sucesivas visitas ; presencia o ausencia de alguno de los siguientes síntomas al inicio del programa : edemas , dolor , estreñimiento , prurito , disnea , insomnio , ansiedad , tristeza y deterioro cognitivo ; número de episodios sobrecarga hídrica ; causa de salida del programa ; lugar del fallecimiento ; causa del fallecimiento y síntomas presentes en situación de últimos días ; 2 .4 ) variables terapéuticas ; número de fármacos al inicio del programa ; número de fármacos a la salida del programa de los pacientes cuyo motivo de salida era el exitus ; tipo de fármacos ; número de transfusiones realizadas ; 2 .5 ) variables de ingresos hospitalarios ; número de ingresos hospitalarios ; causas de hospitalización ; 2 .6 ) variables analíticas ; grado de control a lo largo de la enfermedad de parámetros analíticos hasta el fallecimiento ; 2 .7 ) variables del grado de información del diagnóstico y del pronóstico ; 2 .8 ) variables de actividad asistencial ; número de visitas domiciliarias realizadas al paciente . Resultados . N : 102 pacientes . Edad media : 79 , 62 ( 9 , 94 ) años . Etiología IRCA más frecuentes : vascular 37 , no filiada 32 , diabética 15 . Comorbilidad : SCG riesgo bajo 17 , SCG riesgo medio 35 , SCG riesgo alto 50 . Ponderación media del índice de Charlson : 6 , 88 ( 2 , 5 ) .Causa desestimación TRS : comorbilidad 47 , 5% , edad 25 , 7% , decisión paciente 22 , 8% , otras 4% . Grado información diagnóstico paciente y cuidador 57 , 9 y 94 , 4% , respectivamente . Grado información pronóstica paciente y cuidador 11 , 8 y 90% , respectivamente . Síntomas más frecuentes en primera visita : disnea 33 , 3% , prurito 30 , 4% , insomnio 34 , 3% , tristeza 36 , 3 y edemas 43 , 1% . Mediana consumo fármacos al inicio : 10 , al final de seguimiento : 11 . Número de transfusiones : 5 . Número de ingresos hospitalarios : 50 , por sobrecarga hídrica : 35 , comorbilidad : 12 , oliguria : 3 . Causa exitus : IRCA 72 , 9% , enfermedad intercurrente 27 , 1% . Localización exitus : domicilio 39 , hospital agudos 31 , unidad cuidados paliativos 13 , urgencias 2 . Media visitas por ESAPD : 11 , 32 , mediana : 6 , 5 . Mediana supervivencia : 4 meses , supervivencia al año : 25% . Factores predictores de supervivencia : creatinina primera visita HZ 1 , 106 ( IC 95% 1 , 01 - 1 , 20 ) , p=0 , 024 ; edad 71 - 80 años , HZ 4 , 42 ( IC 95% 1 , 60 - 12 , 21 ) , edad>81 años , HZ 2 , 97 ( IC 95% 1 , 16 - 7 , 61 ) . No se asoció a supervivencia niveles TA , volumen diuresis , niveles sodio , potasio , calcio , fósforo ni hemoglobina . Conclusiones . Los pacientes con IRCA en los que se desestimó TRS y que fueron seguidos en su domicilio por unidades de cuidados paliativos a domicilio tuvieron una mediana de supervivencia de 4 meses , siendo la edad y la función renal residual factores predictores de supervivencia , sin que la comorbilidad ni los niveles de electrólitos , TA ni el volumen de diuresis se asocien a supervivencia . Durante el seguimiento la causa más frecuente de ingreso hospitalario fue la sobrecarga hídrica . La mayoría de los pacientes fallecieron por la progresión de la IRCA , en su domicilio o en una unidad de cuidados paliativos de media - larga estancia . ",
@@ -1327,9 +1089,7 @@
         ],
         "test_case": "DIANN2018",
         "id": "934",
-        "prediction": [
-            "deterioro cognitivo"
-        ]
+        "prediction": []
     },
     {
         "question": "Resumen Introducción Se han diseñado diferentes modelos animales de la enfermedad de Alzheimer ( EA ) para apoyar la hipótesis de que la neurodegeneración ( pérdida de neuronas , sinapsis y gliosis reactiva ) asociada al depósito de Aβ y tau en estos animales es similar a la del cerebro humano . Estas alteraciones producen cambios funcionales que se inician con el deterioro en la habilidad para realizar actividades de la vida cotidiana , pérdida de la memoria y , en general , trastorno neuropsiquiátrico . La alteración neuronal desempeña un papel importante en las etapas tempranas de la enfermedad , especialmente en el área CA1 del hipocampo de animales y humanos . Métodos Se utilizaron ratones _WT_ y 3xTg - AD hembras de 11 meses de edad , para el análisis conductual ( construcción del nido ) e histológico en la región CA1 del hipocampo dorsal . Resultados Los ratones 3xTg - AD mostraron deficiencia del 50% en la calidad de construcción del nido asociado a un aumento del 26 ± 6% ( p < 0 , 05 ) de neuronas dañadas en comparación con el grupo _WT_ . Conclusiones El deterioro de la capacidad para llevar a cabo las actividades de la vida diaria ( en el hombre ) y la construcción del nido ( en el ratón 3xTg - AD ) están relacionados con las alteraciones en los circuitos nerviosos observados en la EA . Estas alteraciones son controladas por el hipocampo que en el análisis _post mortem_ ( en el humano ) , así como en la región CA1 ( en el modelo de ratón 3xTg - AD ) se han relacionado con alteraciones en el depósito de las proteínas Aß y tau que comienzan a acumularse al inicio de la EA .",
@@ -1342,12 +1102,14 @@
         "test_case": "DIANN2018",
         "id": "935",
         "prediction": [
-            "p&eacute;rdida de neuronas",
-            "sinapsis",
-            "gliosis reactiva",
-            "p&eacute;rdida de la memoria",
-            "trastorno neuropsiqui&aacute;trico",
-            "p&eacute;rdida de neuronas da&ntilde;adas"
+            "deterioro en la habilidad para realizar actividades de la vida cotidiana",
+            "pérdida de la memoria",
+            "trastorno neuropsiquiátrico",
+            "alteración neuronal",
+            "dañadas",
+            "neuronas dañadas",
+            "pérdida de neuronas",
+            "gliosis reactiva"
         ]
     },
     {
@@ -1360,8 +1122,7 @@
         "test_case": "DIANN2018",
         "id": "936",
         "prediction": [
-            "deterioro del estado mental",
-            "deterioro intelectual"
+            "deterioro del estado mental"
         ]
     },
     {
@@ -1373,10 +1134,7 @@
         "test_case": "DIANN2018",
         "id": "937",
         "prediction": [
-            "anemia",
-            "afectaciones neurológicas",
-            "disfunción sensoriomotora",
-            "dysfucntión cognitiva"
+            "anemia e inducid afectaciones neurológicas"
         ]
     },
     {
@@ -1388,10 +1146,10 @@
         "test_case": "DIANN2018",
         "id": "938",
         "prediction": [
+            "alteraciones visuales secundarias a daño del nervio óptico y retina",
             "daño de la visión",
-            "daño de la visión",
-            "daño severo en retina",
-            "daño del nervio óptico"
+            "daño severo en retina y nervio óptico",
+            "retinopatía extensa"
         ]
     },
     {
@@ -1402,13 +1160,6 @@
         "test_case": "DIANN2018",
         "id": "939",
         "prediction": [
-            "trastornos psiquiátricos",
-            "trastornos psiquiátricos",
-            "trastornos psiquiátricos",
-            "trastornos psiquiátricos",
-            "trastornos psiquiátricos",
-            "trastornos psiquiátricos",
-            "trastornos psiquiátricos",
             "trastornos psiquiátricos"
         ]
     },
@@ -1431,11 +1182,8 @@
         "test_case": "DIANN2018",
         "id": "940",
         "prediction": [
-            "retraso global del desarrollo",
             "discapacidad intelectual",
-            "RGD",
-            "enfermedades metabólicas hereditarias",
-            "encéfalopatías genéticas",
+            "retraso global del desarrollo",
             "trastorno del espectro autista"
         ]
     },
@@ -1447,7 +1195,7 @@
         "test_case": "DIANN2018",
         "id": "941",
         "prediction": [
-            "glaucoma"
+            "pérdida de la visión"
         ]
     },
     {
@@ -1458,7 +1206,8 @@
         "test_case": "DIANN2018",
         "id": "942",
         "prediction": [
-            "pérdida de visión"
+            "pérdida de visión",
+            "edema macular"
         ]
     },
     {
@@ -1470,9 +1219,7 @@
         "test_case": "DIANN2018",
         "id": "943",
         "prediction": [
-            "deterioro cognitivo",
-            "incapacidad para la deambulación",
-            "incontinencia esfinteriana"
+            "deterioro cognitivo"
         ]
     },
     {
@@ -1490,8 +1237,6 @@
         "id": "944",
         "prediction": [
             "trastorno bipolar",
-            "déficits en la memoria verbal",
-            "déficits en la función ejecutiva",
             "trastorno ejecutivo"
         ]
     },
@@ -1502,9 +1247,7 @@
         ],
         "test_case": "DIANN2018",
         "id": "945",
-        "prediction": [
-            "alteraciones cognitivas"
-        ]
+        "prediction": []
     },
     {
         "question": "Objetivos y métodos . Nuestro objetivo es describir una variante multifocal en la presentación de la enfermedad de Best . Las lesiones en esta enfermedad pueden variar en forma y tamaño , algunas llegan a medir un diámetro de disco y presentan un contorno irregular . Describimos el caso de un varón de 21 años que fue remitido por pérdida visual progresiva . Confirmamos su baja agudeza visual y realizamos un examen completo , donde pudimos apreciar flecks maculares con pigmento amarillento en su periferia . Sospechamos de una enfermedad de Best multifocal y realizamos los test genéticos pertinentes . La enfermedad de Best multifocal es parecida a la forma clásica , aunque suele cursar con electrooculograma normal y sin antecedentes familiares de la misma . Conclusión . La enfermedad de Best multifocal debe ser sospechada en el caso de lesiones múltiples vitelorruptivas cercanas al polo posterior . Las pruebas genéticas constituyen la clave diagnóstica . ",
@@ -1514,8 +1257,7 @@
         "test_case": "DIANN2018",
         "id": "946",
         "prediction": [
-            "pérdida visual progresiva",
-            "baja agudeza visual"
+            "pérdida visual"
         ]
     }
 ]

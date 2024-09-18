@@ -25,9 +25,15 @@ class Exists2023T3(Task):
         self._precompute_examples()
 
     def get_system_prompt(self):
+        """
+        Returns the system prompt for the task
+        """
         return "You are an AI assistant trained to identify and classify sexist content in text. Your task is to analyze the given input and determine whether it contains sexist language or attitudes, and if so, to classify it into specific categories."
 
     def get_instruction(self):
+        """
+        Returns the guidelines for the task
+        """
         return """
 Analyze the given text to determine if it contains sexist content. If it does, classify it into one of the following categories: 'ideological-inequality', 'misogyny-non-sexual-violence', 'objectification', 'sexual-violence', 'stereotyping-dominance'. If it doesn't contain sexist content, classify it as 'non-sexist'.
 
@@ -45,6 +51,10 @@ Output: Provide your answer as a JSON object with the probabilities for each cat
 """.strip()
 
     def get_pydantic_model(self):
+        """
+        Returns the Pydantic model for the task output
+        """
+
         class Identification(BaseModel):
             non_sexist: float = Field(
                 ...,
@@ -93,6 +103,10 @@ Output: Provide your answer as a JSON object with the probabilities for each cat
         return Identification
 
     def _precompute_examples(self):
+        """
+        Divide the training examples into classes from which we will sample the few-shot examples.
+        This allows to select a equal number of few-shot examples from each class
+        """
         train_data = self.get_split("train")
         self.examples = {
             "non_sexist": [],
@@ -135,8 +149,8 @@ Output: Provide your answer as a JSON object with the probabilities for each cat
         return few_shot_examples
 
     def _process_answer(self, answer: List[List[str]]):
-        answer: List[str] = [item for sublist in answer for item in sublist]
         total_count = len(answer)
+        answer: List[str] = [item for sublist in answer for item in sublist]
         counts = {
             "-": 0,
             "ideological_inequality": 0,
@@ -146,9 +160,12 @@ Output: Provide your answer as a JSON object with the probabilities for each cat
             "misogyny_non_sexual_violence": 0,
         }
         for item in answer:
-            item = item.lower()
-            if item in counts:
-                counts[item] += 1
+            if item == "-":
+                counts["-"] += 1
+            else:
+                item = item.lower().replace("-", "_")
+                if item in counts:
+                    counts[item] += 1
 
         probs = {
             "non_sexist": counts["-"] / total_count,
@@ -161,14 +178,14 @@ Output: Provide your answer as a JSON object with the probabilities for each cat
         }
 
         # Round to 2 decimal places
-        rounded_probs = {k: round(v, 2) for k, v in probs.items()}
+        rounded_probs = {k: round(v, 3) for k, v in probs.items()}
 
         # Ensure probabilities sum to 1
-        total = sum(rounded_probs.values())
-        if total != 1:
-            diff = 1 - total
-            max_key = max(rounded_probs, key=rounded_probs.get)
-            rounded_probs[max_key] = round(rounded_probs[max_key] + diff, 2)
+        # total = sum(rounded_probs.values())
+        # if total != 1:
+        #    diff = 1 - total
+        #    max_key = max(rounded_probs, key=rounded_probs.get)
+        #    rounded_probs[max_key] = round(rounded_probs[max_key] + diff, 2)
 
         return rounded_probs
 
@@ -192,28 +209,29 @@ Output: Provide your answer as a JSON object with the probabilities for each cat
 
     def _normalize_prediction(self, prediction: BaseModel) -> BaseModel:
         """
-        Normalizes the prediction probabilities using softmax.
+        Normalizes the prediction probabilities using the same method as in _process_answer.
         """
         model = self.get_pydantic_model()
-        probs = torch.tensor(
-            [
-                prediction.non_sexist,
-                prediction.ideological_inequality,
-                prediction.stereotyping_dominance,
-                prediction.objectification,
-                prediction.sexual_violence,
-                prediction.misogyny_non_sexual_violence,
-            ]
-        )
-        normalized_probs = F.softmax(probs, dim=0)
-        return model(
-            non_sexist=normalized_probs[0].item(),
-            ideological_inequality=normalized_probs[1].item(),
-            stereotyping_dominance=normalized_probs[2].item(),
-            objectification=normalized_probs[3].item(),
-            sexual_violence=normalized_probs[4].item(),
-            misogyny_non_sexual_violence=normalized_probs[5].item(),
-        )
+        probs = {
+            "non_sexist": prediction.non_sexist,
+            "ideological_inequality": prediction.ideological_inequality,
+            "stereotyping_dominance": prediction.stereotyping_dominance,
+            "objectification": prediction.objectification,
+            "sexual_violence": prediction.sexual_violence,
+            "misogyny_non_sexual_violence": prediction.misogyny_non_sexual_violence,
+        }
+
+        # Round to 3 decimal places
+        rounded_probs = {k: round(v, 3) for k, v in probs.items()}
+
+        # Ensure probabilities sum to 1
+        total = sum(rounded_probs.values())
+        if total != 1:
+            diff = 1 - total
+            max_key = max(rounded_probs, key=rounded_probs.get)
+            rounded_probs[max_key] = round(rounded_probs[max_key] + diff, 3)
+
+        return model(**rounded_probs)
 
     def evaluate(self, predictions: List[BaseModel], split="dev") -> Dict[str, float]:
         """

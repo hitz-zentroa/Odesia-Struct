@@ -8,7 +8,7 @@
         "id": "634",
         "prediction": [
             "1 appeal to commonality",
-            "3 loaded language"
+            "4 appeal to authority"
         ]
     },
     {
@@ -64,7 +64,7 @@
         "id": "3260",
         "prediction": [
             "1 appeal to commonality",
-            "3 loaded language"
+            "4 appeal to authority"
         ]
     },
     {
@@ -75,7 +75,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5261",
         "prediction": [
-            "4 appeal to authority"
+            "false"
         ]
     },
     {
@@ -86,8 +86,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3313",
         "prediction": [
-            "1 appeal to commonality",
-            "false"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -110,7 +109,6 @@
         "test_case": "DIPROMATS2023",
         "id": "883",
         "prediction": [
-            "1 appeal to commonality",
             "2 discrediting the opponent"
         ]
     },
@@ -122,7 +120,8 @@
         "test_case": "DIPROMATS2023",
         "id": "707",
         "prediction": [
-            "3 loaded language"
+            "3 loaded language",
+            "4 appeal to authority"
         ]
     },
     {
@@ -133,7 +132,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4208",
         "prediction": [
-            "3 loaded language"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -179,7 +178,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2490",
         "prediction": [
-            "2 discrediting the opponent",
+            "1 appeal to commonality",
             "3 loaded language"
         ]
     },
@@ -225,8 +224,8 @@
         "test_case": "DIPROMATS2023",
         "id": "5182",
         "prediction": [
-            "4 appeal to authority",
-            "false"
+            "3 loaded language",
+            "4 appeal to authority"
         ]
     },
     {
@@ -237,7 +236,6 @@
         "test_case": "DIPROMATS2023",
         "id": "1035",
         "prediction": [
-            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -261,7 +259,8 @@
         "test_case": "DIPROMATS2023",
         "id": "3954",
         "prediction": [
-            "2 discrediting the opponent"
+            "3 loaded language",
+            "4 appeal to authority"
         ]
     },
     {
@@ -272,7 +271,8 @@
         "test_case": "DIPROMATS2023",
         "id": "1439",
         "prediction": [
-            "4 appeal to authority"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -283,7 +283,8 @@
         "test_case": "DIPROMATS2023",
         "id": "5637",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -295,7 +296,7 @@
         "id": "252",
         "prediction": [
             "2 discrediting the opponent",
-            "4 appeal to authority"
+            "3 loaded language"
         ]
     },
     {
@@ -328,7 +329,6 @@
         "test_case": "DIPROMATS2023",
         "id": "868",
         "prediction": [
-            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -340,8 +340,8 @@
         "test_case": "DIPROMATS2023",
         "id": "4825",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "3 loaded language",
+            "4 appeal to authority"
         ]
     },
     {
@@ -352,7 +352,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3591",
         "prediction": [
-            "false"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -363,8 +363,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3976",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -407,10 +406,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "2396",
-        "prediction": [
-            "4 appeal to authority",
-            "false"
-        ]
+        "prediction": []
     },
     {
         "question": "＃Boletín de la Embajada China en la República Dominicana 10/04/2020: China🇨🇳 está lista para trabajar con la comunidad internacional, incluido el Vaticano, para combatir conjuntamente la pandemia y defender la seguridad de la salud pública mundial.\nhttps://t.co/J06GR3OmTm https://t.co/0r1u1xprmb",
@@ -420,7 +416,8 @@
         "test_case": "DIPROMATS2023",
         "id": "2214",
         "prediction": [
-            "false"
+            "2 discrediting the opponent",
+            "3 loaded language"
         ]
     },
     {
@@ -442,6 +439,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2081",
         "prediction": [
+            "1 appeal to commonality",
             "3 loaded language",
             "4 appeal to authority"
         ]
@@ -466,7 +464,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3379",
         "prediction": [
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -477,7 +475,8 @@
         "test_case": "DIPROMATS2023",
         "id": "677",
         "prediction": [
-            "false"
+            "2 discrediting the opponent",
+            "4 appeal to authority"
         ]
     },
     {
@@ -488,8 +487,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4362",
         "prediction": [
-            "2 discrediting the opponent",
-            "3 loaded language"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -513,7 +511,7 @@
         "id": "3621",
         "prediction": [
             "1 appeal to commonality",
-            "4 appeal to authority"
+            "3 loaded language"
         ]
     },
     {
@@ -535,7 +533,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3776",
         "prediction": [
-            "4 appeal to authority"
+            "false"
         ]
     },
     {
@@ -558,8 +556,7 @@
         "id": "2105",
         "prediction": [
             "1 appeal to commonality",
-            "3 loaded language",
-            "4 appeal to authority"
+            "3 loaded language"
         ]
     },
     {
@@ -582,7 +579,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2759",
         "prediction": [
-            "2 discrediting the opponent"
+            "3 loaded language"
         ]
     },
     {
@@ -618,7 +615,7 @@
         "id": "2088",
         "prediction": [
             "1 appeal to commonality",
-            "3 loaded language"
+            "4 appeal to authority"
         ]
     },
     {
@@ -629,7 +626,7 @@
         "test_case": "DIPROMATS2023",
         "id": "935",
         "prediction": [
-            "2 discrediting the opponent"
+            "4 appeal to authority"
         ]
     },
     {
@@ -640,7 +637,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3566",
         "prediction": [
-            "false"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -663,8 +660,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5045",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -675,9 +671,8 @@
         "test_case": "DIPROMATS2023",
         "id": "712",
         "prediction": [
-            "2 discrediting the opponent",
-            "3 loaded language",
-            "4 appeal to authority"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -688,7 +683,8 @@
         "test_case": "DIPROMATS2023",
         "id": "3767",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -710,8 +706,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3833",
         "prediction": [
-            "1 appeal to commonality",
-            "4 appeal to authority"
+            "3 loaded language"
         ]
     },
     {
@@ -756,7 +751,6 @@
         "test_case": "DIPROMATS2023",
         "id": "2578",
         "prediction": [
-            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -768,8 +762,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5797",
         "prediction": [
-            "2 discrediting the opponent",
-            "3 loaded language"
+            "4 appeal to authority"
         ]
     },
     {
@@ -780,7 +773,8 @@
         "test_case": "DIPROMATS2023",
         "id": "3975",
         "prediction": [
-            "2 discrediting the opponent"
+            "2 discrediting the opponent",
+            "3 loaded language"
         ]
     },
     {
@@ -790,7 +784,9 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "3158",
-        "prediction": []
+        "prediction": [
+            "4 appeal to authority"
+        ]
     },
     {
         "question": "Cuba ha quedado en el lugar 178 del Índice de Libertad Económica de 2020, un reporte que publica cada año @heritage. \n\nLa puntuación general de Cuba es una de las más bajas del mundo, solo superando a Venezuela y Corea del Norte. \n\nhttps://t.co/4MRhXHyFAc https://t.co/BifUHhGUyh",
@@ -812,7 +808,8 @@
         "test_case": "DIPROMATS2023",
         "id": "5370",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -823,7 +820,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4038",
         "prediction": [
-            "2 discrediting the opponent"
+            "3 loaded language"
         ]
     },
     {
@@ -834,6 +831,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2404",
         "prediction": [
+            "1 appeal to commonality",
             "2 discrediting the opponent",
             "4 appeal to authority"
         ]
@@ -846,7 +844,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3159",
         "prediction": [
-            "3 loaded language"
+            "false"
         ]
     },
     {
@@ -878,7 +876,9 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "4053",
-        "prediction": []
+        "prediction": [
+            "4 appeal to authority"
+        ]
     },
     {
         "question": "Me alegra que @ClaudiaIbanezW seguirá al frente del equipo de @AmChamSal. Las empresas estadounidenses en el país mueven la economía local y generan miles de empleos manteniendo altos valores y estándares. Ahora más que nunca serán clave para que #ElSalvador salga adelante. https://t.co/ppEESyTLwP",
@@ -888,8 +888,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5795",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -900,7 +899,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4414",
         "prediction": [
-            "3 loaded language"
+            "false"
         ]
     },
     {
@@ -910,9 +909,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "4882",
-        "prediction": [
-            "false"
-        ]
+        "prediction": []
     },
     {
         "question": "El 31 de marzo, EE.UU. propuso un camino para resolver la crisis de #Venezuela por medio de una transición pacífica y democrática.\n\nLea los 13 puntos aquí ➡️ https://t.co/saGopgZY1g https://t.co/UDpWM8ulms",
@@ -945,7 +942,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4766",
         "prediction": [
-            "2 discrediting the opponent",
+            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -968,7 +965,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2356",
         "prediction": [
-            "1 appeal to commonality"
+            "false"
         ]
     },
     {
@@ -979,8 +976,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5768",
         "prediction": [
-            "2 discrediting the opponent",
-            "3 loaded language"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -991,7 +987,6 @@
         "test_case": "DIPROMATS2023",
         "id": "2215",
         "prediction": [
-            "2 discrediting the opponent",
             "3 loaded language"
         ]
     },
@@ -1003,7 +998,8 @@
         "test_case": "DIPROMATS2023",
         "id": "2504",
         "prediction": [
-            "false"
+            "3 loaded language",
+            "4 appeal to authority"
         ]
     },
     {
@@ -1025,7 +1021,8 @@
         "test_case": "DIPROMATS2023",
         "id": "756",
         "prediction": [
-            "false"
+            "2 discrediting the opponent",
+            "3 loaded language"
         ]
     },
     {
@@ -1036,6 +1033,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4206",
         "prediction": [
+            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -1092,7 +1090,6 @@
         "test_case": "DIPROMATS2023",
         "id": "2372",
         "prediction": [
-            "4 appeal to authority",
             "false"
         ]
     },
@@ -1104,8 +1101,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4990",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -1116,8 +1112,7 @@
         "test_case": "DIPROMATS2023",
         "id": "958",
         "prediction": [
-            "1 appeal to commonality",
-            "2 discrediting the opponent"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -1128,7 +1123,8 @@
         "test_case": "DIPROMATS2023",
         "id": "1910",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -1150,6 +1146,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5473",
         "prediction": [
+            "2 discrediting the opponent",
             "3 loaded language"
         ]
     },
@@ -1172,7 +1169,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4170",
         "prediction": [
-            "4 appeal to authority"
+            "3 loaded language"
         ]
     },
     {
@@ -1182,9 +1179,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "1540",
-        "prediction": [
-            "3 loaded language"
-        ]
+        "prediction": []
     },
     {
         "question": "Y tú, ¿qué opinas sobre.. \n... los acuerdos comerciales internacionales? 🌍 \n... la legislación europea sobre el clima? ❄️ \n... la estrategia de biodiversidad de la UE? 🦎\n ¡Queremos oírte! Danos tu opinión en #EUHaveYourSay https://t.co/tPIYgxy9CN https://t.co/EIQzatnb6i",
@@ -1194,7 +1189,7 @@
         "test_case": "DIPROMATS2023",
         "id": "178",
         "prediction": [
-            "1 appeal to commonality"
+            "false"
         ]
     },
     {
@@ -1205,7 +1200,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5395",
         "prediction": [
-            "3 loaded language"
+            "false"
         ]
     },
     {
@@ -1216,8 +1211,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4728",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -1228,7 +1222,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4134",
         "prediction": [
-            "4 appeal to authority"
+            "false"
         ]
     },
     {
@@ -1239,7 +1233,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5287",
         "prediction": [
-            "false"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -1250,8 +1244,8 @@
         "test_case": "DIPROMATS2023",
         "id": "5977",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "3 loaded language",
+            "false"
         ]
     },
     {
@@ -1285,8 +1279,6 @@
         "test_case": "DIPROMATS2023",
         "id": "619",
         "prediction": [
-            "2 discrediting the opponent",
-            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -1309,7 +1301,8 @@
         "test_case": "DIPROMATS2023",
         "id": "5439",
         "prediction": [
-            "4 appeal to authority"
+            "2 discrediting the opponent",
+            "3 loaded language"
         ]
     },
     {
@@ -1330,7 +1323,9 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "5399",
-        "prediction": []
+        "prediction": [
+            "3 loaded language"
+        ]
     },
     {
         "question": "Las materias primas son esenciales para que Europa lidere la transición verde y digital. ✅\n\n‼️👉Lanzamos nuestro Plan de Acción para una mayor seguridad y sostenibilidad del suministro de materias primas en Europa: https://t.co/qhGMPsT12d\n\n#EUGreenDeal #DigitalEU https://t.co/y8DnIK0pE4",
@@ -1339,10 +1334,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "5870",
-        "prediction": [
-            "3 loaded language",
-            "4 appeal to authority"
-        ]
+        "prediction": []
     },
     {
         "question": "Cada vez más europeos son conscientes de sus derechos como ciudadanos de la UE 👏🇪🇺\nDerecho a residir en otro país de la UE, a ser tratado por igual, o de votar y participar en las elecciones de la UE. \n\nMás sobre la encuesta de @EurobarometerEU \n👇👇\nhttps://t.co/lVKm4Zsbks https://t.co/xGZIiXCZaw",
@@ -1352,7 +1344,8 @@
         "test_case": "DIPROMATS2023",
         "id": "4575",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -1374,8 +1367,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1188",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -1397,7 +1389,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4079",
         "prediction": [
-            "false"
+            "4 appeal to authority"
         ]
     },
     {
@@ -1430,9 +1422,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "5086",
-        "prediction": [
-            "2 discrediting the opponent"
-        ]
+        "prediction": []
     },
     {
         "question": "#EmbMikeFitzpatrick “Recogimos desechos plásticos en una playa de Galápagos junto a jóvenes voluntarios. Me contaron que en mayo se perdió Esperanza, así se llamaba un tiburón ballena (en peligro de extinción) cuyo chip de rastreo dejó de transmitir cerca de la flota #China 1/2 https://t.co/18qEthSV3U",
@@ -1475,7 +1465,8 @@
         "test_case": "DIPROMATS2023",
         "id": "145",
         "prediction": [
-            "1 appeal to commonality"
+            "2 discrediting the opponent",
+            "4 appeal to authority"
         ]
     },
     {
@@ -1497,7 +1488,6 @@
         "test_case": "DIPROMATS2023",
         "id": "4130",
         "prediction": [
-            "1 appeal to commonality",
             "3 loaded language"
         ]
     },
@@ -1509,7 +1499,8 @@
         "test_case": "DIPROMATS2023",
         "id": "3645",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -1520,7 +1511,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5313",
         "prediction": [
-            "1 appeal to commonality",
+            "2 discrediting the opponent",
             "4 appeal to authority"
         ]
     },
@@ -1532,8 +1523,8 @@
         "test_case": "DIPROMATS2023",
         "id": "2020",
         "prediction": [
-            "4 appeal to authority",
-            "false"
+            "1 appeal to commonality",
+            "4 appeal to authority"
         ]
     },
     {
@@ -1543,9 +1534,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "2832",
-        "prediction": [
-            "false"
-        ]
+        "prediction": []
     },
     {
         "question": "Imaginan cómo sería nuestro mundo sin las Naciones Unidas? Imaginan cómo puede ser con unas Naciones Unidas fortalecidas? Conmemoramos el aniversario de la firma de la Carta de las @ONU_es con determinación para fortalecer el diálogo y la cooperación internacional \n🇪🇺🤝🇺🇳#UN75 https://t.co/Y0iM65Tpuy",
@@ -1555,8 +1544,8 @@
         "test_case": "DIPROMATS2023",
         "id": "4267",
         "prediction": [
-            "3 loaded language",
-            "4 appeal to authority"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -1578,7 +1567,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3366",
         "prediction": [
-            "4 appeal to authority"
+            "3 loaded language"
         ]
     },
     {
@@ -1589,7 +1578,8 @@
         "test_case": "DIPROMATS2023",
         "id": "3389",
         "prediction": [
-            "2 discrediting the opponent"
+            "3 loaded language",
+            "4 appeal to authority"
         ]
     },
     {
@@ -1623,6 +1613,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2408",
         "prediction": [
+            "1 appeal to commonality",
             "4 appeal to authority"
         ]
     },
@@ -1657,7 +1648,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4078",
         "prediction": [
-            "4 appeal to authority"
+            "3 loaded language"
         ]
     },
     {
@@ -1680,7 +1671,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2608",
         "prediction": [
-            "4 appeal to authority"
+            "false"
         ]
     },
     {
@@ -1702,8 +1693,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1825",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -1713,9 +1703,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "5932",
-        "prediction": [
-            "4 appeal to authority"
-        ]
+        "prediction": []
     },
     {
         "question": "Héroes anónimos\nEl Dr. Mario Bustillos trabaja en la UMF 13 del IMSS en Mérida y antes en el Juarez.   Atiende a pacientes aportando su talento para salvar a víctimas de COVID-19 en Mérida.   ¡Gracias Mario por tu servicio!\n\nReconociendo el trabajo de #HéroesAnónimosCOVID19 https://t.co/8U4tza8W0D",
@@ -1725,7 +1713,8 @@
         "test_case": "DIPROMATS2023",
         "id": "3600",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -1759,7 +1748,7 @@
         "test_case": "DIPROMATS2023",
         "id": "820",
         "prediction": [
-            "2 discrediting the opponent"
+            "3 loaded language"
         ]
     },
     {
@@ -1770,7 +1759,8 @@
         "test_case": "DIPROMATS2023",
         "id": "5563",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -1782,8 +1772,8 @@
         "test_case": "DIPROMATS2023",
         "id": "471",
         "prediction": [
-            "1 appeal to commonality",
-            "4 appeal to authority"
+            "2 discrediting the opponent",
+            "3 loaded language"
         ]
     },
     {
@@ -1827,7 +1817,7 @@
         "test_case": "DIPROMATS2023",
         "id": "536",
         "prediction": [
-            "1 appeal to commonality"
+            "false"
         ]
     },
     {
@@ -1837,7 +1827,9 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "2481",
-        "prediction": []
+        "prediction": [
+            "3 loaded language"
+        ]
     },
     {
         "question": "La dictadura actúa en oscuridad, sembrando pruebas y cargos falsos, intimidando a inocentes. El pueblo de #Venezuela exige que liberen a todos los presos políticos. Hoy Roberto Marrero cumple 1 año desde su secuestro y la gente le demuestra su apoyo #21Mar https://t.co/GUKlKRRRhG",
@@ -1860,7 +1852,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3183",
         "prediction": [
-            "3 loaded language"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -1871,8 +1863,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5793",
         "prediction": [
-            "2 discrediting the opponent",
-            "4 appeal to authority"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -1883,7 +1874,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5039",
         "prediction": [
-            "2 discrediting the opponent"
+            "3 loaded language"
         ]
     },
     {
@@ -1894,6 +1885,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3883",
         "prediction": [
+            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -1905,6 +1897,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5803",
         "prediction": [
+            "2 discrediting the opponent",
             "3 loaded language"
         ]
     },
@@ -1916,8 +1909,8 @@
         "test_case": "DIPROMATS2023",
         "id": "3267",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "3 loaded language",
+            "4 appeal to authority"
         ]
     },
     {
@@ -1928,7 +1921,8 @@
         "test_case": "DIPROMATS2023",
         "id": "2953",
         "prediction": [
-            "1 appeal to commonality"
+            "4 appeal to authority",
+            "false"
         ]
     },
     {
@@ -1973,7 +1967,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2209",
         "prediction": [
-            "1 appeal to commonality"
+            "3 loaded language"
         ]
     },
     {
@@ -2018,8 +2012,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5208",
         "prediction": [
-            "1 appeal to commonality",
-            "2 discrediting the opponent"
+            "4 appeal to authority"
         ]
     },
     {
@@ -2030,7 +2023,8 @@
         "test_case": "DIPROMATS2023",
         "id": "1144",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -2041,7 +2035,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3716",
         "prediction": [
-            "3 loaded language"
+            "false"
         ]
     },
     {
@@ -2052,8 +2046,8 @@
         "test_case": "DIPROMATS2023",
         "id": "1500",
         "prediction": [
-            "3 loaded language",
-            "4 appeal to authority"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -2086,9 +2080,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "2420",
-        "prediction": [
-            "3 loaded language"
-        ]
+        "prediction": []
     },
     {
         "question": "📢 Aterriza en el aeropuerto de #Zaragoza un avión con material médico de la Fundación @AlibabaGroup y la @foundation_ma para ayudar a #España a combatir el #COVID19 🇨🇳🤝🇪🇸 https://t.co/t1QQ1UOcfZ",
@@ -2098,7 +2090,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1441",
         "prediction": [
-            "false"
+            "4 appeal to authority"
         ]
     },
     {
@@ -2109,7 +2101,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4914",
         "prediction": [
-            "3 loaded language"
+            "4 appeal to authority"
         ]
     },
     {
@@ -2119,7 +2111,9 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "437",
-        "prediction": []
+        "prediction": [
+            "false"
+        ]
     },
     {
         "question": "El 67% de los estadounidenses ignora al Presidente cuando habla sobre la pandemia.\n\nSu gobierno prioriza acciones internas y externas de demagogia electoral en vez de asumir prioridades que respondan a evitar muertes en #EEUU y el mundo.",
@@ -2129,8 +2123,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4995",
         "prediction": [
-            "2 discrediting the opponent",
-            "3 loaded language"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -2141,7 +2134,6 @@
         "test_case": "DIPROMATS2023",
         "id": "1395",
         "prediction": [
-            "1 appeal to commonality",
             "2 discrediting the opponent"
         ]
     },
@@ -2165,7 +2157,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4102",
         "prediction": [
-            "3 loaded language"
+            "4 appeal to authority"
         ]
     },
     {
@@ -2188,7 +2180,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5922",
         "prediction": [
-            "4 appeal to authority"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -2200,8 +2192,7 @@
         "id": "6029",
         "prediction": [
             "1 appeal to commonality",
-            "3 loaded language",
-            "4 appeal to authority"
+            "3 loaded language"
         ]
     },
     {
@@ -2247,8 +2238,8 @@
         "test_case": "DIPROMATS2023",
         "id": "4972",
         "prediction": [
-            "3 loaded language",
-            "4 appeal to authority"
+            "2 discrediting the opponent",
+            "3 loaded language"
         ]
     },
     {
@@ -2270,9 +2261,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4693",
         "prediction": [
-            "2 discrediting the opponent",
-            "3 loaded language",
-            "4 appeal to authority"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -2283,7 +2272,8 @@
         "test_case": "DIPROMATS2023",
         "id": "3704",
         "prediction": [
-            "4 appeal to authority"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -2305,7 +2295,7 @@
         "test_case": "DIPROMATS2023",
         "id": "390",
         "prediction": [
-            "2 discrediting the opponent"
+            "4 appeal to authority"
         ]
     },
     {
@@ -2316,8 +2306,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5354",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -2328,6 +2317,8 @@
         "test_case": "DIPROMATS2023",
         "id": "1813",
         "prediction": [
+            "2 discrediting the opponent",
+            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -2338,7 +2329,9 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "3765",
-        "prediction": []
+        "prediction": [
+            "false"
+        ]
     },
     {
         "question": "Pdte @NicolasMaduro dirige mensaje al pueblo de #EEUU alertándolo de la agresión militar anunciada por el Gno de @realDonaldTrump contra Venezuela. EEUU recrudece el bloqueo económico para agravar las complejas circunstancias derivadas de la pandemia Covid19! Nosotros venceremos! https://t.co/2MYqotWpnb",
@@ -2348,6 +2341,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2045",
         "prediction": [
+            "1 appeal to commonality",
             "2 discrediting the opponent",
             "3 loaded language",
             "4 appeal to authority"
@@ -2361,7 +2355,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3755",
         "prediction": [
-            "4 appeal to authority"
+            "false"
         ]
     },
     {
@@ -2373,8 +2367,7 @@
         "id": "2090",
         "prediction": [
             "1 appeal to commonality",
-            "3 loaded language",
-            "4 appeal to authority"
+            "3 loaded language"
         ]
     },
     {
@@ -2396,8 +2389,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3751",
         "prediction": [
-            "2 discrediting the opponent",
-            "3 loaded language"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -2407,9 +2399,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "2921",
-        "prediction": [
-            "false"
-        ]
+        "prediction": []
     },
     {
         "question": "La naturaleza es vital para nuestro bienestar.\n\nLa Estrategia de la UE sobre #Biodiversidad trae a la naturaleza de vuelta a nuestras vidas y pone la biodiversidad europea en el camino de la recuperación para 2030.\n\nhttps://t.co/LgNUlz9fwF\n#EUBiodiversity\nhttps://t.co/lpTEjSnKoi",
@@ -2419,8 +2409,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3273",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -2431,6 +2420,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2622",
         "prediction": [
+            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -2453,7 +2443,8 @@
         "test_case": "DIPROMATS2023",
         "id": "4463",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -2463,9 +2454,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "5972",
-        "prediction": [
-            "4 appeal to authority"
-        ]
+        "prediction": []
     },
     {
         "question": "Pdte @DiazCanelB hizo una visita a la Embajada de #China reiteró apoyo y solidaridad de #Cuba con el hermano pueblo chino afectado por el coronavirus Covid-19. https://t.co/z2z0ER3I2v",
@@ -2475,7 +2464,8 @@
         "test_case": "DIPROMATS2023",
         "id": "746",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "4 appeal to authority"
         ]
     },
     {
@@ -2486,7 +2476,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2384",
         "prediction": [
-            "1 appeal to commonality"
+            "false"
         ]
     },
     {
@@ -2508,8 +2498,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5468",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -2520,8 +2509,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5833",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -2532,7 +2520,6 @@
         "test_case": "DIPROMATS2023",
         "id": "5147",
         "prediction": [
-            "2 discrediting the opponent",
             "4 appeal to authority"
         ]
     },
@@ -2543,9 +2530,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "380",
-        "prediction": [
-            "1 appeal to commonality"
-        ]
+        "prediction": []
     },
     {
         "question": "⚡️Embajador de Rusia en Venezuela @EmbSergio Mélik-Bagdasárov sostuvo una reunión con la Vicepresidenta Ejecutiva 🇻🇪 Delcy Rodríguez @drodriven2 \n\nMás información 👉 https://t.co/rp4Bmg5xVF\n\n🇷🇺🤝🇻🇪  @CancilleriaVE https://t.co/lWTMDKvvSm",
@@ -2566,8 +2551,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4672",
         "prediction": [
-            "2 discrediting the opponent",
-            "3 loaded language"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -2577,9 +2561,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "788",
-        "prediction": [
-            "false"
-        ]
+        "prediction": []
     },
     {
         "question": "#Zajárova: 🇷🇺Rusia y 🇦🇿Azerbaiyán interaccionan estrechamente en la lucha contra el nuevo coronavirus #COVID19 y sus consecuencias sociales y económicas. Cooperamos para repatriar a los ciudadanos de nuestros países https://t.co/9DpVD4EDK1",
@@ -2646,6 +2628,7 @@
         "id": "4272",
         "prediction": [
             "1 appeal to commonality",
+            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -2657,7 +2640,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3471",
         "prediction": [
-            "false"
+            "3 loaded language"
         ]
     },
     {
@@ -2669,7 +2652,6 @@
         "test_case": "DIPROMATS2023",
         "id": "4807",
         "prediction": [
-            "1 appeal to commonality",
             "2 discrediting the opponent",
             "3 loaded language"
         ]
@@ -2681,7 +2663,9 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "5069",
-        "prediction": []
+        "prediction": [
+            "4 appeal to authority"
+        ]
     },
     {
         "question": "💬@SecPompeo: El desarrollo de las elecciones del 9 de agosto en Bielorrusia es preocupante. No han sido ni libres ni justas. EEUU condena la violencia contra los manifestantes y la detención de partidarios de la oposición. https://t.co/bpq8sklVeL",
@@ -2691,7 +2675,8 @@
         "test_case": "DIPROMATS2023",
         "id": "5488",
         "prediction": [
-            "2 discrediting the opponent"
+            "2 discrediting the opponent",
+            "4 appeal to authority"
         ]
     },
     {
@@ -2702,6 +2687,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5516",
         "prediction": [
+            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -2713,7 +2699,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3628",
         "prediction": [
-            "false"
+            "3 loaded language"
         ]
     },
     {
@@ -2724,7 +2710,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5510",
         "prediction": [
-            "3 loaded language"
+            "false"
         ]
     },
     {
@@ -2745,7 +2731,9 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "3196",
-        "prediction": []
+        "prediction": [
+            "1 appeal to commonality"
+        ]
     },
     {
         "question": "#Zajárova:En la actual situación complicada son absolutamente inapropiados los infundados y sesgados ataques que con siempre mayor intensidad lanzan algunas capitales occidentales contra #China y la #OMS, procurando endosarles toda la responsabilidad por la actual crisis #COVID19 https://t.co/e0zi4iRyig",
@@ -2768,6 +2756,7 @@
         "id": "3470",
         "prediction": [
             "1 appeal to commonality",
+            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -2789,9 +2778,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "3693",
-        "prediction": [
-            "4 appeal to authority"
-        ]
+        "prediction": []
     },
     {
         "question": "#NOTICIA | Venezuela y Sudáfrica evalúan iniciativas conjuntas de cooperación en minería\n\n#VenezuelaTriunfanteYEnBatalla https://t.co/PNqpM7KYJQ",
@@ -2812,8 +2799,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3065",
         "prediction": [
-            "2 discrediting the opponent",
-            "3 loaded language"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -2824,7 +2810,8 @@
         "test_case": "DIPROMATS2023",
         "id": "5207",
         "prediction": [
-            "2 discrediting the opponent"
+            "2 discrediting the opponent",
+            "3 loaded language"
         ]
     },
     {
@@ -2835,7 +2822,8 @@
         "test_case": "DIPROMATS2023",
         "id": "2424",
         "prediction": [
-            "3 loaded language"
+            "3 loaded language",
+            "4 appeal to authority"
         ]
     },
     {
@@ -2846,9 +2834,6 @@
         "test_case": "DIPROMATS2023",
         "id": "3922",
         "prediction": [
-            "2 discrediting the opponent",
-            "3 loaded language",
-            "4 appeal to authority",
             "false"
         ]
     },
@@ -2860,7 +2845,6 @@
         "test_case": "DIPROMATS2023",
         "id": "5713",
         "prediction": [
-            "1 appeal to commonality",
             "3 loaded language"
         ]
     },
@@ -2871,7 +2855,10 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "2316",
-        "prediction": []
+        "prediction": [
+            "2 discrediting the opponent",
+            "4 appeal to authority"
+        ]
     },
     {
         "question": ".@SecPompeo: China, el país donde se originó el virus y se permitió la propagación de la pandemia, se ha negado a compartir información para ayudar al mundo a responder a la pandemia de COVID-19.",
@@ -2893,7 +2880,7 @@
         "id": "1913",
         "prediction": [
             "1 appeal to commonality",
-            "3 loaded language"
+            "4 appeal to authority"
         ]
     },
     {
@@ -2904,7 +2891,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2032",
         "prediction": [
-            "1 appeal to commonality",
+            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -2917,7 +2904,9 @@
         "id": "4032",
         "prediction": [
             "1 appeal to commonality",
-            "3 loaded language"
+            "3 loaded language",
+            "4 appeal to authority",
+            "false"
         ]
     },
     {
@@ -2928,7 +2917,8 @@
         "test_case": "DIPROMATS2023",
         "id": "1159",
         "prediction": [
-            "false"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -2951,8 +2941,7 @@
         "id": "913",
         "prediction": [
             "1 appeal to commonality",
-            "3 loaded language",
-            "4 appeal to authority"
+            "3 loaded language"
         ]
     },
     {
@@ -2963,8 +2952,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3948",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -2998,6 +2986,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2048",
         "prediction": [
+            "4 appeal to authority",
             "false"
         ]
     },
@@ -3009,6 +2998,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4066",
         "prediction": [
+            "1 appeal to commonality",
             "2 discrediting the opponent"
         ]
     },
@@ -3020,8 +3010,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4711",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -3032,7 +3021,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4335",
         "prediction": [
-            "4 appeal to authority"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -3043,7 +3032,6 @@
         "test_case": "DIPROMATS2023",
         "id": "3098",
         "prediction": [
-            "1 appeal to commonality",
             "3 loaded language"
         ]
     },
@@ -3078,7 +3066,7 @@
         "test_case": "DIPROMATS2023",
         "id": "566",
         "prediction": [
-            "1 appeal to commonality",
+            "2 discrediting the opponent",
             "3 loaded language",
             "4 appeal to authority"
         ]
@@ -3091,7 +3079,7 @@
         "test_case": "DIPROMATS2023",
         "id": "703",
         "prediction": [
-            "4 appeal to authority"
+            "3 loaded language"
         ]
     },
     {
@@ -3102,8 +3090,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4132",
         "prediction": [
-            "2 discrediting the opponent",
-            "4 appeal to authority"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -3137,7 +3124,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4540",
         "prediction": [
-            "1 appeal to commonality"
+            "3 loaded language"
         ]
     },
     {
@@ -3170,7 +3157,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1996",
         "prediction": [
-            "4 appeal to authority"
+            "false"
         ]
     },
     {
@@ -3181,7 +3168,7 @@
         "test_case": "DIPROMATS2023",
         "id": "143",
         "prediction": [
-            "4 appeal to authority"
+            "false"
         ]
     },
     {
@@ -3192,7 +3179,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2259",
         "prediction": [
-            "3 loaded language"
+            "false"
         ]
     },
     {
@@ -3227,7 +3214,7 @@
         "id": "3743",
         "prediction": [
             "1 appeal to commonality",
-            "3 loaded language"
+            "4 appeal to authority"
         ]
     },
     {
@@ -3238,7 +3225,8 @@
         "test_case": "DIPROMATS2023",
         "id": "2976",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -3262,7 +3250,6 @@
         "id": "4250",
         "prediction": [
             "1 appeal to commonality",
-            "2 discrediting the opponent",
             "3 loaded language"
         ]
     },
@@ -3274,8 +3261,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5898",
         "prediction": [
-            "2 discrediting the opponent",
-            "3 loaded language"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -3286,7 +3272,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1396",
         "prediction": [
-            "3 loaded language"
+            "4 appeal to authority"
         ]
     },
     {
@@ -3297,8 +3283,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1965",
         "prediction": [
-            "3 loaded language",
-            "4 appeal to authority"
+            "false"
         ]
     },
     {
@@ -3309,6 +3294,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5559",
         "prediction": [
+            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -3319,7 +3305,9 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "4262",
-        "prediction": []
+        "prediction": [
+            "1 appeal to commonality"
+        ]
     },
     {
         "question": "Marzo es el Mes de de la Historia de la Mujer en EE.UU. Cada año, el Dept. de Estado reconoce mujeres extraordinarias en todo el mundo, quienes han demostrado valentía y liderazgo. Únete a esta celebración: ¿quién es una mujer valiente en tu vida? #WomenofCourage @StateDept https://t.co/UxuuNXhJKr",
@@ -3329,8 +3317,8 @@
         "test_case": "DIPROMATS2023",
         "id": "1151",
         "prediction": [
-            "3 loaded language",
-            "4 appeal to authority"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -3341,7 +3329,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4767",
         "prediction": [
-            "4 appeal to authority"
+            "false"
         ]
     },
     {
@@ -3352,6 +3340,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4226",
         "prediction": [
+            "1 appeal to commonality",
             "3 loaded language"
         ]
     },
@@ -3397,8 +3386,7 @@
         "test_case": "DIPROMATS2023",
         "id": "992",
         "prediction": [
-            "4 appeal to authority",
-            "false"
+            "4 appeal to authority"
         ]
     },
     {
@@ -3454,8 +3442,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5026",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -3477,7 +3464,8 @@
         "test_case": "DIPROMATS2023",
         "id": "963",
         "prediction": [
-            "2 discrediting the opponent"
+            "2 discrediting the opponent",
+            "3 loaded language"
         ]
     },
     {
@@ -3487,9 +3475,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "3670",
-        "prediction": [
-            "2 discrediting the opponent"
-        ]
+        "prediction": []
     },
     {
         "question": "🇨🇳🇮🇹 De China a Italia: el equipo médico chino llegó a Roma para ayudar en la batalla de #coronavirus en Italia #Pandemia de Coronavirus https://t.co/NibJqI9vkh",
@@ -3498,7 +3484,9 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "1336",
-        "prediction": []
+        "prediction": [
+            "false"
+        ]
     },
     {
         "question": "“La solidaridad entre países y la disposición para hacer sacrificios por el bien común son determinantes. Sólo si nos unimos y cooperamos a través de las fronteras podremos vencer al virus y contener sus consecuencias.\"\n➡️ Lee el blog de 🇪🇺 @JosepBorrellF:\nhttps://t.co/Nk89HIAqPj https://t.co/vFMjVvnmxV",
@@ -3519,7 +3507,8 @@
         "test_case": "DIPROMATS2023",
         "id": "6006",
         "prediction": [
-            "2 discrediting the opponent"
+            "2 discrediting the opponent",
+            "3 loaded language"
         ]
     },
     {
@@ -3531,7 +3520,8 @@
         "id": "942",
         "prediction": [
             "1 appeal to commonality",
-            "3 loaded language"
+            "3 loaded language",
+            "4 appeal to authority"
         ]
     },
     {
@@ -3542,7 +3532,6 @@
         "test_case": "DIPROMATS2023",
         "id": "3880",
         "prediction": [
-            "1 appeal to commonality",
             "4 appeal to authority"
         ]
     },
@@ -3555,7 +3544,7 @@
         "id": "4052",
         "prediction": [
             "1 appeal to commonality",
-            "3 loaded language"
+            "4 appeal to authority"
         ]
     },
     {
@@ -3566,7 +3555,8 @@
         "test_case": "DIPROMATS2023",
         "id": "4734",
         "prediction": [
-            "2 discrediting the opponent"
+            "2 discrediting the opponent",
+            "3 loaded language"
         ]
     },
     {
@@ -3577,7 +3567,6 @@
         "test_case": "DIPROMATS2023",
         "id": "4912",
         "prediction": [
-            "1 appeal to commonality",
             "2 discrediting the opponent",
             "3 loaded language"
         ]
@@ -3590,7 +3579,7 @@
         "test_case": "DIPROMATS2023",
         "id": "602",
         "prediction": [
-            "4 appeal to authority"
+            "false"
         ]
     },
     {
@@ -3623,7 +3612,7 @@
         "test_case": "DIPROMATS2023",
         "id": "722",
         "prediction": [
-            "4 appeal to authority"
+            "false"
         ]
     },
     {
@@ -3634,7 +3623,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2867",
         "prediction": [
-            "2 discrediting the opponent"
+            "3 loaded language"
         ]
     },
     {
@@ -3645,7 +3634,8 @@
         "test_case": "DIPROMATS2023",
         "id": "5562",
         "prediction": [
-            "3 loaded language"
+            "3 loaded language",
+            "false"
         ]
     },
     {
@@ -3667,7 +3657,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1374",
         "prediction": [
-            "1 appeal to commonality"
+            "4 appeal to authority"
         ]
     },
     {
@@ -3690,8 +3680,9 @@
         "test_case": "DIPROMATS2023",
         "id": "1561",
         "prediction": [
-            "3 loaded language",
-            "4 appeal to authority"
+            "1 appeal to commonality",
+            "2 discrediting the opponent",
+            "3 loaded language"
         ]
     },
     {
@@ -3702,8 +3693,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2489",
         "prediction": [
-            "3 loaded language",
-            "4 appeal to authority"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -3714,8 +3704,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3824",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -3726,7 +3715,6 @@
         "test_case": "DIPROMATS2023",
         "id": "5807",
         "prediction": [
-            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -3783,7 +3771,8 @@
         "test_case": "DIPROMATS2023",
         "id": "4929",
         "prediction": [
-            "2 discrediting the opponent"
+            "2 discrediting the opponent",
+            "4 appeal to authority"
         ]
     },
     {
@@ -3794,8 +3783,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3414",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -3806,7 +3794,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4064",
         "prediction": [
-            "4 appeal to authority"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -3817,7 +3805,6 @@
         "test_case": "DIPROMATS2023",
         "id": "4889",
         "prediction": [
-            "1 appeal to commonality",
             "2 discrediting the opponent"
         ]
     },
@@ -3829,7 +3816,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4585",
         "prediction": [
-            "4 appeal to authority"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -3840,8 +3827,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5578",
         "prediction": [
-            "1 appeal to commonality",
-            "4 appeal to authority"
+            "false"
         ]
     },
     {
@@ -3852,7 +3838,7 @@
         "test_case": "DIPROMATS2023",
         "id": "6011",
         "prediction": [
-            "false"
+            "4 appeal to authority"
         ]
     },
     {
@@ -3875,7 +3861,8 @@
         "test_case": "DIPROMATS2023",
         "id": "5221",
         "prediction": [
-            "false"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -3897,8 +3884,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4721",
         "prediction": [
-            "4 appeal to authority",
-            "false"
+            "4 appeal to authority"
         ]
     },
     {
@@ -3909,7 +3895,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1750",
         "prediction": [
-            "1 appeal to commonality"
+            "false"
         ]
     },
     {
@@ -3920,8 +3906,8 @@
         "test_case": "DIPROMATS2023",
         "id": "2466",
         "prediction": [
-            "1 appeal to commonality",
-            "2 discrediting the opponent"
+            "2 discrediting the opponent",
+            "3 loaded language"
         ]
     },
     {
@@ -3944,7 +3930,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1821",
         "prediction": [
-            "4 appeal to authority"
+            "false"
         ]
     },
     {
@@ -3955,7 +3941,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2205",
         "prediction": [
-            "3 loaded language"
+            "false"
         ]
     },
     {
@@ -3966,8 +3952,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1623",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -3978,7 +3963,8 @@
         "test_case": "DIPROMATS2023",
         "id": "1270",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -3989,7 +3975,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2891",
         "prediction": [
-            "false"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -3999,7 +3985,9 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "3888",
-        "prediction": []
+        "prediction": [
+            "false"
+        ]
     },
     {
         "question": "El Consejero de Estado y Ministro de Relaciones Exteriores #WangYi se refirió a las relaciones entre China y EEUU y pidió avanzar a través de la cooperación, el respeto mutuo y el diálogo franco en línea con las expectativas de la comunidad internacional. https://t.co/vj7C6bQzP1 https://t.co/oWDa8ZXcZg",
@@ -4020,8 +4008,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1048",
         "prediction": [
-            "3 loaded language",
-            "4 appeal to authority"
+            "3 loaded language"
         ]
     },
     {
@@ -4043,7 +4030,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1367",
         "prediction": [
-            "3 loaded language"
+            "false"
         ]
     },
     {
@@ -4054,8 +4041,8 @@
         "test_case": "DIPROMATS2023",
         "id": "780",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "3 loaded language",
+            "4 appeal to authority"
         ]
     },
     {
@@ -4066,7 +4053,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3969",
         "prediction": [
-            "3 loaded language"
+            "false"
         ]
     },
     {
@@ -4091,7 +4078,7 @@
         "id": "4135",
         "prediction": [
             "1 appeal to commonality",
-            "4 appeal to authority"
+            "3 loaded language"
         ]
     },
     {
@@ -4102,7 +4089,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4617",
         "prediction": [
-            "3 loaded language"
+            "false"
         ]
     },
     {
@@ -4124,7 +4111,9 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "3473",
-        "prediction": []
+        "prediction": [
+            "4 appeal to authority"
+        ]
     },
     {
         "question": "Jornada 3 Seminario: El futuro de Europa tras la crisis #COVID19 https://t.co/YbyfwUxZZh",
@@ -4145,7 +4134,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3169",
         "prediction": [
-            "3 loaded language"
+            "4 appeal to authority"
         ]
     },
     {
@@ -4156,7 +4145,7 @@
         "test_case": "DIPROMATS2023",
         "id": "838",
         "prediction": [
-            "3 loaded language"
+            "false"
         ]
     },
     {
@@ -4190,7 +4179,8 @@
         "test_case": "DIPROMATS2023",
         "id": "3007",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -4201,7 +4191,8 @@
         "test_case": "DIPROMATS2023",
         "id": "5534",
         "prediction": [
-            "2 discrediting the opponent"
+            "2 discrediting the opponent",
+            "4 appeal to authority"
         ]
     },
     {
@@ -4223,7 +4214,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3139",
         "prediction": [
-            "2 discrediting the opponent"
+            "4 appeal to authority"
         ]
     },
     {
@@ -4244,7 +4235,9 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "4760",
-        "prediction": []
+        "prediction": [
+            "false"
+        ]
     },
     {
         "question": "La libertad de expresión es vital para la sociedad. En EEUU valoramos la libre expresión como un derecho fundamental de todos. Mira este video en el que conocerás cómo los artistas, con su creatividad, aportan a una sociedad más justa. #EstamosUnidos https://t.co/Drb5lJCsNj",
@@ -4255,8 +4248,7 @@
         "id": "5348",
         "prediction": [
             "1 appeal to commonality",
-            "3 loaded language",
-            "4 appeal to authority"
+            "3 loaded language"
         ]
     },
     {
@@ -4267,8 +4259,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3069",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -4301,6 +4292,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2864",
         "prediction": [
+            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -4312,7 +4304,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3998",
         "prediction": [
-            "3 loaded language"
+            "4 appeal to authority"
         ]
     },
     {
@@ -4323,7 +4315,8 @@
         "test_case": "DIPROMATS2023",
         "id": "3413",
         "prediction": [
-            "2 discrediting the opponent"
+            "2 discrediting the opponent",
+            "3 loaded language"
         ]
     },
     {
@@ -4334,7 +4327,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4",
         "prediction": [
-            "1 appeal to commonality"
+            "false"
         ]
     },
     {
@@ -4345,7 +4338,8 @@
         "test_case": "DIPROMATS2023",
         "id": "4259",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "4 appeal to authority"
         ]
     },
     {
@@ -4392,7 +4386,7 @@
         "id": "5537",
         "prediction": [
             "1 appeal to commonality",
-            "4 appeal to authority"
+            "3 loaded language"
         ]
     },
     {
@@ -4414,6 +4408,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3984",
         "prediction": [
+            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -4437,7 +4432,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4799",
         "prediction": [
-            "4 appeal to authority"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -4459,7 +4454,8 @@
         "test_case": "DIPROMATS2023",
         "id": "359",
         "prediction": [
-            "2 discrediting the opponent"
+            "2 discrediting the opponent",
+            "3 loaded language"
         ]
     },
     {
@@ -4470,7 +4466,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2388",
         "prediction": [
-            "false"
+            "4 appeal to authority"
         ]
     },
     {
@@ -4516,7 +4512,7 @@
         "id": "2681",
         "prediction": [
             "1 appeal to commonality",
-            "4 appeal to authority"
+            "3 loaded language"
         ]
     },
     {
@@ -4607,7 +4603,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3986",
         "prediction": [
-            "4 appeal to authority"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -4630,8 +4626,7 @@
         "test_case": "DIPROMATS2023",
         "id": "771",
         "prediction": [
-            "1 appeal to commonality",
-            "false"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -4676,7 +4671,6 @@
         "test_case": "DIPROMATS2023",
         "id": "5062",
         "prediction": [
-            "1 appeal to commonality",
             "3 loaded language",
             "4 appeal to authority"
         ]
@@ -4713,7 +4707,7 @@
         "id": "3383",
         "prediction": [
             "1 appeal to commonality",
-            "4 appeal to authority"
+            "3 loaded language"
         ]
     },
     {
@@ -4736,7 +4730,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2496",
         "prediction": [
-            "false"
+            "3 loaded language"
         ]
     },
     {
@@ -4747,9 +4741,7 @@
         "test_case": "DIPROMATS2023",
         "id": "402",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language",
-            "4 appeal to authority"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -4771,8 +4763,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5358",
         "prediction": [
-            "2 discrediting the opponent",
-            "3 loaded language"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -4816,7 +4807,8 @@
         "test_case": "DIPROMATS2023",
         "id": "6104",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -4838,6 +4830,7 @@
         "test_case": "DIPROMATS2023",
         "id": "6069",
         "prediction": [
+            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -4860,7 +4853,8 @@
         "test_case": "DIPROMATS2023",
         "id": "2981",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -4871,6 +4865,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5912",
         "prediction": [
+            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -4882,7 +4877,8 @@
         "test_case": "DIPROMATS2023",
         "id": "482",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -4914,7 +4910,9 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "2856",
-        "prediction": []
+        "prediction": [
+            "false"
+        ]
     },
     {
         "question": "¡Estamos unidos, Presidente @realDonaldTrump!\n\nMe llevo el compromiso y apoyo de los #EEUU hacia nuestra lucha  para lograr la Libertad de #Venezuela.\n\nEn nombre de millones de venezolanos que seguimos de pie y luchando: Gracias Pdte, Gracias pueblo de los #EEUU. #SOTU https://t.co/vq3yUUUZQA",
@@ -4925,7 +4923,7 @@
         "id": "544",
         "prediction": [
             "1 appeal to commonality",
-            "4 appeal to authority"
+            "3 loaded language"
         ]
     },
     {
@@ -4958,7 +4956,8 @@
         "test_case": "DIPROMATS2023",
         "id": "5197",
         "prediction": [
-            "2 discrediting the opponent"
+            "2 discrediting the opponent",
+            "3 loaded language"
         ]
     },
     {
@@ -4968,9 +4967,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "3517",
-        "prediction": [
-            "4 appeal to authority"
-        ]
+        "prediction": []
     },
     {
         "question": "#Zajárova: 🇷🇺 El efecto de las sanciones económicas impuestas contra 🇻🇪 se parece al ejercido por el coronavirus sobre el organismo humano: en ambos casos se vulnera en primer lugar el sistema de suministro de “oxígeno”, vitalmente importante para las personas y la economía.",
@@ -4980,6 +4977,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3337",
         "prediction": [
+            "2 discrediting the opponent",
             "3 loaded language"
         ]
     },
@@ -4991,7 +4989,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3810",
         "prediction": [
-            "3 loaded language"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -5002,7 +5000,6 @@
         "test_case": "DIPROMATS2023",
         "id": "3494",
         "prediction": [
-            "1 appeal to commonality",
             "4 appeal to authority"
         ]
     },
@@ -5036,8 +5033,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1649",
         "prediction": [
-            "3 loaded language",
-            "4 appeal to authority"
+            "false"
         ]
     },
     {
@@ -5048,7 +5044,8 @@
         "test_case": "DIPROMATS2023",
         "id": "1629",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -5059,7 +5056,8 @@
         "test_case": "DIPROMATS2023",
         "id": "5896",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "false"
         ]
     },
     {
@@ -5070,7 +5068,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2261",
         "prediction": [
-            "1 appeal to commonality",
+            "2 discrediting the opponent",
             "3 loaded language"
         ]
     },
@@ -5082,6 +5080,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1668",
         "prediction": [
+            "2 discrediting the opponent",
             "3 loaded language",
             "4 appeal to authority"
         ]
@@ -5094,8 +5093,7 @@
         "test_case": "DIPROMATS2023",
         "id": "919",
         "prediction": [
-            "2 discrediting the opponent",
-            "4 appeal to authority"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -5106,7 +5104,9 @@
         "test_case": "DIPROMATS2023",
         "id": "255",
         "prediction": [
-            "2 discrediting the opponent"
+            "1 appeal to commonality",
+            "2 discrediting the opponent",
+            "3 loaded language"
         ]
     },
     {
@@ -5117,7 +5117,7 @@
         "test_case": "DIPROMATS2023",
         "id": "665",
         "prediction": [
-            "3 loaded language"
+            "false"
         ]
     },
     {
@@ -5150,7 +5150,8 @@
         "test_case": "DIPROMATS2023",
         "id": "5200",
         "prediction": [
-            "2 discrediting the opponent"
+            "2 discrediting the opponent",
+            "4 appeal to authority"
         ]
     },
     {
@@ -5161,9 +5162,8 @@
         "test_case": "DIPROMATS2023",
         "id": "4171",
         "prediction": [
-            "1 appeal to commonality",
-            "2 discrediting the opponent",
-            "3 loaded language"
+            "3 loaded language",
+            "4 appeal to authority"
         ]
     },
     {
@@ -5174,7 +5174,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2890",
         "prediction": [
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -5186,8 +5186,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4679",
         "prediction": [
-            "2 discrediting the opponent",
-            "3 loaded language"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -5198,7 +5197,8 @@
         "test_case": "DIPROMATS2023",
         "id": "6099",
         "prediction": [
-            "3 loaded language"
+            "1 appeal to commonality",
+            "false"
         ]
     },
     {
@@ -5208,7 +5208,9 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "3308",
-        "prediction": []
+        "prediction": [
+            "3 loaded language"
+        ]
     },
     {
         "question": "#Covid19 Seguiremos trabajando junto con la parte #argentina para combatir juntos #coronavirus y estrechar la cooperación bilateral en bien de nuestros pueblos @alferdez  @eduardofvaldes @wadodecorrido https://t.co/KrE6s3EwPr",
@@ -5228,9 +5230,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "5606",
-        "prediction": [
-            "4 appeal to authority"
-        ]
+        "prediction": []
     },
     {
         "question": "En el Foro, los profesores de la Academia Nacional de Gobernanza🇨🇳, como invitados especiales, compartieron la Innovación de política pública china, experiencias chinas para emergencia urbana y el desarrollo y futuro de la iniciativa de la Franja y la Ruta de Seda. https://t.co/tE6up186uQ",
@@ -5262,8 +5262,7 @@
         "test_case": "DIPROMATS2023",
         "id": "671",
         "prediction": [
-            "3 loaded language",
-            "4 appeal to authority"
+            "3 loaded language"
         ]
     },
     {
@@ -5285,7 +5284,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3392",
         "prediction": [
-            "false"
+            "4 appeal to authority"
         ]
     },
     {
@@ -5318,7 +5317,7 @@
         "test_case": "DIPROMATS2023",
         "id": "6077",
         "prediction": [
-            "false"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -5329,7 +5328,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1105",
         "prediction": [
-            "false"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -5340,7 +5339,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4933",
         "prediction": [
-            "1 appeal to commonality",
+            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -5385,8 +5384,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3089",
         "prediction": [
-            "1 appeal to commonality",
-            "4 appeal to authority"
+            "3 loaded language"
         ]
     },
     {
@@ -5408,8 +5406,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2505",
         "prediction": [
-            "3 loaded language",
-            "4 appeal to authority"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -5420,7 +5417,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4413",
         "prediction": [
-            "1 appeal to commonality",
+            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -5432,7 +5429,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5667",
         "prediction": [
-            "false"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -5467,7 +5464,8 @@
         "test_case": "DIPROMATS2023",
         "id": "2703",
         "prediction": [
-            "1 appeal to commonality"
+            "2 discrediting the opponent",
+            "3 loaded language"
         ]
     },
     {
@@ -5478,6 +5476,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3394",
         "prediction": [
+            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -5489,7 +5488,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5345",
         "prediction": [
-            "2 discrediting the opponent"
+            "3 loaded language"
         ]
     },
     {
@@ -5522,7 +5521,7 @@
         "test_case": "DIPROMATS2023",
         "id": "986",
         "prediction": [
-            "4 appeal to authority"
+            "false"
         ]
     },
     {
@@ -5545,7 +5544,8 @@
         "test_case": "DIPROMATS2023",
         "id": "1946",
         "prediction": [
-            "4 appeal to authority"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -5556,6 +5556,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5140",
         "prediction": [
+            "4 appeal to authority",
             "false"
         ]
     },
@@ -5567,8 +5568,8 @@
         "test_case": "DIPROMATS2023",
         "id": "3491",
         "prediction": [
-            "3 loaded language",
-            "4 appeal to authority"
+            "2 discrediting the opponent",
+            "3 loaded language"
         ]
     },
     {
@@ -5591,8 +5592,7 @@
         "test_case": "DIPROMATS2023",
         "id": "881",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -5614,7 +5614,7 @@
         "test_case": "DIPROMATS2023",
         "id": "843",
         "prediction": [
-            "3 loaded language"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -5624,7 +5624,9 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "4108",
-        "prediction": []
+        "prediction": [
+            "false"
+        ]
     },
     {
         "question": "(1/1) #Falso👉La legislación para salvaguardar la seguridad nacional en Hong Kong viola los compromisos y obligaciones de China en virtud de la Declaración Conjunta sino-británica👇",
@@ -5635,7 +5637,7 @@
         "id": "5076",
         "prediction": [
             "2 discrediting the opponent",
-            "4 appeal to authority"
+            "3 loaded language"
         ]
     },
     {
@@ -5668,7 +5670,8 @@
         "test_case": "DIPROMATS2023",
         "id": "5094",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -5690,7 +5693,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3713",
         "prediction": [
-            "false"
+            "4 appeal to authority"
         ]
     },
     {
@@ -5701,6 +5704,8 @@
         "test_case": "DIPROMATS2023",
         "id": "2825",
         "prediction": [
+            "3 loaded language",
+            "4 appeal to authority",
             "false"
         ]
     },
@@ -5712,7 +5717,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4969",
         "prediction": [
-            "false"
+            "3 loaded language"
         ]
     },
     {
@@ -5769,7 +5774,7 @@
         "test_case": "DIPROMATS2023",
         "id": "742",
         "prediction": [
-            "2 discrediting the opponent"
+            "3 loaded language"
         ]
     },
     {
@@ -5791,8 +5796,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5360",
         "prediction": [
-            "1 appeal to commonality",
-            "2 discrediting the opponent"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -5815,7 +5819,8 @@
         "test_case": "DIPROMATS2023",
         "id": "5617",
         "prediction": [
-            "2 discrediting the opponent"
+            "2 discrediting the opponent",
+            "3 loaded language"
         ]
     },
     {
@@ -5838,7 +5843,8 @@
         "test_case": "DIPROMATS2023",
         "id": "3614",
         "prediction": [
-            "false"
+            "3 loaded language",
+            "4 appeal to authority"
         ]
     },
     {
@@ -5860,8 +5866,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1220",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -5872,9 +5877,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1597",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language",
-            "4 appeal to authority"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -5918,7 +5921,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2415",
         "prediction": [
-            "4 appeal to authority"
+            "false"
         ]
     },
     {
@@ -5929,6 +5932,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5800",
         "prediction": [
+            "1 appeal to commonality",
             "3 loaded language"
         ]
     },
@@ -5975,7 +5979,6 @@
         "test_case": "DIPROMATS2023",
         "id": "521",
         "prediction": [
-            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -5987,6 +5990,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4361",
         "prediction": [
+            "1 appeal to commonality",
             "3 loaded language"
         ]
     },
@@ -6022,9 +6026,9 @@
         "test_case": "DIPROMATS2023",
         "id": "5018",
         "prediction": [
+            "1 appeal to commonality",
             "2 discrediting the opponent",
-            "3 loaded language",
-            "4 appeal to authority"
+            "3 loaded language"
         ]
     },
     {
@@ -6046,8 +6050,7 @@
         "test_case": "DIPROMATS2023",
         "id": "973",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -6058,8 +6061,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1690",
         "prediction": [
-            "1 appeal to commonality",
-            "4 appeal to authority"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -6070,7 +6072,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4582",
         "prediction": [
-            "2 discrediting the opponent"
+            "4 appeal to authority"
         ]
     },
     {
@@ -6081,8 +6083,8 @@
         "test_case": "DIPROMATS2023",
         "id": "6071",
         "prediction": [
-            "1 appeal to commonality",
-            "2 discrediting the opponent"
+            "2 discrediting the opponent",
+            "3 loaded language"
         ]
     },
     {
@@ -6093,7 +6095,6 @@
         "test_case": "DIPROMATS2023",
         "id": "1627",
         "prediction": [
-            "1 appeal to commonality",
             "3 loaded language"
         ]
     },
@@ -6105,7 +6106,6 @@
         "test_case": "DIPROMATS2023",
         "id": "3915",
         "prediction": [
-            "1 appeal to commonality",
             "3 loaded language"
         ]
     },
@@ -6116,7 +6116,9 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "637",
-        "prediction": []
+        "prediction": [
+            "false"
+        ]
     },
     {
         "question": "¿Qué medidas ha tomado #China frente al #coronavirus?\n\nComprueba las 10 acciones clave resaltadas en el informe de la misión conjunta @WHO - #China sobre el #coronavirus #COVID2019. Abrimos hilo 👇",
@@ -6137,6 +6139,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1784",
         "prediction": [
+            "1 appeal to commonality",
             "false"
         ]
     },
@@ -6170,7 +6173,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1291",
         "prediction": [
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -6182,7 +6185,8 @@
         "test_case": "DIPROMATS2023",
         "id": "4668",
         "prediction": [
-            "2 discrediting the opponent"
+            "2 discrediting the opponent",
+            "3 loaded language"
         ]
     },
     {
@@ -6228,9 +6232,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2900",
         "prediction": [
-            "2 discrediting the opponent",
-            "3 loaded language",
-            "4 appeal to authority"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -6253,8 +6255,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4422",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -6276,8 +6277,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4607",
         "prediction": [
-            "3 loaded language",
-            "4 appeal to authority"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -6289,7 +6289,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3965",
         "prediction": [
-            "1 appeal to commonality",
+            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -6301,7 +6301,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4623",
         "prediction": [
-            "false"
+            "4 appeal to authority"
         ]
     },
     {
@@ -6311,9 +6311,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "467",
-        "prediction": [
-            "3 loaded language"
-        ]
+        "prediction": []
     },
     {
         "question": "¡Juntos por la conservación de las especies! 🦋🐒🐯\nPor el #DíaMundialDeLaVidaSilvestre conoce más sobre nuestra alianza con @TheWCS, @WWF y la Unión Europea contra el tráfico de especies, para frenar este delito en la región ➡ https://t.co/qt05C8XnnX\n \n#WorldWildlifeDay https://t.co/iF9uZ2EPd8",
@@ -6335,6 +6333,7 @@
         "id": "1616",
         "prediction": [
             "1 appeal to commonality",
+            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -6347,7 +6346,7 @@
         "id": "1120",
         "prediction": [
             "2 discrediting the opponent",
-            "4 appeal to authority"
+            "3 loaded language"
         ]
     },
     {
@@ -6358,8 +6357,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5608",
         "prediction": [
-            "3 loaded language",
-            "false"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -6370,7 +6368,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3686",
         "prediction": [
-            "1 appeal to commonality",
+            "2 discrediting the opponent",
             "3 loaded language"
         ]
     },
@@ -6382,7 +6380,8 @@
         "test_case": "DIPROMATS2023",
         "id": "41",
         "prediction": [
-            "false"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -6393,7 +6392,7 @@
         "test_case": "DIPROMATS2023",
         "id": "600",
         "prediction": [
-            "3 loaded language",
+            "1 appeal to commonality",
             "4 appeal to authority"
         ]
     },
@@ -6430,6 +6429,7 @@
         "id": "4750",
         "prediction": [
             "2 discrediting the opponent",
+            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -6441,7 +6441,8 @@
         "test_case": "DIPROMATS2023",
         "id": "1698",
         "prediction": [
-            "false"
+            "3 loaded language",
+            "4 appeal to authority"
         ]
     },
     {
@@ -6452,7 +6453,8 @@
         "test_case": "DIPROMATS2023",
         "id": "2226",
         "prediction": [
-            "2 discrediting the opponent"
+            "2 discrediting the opponent",
+            "3 loaded language"
         ]
     },
     {
@@ -6463,7 +6465,6 @@
         "test_case": "DIPROMATS2023",
         "id": "4920",
         "prediction": [
-            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -6475,6 +6476,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5593",
         "prediction": [
+            "2 discrediting the opponent",
             "3 loaded language"
         ]
     },
@@ -6508,8 +6510,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1378",
         "prediction": [
-            "1 appeal to commonality",
-            "2 discrediting the opponent"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -6531,7 +6532,8 @@
         "test_case": "DIPROMATS2023",
         "id": "2941",
         "prediction": [
-            "4 appeal to authority"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -6554,7 +6556,8 @@
         "test_case": "DIPROMATS2023",
         "id": "4903",
         "prediction": [
-            "2 discrediting the opponent"
+            "3 loaded language",
+            "4 appeal to authority"
         ]
     },
     {
@@ -6576,7 +6579,8 @@
         "test_case": "DIPROMATS2023",
         "id": "4779",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -6599,8 +6603,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4546",
         "prediction": [
-            "3 loaded language",
-            "4 appeal to authority"
+            "3 loaded language"
         ]
     },
     {
@@ -6623,7 +6626,8 @@
         "test_case": "DIPROMATS2023",
         "id": "1096",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -6634,7 +6638,8 @@
         "test_case": "DIPROMATS2023",
         "id": "3931",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "4 appeal to authority"
         ]
     },
     {
@@ -6667,8 +6672,7 @@
         "test_case": "DIPROMATS2023",
         "id": "251",
         "prediction": [
-            "3 loaded language",
-            "4 appeal to authority"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -6679,7 +6683,6 @@
         "test_case": "DIPROMATS2023",
         "id": "4840",
         "prediction": [
-            "2 discrediting the opponent",
             "3 loaded language"
         ]
     },
@@ -6758,8 +6761,8 @@
         "test_case": "DIPROMATS2023",
         "id": "2899",
         "prediction": [
-            "2 discrediting the opponent",
-            "3 loaded language"
+            "3 loaded language",
+            "4 appeal to authority"
         ]
     },
     {
@@ -6792,7 +6795,8 @@
         "test_case": "DIPROMATS2023",
         "id": "1494",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "4 appeal to authority"
         ]
     },
     {
@@ -6803,7 +6807,8 @@
         "test_case": "DIPROMATS2023",
         "id": "4264",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "4 appeal to authority"
         ]
     },
     {
@@ -6848,6 +6853,7 @@
         "test_case": "DIPROMATS2023",
         "id": "6030",
         "prediction": [
+            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -6859,7 +6865,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2477",
         "prediction": [
-            "false"
+            "4 appeal to authority"
         ]
     },
     {
@@ -6870,7 +6876,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5613",
         "prediction": [
-            "3 loaded language",
+            "1 appeal to commonality",
             "4 appeal to authority"
         ]
     },
@@ -6883,7 +6889,6 @@
         "id": "146",
         "prediction": [
             "1 appeal to commonality",
-            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -6939,7 +6944,7 @@
         "test_case": "DIPROMATS2023",
         "id": "267",
         "prediction": [
-            "3 loaded language",
+            "1 appeal to commonality",
             "4 appeal to authority"
         ]
     },
@@ -6962,7 +6967,8 @@
         "test_case": "DIPROMATS2023",
         "id": "5366",
         "prediction": [
-            "2 discrediting the opponent"
+            "2 discrediting the opponent",
+            "3 loaded language"
         ]
     },
     {
@@ -6985,7 +6991,7 @@
         "test_case": "DIPROMATS2023",
         "id": "727",
         "prediction": [
-            "1 appeal to commonality",
+            "2 discrediting the opponent",
             "3 loaded language"
         ]
     },
@@ -6996,7 +7002,9 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "4652",
-        "prediction": []
+        "prediction": [
+            "1 appeal to commonality"
+        ]
     },
     {
         "question": "En el día Internacional de la democracia queremos recordar que Seguimos apoyando al presidente (E) Juan Guaidó, y al pueblo de Venezuela en su lucha por alcanzar una verdadera Democracia en Venezuela.\n#EstamosUnidosVE https://t.co/akMN3XHOhI",
@@ -7006,7 +7014,9 @@
         "test_case": "DIPROMATS2023",
         "id": "6067",
         "prediction": [
-            "false"
+            "1 appeal to commonality",
+            "3 loaded language",
+            "4 appeal to authority"
         ]
     },
     {
@@ -7028,6 +7038,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5956",
         "prediction": [
+            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -7038,9 +7049,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "573",
-        "prediction": [
-            "false"
-        ]
+        "prediction": []
     },
     {
         "question": "Conoce las noticias y declaraciones de los EE.UU. más importantes de esta semana. Seguimos apoyando a los venezolanos para restablecer la democracia en Venezuela #EstamosUnidosVE  #20Mar https://t.co/ZNDKFwEmSR",
@@ -7050,8 +7059,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1586",
         "prediction": [
-            "1 appeal to commonality",
-            "4 appeal to authority"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -7084,8 +7092,8 @@
         "test_case": "DIPROMATS2023",
         "id": "5103",
         "prediction": [
-            "3 loaded language",
-            "4 appeal to authority"
+            "4 appeal to authority",
+            "false"
         ]
     },
     {
@@ -7096,7 +7104,6 @@
         "test_case": "DIPROMATS2023",
         "id": "3373",
         "prediction": [
-            "1 appeal to commonality",
             "4 appeal to authority"
         ]
     },
@@ -7108,7 +7115,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2369",
         "prediction": [
-            "false"
+            "4 appeal to authority"
         ]
     },
     {
@@ -7141,7 +7148,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2478",
         "prediction": [
-            "4 appeal to authority"
+            "3 loaded language"
         ]
     },
     {
@@ -7163,7 +7170,8 @@
         "test_case": "DIPROMATS2023",
         "id": "5770",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "4 appeal to authority"
         ]
     },
     {
@@ -7174,7 +7182,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1606",
         "prediction": [
-            "4 appeal to authority"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -7185,7 +7193,8 @@
         "test_case": "DIPROMATS2023",
         "id": "5709",
         "prediction": [
-            "1 appeal to commonality"
+            "3 loaded language",
+            "4 appeal to authority"
         ]
     },
     {
@@ -7229,9 +7238,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3656",
         "prediction": [
-            "2 discrediting the opponent",
-            "3 loaded language",
-            "4 appeal to authority"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -7242,8 +7249,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1541",
         "prediction": [
-            "3 loaded language",
-            "4 appeal to authority"
+            "3 loaded language"
         ]
     },
     {
@@ -7277,7 +7283,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5155",
         "prediction": [
-            "1 appeal to commonality",
+            "2 discrediting the opponent",
             "3 loaded language"
         ]
     },
@@ -7288,7 +7294,10 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "4364",
-        "prediction": []
+        "prediction": [
+            "2 discrediting the opponent",
+            "3 loaded language"
+        ]
     },
     {
         "question": "Capacidad y experticia de @PoliciaColombia + Cooperación con Estados Unidos = Mejor seguridad regional\n\n#USCAP2021\n@ArmadaColombia \nhttps://t.co/ejawRbie0g",
@@ -7298,6 +7307,8 @@
         "test_case": "DIPROMATS2023",
         "id": "1014",
         "prediction": [
+            "2 discrediting the opponent",
+            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -7320,8 +7331,8 @@
         "test_case": "DIPROMATS2023",
         "id": "2882",
         "prediction": [
-            "3 loaded language",
-            "4 appeal to authority"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -7332,7 +7343,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3385",
         "prediction": [
-            "3 loaded language"
+            "false"
         ]
     },
     {
@@ -7354,8 +7365,8 @@
         "test_case": "DIPROMATS2023",
         "id": "5108",
         "prediction": [
-            "3 loaded language",
-            "4 appeal to authority"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -7366,7 +7377,8 @@
         "test_case": "DIPROMATS2023",
         "id": "3067",
         "prediction": [
-            "1 appeal to commonality"
+            "3 loaded language",
+            "4 appeal to authority"
         ]
     },
     {
@@ -7399,8 +7411,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5548",
         "prediction": [
-            "1 appeal to commonality",
-            "4 appeal to authority"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -7423,7 +7434,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5494",
         "prediction": [
-            "4 appeal to authority"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -7456,7 +7467,6 @@
         "test_case": "DIPROMATS2023",
         "id": "2756",
         "prediction": [
-            "1 appeal to commonality",
             "false"
         ]
     },
@@ -7468,7 +7478,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5179",
         "prediction": [
-            "3 loaded language"
+            "4 appeal to authority"
         ]
     },
     {
@@ -7479,7 +7489,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4837",
         "prediction": [
-            "false"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -7501,8 +7511,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2427",
         "prediction": [
-            "3 loaded language",
-            "4 appeal to authority"
+            "false"
         ]
     },
     {
@@ -7512,9 +7521,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "1459",
-        "prediction": [
-            "false"
-        ]
+        "prediction": []
     },
     {
         "question": "En Tolemaida, Alm. Craig Faller de @Southcom y @ArmySouthCG se reunieron con personal de @FuerzasMilCol encargado de misiones de desminado y de programas de mantenimiento de helicópteros. #EEUU trabaja con ellos para mejorar seguridad regional. https://t.co/gdSrMqFLoS @mindefensa",
@@ -7535,8 +7542,8 @@
         "test_case": "DIPROMATS2023",
         "id": "1031",
         "prediction": [
-            "3 loaded language",
-            "4 appeal to authority"
+            "4 appeal to authority",
+            "false"
         ]
     },
     {
@@ -7546,9 +7553,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "1503",
-        "prediction": [
-            "false"
-        ]
+        "prediction": []
     },
     {
         "question": "Solo una solución política puede conducir a una Siria estable y democrática. Necesitamos aprovechar el impulso político #SyriaConf2020 https://t.co/ikDP5bnLOr",
@@ -7558,7 +7563,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4337",
         "prediction": [
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -7569,7 +7574,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2488",
         "prediction": [
-            "1 appeal to commonality"
+            "false"
         ]
     },
     {
@@ -7580,7 +7585,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1050",
         "prediction": [
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -7602,7 +7607,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4252",
         "prediction": [
-            "false"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -7624,8 +7629,7 @@
         "test_case": "DIPROMATS2023",
         "id": "6037",
         "prediction": [
-            "3 loaded language",
-            "4 appeal to authority"
+            "3 loaded language"
         ]
     },
     {
@@ -7636,7 +7640,6 @@
         "test_case": "DIPROMATS2023",
         "id": "2040",
         "prediction": [
-            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -7648,7 +7651,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2901",
         "prediction": [
-            "1 appeal to commonality",
+            "2 discrediting the opponent",
             "3 loaded language"
         ]
     },
@@ -7662,7 +7665,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5247",
         "prediction": [
-            "1 appeal to commonality",
+            "2 discrediting the opponent",
             "3 loaded language"
         ]
     },
@@ -7685,8 +7688,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1939",
         "prediction": [
-            "1 appeal to commonality",
-            "4 appeal to authority"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -7709,8 +7711,7 @@
         "test_case": "DIPROMATS2023",
         "id": "895",
         "prediction": [
-            "2 discrediting the opponent",
-            "3 loaded language"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -7721,7 +7722,8 @@
         "test_case": "DIPROMATS2023",
         "id": "4133",
         "prediction": [
-            "3 loaded language"
+            "4 appeal to authority",
+            "false"
         ]
     },
     {
@@ -7755,7 +7757,7 @@
         "id": "2208",
         "prediction": [
             "1 appeal to commonality",
-            "2 discrediting the opponent"
+            "4 appeal to authority"
         ]
     },
     {
@@ -7765,9 +7767,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "2238",
-        "prediction": [
-            "false"
-        ]
+        "prediction": []
     },
     {
         "question": "Gracias por acompañarnos en el #webinar \"The effects of the COVID-19 on climate change policies\" organizado por la @UEenMexico en colaboración con @CEPS_thinktank, @epc_eu, @elcolmex y @COMEXI.\n\n¡Los esperamos la próxima semana en una nueva edición del #DiálogoThinkTanks 🇲🇽🇪🇺! https://t.co/sjmiqNa4Un",
@@ -7788,7 +7788,7 @@
         "test_case": "DIPROMATS2023",
         "id": "6002",
         "prediction": [
-            "4 appeal to authority"
+            "false"
         ]
     },
     {
@@ -7798,7 +7798,9 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "1909",
-        "prediction": []
+        "prediction": [
+            "2 discrediting the opponent"
+        ]
     },
     {
         "question": "Con la  clasificación de los #EstadosUnidos a  #GuineaEcuatorial en el nivel 2 en la prevención de la trata de personas, ambos Estados reactivan  su cooperación con mayor comodidad en sectores de interés común, hacia la consecución de fructíferos resultados en beneficio de todos https://t.co/55RaVhvYNd",
@@ -7809,8 +7811,7 @@
         "id": "4257",
         "prediction": [
             "1 appeal to commonality",
-            "3 loaded language",
-            "4 appeal to authority"
+            "3 loaded language"
         ]
     },
     {
@@ -7821,8 +7822,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3712",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -7846,8 +7846,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5110",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -7857,9 +7856,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "2344",
-        "prediction": [
-            "4 appeal to authority"
-        ]
+        "prediction": []
     },
     {
         "question": "2/2 tratar de cambiar régimenes no deseados, inclusive mediante la imposición de forma unilateral de medidas restrictivas coercitivas.\n\nDiscurso introductorio del Canciller 🇷🇺 #Lavrov en la videoconferencia de Cancilleres de #Rusia #India 🇮🇳 y #China 🇨🇳 👉 https://t.co/dwtZYpe7Ld",
@@ -7869,7 +7866,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4172",
         "prediction": [
-            "2 discrediting the opponent"
+            "4 appeal to authority"
         ]
     },
     {
@@ -7880,7 +7877,6 @@
         "test_case": "DIPROMATS2023",
         "id": "4224",
         "prediction": [
-            "2 discrediting the opponent",
             "4 appeal to authority"
         ]
     },
@@ -7893,7 +7889,7 @@
         "id": "4358",
         "prediction": [
             "2 discrediting the opponent",
-            "3 loaded language"
+            "4 appeal to authority"
         ]
     },
     {
@@ -7904,8 +7900,7 @@
         "test_case": "DIPROMATS2023",
         "id": "870",
         "prediction": [
-            "2 discrediting the opponent",
-            "3 loaded language"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -7916,7 +7911,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3901",
         "prediction": [
-            "4 appeal to authority"
+            "false"
         ]
     },
     {
@@ -7927,7 +7922,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5029",
         "prediction": [
-            "false"
+            "3 loaded language"
         ]
     },
     {
@@ -7949,8 +7944,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3575",
         "prediction": [
-            "2 discrediting the opponent",
-            "4 appeal to authority"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -7961,7 +7955,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4739",
         "prediction": [
-            "4 appeal to authority"
+            "false"
         ]
     },
     {
@@ -7972,7 +7966,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2539",
         "prediction": [
-            "false"
+            "4 appeal to authority"
         ]
     },
     {
@@ -8016,7 +8010,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2497",
         "prediction": [
-            "4 appeal to authority"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -8027,8 +8021,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2513",
         "prediction": [
-            "1 appeal to commonality",
-            "4 appeal to authority"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -8050,7 +8043,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5903",
         "prediction": [
-            "false"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -8061,7 +8054,8 @@
         "test_case": "DIPROMATS2023",
         "id": "3503",
         "prediction": [
-            "1 appeal to commonality"
+            "3 loaded language",
+            "4 appeal to authority"
         ]
     },
     {
@@ -8072,7 +8066,6 @@
         "test_case": "DIPROMATS2023",
         "id": "281",
         "prediction": [
-            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -8083,10 +8076,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "6105",
-        "prediction": [
-            "3 loaded language",
-            "4 appeal to authority"
-        ]
+        "prediction": []
     },
     {
         "question": "Hoy se ha celebrado exitosamente en Moscú la reunión de los Cancilleres #Lavrov 🇷🇺 y @jaarreaza 🇻🇪\nRusia apoya a Venezuela en su resistencia frente a \"la dictadura externa\" - RT https://t.co/rBpv5sQTfV",
@@ -8096,7 +8086,8 @@
         "test_case": "DIPROMATS2023",
         "id": "4195",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -8119,8 +8110,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5935",
         "prediction": [
-            "1 appeal to commonality",
-            "4 appeal to authority"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -8142,8 +8132,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3023",
         "prediction": [
-            "2 discrediting the opponent",
-            "4 appeal to authority"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -8165,7 +8154,8 @@
         "test_case": "DIPROMATS2023",
         "id": "5475",
         "prediction": [
-            "4 appeal to authority"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -8175,7 +8165,9 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "1458",
-        "prediction": []
+        "prediction": [
+            "false"
+        ]
     },
     {
         "question": "Durante más de medio siglo, Estados Unidos ha sido el mayor contribuyente en seguridad sanitaria mundial. La USAID ha invertido casi 300 millones de dólares a favor de la salud en #RepúblicaDominicana a lo largo de los últimos 20 años. #AmericaActs #USAIDDR #embajadausaenrd https://t.co/VejpfA2WKT",
@@ -8185,6 +8177,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4731",
         "prediction": [
+            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -8196,7 +8189,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4327",
         "prediction": [
-            "false"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -8207,6 +8200,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4887",
         "prediction": [
+            "1 appeal to commonality",
             "4 appeal to authority"
         ]
     },
@@ -8218,7 +8212,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1849",
         "prediction": [
-            "false"
+            "3 loaded language"
         ]
     },
     {
@@ -8229,8 +8223,8 @@
         "test_case": "DIPROMATS2023",
         "id": "2243",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "3 loaded language",
+            "4 appeal to authority"
         ]
     },
     {
@@ -8244,7 +8238,7 @@
         "id": "5107",
         "prediction": [
             "1 appeal to commonality",
-            "3 loaded language"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -8255,7 +8249,6 @@
         "test_case": "DIPROMATS2023",
         "id": "1656",
         "prediction": [
-            "1 appeal to commonality",
             "3 loaded language"
         ]
     },
@@ -8267,8 +8260,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5910",
         "prediction": [
-            "3 loaded language",
-            "4 appeal to authority"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -8301,7 +8293,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1862",
         "prediction": [
-            "4 appeal to authority"
+            "false"
         ]
     },
     {
@@ -8312,8 +8304,8 @@
         "test_case": "DIPROMATS2023",
         "id": "5052",
         "prediction": [
-            "3 loaded language",
-            "4 appeal to authority"
+            "2 discrediting the opponent",
+            "3 loaded language"
         ]
     },
     {
@@ -8324,8 +8316,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5633",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -8348,7 +8339,8 @@
         "test_case": "DIPROMATS2023",
         "id": "1937",
         "prediction": [
-            "2 discrediting the opponent"
+            "2 discrediting the opponent",
+            "3 loaded language"
         ]
     },
     {
@@ -8405,7 +8397,7 @@
         "id": "3913",
         "prediction": [
             "1 appeal to commonality",
-            "4 appeal to authority"
+            "3 loaded language"
         ]
     },
     {
@@ -8415,9 +8407,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "1912",
-        "prediction": [
-            "4 appeal to authority"
-        ]
+        "prediction": []
     },
     {
         "question": "#BastaDeFemicidios #NiUnaMenos\n@SpotlightAmLat. Naciones Unidas y Unión europea aliados para luchar contra el femicidio en Argentina y en todo el mundo. Formación de periodistas, legisladores, justicia, campañas de sensibilización con jóvenes, protocolos de investigación y mas! https://t.co/3ioit3hVyK",
@@ -8427,8 +8417,9 @@
         "test_case": "DIPROMATS2023",
         "id": "3697",
         "prediction": [
-            "4 appeal to authority",
-            "false"
+            "2 discrediting the opponent",
+            "3 loaded language",
+            "4 appeal to authority"
         ]
     },
     {
@@ -8439,7 +8430,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2451",
         "prediction": [
-            "false"
+            "3 loaded language"
         ]
     },
     {
@@ -8450,7 +8441,6 @@
         "test_case": "DIPROMATS2023",
         "id": "2987",
         "prediction": [
-            "1 appeal to commonality",
             "3 loaded language"
         ]
     },
@@ -8484,7 +8474,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5987",
         "prediction": [
-            "false"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -8496,6 +8486,7 @@
         "id": "2389",
         "prediction": [
             "1 appeal to commonality",
+            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -8518,8 +8509,8 @@
         "test_case": "DIPROMATS2023",
         "id": "577",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "3 loaded language",
+            "4 appeal to authority"
         ]
     },
     {
@@ -8530,8 +8521,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1578",
         "prediction": [
-            "2 discrediting the opponent",
-            "3 loaded language"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -8553,7 +8543,8 @@
         "test_case": "DIPROMATS2023",
         "id": "3090",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -8563,9 +8554,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "1505",
-        "prediction": [
-            "false"
-        ]
+        "prediction": []
     },
     {
         "question": ".@NicolasMaduro: grandes procesos de cambios se avecinan en #EEUU y siguen con su obsesión de culpar a #Maduro de las protestas, yo soy el culpable de la muerte de Froyd, yo soy el culpable de la brutalidad policial, del racismo, del sistema, no, es el pueblo que despertó https://t.co/F7DVhyXWp5",
@@ -8575,9 +8564,9 @@
         "test_case": "DIPROMATS2023",
         "id": "3815",
         "prediction": [
+            "1 appeal to commonality",
             "2 discrediting the opponent",
-            "3 loaded language",
-            "4 appeal to authority"
+            "3 loaded language"
         ]
     },
     {
@@ -8588,7 +8577,7 @@
         "test_case": "DIPROMATS2023",
         "id": "227",
         "prediction": [
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -8599,8 +8588,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4298",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -8611,6 +8599,7 @@
         "test_case": "DIPROMATS2023",
         "id": "444",
         "prediction": [
+            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -8634,9 +8623,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "2708",
-        "prediction": [
-            "false"
-        ]
+        "prediction": []
     },
     {
         "question": "El #Presidenteruso #VladimirPutin anunció este 11 de agosto que Rusia ha registrado la primera #vacuna contra el #coronavirus del mundo. La experiencia con las vacunas vectoriales (con esquema de doble inyección) muestra que la inmunidad permanece hasta 2 años. https://t.co/MgyNp6arwI",
@@ -8646,6 +8633,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5438",
         "prediction": [
+            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -8657,7 +8645,8 @@
         "test_case": "DIPROMATS2023",
         "id": "5474",
         "prediction": [
-            "2 discrediting the opponent"
+            "2 discrediting the opponent",
+            "3 loaded language"
         ]
     },
     {
@@ -8680,7 +8669,8 @@
         "test_case": "DIPROMATS2023",
         "id": "864",
         "prediction": [
-            "2 discrediting the opponent"
+            "2 discrediting the opponent",
+            "4 appeal to authority"
         ]
     },
     {
@@ -8691,7 +8681,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2606",
         "prediction": [
-            "4 appeal to authority"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -8713,8 +8703,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5515",
         "prediction": [
-            "3 loaded language",
-            "4 appeal to authority"
+            "3 loaded language"
         ]
     },
     {
@@ -8725,7 +8714,8 @@
         "test_case": "DIPROMATS2023",
         "id": "6089",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -8736,7 +8726,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2426",
         "prediction": [
-            "1 appeal to commonality"
+            "false"
         ]
     },
     {
@@ -8747,7 +8737,6 @@
         "test_case": "DIPROMATS2023",
         "id": "1192",
         "prediction": [
-            "1 appeal to commonality",
             "3 loaded language"
         ]
     },
@@ -8769,7 +8758,10 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "2581",
-        "prediction": []
+        "prediction": [
+            "1 appeal to commonality",
+            "4 appeal to authority"
+        ]
     },
     {
         "question": "⚡Les invitamos a leer la rueda informativa de Alexey #Zaytsev, vicedirector del Departamento de Información y Prensa del @mae_rusia , 06/08/20\n\n#Rusia #Hiroshima #Lavrov #Alemania #EEUU #PAIC #Libia #Siria #OSCE #África #Singapur \n\n🔗https://t.co/mQbyCOJIJp https://t.co/9xcSrOuAiU",
@@ -8801,7 +8793,7 @@
         "test_case": "DIPROMATS2023",
         "id": "404",
         "prediction": [
-            "3 loaded language"
+            "4 appeal to authority"
         ]
     },
     {
@@ -8812,7 +8804,7 @@
         "test_case": "DIPROMATS2023",
         "id": "253",
         "prediction": [
-            "false"
+            "4 appeal to authority"
         ]
     },
     {
@@ -8823,8 +8815,8 @@
         "test_case": "DIPROMATS2023",
         "id": "4275",
         "prediction": [
-            "4 appeal to authority",
-            "false"
+            "3 loaded language",
+            "4 appeal to authority"
         ]
     },
     {
@@ -8835,8 +8827,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1232",
         "prediction": [
-            "4 appeal to authority",
-            "false"
+            "4 appeal to authority"
         ]
     },
     {
@@ -8847,9 +8838,7 @@
         "test_case": "DIPROMATS2023",
         "id": "294",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language",
-            "4 appeal to authority"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -8860,7 +8849,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1507",
         "prediction": [
-            "2 discrediting the opponent"
+            "3 loaded language"
         ]
     },
     {
@@ -8871,7 +8860,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4698",
         "prediction": [
-            "1 appeal to commonality",
+            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -8884,6 +8873,8 @@
         "id": "3532",
         "prediction": [
             "1 appeal to commonality",
+            "2 discrediting the opponent",
+            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -8895,7 +8886,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1947",
         "prediction": [
-            "1 appeal to commonality"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -8940,7 +8931,7 @@
         "test_case": "DIPROMATS2023",
         "id": "459",
         "prediction": [
-            "1 appeal to commonality"
+            "3 loaded language"
         ]
     },
     {
@@ -8985,6 +8976,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1984",
         "prediction": [
+            "1 appeal to commonality",
             "2 discrediting the opponent",
             "3 loaded language"
         ]
@@ -9008,8 +9000,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3526",
         "prediction": [
-            "2 discrediting the opponent",
-            "3 loaded language"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -9043,6 +9034,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4058",
         "prediction": [
+            "2 discrediting the opponent",
             "3 loaded language"
         ]
     },
@@ -9066,7 +9058,8 @@
         "id": "5680",
         "prediction": [
             "1 appeal to commonality",
-            "3 loaded language"
+            "3 loaded language",
+            "false"
         ]
     },
     {
@@ -9077,7 +9070,7 @@
         "test_case": "DIPROMATS2023",
         "id": "730",
         "prediction": [
-            "2 discrediting the opponent"
+            "4 appeal to authority"
         ]
     },
     {
@@ -9099,8 +9092,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5511",
         "prediction": [
-            "2 discrediting the opponent",
-            "3 loaded language"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -9111,6 +9103,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3302",
         "prediction": [
+            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -9121,11 +9114,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "2046",
-        "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language",
-            "4 appeal to authority"
-        ]
+        "prediction": []
     },
     {
         "question": "La ONU lanza un plan humanitario de 2.000 millones de dólares para luchar contra el #COVID19 en algunos de los países más vulnerables del mundo. \n\n@AntonioGuterres apeló al apoyo total de los Gobiernos: https://t.co/RjMpjNhckU https://t.co/CQ6Sz05Jci",
@@ -9146,7 +9135,8 @@
         "test_case": "DIPROMATS2023",
         "id": "4175",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "4 appeal to authority"
         ]
     },
     {
@@ -9169,8 +9159,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4169",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -9203,7 +9192,8 @@
         "test_case": "DIPROMATS2023",
         "id": "5662",
         "prediction": [
-            "false"
+            "2 discrediting the opponent",
+            "3 loaded language"
         ]
     },
     {
@@ -9225,7 +9215,6 @@
         "test_case": "DIPROMATS2023",
         "id": "3296",
         "prediction": [
-            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -9261,7 +9250,6 @@
         "id": "2232",
         "prediction": [
             "1 appeal to commonality",
-            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -9272,9 +9260,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "4743",
-        "prediction": [
-            "4 appeal to authority"
-        ]
+        "prediction": []
     },
     {
         "question": "Tan mal está Trump en las encuestas en Florida, que siendo EEUU el mayor comprador de narcóticos y principal protector de la producción y rutas de droga colombiana, vuelve a mentir sobre Venezuela para distraer la atención ante su pésima gestión del #COVID_19. Son un disco rayado https://t.co/iuHaNl9KhO",
@@ -9306,9 +9292,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "4453",
-        "prediction": [
-            "1 appeal to commonality"
-        ]
+        "prediction": []
     },
     {
         "question": "Arribó a Cuba este domingo el primer lote d donativo del Gobierno chino para combatir a la COVID-19. El canciller Bruno Rodriguez destacó q este gesto es muestra d la entrañable amistad q une a ambos países y ante la pandemia, la solidaridad y la cooperación salvan vidas. https://t.co/24eBjrU5wE",
@@ -9329,7 +9313,9 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "171",
-        "prediction": []
+        "prediction": [
+            "false"
+        ]
     },
     {
         "question": "En conferencia @cei_uc, embajadora UE Stella Zervoudaki manifiesta que “el compromiso de la Unión Europea con socios como Chile es que éste continue y se fortalezca. Esperamos concluir las negociaciones de la modernización del acuerdo de asociación UE-Chile”. @jorgesahd https://t.co/2x1kv7IezP",
@@ -9350,7 +9336,8 @@
         "test_case": "DIPROMATS2023",
         "id": "3818",
         "prediction": [
-            "4 appeal to authority"
+            "2 discrediting the opponent",
+            "3 loaded language"
         ]
     },
     {
@@ -9429,7 +9416,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3472",
         "prediction": [
-            "4 appeal to authority"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -9463,8 +9450,8 @@
         "test_case": "DIPROMATS2023",
         "id": "4753",
         "prediction": [
-            "3 loaded language",
-            "4 appeal to authority"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -9486,6 +9473,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3860",
         "prediction": [
+            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -9498,8 +9486,7 @@
         "id": "3326",
         "prediction": [
             "1 appeal to commonality",
-            "3 loaded language",
-            "4 appeal to authority"
+            "3 loaded language"
         ]
     },
     {
@@ -9510,7 +9497,8 @@
         "test_case": "DIPROMATS2023",
         "id": "3307",
         "prediction": [
-            "1 appeal to commonality"
+            "3 loaded language",
+            "4 appeal to authority"
         ]
     },
     {
@@ -9544,8 +9532,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2584",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -9556,7 +9543,8 @@
         "test_case": "DIPROMATS2023",
         "id": "1119",
         "prediction": [
-            "false"
+            "3 loaded language",
+            "4 appeal to authority"
         ]
     },
     {
@@ -9579,7 +9567,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3348",
         "prediction": [
-            "1 appeal to commonality"
+            "4 appeal to authority"
         ]
     },
     {
@@ -9590,6 +9578,8 @@
         "test_case": "DIPROMATS2023",
         "id": "779",
         "prediction": [
+            "1 appeal to commonality",
+            "2 discrediting the opponent",
             "3 loaded language"
         ]
     },
@@ -9601,7 +9591,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3359",
         "prediction": [
-            "3 loaded language",
+            "1 appeal to commonality",
             "4 appeal to authority"
         ]
     },
@@ -9612,9 +9602,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "3961",
-        "prediction": [
-            "false"
-        ]
+        "prediction": []
     },
     {
         "question": "Descobriendo #Venezuela hermosa: #ColoniaTovar, un pueblo historico y encantador fundado en el siglo XIX por colones alemanes en lo alto de una montana junto al mar Caribe! Precioso! https://t.co/xn72wV7Qgk",
@@ -9624,8 +9612,7 @@
         "test_case": "DIPROMATS2023",
         "id": "98",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -9647,8 +9634,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1662",
         "prediction": [
-            "4 appeal to authority",
-            "false"
+            "4 appeal to authority"
         ]
     },
     {
@@ -9659,6 +9645,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3807",
         "prediction": [
+            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -9670,8 +9657,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4285",
         "prediction": [
-            "4 appeal to authority",
-            "false"
+            "4 appeal to authority"
         ]
     },
     {
@@ -9681,10 +9667,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "5719",
-        "prediction": [
-            "4 appeal to authority",
-            "false"
-        ]
+        "prediction": []
     },
     {
         "question": "Hoy celebramos el Día Internacional de la #LenguaMaterna 🙌 👄 🗣️\n\n¡Celebremos juntos la diversidad cultural y lingüística de Europa y el mundo! 🇪🇺🌎\n#IMLD #InternationalMotherLanguageDay https://t.co/J7UKvkqgqu",
@@ -9694,7 +9677,8 @@
         "test_case": "DIPROMATS2023",
         "id": "920",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -9716,7 +9700,6 @@
         "test_case": "DIPROMATS2023",
         "id": "1379",
         "prediction": [
-            "2 discrediting the opponent",
             "3 loaded language"
         ]
     },
@@ -9728,8 +9711,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2178",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -9751,8 +9733,8 @@
         "test_case": "DIPROMATS2023",
         "id": "5071",
         "prediction": [
-            "3 loaded language",
-            "4 appeal to authority"
+            "4 appeal to authority",
+            "false"
         ]
     },
     {
@@ -9763,7 +9745,7 @@
         "test_case": "DIPROMATS2023",
         "id": "586",
         "prediction": [
-            "1 appeal to commonality",
+            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -9775,7 +9757,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1292",
         "prediction": [
-            "false"
+            "4 appeal to authority"
         ]
     },
     {
@@ -9786,6 +9768,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5297",
         "prediction": [
+            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -9808,7 +9791,7 @@
         "test_case": "DIPROMATS2023",
         "id": "65",
         "prediction": [
-            "false"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -9819,7 +9802,6 @@
         "test_case": "DIPROMATS2023",
         "id": "2019",
         "prediction": [
-            "2 discrediting the opponent",
             "3 loaded language"
         ]
     },
@@ -9831,7 +9813,7 @@
         "test_case": "DIPROMATS2023",
         "id": "537",
         "prediction": [
-            "4 appeal to authority"
+            "false"
         ]
     },
     {
@@ -9842,7 +9824,6 @@
         "test_case": "DIPROMATS2023",
         "id": "4729",
         "prediction": [
-            "2 discrediting the opponent",
             "3 loaded language"
         ]
     },
@@ -9854,8 +9835,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2778",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "false"
         ]
     },
     {
@@ -9866,8 +9846,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5171",
         "prediction": [
-            "3 loaded language",
-            "4 appeal to authority"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -9878,6 +9857,7 @@
         "test_case": "DIPROMATS2023",
         "id": "818",
         "prediction": [
+            "1 appeal to commonality",
             "4 appeal to authority"
         ]
     },
@@ -9889,7 +9869,8 @@
         "test_case": "DIPROMATS2023",
         "id": "3009",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "4 appeal to authority"
         ]
     },
     {
@@ -9900,8 +9881,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1165",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -9912,7 +9892,8 @@
         "test_case": "DIPROMATS2023",
         "id": "1650",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -9934,7 +9915,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5013",
         "prediction": [
-            "false"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -9945,7 +9926,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1078",
         "prediction": [
-            "3 loaded language"
+            "4 appeal to authority"
         ]
     },
     {
@@ -9967,7 +9948,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3448",
         "prediction": [
-            "2 discrediting the opponent",
+            "1 appeal to commonality",
             "3 loaded language"
         ]
     },
@@ -10024,6 +10005,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4338",
         "prediction": [
+            "1 appeal to commonality",
             "2 discrediting the opponent"
         ]
     },
@@ -10034,9 +10016,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "1022",
-        "prediction": [
-            "false"
-        ]
+        "prediction": []
     },
     {
         "question": "📺 Rueda informativa ofrecida por la portavoz del Ministerio de Asuntos Exteriores de #Rusia, María Zajárova, Moscú, 20 de febrero de 2020\n🔗https://t.co/mTyxiyxeGl\n#MAE #Lavrov #Tayikistán #ONU #OSCE #FATAH #Luxemburgo #DiamondPrincess #Siria #Libia #Afganistán #Ucrania #Donbás https://t.co/3FRRNbzFVP",
@@ -10045,9 +10025,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "915",
-        "prediction": [
-            "false"
-        ]
+        "prediction": []
     },
     {
         "question": "@CancilleriaVE: Venezuela y Rusia 🇷🇺 fortalecen alianzas estratégicas para impulsar 🚀 los motores turismo y comercio\n\n📎 https://t.co/QpbV8ViY1y\n\n@EmbSergio @PLASENCIAFELIX https://t.co/Y9ev4RWc1J",
@@ -10067,7 +10045,9 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "2670",
-        "prediction": []
+        "prediction": [
+            "false"
+        ]
     },
     {
         "question": "@WangJianPaco @WongNicoleA @weiasecas El Embajador Leonardo Kam tejiendo lazos de solidaridad entre el pueblo de China y Panamá.",
@@ -10088,7 +10068,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5353",
         "prediction": [
-            "1 appeal to commonality"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -10099,7 +10079,7 @@
         "test_case": "DIPROMATS2023",
         "id": "135",
         "prediction": [
-            "4 appeal to authority"
+            "3 loaded language"
         ]
     },
     {
@@ -10120,9 +10100,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "4612",
-        "prediction": [
-            "4 appeal to authority"
-        ]
+        "prediction": []
     },
     {
         "question": "En el marco de la declaración conjunta entre el Presidente @MaritoAbdo y @POTUS en diciembre 2019, #EEUU dona vehículos a @RRPPpoliciapy por valor aproximado de US$ 100.000, para fortalecer la cooperación en seguridad y en apoyo al estado de derecho en #Paraguay y la región 🇺🇸🇵🇾 https://t.co/dDz4bfpViP",
@@ -10131,10 +10109,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "5269",
-        "prediction": [
-            "3 loaded language",
-            "4 appeal to authority"
-        ]
+        "prediction": []
     },
     {
         "question": "Con el apoyo de @USAID y otros donantes, un avión con 90 toneladas de agua, articulos de saneamiento e higiene, y suministros médicos de la @ONU_es, llegan hoy a #Venezuela para ayudar a las instalaciones de salud para responder contra #COVID19 #EstamosUnidosVE https://t.co/bBxxnyN81B",
@@ -10144,6 +10119,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2130",
         "prediction": [
+            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -10165,9 +10141,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "3540",
-        "prediction": [
-            "false"
-        ]
+        "prediction": []
     },
     {
         "question": "#Zajárova:No dejamos de recalcar que la parte rusa se rige invariablemente por el principio de no injerencia en asuntos internos de otros países.Tampoco abrigamos designios inamistosos en cuanto a Gran Bretaña,con la que estamos dispuestos a promover una cooperación equitativa. https://t.co/hovyvqXX7S",
@@ -10188,6 +10162,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5876",
         "prediction": [
+            "1 appeal to commonality",
             "2 discrediting the opponent",
             "3 loaded language"
         ]
@@ -10200,8 +10175,8 @@
         "test_case": "DIPROMATS2023",
         "id": "3852",
         "prediction": [
-            "3 loaded language",
-            "4 appeal to authority"
+            "1 appeal to commonality",
+            "false"
         ]
     },
     {
@@ -10222,9 +10197,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "1266",
-        "prediction": [
-            "false"
-        ]
+        "prediction": []
     },
     {
         "question": "La solidaridad europea salva vidas.\n\nEl apoyo de la Unión Europea 🇪🇺 y de otros países de la UE es crucial para ayudar a los países más afectados a enfrentar la pandemia. \n\nDinamarca 🇩🇰 ha enviado ventiladores y un hospital móvil a Italia 🇮🇹.\n#EUsolidarity\nhttps://t.co/FeFBdpmCPR",
@@ -10234,7 +10207,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2307",
         "prediction": [
-            "1 appeal to commonality"
+            "3 loaded language"
         ]
     },
     {
@@ -10245,7 +10218,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4925",
         "prediction": [
-            "3 loaded language",
+            "1 appeal to commonality",
             "4 appeal to authority"
         ]
     },
@@ -10257,8 +10230,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2101",
         "prediction": [
-            "2 discrediting the opponent",
-            "3 loaded language"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -10269,7 +10241,8 @@
         "test_case": "DIPROMATS2023",
         "id": "2772",
         "prediction": [
-            "2 discrediting the opponent"
+            "2 discrediting the opponent",
+            "3 loaded language"
         ]
     },
     {
@@ -10290,7 +10263,9 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "3941",
-        "prediction": []
+        "prediction": [
+            "4 appeal to authority"
+        ]
     },
     {
         "question": "20 de Mayo, el Embajador Chen Xi sostuvo una conversación con la Ministra Velázquez @elsa_ena en @CubaMined sobre las cooperaciónes educativas entre China y Cuba. Emb. Chen ratificó el apoyo y la solidaridad de China con Cuba.\n#ChinaCuba60 \n@MoraimaOrozco https://t.co/ZknapjwLbb",
@@ -10299,7 +10274,10 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "3295",
-        "prediction": []
+        "prediction": [
+            "1 appeal to commonality",
+            "4 appeal to authority"
+        ]
     },
     {
         "question": "UE trabaja para abordar los efectos del  #coronavirus: \n\n•Activación presupuesto de la UE para apoyar a las PYMES.\n•Plan de empleo a corto plazo. \n•Flexibilidad de normas presupuestarias.\n•Fondo de Solidaridad de la UE.\n Reglas temporales de ayuda estatal.\n#StrongerTogether https://t.co/ifLDU60wWJ",
@@ -10309,7 +10287,6 @@
         "test_case": "DIPROMATS2023",
         "id": "2236",
         "prediction": [
-            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -10332,7 +10309,8 @@
         "test_case": "DIPROMATS2023",
         "id": "1670",
         "prediction": [
-            "false"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -10354,7 +10332,8 @@
         "test_case": "DIPROMATS2023",
         "id": "3545",
         "prediction": [
-            "3 loaded language"
+            "3 loaded language",
+            "4 appeal to authority"
         ]
     },
     {
@@ -10364,7 +10343,9 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "3137",
-        "prediction": []
+        "prediction": [
+            "1 appeal to commonality"
+        ]
     },
     {
         "question": "\"Aunque lamentamos la decisión del Reino Unido de salir de nuestra Unión, respetamos plenamente su elección y estamos dispuestos a seguir adelante\". - @JosepBorrellF \n\n#NewBeginnings 🇪🇺🇬🇧\n➡️ https://t.co/LFbKZ5JiRw https://t.co/wXM1sbUvXa",
@@ -10374,6 +10355,8 @@
         "test_case": "DIPROMATS2023",
         "id": "427",
         "prediction": [
+            "1 appeal to commonality",
+            "4 appeal to authority",
             "false"
         ]
     },
@@ -10385,7 +10368,8 @@
         "test_case": "DIPROMATS2023",
         "id": "850",
         "prediction": [
-            "4 appeal to authority"
+            "1 appeal to commonality",
+            "false"
         ]
     },
     {
@@ -10395,7 +10379,10 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "2815",
-        "prediction": []
+        "prediction": [
+            "2 discrediting the opponent",
+            "4 appeal to authority"
+        ]
     },
     {
         "question": "En visita del Pdte @DiazCanelB a la Embajada de #China reiteró apoyo y solidaridad de #Cuba con el hermano pueblo chino afectado por el coronavirus Covid-19. Resaltó eficaz respuesta del gbno chino ante esta difícil situación y su convicción de q ganarán la batalla vs la epidemia https://t.co/ofStE2X4Vw",
@@ -10405,7 +10392,7 @@
         "test_case": "DIPROMATS2023",
         "id": "747",
         "prediction": [
-            "1 appeal to commonality",
+            "2 discrediting the opponent",
             "3 loaded language"
         ]
     },
@@ -10451,8 +10438,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2742",
         "prediction": [
-            "1 appeal to commonality",
-            "2 discrediting the opponent",
+            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -10464,6 +10450,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1876",
         "prediction": [
+            "2 discrediting the opponent",
             "3 loaded language"
         ]
     },
@@ -10476,7 +10463,7 @@
         "id": "5031",
         "prediction": [
             "1 appeal to commonality",
-            "false"
+            "3 loaded language"
         ]
     },
     {
@@ -10487,8 +10474,8 @@
         "test_case": "DIPROMATS2023",
         "id": "4152",
         "prediction": [
-            "4 appeal to authority",
-            "false"
+            "2 discrediting the opponent",
+            "4 appeal to authority"
         ]
     },
     {
@@ -10500,7 +10487,7 @@
         "id": "1577",
         "prediction": [
             "1 appeal to commonality",
-            "4 appeal to authority"
+            "3 loaded language"
         ]
     },
     {
@@ -10523,8 +10510,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1371",
         "prediction": [
-            "1 appeal to commonality",
-            "4 appeal to authority"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -10558,8 +10544,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1926",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -10581,7 +10566,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3920",
         "prediction": [
-            "4 appeal to authority"
+            "false"
         ]
     },
     {
@@ -10592,6 +10577,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5",
         "prediction": [
+            "1 appeal to commonality",
             "4 appeal to authority"
         ]
     },
@@ -10603,8 +10589,7 @@
         "test_case": "DIPROMATS2023",
         "id": "6112",
         "prediction": [
-            "3 loaded language",
-            "4 appeal to authority"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -10615,7 +10600,6 @@
         "test_case": "DIPROMATS2023",
         "id": "4510",
         "prediction": [
-            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -10627,8 +10611,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2537",
         "prediction": [
-            "2 discrediting the opponent",
-            "3 loaded language"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -10662,8 +10645,8 @@
         "test_case": "DIPROMATS2023",
         "id": "3506",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "3 loaded language",
+            "4 appeal to authority"
         ]
     },
     {
@@ -10675,7 +10658,7 @@
         "id": "5771",
         "prediction": [
             "2 discrediting the opponent",
-            "4 appeal to authority"
+            "3 loaded language"
         ]
     },
     {
@@ -10685,7 +10668,9 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "2429",
-        "prediction": []
+        "prediction": [
+            "false"
+        ]
     },
     {
         "question": "@Li_Baorong China responde con altura y determinación a las violentas acciones, patoteras y ramplonas, de la diplomacia gringa. ?Que se puede esperar de un imperio corrompido y decadente?. Venezuela y su pueblo estan con China, el faro de un nuevo mundo multipolar.",
@@ -10709,8 +10694,7 @@
         "test_case": "DIPROMATS2023",
         "id": "6114",
         "prediction": [
-            "1 appeal to commonality",
-            "4 appeal to authority"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -10766,7 +10750,8 @@
         "test_case": "DIPROMATS2023",
         "id": "3272",
         "prediction": [
-            "2 discrediting the opponent"
+            "2 discrediting the opponent",
+            "4 appeal to authority"
         ]
     },
     {
@@ -10788,7 +10773,8 @@
         "test_case": "DIPROMATS2023",
         "id": "3775",
         "prediction": [
-            "3 loaded language"
+            "3 loaded language",
+            "4 appeal to authority"
         ]
     },
     {
@@ -10799,7 +10785,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1080",
         "prediction": [
-            "false"
+            "3 loaded language"
         ]
     },
     {
@@ -10810,8 +10796,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1101",
         "prediction": [
-            "3 loaded language",
-            "4 appeal to authority"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -10822,8 +10807,7 @@
         "test_case": "DIPROMATS2023",
         "id": "154",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -10857,8 +10841,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2930",
         "prediction": [
-            "3 loaded language",
-            "4 appeal to authority"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -10881,7 +10864,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5400",
         "prediction": [
-            "4 appeal to authority"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -10903,7 +10886,6 @@
         "test_case": "DIPROMATS2023",
         "id": "2776",
         "prediction": [
-            "3 loaded language",
             "false"
         ]
     },
@@ -10915,7 +10897,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1225",
         "prediction": [
-            "false"
+            "3 loaded language"
         ]
     },
     {
@@ -10925,9 +10907,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "4492",
-        "prediction": [
-            "1 appeal to commonality"
-        ]
+        "prediction": []
     },
     {
         "question": "#IMPORTANTE | Compartimos nuestra publicación diaria de la información brindada por #China 🇨🇳sobre el desarrollo de la #COVID19 y su promoción de cooperación internacional en prevención y control antiepidémico del 18/03/2020 (2) y el 19/03/2020 (1) https://t.co/FBq3DQu9dm",
@@ -10937,7 +10917,8 @@
         "test_case": "DIPROMATS2023",
         "id": "3212",
         "prediction": [
-            "3 loaded language"
+            "3 loaded language",
+            "4 appeal to authority"
         ]
     },
     {
@@ -10959,7 +10940,7 @@
         "test_case": "DIPROMATS2023",
         "id": "892",
         "prediction": [
-            "1 appeal to commonality"
+            "false"
         ]
     },
     {
@@ -10970,7 +10951,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3680",
         "prediction": [
-            "false"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -10992,7 +10973,6 @@
         "test_case": "DIPROMATS2023",
         "id": "3500",
         "prediction": [
-            "1 appeal to commonality",
             "3 loaded language"
         ]
     },
@@ -11026,7 +11006,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3548",
         "prediction": [
-            "1 appeal to commonality"
+            "4 appeal to authority"
         ]
     },
     {
@@ -11049,8 +11029,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1187",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -11061,7 +11040,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3088",
         "prediction": [
-            "false"
+            "3 loaded language"
         ]
     },
     {
@@ -11072,8 +11051,8 @@
         "test_case": "DIPROMATS2023",
         "id": "4685",
         "prediction": [
-            "2 discrediting the opponent",
-            "3 loaded language"
+            "1 appeal to commonality",
+            "4 appeal to authority"
         ]
     },
     {
@@ -11084,8 +11063,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3027",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -11106,7 +11084,9 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "2714",
-        "prediction": []
+        "prediction": [
+            "2 discrediting the opponent"
+        ]
     },
     {
         "question": "@cancilleriasv viceministro Victor Lagos interviene en el importante diálogo Unión Europea - América Latina sobre la cooperación regional https://t.co/VbbtOBnR5q",
@@ -11127,7 +11107,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1700",
         "prediction": [
-            "4 appeal to authority"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -11138,7 +11118,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1922",
         "prediction": [
-            "1 appeal to commonality"
+            "false"
         ]
     },
     {
@@ -11193,6 +11173,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1143",
         "prediction": [
+            "4 appeal to authority",
             "false"
         ]
     },
@@ -11204,7 +11185,8 @@
         "test_case": "DIPROMATS2023",
         "id": "5655",
         "prediction": [
-            "3 loaded language"
+            "1 appeal to commonality",
+            "4 appeal to authority"
         ]
     },
     {
@@ -11250,7 +11232,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1370",
         "prediction": [
-            "2 discrediting the opponent",
+            "1 appeal to commonality",
             "3 loaded language"
         ]
     },
@@ -11273,7 +11255,6 @@
         "test_case": "DIPROMATS2023",
         "id": "4141",
         "prediction": [
-            "1 appeal to commonality",
             "2 discrediting the opponent",
             "3 loaded language"
         ]
@@ -11286,8 +11267,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3808",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -11320,7 +11300,6 @@
         "test_case": "DIPROMATS2023",
         "id": "440",
         "prediction": [
-            "2 discrediting the opponent",
             "3 loaded language"
         ]
     },
@@ -11344,7 +11323,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2431",
         "prediction": [
-            "4 appeal to authority"
+            "false"
         ]
     },
     {
@@ -11366,7 +11345,8 @@
         "test_case": "DIPROMATS2023",
         "id": "1290",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "4 appeal to authority"
         ]
     },
     {
@@ -11388,7 +11368,8 @@
         "test_case": "DIPROMATS2023",
         "id": "2740",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -11399,8 +11380,8 @@
         "test_case": "DIPROMATS2023",
         "id": "3516",
         "prediction": [
-            "1 appeal to commonality",
-            "2 discrediting the opponent"
+            "2 discrediting the opponent",
+            "3 loaded language"
         ]
     },
     {
@@ -11422,8 +11403,7 @@
         "test_case": "DIPROMATS2023",
         "id": "661",
         "prediction": [
-            "4 appeal to authority",
-            "false"
+            "4 appeal to authority"
         ]
     },
     {
@@ -11434,6 +11414,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3736",
         "prediction": [
+            "1 appeal to commonality",
             "3 loaded language",
             "4 appeal to authority"
         ]
@@ -11446,7 +11427,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2503",
         "prediction": [
-            "false"
+            "3 loaded language"
         ]
     },
     {
@@ -11468,8 +11449,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5246",
         "prediction": [
-            "2 discrediting the opponent",
-            "3 loaded language"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -11491,8 +11471,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1897",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -11503,7 +11482,6 @@
         "test_case": "DIPROMATS2023",
         "id": "4663",
         "prediction": [
-            "1 appeal to commonality",
             "4 appeal to authority"
         ]
     },
@@ -11538,7 +11516,8 @@
         "test_case": "DIPROMATS2023",
         "id": "3030",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -11548,9 +11527,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "3830",
-        "prediction": [
-            "false"
-        ]
+        "prediction": []
     },
     {
         "question": "RT @GNB_Monagas: China reiteró la denuncia de la salida unilateral de Estados Unidos del acuerdo nuclear y sus presiones contra Irán, y sol…",
@@ -11560,7 +11537,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3868",
         "prediction": [
-            "false"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -11626,10 +11603,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "2011",
-        "prediction": [
-            "2 discrediting the opponent",
-            "3 loaded language"
-        ]
+        "prediction": []
     },
     {
         "question": "Presentamos el Pacto Verde Europeo, nuestra hoja de ruta para dotar a la UE de una economía sostenible y llevarla  hacia la neutralidad climática. \n\nPara alcanzar el objetivo, será necesario actuar en todos los sectores de la economía #EUGreenDeal\n→https://t.co/VL0yzGjfVl\n#SOTEU https://t.co/8z6sucgWLe",
@@ -11639,6 +11613,7 @@
         "test_case": "DIPROMATS2023",
         "id": "6044",
         "prediction": [
+            "1 appeal to commonality",
             "3 loaded language"
         ]
     },
@@ -11673,9 +11648,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1572",
         "prediction": [
-            "2 discrediting the opponent",
-            "3 loaded language",
-            "4 appeal to authority"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -11698,7 +11671,8 @@
         "test_case": "DIPROMATS2023",
         "id": "1444",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -11708,7 +11682,9 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "2814",
-        "prediction": []
+        "prediction": [
+            "4 appeal to authority"
+        ]
     },
     {
         "question": "!Tu sueño de estudiar en los EEUU empieza aquí! EducationUSA te trae la oportunidad de hablar con 100 instituciones de educación superior en un solo espacio virtual este 19 de septiembre de 1 a 4 pm. ¡Preinscribite ya! https://t.co/eSJCeWvs1g \n#FeriaVirtualEdUSA #EdUSAVirtualFair https://t.co/6zqoW3rxPw",
@@ -11718,7 +11694,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5917",
         "prediction": [
-            "4 appeal to authority"
+            "false"
         ]
     },
     {
@@ -11752,6 +11728,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2999",
         "prediction": [
+            "1 appeal to commonality",
             "3 loaded language"
         ]
     },
@@ -11763,7 +11740,8 @@
         "test_case": "DIPROMATS2023",
         "id": "5841",
         "prediction": [
-            "2 discrediting the opponent"
+            "2 discrediting the opponent",
+            "3 loaded language"
         ]
     },
     {
@@ -11773,9 +11751,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "1340",
-        "prediction": [
-            "2 discrediting the opponent"
-        ]
+        "prediction": []
     },
     {
         "question": "#NoTeExpongas y #NoExpongasTusHijos a los \ncoyotes y los traficantes de personas en #UnViajeEnVano hacia los EE.UU. Ellos no se preocupan por tu seguridad y la de tu familia. https://t.co/5GNmba5WY3",
@@ -11785,8 +11761,8 @@
         "test_case": "DIPROMATS2023",
         "id": "5397",
         "prediction": [
-            "3 loaded language",
-            "4 appeal to authority"
+            "2 discrediting the opponent",
+            "3 loaded language"
         ]
     },
     {
@@ -11832,7 +11808,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4625",
         "prediction": [
-            "4 appeal to authority"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -11844,7 +11820,8 @@
         "id": "3711",
         "prediction": [
             "1 appeal to commonality",
-            "3 loaded language"
+            "3 loaded language",
+            "4 appeal to authority"
         ]
     },
     {
@@ -11855,7 +11832,8 @@
         "test_case": "DIPROMATS2023",
         "id": "5558",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "4 appeal to authority"
         ]
     },
     {
@@ -11877,7 +11855,7 @@
         "test_case": "DIPROMATS2023",
         "id": "433",
         "prediction": [
-            "4 appeal to authority"
+            "3 loaded language"
         ]
     },
     {
@@ -11911,6 +11889,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5673",
         "prediction": [
+            "1 appeal to commonality",
             "3 loaded language"
         ]
     },
@@ -11921,9 +11900,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "5866",
-        "prediction": [
-            "4 appeal to authority"
-        ]
+        "prediction": []
     },
     {
         "question": "Celebramos 209 años de la independencia forjada por nuestros libertadores. Hoy, los hijos de Bolívar, seguimos del lado correcto de la historia junto al pueblo venezolano; por la defensa de nuestra soberanía y autodeterminación. ¡Viva Venezuela libre de imperios por siempre! https://t.co/0JNJVhxJOG",
@@ -11944,7 +11921,8 @@
         "test_case": "DIPROMATS2023",
         "id": "5964",
         "prediction": [
-            "false"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -11956,7 +11934,7 @@
         "id": "6107",
         "prediction": [
             "1 appeal to commonality",
-            "3 loaded language"
+            "4 appeal to authority"
         ]
     },
     {
@@ -11978,8 +11956,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3581",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "false"
         ]
     },
     {
@@ -11990,8 +11967,7 @@
         "test_case": "DIPROMATS2023",
         "id": "29",
         "prediction": [
-            "3 loaded language",
-            "4 appeal to authority"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -12025,7 +12001,6 @@
         "test_case": "DIPROMATS2023",
         "id": "5180",
         "prediction": [
-            "1 appeal to commonality",
             "3 loaded language"
         ]
     },
@@ -12037,7 +12012,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3700",
         "prediction": [
-            "1 appeal to commonality"
+            "3 loaded language"
         ]
     },
     {
@@ -12071,7 +12046,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1267",
         "prediction": [
-            "4 appeal to authority"
+            "false"
         ]
     },
     {
@@ -12092,9 +12067,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "3347",
-        "prediction": [
-            "3 loaded language"
-        ]
+        "prediction": []
     },
     {
         "question": "Primer ministro Li Keqiang dijo: China y Estados Unidos son respectivamente el mayor país en desarrollo y el mayor desarrollado. Como tienen diferentes sistemas sociales, tradiciones culturales y trasfondos históricos, es inevitable que tengan contradicciones y discrepancias.",
@@ -12139,8 +12112,9 @@
         "test_case": "DIPROMATS2023",
         "id": "1810",
         "prediction": [
-            "1 appeal to commonality",
-            "2 discrediting the opponent"
+            "2 discrediting the opponent",
+            "3 loaded language",
+            "4 appeal to authority"
         ]
     },
     {
@@ -12162,8 +12136,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4830",
         "prediction": [
-            "2 discrediting the opponent",
-            "3 loaded language"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -12197,8 +12170,8 @@
         "test_case": "DIPROMATS2023",
         "id": "2463",
         "prediction": [
-            "1 appeal to commonality",
-            "4 appeal to authority"
+            "4 appeal to authority",
+            "false"
         ]
     },
     {
@@ -12209,7 +12182,7 @@
         "test_case": "DIPROMATS2023",
         "id": "755",
         "prediction": [
-            "3 loaded language"
+            "false"
         ]
     },
     {
@@ -12220,7 +12193,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5810",
         "prediction": [
-            "false"
+            "3 loaded language"
         ]
     },
     {
@@ -12254,7 +12227,7 @@
         "test_case": "DIPROMATS2023",
         "id": "474",
         "prediction": [
-            "3 loaded language"
+            "false"
         ]
     },
     {
@@ -12312,7 +12285,7 @@
         "id": "5901",
         "prediction": [
             "1 appeal to commonality",
-            "4 appeal to authority"
+            "3 loaded language"
         ]
     },
     {
@@ -12334,7 +12307,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3854",
         "prediction": [
-            "1 appeal to commonality"
+            "4 appeal to authority"
         ]
     },
     {
@@ -12356,7 +12329,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4242",
         "prediction": [
-            "4 appeal to authority"
+            "3 loaded language"
         ]
     },
     {
@@ -12389,7 +12362,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5113",
         "prediction": [
-            "4 appeal to authority"
+            "false"
         ]
     },
     {
@@ -12401,7 +12374,8 @@
         "id": "3173",
         "prediction": [
             "2 discrediting the opponent",
-            "3 loaded language"
+            "3 loaded language",
+            "4 appeal to authority"
         ]
     },
     {
@@ -12411,7 +12385,10 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "2508",
-        "prediction": []
+        "prediction": [
+            "1 appeal to commonality",
+            "4 appeal to authority"
+        ]
     },
     {
         "question": "#Cuba | El Gobierno ratificó  su solidaridad con el pueblo y las autoridades de #China → https://t.co/bv5c3k1GlJ\n\nEl Canciller destacó los esfuerzos emprendidos para contrarrestar el nuevo coronavirus que ha ocasionado, hasta la fecha, la muerte de más de 900 personas https://t.co/SwKOS8TbFV",
@@ -12444,7 +12421,7 @@
         "test_case": "DIPROMATS2023",
         "id": "589",
         "prediction": [
-            "4 appeal to authority"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -12455,8 +12432,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1569",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "4 appeal to authority"
         ]
     },
     {
@@ -12467,7 +12443,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2659",
         "prediction": [
-            "false"
+            "3 loaded language"
         ]
     },
     {
@@ -12490,7 +12466,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2189",
         "prediction": [
-            "4 appeal to authority"
+            "false"
         ]
     },
     {
@@ -12556,6 +12532,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5710",
         "prediction": [
+            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -12590,7 +12567,8 @@
         "test_case": "DIPROMATS2023",
         "id": "2551",
         "prediction": [
-            "2 discrediting the opponent"
+            "3 loaded language",
+            "4 appeal to authority"
         ]
     },
     {
@@ -12601,7 +12579,6 @@
         "test_case": "DIPROMATS2023",
         "id": "3352",
         "prediction": [
-            "1 appeal to commonality",
             "2 discrediting the opponent"
         ]
     },
@@ -12612,7 +12589,11 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "1602",
-        "prediction": []
+        "prediction": [
+            "1 appeal to commonality",
+            "3 loaded language",
+            "4 appeal to authority"
+        ]
     },
     {
         "question": "Te invitamos junto con @AuswaertigesAmt  🇩🇪, y @BertelsmannSt al ciclo de debates online: ‘Juntos relanzando Europa’, donde debatiremos sobre el futuro de la UE 🇪🇺y temas como las soluciones en materia de política económica, climática, social y exterior.\n\nhttps://t.co/sPjY5Cvm0k https://t.co/2qdXHtdvBC",
@@ -12622,7 +12603,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4184",
         "prediction": [
-            "false"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -12633,7 +12614,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2600",
         "prediction": [
-            "3 loaded language",
+            "2 discrediting the opponent",
             "4 appeal to authority"
         ]
     },
@@ -12645,6 +12626,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5164",
         "prediction": [
+            "2 discrediting the opponent",
             "3 loaded language"
         ]
     },
@@ -12656,7 +12638,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3253",
         "prediction": [
-            "3 loaded language"
+            "false"
         ]
     },
     {
@@ -12689,7 +12671,8 @@
         "test_case": "DIPROMATS2023",
         "id": "1949",
         "prediction": [
-            "2 discrediting the opponent"
+            "3 loaded language",
+            "4 appeal to authority"
         ]
     },
     {
@@ -12722,9 +12705,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "3616",
-        "prediction": [
-            "2 discrediting the opponent"
-        ]
+        "prediction": []
     },
     {
         "question": "Estados Unidos tiene un ejército de 2 millones de militares, un 14% son mujeres. La mujer participa activamente en la defensa de EEUU desde la Guerra de Independencia de EEUU- Teniente Coronel Melissa Moore @USairforce #A2A @IIE_ES https://t.co/lxCOlryiAn",
@@ -12734,7 +12715,7 @@
         "test_case": "DIPROMATS2023",
         "id": "988",
         "prediction": [
-            "1 appeal to commonality"
+            "false"
         ]
     },
     {
@@ -12745,7 +12726,9 @@
         "test_case": "DIPROMATS2023",
         "id": "3095",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "4 appeal to authority",
+            "false"
         ]
     },
     {
@@ -12791,6 +12774,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3561",
         "prediction": [
+            "1 appeal to commonality",
             "4 appeal to authority"
         ]
     },
@@ -12836,9 +12820,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "274",
-        "prediction": [
-            "4 appeal to authority"
-        ]
+        "prediction": []
     },
     {
         "question": "EEUU y nuestros aliados transatlánticos compartimos ideas y mejores prácticas para responder a los desafíos únicos y complejos presentados por la #COVID19 así como el plan para reabrir nuestras economías y comercios de manera segura https://t.co/Gs9p6nUwdr https://t.co/61Dfx9hu6P",
@@ -12848,7 +12830,6 @@
         "test_case": "DIPROMATS2023",
         "id": "3092",
         "prediction": [
-            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -12860,8 +12841,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5170",
         "prediction": [
-            "1 appeal to commonality",
-            "2 discrediting the opponent"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -12872,10 +12852,8 @@
         "test_case": "DIPROMATS2023",
         "id": "989",
         "prediction": [
-            "1 appeal to commonality",
             "2 discrediting the opponent",
-            "3 loaded language",
-            "false"
+            "3 loaded language"
         ]
     },
     {
@@ -12897,7 +12875,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4161",
         "prediction": [
-            "false"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -12907,9 +12885,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "132",
-        "prediction": [
-            "3 loaded language"
-        ]
+        "prediction": []
     },
     {
         "question": "#Zajárova: El efecto de las sanciones económicas impuestas contra #Venezuela se parece al ejercido por el coronavirus sobre el organismo humano: en ambos casos se vulnera en primer lugar el sistema de suministro de “oxígeno”, vitalmente importante para las personas y la economía https://t.co/YZPYDQ3DoH",
@@ -12920,7 +12896,8 @@
         "id": "3315",
         "prediction": [
             "2 discrediting the opponent",
-            "3 loaded language"
+            "3 loaded language",
+            "4 appeal to authority"
         ]
     },
     {
@@ -12931,7 +12908,8 @@
         "test_case": "DIPROMATS2023",
         "id": "1481",
         "prediction": [
-            "1 appeal to commonality"
+            "2 discrediting the opponent",
+            "3 loaded language"
         ]
     },
     {
@@ -12942,7 +12920,8 @@
         "test_case": "DIPROMATS2023",
         "id": "2126",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -12953,7 +12932,8 @@
         "test_case": "DIPROMATS2023",
         "id": "2842",
         "prediction": [
-            "3 loaded language"
+            "1 appeal to commonality",
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -12964,8 +12944,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5149",
         "prediction": [
-            "3 loaded language",
-            "4 appeal to authority"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -12976,7 +12955,8 @@
         "test_case": "DIPROMATS2023",
         "id": "3782",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -12987,7 +12967,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1978",
         "prediction": [
-            "3 loaded language"
+            "false"
         ]
     },
     {
@@ -12998,7 +12978,8 @@
         "test_case": "DIPROMATS2023",
         "id": "5879",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -13031,7 +13012,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2033",
         "prediction": [
-            "2 discrediting the opponent"
+            "3 loaded language"
         ]
     },
     {
@@ -13076,8 +13057,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3735",
         "prediction": [
-            "2 discrediting the opponent",
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -13088,7 +13068,7 @@
         "test_case": "DIPROMATS2023",
         "id": "2135",
         "prediction": [
-            "4 appeal to authority"
+            "2 discrediting the opponent"
         ]
     },
     {
@@ -13110,8 +13090,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4346",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -13121,9 +13100,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "3354",
-        "prediction": [
-            "3 loaded language"
-        ]
+        "prediction": []
     },
     {
         "question": "\"Europa no se hará de una vez ni en una obra de conjunto: se hará gracias a realizaciones concretas, que creen en primer lugar una solidaridad de hecho.\" \n\n#UnDíaComoHoy en 1886 nació Robert Schuman, uno de los principales fundadores de la unidad europea🇪🇺 https://t.co/sBYECRmedU",
@@ -13169,8 +13146,8 @@
         "test_case": "DIPROMATS2023",
         "id": "2104",
         "prediction": [
-            "3 loaded language",
-            "4 appeal to authority"
+            "4 appeal to authority",
+            "false"
         ]
     },
     {
@@ -13181,7 +13158,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4401",
         "prediction": [
-            "false"
+            "3 loaded language"
         ]
     },
     {
@@ -13192,8 +13169,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5798",
         "prediction": [
-            "4 appeal to authority",
-            "false"
+            "4 appeal to authority"
         ]
     },
     {
@@ -13203,9 +13179,7 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "2686",
-        "prediction": [
-            "4 appeal to authority"
-        ]
+        "prediction": []
     },
     {
         "question": "Hogdu K-8 Karakorum, aeronave de fabricación china, orgánica de nuestros Grifos del @GRUPO_N12 y Furias del @GAOE15_AMB \nBuenos días!!!!\n#FANB #Venezuela #K8 #Aviacion #CuarentenaRadicalPreventiva #RumboAlCentenaruioDeLaAMB https://t.co/1dqYUsj4Mx",
@@ -13215,7 +13189,6 @@
         "test_case": "DIPROMATS2023",
         "id": "4520",
         "prediction": [
-            "1 appeal to commonality",
             "2 discrediting the opponent",
             "3 loaded language"
         ]
@@ -13228,8 +13201,7 @@
         "test_case": "DIPROMATS2023",
         "id": "341",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -13240,7 +13212,8 @@
         "test_case": "DIPROMATS2023",
         "id": "4542",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -13262,6 +13235,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4608",
         "prediction": [
+            "2 discrediting the opponent",
             "4 appeal to authority"
         ]
     },
@@ -13294,7 +13268,10 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "2476",
-        "prediction": []
+        "prediction": [
+            "1 appeal to commonality",
+            "3 loaded language"
+        ]
     },
     {
         "question": "“Ha llegado el momento de demostrar que la solidaridad no es una palabra vacía. Tras una primera fase de decisiones nacionales divergentes, estamos entrando en una fase de convergencia en la cual la UE debe jugar un papel crucial“. @JosepBorrellF https://t.co/86pqPjJuZY",
@@ -13304,7 +13281,8 @@
         "test_case": "DIPROMATS2023",
         "id": "2072",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -13327,7 +13305,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1102",
         "prediction": [
-            "1 appeal to commonality"
+            "false"
         ]
     },
     {
@@ -13339,6 +13317,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1440",
         "prediction": [
+            "1 appeal to commonality",
             "2 discrediting the opponent",
             "3 loaded language"
         ]
@@ -13362,9 +13341,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4637",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language",
-            "4 appeal to authority"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -13386,7 +13363,8 @@
         "test_case": "DIPROMATS2023",
         "id": "3780",
         "prediction": [
-            "3 loaded language"
+            "3 loaded language",
+            "4 appeal to authority"
         ]
     },
     {
@@ -13397,7 +13375,8 @@
         "test_case": "DIPROMATS2023",
         "id": "3797",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "4 appeal to authority"
         ]
     },
     {
@@ -13408,7 +13387,7 @@
         "test_case": "DIPROMATS2023",
         "id": "423",
         "prediction": [
-            "3 loaded language",
+            "1 appeal to commonality",
             "4 appeal to authority"
         ]
     },
@@ -13454,7 +13433,8 @@
         "test_case": "DIPROMATS2023",
         "id": "58",
         "prediction": [
-            "1 appeal to commonality"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -13465,8 +13445,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1496",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -13499,7 +13478,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4357",
         "prediction": [
-            "4 appeal to authority"
+            "3 loaded language"
         ]
     },
     {
@@ -13522,8 +13501,10 @@
         "test_case": "DIPROMATS2023",
         "id": "4783",
         "prediction": [
+            "1 appeal to commonality",
             "2 discrediting the opponent",
-            "3 loaded language"
+            "3 loaded language",
+            "4 appeal to authority"
         ]
     },
     {
@@ -13577,7 +13558,9 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "5081",
-        "prediction": []
+        "prediction": [
+            "1 appeal to commonality"
+        ]
     },
     {
         "question": "Hoy, @USAID y @StateDept se unieron a otros países en respuesta a la crisis regional de #Venezuela para prometer apoyo continuo a venezolanos y comunidades que los acogen. Desde 2017, EE.UU. ha proporcionado más de $856 millones para responder a la crisis. #JuntosXLosVenezolanos https://t.co/enpBEFguzN",
@@ -13587,7 +13570,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3480",
         "prediction": [
-            "2 discrediting the opponent",
+            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -13600,7 +13583,6 @@
         "id": "163",
         "prediction": [
             "1 appeal to commonality",
-            "3 loaded language",
             "4 appeal to authority"
         ]
     },
@@ -13612,6 +13594,7 @@
         "test_case": "DIPROMATS2023",
         "id": "4863",
         "prediction": [
+            "4 appeal to authority",
             "false"
         ]
     },
@@ -13634,8 +13617,7 @@
         "test_case": "DIPROMATS2023",
         "id": "1998",
         "prediction": [
-            "3 loaded language",
-            "4 appeal to authority"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -13657,7 +13639,8 @@
         "test_case": "DIPROMATS2023",
         "id": "5434",
         "prediction": [
-            "4 appeal to authority"
+            "1 appeal to commonality",
+            "3 loaded language"
         ]
     },
     {
@@ -13690,8 +13673,8 @@
         "test_case": "DIPROMATS2023",
         "id": "5299",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "3 loaded language",
+            "4 appeal to authority"
         ]
     },
     {
@@ -13715,7 +13698,8 @@
         "id": "1953",
         "prediction": [
             "1 appeal to commonality",
-            "2 discrediting the opponent"
+            "3 loaded language",
+            "4 appeal to authority"
         ]
     },
     {
@@ -13726,7 +13710,6 @@
         "test_case": "DIPROMATS2023",
         "id": "5827",
         "prediction": [
-            "2 discrediting the opponent",
             "3 loaded language"
         ]
     },
@@ -13737,7 +13720,9 @@
         ],
         "test_case": "DIPROMATS2023",
         "id": "2616",
-        "prediction": []
+        "prediction": [
+            "false"
+        ]
     },
     {
         "question": "Conversé con el Alcalde Nasry “Tito” Asfura sobre nuestro apoyo para contrarrestar el impacto de COVID-19 y su visión e importante trabajo para mejorar el futuro de #Tegucigalpa.–CH",
@@ -13747,7 +13732,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3163",
         "prediction": [
-            "1 appeal to commonality"
+            "3 loaded language"
         ]
     },
     {
@@ -13770,9 +13755,7 @@
         "test_case": "DIPROMATS2023",
         "id": "3882",
         "prediction": [
-            "2 discrediting the opponent",
-            "3 loaded language",
-            "4 appeal to authority"
+            "3 loaded language"
         ]
     },
     {
@@ -13795,7 +13778,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5005",
         "prediction": [
-            "2 discrediting the opponent"
+            "3 loaded language"
         ]
     },
     {
@@ -13806,7 +13789,6 @@
         "test_case": "DIPROMATS2023",
         "id": "1016",
         "prediction": [
-            "1 appeal to commonality",
             "3 loaded language",
             "4 appeal to authority"
         ]
@@ -13819,8 +13801,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5310",
         "prediction": [
-            "1 appeal to commonality",
-            "3 loaded language"
+            "1 appeal to commonality"
         ]
     },
     {
@@ -13844,6 +13825,7 @@
         "test_case": "DIPROMATS2023",
         "id": "5055",
         "prediction": [
+            "1 appeal to commonality",
             "3 loaded language",
             "4 appeal to authority"
         ]
@@ -13868,7 +13850,7 @@
         "id": "1767",
         "prediction": [
             "1 appeal to commonality",
-            "4 appeal to authority"
+            "3 loaded language"
         ]
     },
     {

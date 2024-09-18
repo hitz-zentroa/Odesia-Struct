@@ -79,16 +79,29 @@ class OdesiaDataset(Dataset):
     """
 
     def __init__(
-        self, tokenizer: PreTrainedTokenizerBase, split: str, batch_size: int = 512
+        self,
+        tokenizer: PreTrainedTokenizerBase,
+        split: str,
+        batch_size: int = 512,
+        max_examples: int = 10000,
+        tasks: List[str] = ["all"],
     ):
         """
         Args:
             tokenizer (`PreTrainedTokenizerBase`):
                 The tokenizer to use.
+            split (`str`):
+                The split to use. Can be `train`, `dev`, or `test`.
+            batch_size (`int`, optional):
+                The batch size to use.
+            max_examples (`int`, optional):
+                The maximum number of examples to use per tasks
+            tasks (`List[str]`, optional):
+                The tasks to use. Can be `all` or a list of tasks to use.
         """
 
         print(f"Loading dataset for split {split}...")
-        tasks = get_tasks(tokenizer=tokenizer, tasks=["all"])
+        tasks = get_tasks(tokenizer=tokenizer, tasks=tasks)
 
         # Function to get dataset for a single task
         def get_task_dataset(task):
@@ -114,17 +127,32 @@ class OdesiaDataset(Dataset):
                 total=len(tasks),
                 desc=f"Retrieving datasets for split {split}",
             ):
-                all_task_data.extend(future.result())
+                task_data = future.result()
+                # Limit the number of examples per task. Randomly sample if needed.
+                if len(task_data) > max_examples:
+                    # Sort task_data based on the length of the 'content' in each message
+                    task_data = sorted(
+                        task_data,
+                        key=lambda x: sum(len(msg["content"]) for msg in x["messages"]),
+                    )
+                    # Select the first max_examples
+                    task_data = task_data[:max_examples]
 
-            all_task_data = all_task_data
+                all_task_data.extend(task_data)
+
             # Prepare all data in parallel
             self.dataset = []
-            for i in tqdm(
-                range(0, len(all_task_data), batch_size),
+            futures = []
+            for i in range(0, len(all_task_data), batch_size):
+                batch = list(islice(all_task_data, i, i + batch_size))
+                futures.append(executor.submit(prepare_batch, batch))
+
+            self.dataset = []
+            for future in tqdm(
+                as_completed(futures),
+                total=len(futures),
                 desc=f"Preparing data for split {split}",
             ):
-                batch = list(islice(all_task_data, i, i + batch_size))
-                future = executor.submit(prepare_batch, batch)
                 prepared_batch = future.result()
                 self.dataset.extend(
                     [data for data in prepared_batch if data is not None]

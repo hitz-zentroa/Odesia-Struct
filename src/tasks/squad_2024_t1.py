@@ -13,7 +13,7 @@ random.seed(33)
 class SQUAD2024T1(Task):
     def __init__(
         self,
-        num_examples_few_shot: int = 5,
+        num_examples_few_shot: int = 3,
         **kwargs,
     ):
         super().__init__(
@@ -23,9 +23,15 @@ class SQUAD2024T1(Task):
         self._precompute_examples()
 
     def get_system_prompt(self):
+        """
+        Returns the system prompt for the task
+        """
         return "You are an AI assistant trained for extractive question answering in SQUAD."
 
     def get_instruction(self):
+        """
+        Returns the guidelines for the task
+        """
         return """
 Answer the questions about a text in such a way that the answer is a fragment extracted directly from the text. The answer to be provided corresponds to the shortest span needed to answer the question. In all cases, the answers are fragments of the text and all questions can be answered from the text.
 
@@ -44,14 +50,30 @@ Provide your answer as a JSON object:
 """.strip()
 
     def get_pydantic_model(self):
+        """
+        Returns the Pydantic model for the task output
+        """
+
         class QuestionAnwering(BaseModel):
             answer: str = Field(..., description="The answer to the question")
 
         return QuestionAnwering
 
     def _precompute_examples(self):
+        """
+        Divide the training examples into classes from which we will sample the few-shot examples.
+        This allows to select a equal number of few-shot examples from each class
+        """
         train_data = self.get_split("train")
-        self.examples = train_data
+
+        # Sort the data by the length of the question (which includes the context)
+        sorted_data = sorted(train_data, key=lambda x: len(x["question"]))
+
+        # Calculate the number of examples to keep (80% of the total)
+        num_keep = int(len(sorted_data) * 0.7)
+
+        # Keep only the shortest 80% of examples
+        self.examples = sorted_data[:num_keep]
 
     def get_few_shot(self):
         return random.sample(
@@ -155,11 +177,17 @@ Question:
 
         test_data = []
         for i, prediction in enumerate(predictions):
+            try:
+                answer = prediction.answer
+            except Exception as e:
+                print(f"Error with prediction {i}.\n{prediction}\n{e}")
+                answer = prediction[-1]
+
             test_data.append(
                 {
                     "id": data[i]["id"],
                     "test_case": data[i]["test_case"],
-                    "value": prediction.answer,
+                    "value": answer,
                 }
             )
 
