@@ -22,7 +22,7 @@
 
 This repository contains the IXA submission for the 2024 ODESIA Challenge.
 - 📈 ODESIA Leaderboard: https://leaderboard.odesia.uned.es/leaderboard/challenge
-
+- 📒 System Description Paper: Cooming Soon
 
 
 # Explanation of the approach
