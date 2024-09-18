@@ -9,7 +9,7 @@
 
 <p align="center">
     <a href="https://twitter.com/intent/tweet?text=The+IXA+Code+for+Odesia:&url=https%3A%2F%2Fgithub.com%2Fhitz-zentroa%2FOdesia-Struct"><img alt="Twitter" src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fhitz-zentroa%2FOdesia-Struct"></a>
-    <a href="https://github.com/hitz-zentroa/Odesia-Struct/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/hitz-zentroa/Odesia-Struct"></a>
+    <a href="https://github.com/hitz-zentroa/Odesia-Struct/blob/main/LICENSE.md"><img alt="GitHub license" src="https://img.shields.io/github/license/hitz-zentroa/Odesia-Struct"></a>
     <a href="https://huggingface.co/collections/HiTZ/odesia-challenge-2024-66ea8e1731b52eaa8f3d8cd8"><img alt="Pretrained Models" src="https://img.shields.io/badge/🤗HuggingFace-Pretrained Models-green"></a>
     <a href="https://upload.wikimedia.org/wikipedia/commons/8/80/Comingsoon.png"><img alt="Paper" src="https://img.shields.io/badge/📖-Paper-orange"></a>
 <br>
