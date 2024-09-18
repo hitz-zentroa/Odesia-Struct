@@ -1,6 +1,6 @@
 <p align="center">
     <br>
-    <img src="https://leaderboard.odesia.uned.es/themes/custom/b5subtheme/images/logos/ODESIA_Final-08-1.png" style="height: 250px;">
+    <img src="ODESIA.png" style="height: 250px;">
     <br>
     <h3 align="center">Evaluation of NLP models in Spanish</h3>
     <h1 align="center">IXA Submission for the 2024 ODESIA Challenge</h1>
