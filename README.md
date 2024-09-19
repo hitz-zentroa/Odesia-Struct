@@ -98,22 +98,13 @@ We finetune a decoder-only model (gemma-2b or Llama3.1) in a multi-task setting.
 
 ## Requirements
 
-You should install the following requirements. All of them can be installed with `pip install [requirement]`
+Install the requirements.
 
-
-```
-torch
-transformers
-accelerate
-deepspeed
-outlines
-pydantic
-bitsandbytes
-jinja2
+```bash
+pip install -r requirements.txt
 ```
 
-
-You should unzip the `.zip` file in [data/](data/)
+You should also unzip the `.zip` file in [data/](data/)
 
 ## Run Evaluation/Inference
 

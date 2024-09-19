@@ -1,0 +1,8 @@
+torch
+transformers
+accelerate
+deepspeed
+outlines
+pydantic
+bitsandbytes
+jinja2
