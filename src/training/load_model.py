@@ -21,6 +21,7 @@ from transformers.models.auto.modeling_auto import (
 from transformers.utils import is_ipex_available
 
 from .model_utils import find_all_linear_names, get_trainable_parameters
+from liger_kernel.transformers import AutoLigerKernelForCausalLM
 
 
 def get_current_device() -> int:
@@ -172,6 +173,7 @@ def load_model(
     fsdp_training: bool = False,
     max_memory_MB: Optional[int] = None,
     rope_scaling_factor: Optional[float] = None,
+    use_liger_kernel: bool = False,
 ) -> Tuple[PreTrainedModel, PreTrainedTokenizerBase]:
     """
     Load any Decoder model for training.
@@ -402,8 +404,11 @@ def load_model(
         logging.warning(
             f"Model {model_weights_name_or_path} is an decoder-only model. We will load it as a CausalLM model."
         )
-
-        load_fn = AutoModelForCausalLM
+        if use_liger_kernel:
+            logging.warning("Loading model with Liger Kernel.")
+            load_fn = AutoLigerKernelForCausalLM
+        else:
+            load_fn = AutoModelForCausalLM
         tokenizer.padding_side = "left"
         model_type = "causal"
 
@@ -413,7 +418,7 @@ def load_model(
             f"MODEL_FOR_SEQ_TO_SEQ_CAUSAL_LM_MAPPING_NAMES or MODEL_FOR_CAUSAL_LM_MAPPING_NAMES. "
             f"We will attempt load it as a CausalLM model."
         )
-        load_fn = AutoModelForCausalLM
+        load_fn = AutoLigerKernelForCausalLM
         tokenizer.padding_side = "left"
         model_type = "causal"
 

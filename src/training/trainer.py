@@ -196,7 +196,7 @@ class OdesiaTrainer(Seq2SeqTrainer):
 
         self.tokenizer = tokenizer
 
-    def compute_loss(self, model, inputs, return_outputs=False):
+    def compute_loss(self, model, inputs, return_outputs=False, **kwargs):
         """
         How the loss is computed by Trainer. By default, all models return the loss in the first element.
         Subclass and override for custom behavior.

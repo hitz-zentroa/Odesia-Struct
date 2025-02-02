@@ -39,6 +39,7 @@ def train(training_args: Seq2SeqTrainingArguments, model_args: ModelArguments):
         or training_args.fsdp_config is not None,
         max_memory_MB=model_args.max_memory_MB,
         rope_scaling_factor=model_args.rope_scaling_factor,
+        #use_liger_kernel=training_args.use_liger_kernel,
     )
 
     print(f"Model_max_length: {tokenizer.model_max_length}")

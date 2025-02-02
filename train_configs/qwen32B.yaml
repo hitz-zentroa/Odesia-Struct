@@ -1,14 +1,15 @@
 #Training args
-model_name_or_path: NousResearch/Hermes-3-Llama-3.1-8B
+model_name_or_path: Qwen/Qwen2.5-32B-Instruct
 torch_dtype: bfloat16
-use_lora: true
+use_lora: false
 quantization: null
 gradient_checkpointing: true
 force_auto_device_map: false
 use_flash_attention: true
 deepspeed: train_configs/deepspeed_zero3.json
+use_liger_kernel: true 
 
-output_dir: models/Hermes-3-Llama-3.1-8B_LoRA
+output_dir: models/Qwen2.5-32B-Instruct
 overwrite_output_dir: true
 load_best_model_at_end: false
 metric_for_best_model: eval_loss
@@ -23,18 +24,20 @@ do_eval: true
 do_predict: false
 evaluation_strategy: "epoch"
 
-per_device_train_batch_size: 4
-per_device_eval_batch_size: 2
-gradient_accumulation_steps: 4
+per_device_train_batch_size: 2
+per_device_eval_batch_size: 1
+gradient_accumulation_steps: 8
 
 # optimizer settings
 optim: adamw_torch
-learning_rate: 0.0003
-weight_decay: 0.001
+learning_rate: 0.000005
+weight_decay: 0.0
 num_train_epochs: 3
 lr_scheduler_type: cosine
 warmup_ratio: 0.1
-adam_epsilon: 0.0000001
+adam_beta1: 0.9
+adam_beta2: 0.95
+adam_epsilon: 1e-12
 
 # lora settings
 lora_r: 128
@@ -48,7 +51,7 @@ logging_strategy: steps
 logging_first_step: true
 logging_steps: 5
 report_to: wandb
-run_name: "Hermes-3-Llama-3.1-8B_LoRA"
+run_name: "Qwen2.5-32B-Instruct"
 disable_tqdm: false
 
 # hub settings
