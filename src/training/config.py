@@ -148,6 +148,6 @@ class ModelArguments:
     max_examples: Optional[int] = field(
         default=10000,
         metadata={
-            "help": "The maximum number of examples to train on per task. Defaults to 1000."
+            "help": "The maximum number of examples to train on per task. Defaults to 10000."
         },
     )
