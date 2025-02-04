@@ -146,6 +146,11 @@ We have trained 3 models of different size:
 
 ## Run Evaluation/Inference
 
+You must run this command before launching the scripts below
+```
+export PYTHONPATH="$PYTHONPATH:$PWD"
+```
+
 You can evaluate any model on the development set with the following command:
 
 ```bash
