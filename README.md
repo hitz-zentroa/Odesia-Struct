@@ -201,7 +201,7 @@ torchrun --standalone --nproc_per_node=1 src/inference.py --quantization --tasks
 
 ## Run Training
 
-To finetune a model, you first need to define a `Training config`. Config examples for LLama3.1 and Gemma using Full-Finetuning and LoRA are available in the [train_configs/](train_configs/) directory. Full-Finetuning will achieve slightly better results but requires a lot of VRAM (We use 4x A100 80GB for the 8B model and 8xA100 80GB for the 14B model). LoRA uses much less VRAM and supports model quantization, so it can be run on a single GPU. 
+To finetune a model, you first need to define a `Training config`. Config examples for LLama3.1, Gemma and qwen using Full-Finetuning and LoRA are available in the [train_configs/](train_configs/) directory. Full-Finetuning will achieve slightly better results but requires a lot of VRAM (We use 4x A100 80GB for the 8B model and 8xA100 80GB for the 14B model). LoRA uses much less VRAM and supports model quantization, so it can be run on a single GPU. 
 
 We use Deepspeed to split the model across 4 x A100 80GB GPUs. You can reproduce our fine-tuning results with the following command:
 
