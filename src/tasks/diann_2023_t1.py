@@ -129,6 +129,9 @@ Provide your answer as a JSON object:
                 }
             )
 
+        #Duplicate the data to have more examples
+        #processed_data = processed_data * 4
+
         return processed_data
 
     def _convert_to_iob(self, tokens: List[str], disabilities: List[str]) -> List[str]:

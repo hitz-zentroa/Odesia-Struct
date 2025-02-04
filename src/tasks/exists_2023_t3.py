@@ -226,10 +226,10 @@ Output: Provide your answer as a JSON object with the probabilities for each cat
 
         # Ensure probabilities sum to 1
         total = sum(rounded_probs.values())
-        if total != 1:
-            diff = 1 - total
-            max_key = max(rounded_probs, key=rounded_probs.get)
-            rounded_probs[max_key] = round(rounded_probs[max_key] + diff, 3)
+        #if total != 1:
+        #    diff = 1 - total
+        #    max_key = max(rounded_probs, key=rounded_probs.get)
+        #    rounded_probs[max_key] = round(rounded_probs[max_key] + diff, 3)
 
         return model(**rounded_probs)
 

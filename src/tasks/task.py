@@ -239,7 +239,7 @@ Input: {{ question }}
             )
 
             dataset.append({"messages": prompt})
-
+        print(f"Returning {len(dataset)} examples for {split} in {self.train_dataset}")
         return dataset
 
     def evaluate(self, predictions: List[BaseModel], split="dev") -> Dict[str, float]:

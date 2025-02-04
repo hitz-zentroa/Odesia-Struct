@@ -110,48 +110,99 @@ outlines
 pydantic
 bitsandbytes
 jinja2
+seqeval
 ```
 
+To reproduce our environment install the `requirements.txt` file:
 
-You should unzip the `.zip` file in [data/](data/)
+```bash
+pip install -r requirements.txt
+```
+ 
+
+You should unzip the `.zip` file in [data/](data/).  
+The expected data structure is 
+```
+data/
+    diann_2023/
+        DIANN_2023_T1_en.json
+        DIANN_2023_T1_en.json
+        ...
+    dipromats_2023/
+        ...
+    exist_2022/
+        ...
+    exist_2023/
+        ...
+    sqac_squad_2024
+        ...
+```
+
+## Models
+We have trained 3 models of different size:
+- HiTZ/Qwen2.5-14B-Instruct_ODESIA: https://huggingface.co/HiTZ/Qwen2.5-14B-Instruct_ODESIA
+- HiTZ/Hermes-3-Llama-3.1-8B_ODESIA: https://huggingface.co/HiTZ/Hermes-3-Llama-3.1-8B_ODESIA
+- HiTZ/gemma-2b-it_ODESIA: https://huggingface.co/HiTZ/gemma-2b-it_ODESIA
 
 ## Run Evaluation/Inference
 
 You can evaluate any model on the development set with the following command:
 
 ```bash
-python3 -m src.evaluate --tasks all --model_name HiTZ/Hermes-3-Llama-3.1-8B_ODESIA --output_dir results/finetune/Hermes-3-Llama-3.1-8B_ODESIA
+torchrun --standalone --nproc_per_node=1 src/evaluate.py --tasks all --model_name HiTZ/Qwen2.5-14B-Instruct_ODESIA --output_dir results/finetune/Qwen2.5-14B-Instruct
+
 ```
 
 To reproduce our leaderboard results, you can run inference on the test sets using the following command. The resulting output files are ready to be submitted to the ODESIA challenge:
 
 ```bash
-python3 -m src.inference --tasks all --model_name HiTZ/Hermes-3-Llama-3.1-8B_ODESIA --output_dir results/finetune/Hermes-3-Llama-3.1-8B_ODESIA
+torchrun --standalone --nproc_per_node=1 src/inference.py --tasks all --model_name HiTZ/Qwen2.5-14B-Instruct_ODESIA --output_dir results/finetune/Qwen2.5-14B-Instruct
+```
+
+You can also run inference in selected tasks
+```bash
+torchrun --standalone --nproc_per_node=1 src/inference.py \
+--tasks \
+exist_2022_t1_es \
+exist_2022_t2_es \
+exist_2023_t1_es \
+exist_2023_t2_es \
+exist_2023_t3_es \
+dipromats_2023_t1_es \
+dipromats_2023_t2_es \
+dipromats_2023_t3_es \
+diann_2023_t1_es \
+squad_2024_t1_es \
+--model_name HiTZ/Qwen2.5-14B-Instruct_ODESIA \
+--output_dir results/finetune/Qwen2.5-14B-Instruct
 ```
 
 
 > Warning: The test sets do not contain the labels. If you want to evaluate the predictions, you should submit them to the ODESIA leaderboard [https://leaderboard.odesia.uned.es/leaderboard/challenge](https://leaderboard.odesia.uned.es/leaderboard/challenge) or use the PyEvAll library [https://github.com/UNEDLENAR/PyEvALL/tree/main](https://github.com/UNEDLENAR/PyEvALL/tree/main)
+
+> Warning: We randomly sample few-shot examples from the train split for every input. These few-shot examples vary each evaluation run, so the evaluation results may change slightly  each time you run an evaluation. 
+ 
 
 ### 4-bit quantization
 If you do not have enough VRAM to run a model, you can use 4-bit quantization by adding the `--quantization` flag to the previous commands. Example:
 
 
 ```bash
-python3 -m src.evaluate --tasks all --model_name meta-llama/Meta-Llama-3-70B-Instruct --output_dir results/zero-shot/Llama-3-70B-Instruct --quantization
+torchrun --standalone --nproc_per_node=1 src/inference.py --quantization --tasks all --model_name HiTZ/Qwen2.5-14B-Instruct_ODESIA --output_dir results/finetune/Qwen2.5-14B-Instruct 
 ```
-> Warning: We randomly sample few-shot examples from the train split for every input. These few-shot examples vary each evaluation run, so the evaluation results may change slightly  each time you run an evaluation. 
 
-> Warning: We randomly sample few-shot examples from the train split for every input. These few-shot examples vary with each evaluation run, so the evaluation results may change slightly each time you run an evaluation. 
+> Warning: Quantization affects the model performance. Expect lower scores when running the model with 4 bit quantization. 
+ 
 
 ## Run Training
 
-To finetune a model, you first need to define a `Training config`. Config examples for LLama3.1 and Gemma using Full-Finetuning and LoRA are available in the [train_configs/](train_configs/) directory. Full-Finetuning will achieve slightly better results but requires a lot of VRAM (We use 4x A100 80GB). LoRA uses much less VRAM and supports model quantization, so it can be run on a single GPU. 
+To finetune a model, you first need to define a `Training config`. Config examples for LLama3.1 and Gemma using Full-Finetuning and LoRA are available in the [train_configs/](train_configs/) directory. Full-Finetuning will achieve slightly better results but requires a lot of VRAM (We use 4x A100 80GB for the 8B model and 8xA100 80GB for the 14B model). LoRA uses much less VRAM and supports model quantization, so it can be run on a single GPU. 
 
 We use Deepspeed to split the model across 4 x A100 80GB GPUs. You can reproduce our fine-tuning results with the following command:
 
 ```bash
 export PYTHONPATH="$PYTHONPATH:$PWD"
-accelerate launch --config_file train_configs/deepspeed.json src/train.py train_configs/llama8b.yaml
+accelerate launch --config_file train_configs/deepspeed.json src/train.py train_configs/qwen14B.yaml
 
 ```
 
