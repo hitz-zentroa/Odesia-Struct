@@ -2,7 +2,7 @@ import json
 import logging
 import os
 from typing import List, Optional, Tuple, Union
-
+import argparse
 import torch
 from accelerate import Accelerator
 from transformers import (
@@ -20,7 +20,7 @@ from transformers.models.auto.modeling_auto import (
 )
 from transformers.utils import is_ipex_available
 
-from .model_utils import find_all_linear_names, get_trainable_parameters
+from src.training.model_utils import find_all_linear_names, get_trainable_parameters
 from liger_kernel.transformers import AutoLigerKernelForCausalLM
 
 
@@ -576,3 +576,17 @@ def load_model(
         )
 
     return model, tokenizer
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--model_weights_name_or_path", type=str, required=True)
+    parser.add_argument("--lora_weights_name_or_path", type=str, required=True)
+    parser.add_argument("--output_path", type=str, required=True)
+    args = parser.parse_args()
+
+    merge_lora_model(
+        weights_path=args.model_weights_name_or_path,
+        lora_weights_name_or_path=args.lora_weights_name_or_path,
+        output_path=args.output_path,
+        torch_dtype="bfloat16",
+    )

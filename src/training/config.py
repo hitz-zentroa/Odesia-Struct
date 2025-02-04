@@ -137,3 +137,17 @@ class ModelArguments:
             "If None we wont use ROPE scaling."
         },
     )
+
+    tasks: Optional[List[str]] = field(
+        default="all",
+        metadata={
+            "help": "The tasks to train the model on. Defaults to all tasks."
+        },
+    )
+
+    max_examples: Optional[int] = field(
+        default=10000,
+        metadata={
+            "help": "The maximum number of examples to train on per task. Defaults to 1000."
+        },
+    )

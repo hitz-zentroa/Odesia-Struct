@@ -46,8 +46,8 @@ def train(training_args: Seq2SeqTrainingArguments, model_args: ModelArguments):
 
     # Load dataset only on the main process
     if training_args.local_rank == 0:
-        train_dataset = OdesiaDataset(tokenizer=tokenizer, split="train")
-        validation_dataset = OdesiaDataset(tokenizer=tokenizer, split="dev")
+        train_dataset = OdesiaDataset(tokenizer=tokenizer, split="train",tasks=model_args.tasks)
+        validation_dataset = OdesiaDataset(tokenizer=tokenizer, split="dev",tasks=model_args.tasks)
     else:
         train_dataset = None
         validation_dataset = None
