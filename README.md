@@ -219,5 +219,6 @@ If you want to run LoRA finetuning with a single GPU, you can use the following 
 python3 -m src.train train_configs/gemma2B_LoRa.yaml
 ```
 
+If you want to enable model quantization, you can set `quantization:4` in the training configuration file. 
 
 > Warning: Our inputs are very long, as we use many few-shot examples. Therefore, training requires a lot of VRAM and might be very slow. You can reduce the number of few-shot examples by modifying the __init__ default parameter for every task in [src/tasks](src/tasks). 
